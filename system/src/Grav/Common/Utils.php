@@ -55,75 +55,6 @@ abstract class Utils
     }
 
     /**
-     * Recursive remove a directory - DANGEROUS! USE WITH CARE!!!!
-     *
-     * @param $dir
-     * @return bool
-     */
-    public static function rrmdir($dir)
-    {
-        $files = new \RecursiveIteratorIterator(
-            new \RecursiveDirectoryIterator($dir, \RecursiveDirectoryIterator::SKIP_DOTS),
-            \RecursiveIteratorIterator::CHILD_FIRST
-        );
-
-        /** @var \DirectoryIterator $fileinfo */
-        foreach ($files as $fileinfo) {
-            if ($fileinfo->isDir()) {
-                if (false === rmdir($fileinfo->getRealPath())) {
-                    return false;
-                }
-            } else {
-                if (false === unlink($fileinfo->getRealPath())) {
-                    return false;
-                }
-            }
-        }
-
-        return rmdir($dir);
-    }
-
-    /**
-     * Recursive copy of one directory to another
-     *
-     * @param $src
-     * @param $dest
-     *
-     * @return bool
-     */
-    public static function rcopy($src, $dest)
-    {
-
-        // If the src is not a directory do a simple file copy
-        if (!is_dir($src)) {
-            copy($src, $dest);
-            return true;
-        }
-
-        // If the destination directory does not exist create it
-        if (!is_dir($dest)) {
-            if (!mkdir($dest)) {
-                // If the destination directory could not be created stop processing
-                return false;
-            }
-        }
-
-        // Open the source directory to read in files
-        $i = new \DirectoryIterator($src);
-        /** @var \DirectoryIterator $f */
-        foreach ($i as $f) {
-            if ($f->isFile()) {
-                copy($f->getRealPath(), "$dest/" . $f->getFilename());
-            } else {
-                if (!$f->isDot() && $f->isDir()) {
-                    static::rcopy($f->getRealPath(), "$dest/$f");
-                }
-            }
-        }
-        return true;
-    }
-
-    /**
      * Truncate HTML by text length.
      *
      * @param  string $text
@@ -250,12 +181,9 @@ abstract class Utils
 
             $file_parts = pathinfo($file);
             $filesize = filesize($file);
-            $range = false;
 
             set_time_limit(0);
             ignore_user_abort(false);
-            ini_set('output_buffering', 0);
-            ini_set('zlib.output_compression', 0);
 
             if ($force_download) {
                 header('Content-Description: File Transfer');
@@ -295,7 +223,6 @@ abstract class Utils
      * Return the mimetype based on filename
      *
      * @param $extension Extension of file (eg .txt)
-     *
      * @return string
      */
     public static function getMimeType($extension)
@@ -395,5 +322,58 @@ abstract class Utils
             default:
                 return "application/octet-stream";
         }
+    }
+
+    /**
+     * Normalize path by processing relative `.` and `..` syntax and merging path
+     *
+     * @param $path
+     * @return string
+     */
+    public static function normalizePath($path)
+    {
+        $root = ($path[0] === '/') ? '/' : '';
+
+        $segments = explode('/', trim($path, '/'));
+        $ret = array();
+        foreach ($segments as $segment) {
+            if (($segment == '.') || empty($segment)) {
+                continue;
+            }
+            if ($segment == '..') {
+                array_pop($ret);
+            } else {
+                array_push($ret, $segment);
+            }
+        }
+        return $root . implode('/', $ret);
+    }
+
+    public static function timezones()
+    {
+        $timezones = \DateTimeZone::listIdentifiers(\DateTimeZone::ALL);
+        $offsets = [];
+        $testDate = new \DateTime;
+
+        foreach ($timezones as $zone) {
+            $tz = new \DateTimeZone($zone);
+            $offsets[$zone] = $tz->getOffset($testDate);
+        }
+
+        asort($offsets);
+
+        $timezone_list = array();
+        foreach( $offsets as $timezone => $offset )
+        {
+            $offset_prefix = $offset < 0 ? '-' : '+';
+            $offset_formatted = gmdate( 'H:i', abs($offset) );
+
+            $pretty_offset = "UTC${offset_prefix}${offset_formatted}";
+
+            $timezone_list[$timezone] = "(${pretty_offset}) $timezone";
+        }
+
+        return $timezone_list;
+
     }
 }

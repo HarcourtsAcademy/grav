@@ -34,8 +34,7 @@ class Uri
         $port = isset($_SERVER['SERVER_PORT']) ? $_SERVER['SERVER_PORT'] : 80;
         $uri  = isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : '';
 
-        $root_path = rtrim(substr($_SERVER['PHP_SELF'], 0, strpos($_SERVER['PHP_SELF'], 'index.php')), '/');
-
+        $root_path = str_replace(' ', '%20', rtrim(substr($_SERVER['PHP_SELF'], 0, strpos($_SERVER['PHP_SELF'], 'index.php')), '/'));
 
         if (isset($_SERVER['HTTPS'])) {
             $base = (@$_SERVER['HTTPS'] == 'on') ? 'https://' : 'http://';
@@ -106,8 +105,10 @@ class Uri
             parse_str($this->bits['query'], $this->query);
         }
 
+        $path = $this->bits['path'];
+
         $this->paths = array();
-        $this->path = $this->bits['path'];
+        $this->path = $path;
         $this->content_path = trim(str_replace($this->base, '', $this->path), '/');
         if ($this->content_path != '') {
             $this->paths = explode('/', $this->content_path);
@@ -137,7 +138,7 @@ class Uri
                     $path[] = $bit;
                 }
             }
-            $uri = implode('/', $path);
+            $uri = '/' . ltrim(implode('/', $path), '/');
         }
         return $uri;
     }
@@ -192,20 +193,27 @@ class Uri
      * Return all or a single query parameter as a URI compatible string.
      *
      * @param  string  $id  Optional parameter name.
+     * @param  boolean $array return the array format or not
      * @return null|string
      */
-    public function params($id = null)
+    public function params($id = null, $array = false)
     {
         $config = Grav::instance()['config'];
 
         $params = null;
         if ($id === null) {
+            if ($array) {
+                return $this->params;
+            }
             $output = array();
             foreach ($this->params as $key => $value) {
                 $output[] = $key . $config->get('system.param_sep') . $value;
                 $params = '/'.implode('/', $output);
             }
         } elseif (isset($this->params[$id])) {
+            if ($array) {
+                return $this->params[$id];
+            }
             $params = "/{$id}". $config->get('system.param_sep') . $this->params[$id];
         }
 
@@ -250,7 +258,11 @@ class Uri
      */
     public function path()
     {
-        return $this->path;
+        $path = $this->path;
+        if ($path === '') {
+            $path = '/';
+        }
+        return $path;
     }
 
     /**

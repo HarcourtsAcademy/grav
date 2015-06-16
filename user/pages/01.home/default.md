@@ -1,5 +1,7 @@
 ---
 title: Home
+taxonomy:
+	category: home
 ---
 
 # Grav is Running!

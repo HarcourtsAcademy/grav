@@ -47,6 +47,7 @@ class Page
 
     protected $parent;
     protected $template;
+    protected $expires;
     protected $visible;
     protected $published;
     protected $publish_date;
@@ -273,6 +274,10 @@ class Page
             if (isset($this->header->unpublish_date)) {
                 $this->unpublish_date = strtotime($this->header->unpublish_date);
             }
+            if (isset($this->header->expires)) {
+                $this->expires = intval($this->header->expires);
+            }
+
         }
 
         return $this->header;
@@ -298,21 +303,25 @@ class Page
     public function summary($size = null)
     {
         /** @var Config $config */
-        $config = self::getGrav()['config'];
+        $config = self::getGrav()['config']->get('site.summary');
         $content = $this->content();
 
+        if (isset($this->header->summary)) {
+            $config = array_merge($config, $this->header->summary);
+        }
+
         // Return summary based on settings in site config file
-        if (!$config->get('site.summary.enabled', true)) {
+        if (!$config['enabled']) {
             return $content;
         }
 
         // Get summary size from site config's file
         if (is_null($size)) {
-            $size = $config->get('site.summary.size', null);
+            $size = $config['size'];
         }
 
         // Return calculated summary based on summary divider's position
-        $format = $config->get('site.summary.format', 'short');
+        $format = $config['format'];
         // Return entire page content on wrong/ unknown format
         if (!in_array($format, array('short', 'long'))) {
             return $content;
@@ -442,9 +451,9 @@ class Page
 
         // Initialize the preferred variant of Parsedown
         if ($defaults['extra']) {
-            $parsedown = new ParsedownExtra($this);
+            $parsedown = new ParsedownExtra($this, $defaults);
         } else {
-            $parsedown = new Parsedown($this);
+            $parsedown = new Parsedown($this, $defaults);
         }
 
         $this->content = $parsedown->text($this->content);
@@ -779,6 +788,20 @@ class Page
             $this->template = ($this->modular() ? 'modular/' : '') . str_replace(CONTENT_EXT, '', $this->name());
         }
         return $this->template;
+    }
+
+    /**
+     * Gets and sets the expires field. If not set will return the default
+     *
+     * @param  string $var The name of this page.
+     * @return string      The name of this page.
+     */
+    public function expires($var = null)
+    {
+        if ($var !== null) {
+            $this->expires = $var;
+        }
+        return empty($this->expires) ? self::getGrav()['config']->get('system.pages.expires') : $this->expires;
     }
 
     /**
