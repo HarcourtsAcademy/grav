@@ -1,7 +1,7 @@
 title: Academy Real Estate Training
 logo:
-    - image: work1.jpg
-      alt: First Item
+    url: 'theme://images/academy-logo.png'
+    alt: Harcourts Academy
 author:
   name: Harcourts Academy
   email: 'academy@harcourts.net'
