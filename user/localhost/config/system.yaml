@@ -6,7 +6,7 @@ home:
   alias: '/home'
 
 pages:
-  theme: academybootstrap
+  theme: academydeliver
   markdown_extra: false
   process:
     markdown: true
