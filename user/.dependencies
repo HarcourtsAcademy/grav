@@ -43,6 +43,10 @@ git:
         url: https://github.com/getgrav/grav-theme-deliver
         path: user/themes/deliver
         branch: develop
+    academydeliver:
+        url: https://github.com/HarcourtsAcademy/grav-theme-deliver.git
+        path: user/themes/academydeliver
+        branch: develop
 links:
     error:
         src: grav-plugin-error
