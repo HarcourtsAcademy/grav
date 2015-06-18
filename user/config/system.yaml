@@ -4,7 +4,7 @@ home:
   alias: '/home'
 
 pages:
-  theme: deliver
+  theme: academydeliver
   markdown_extra: false
   process:
     markdown: true
