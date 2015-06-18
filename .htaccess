@@ -9,7 +9,7 @@ RewriteEngine On
 # along the lines of: RewriteBase /<your_sub_folder>
 ##
 
-RewriteBase /grav
+RewriteBase /grav/ha.com
 
 ## End - RewriteBase
 
