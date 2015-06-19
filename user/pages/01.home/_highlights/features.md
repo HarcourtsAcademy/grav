@@ -20,8 +20,12 @@ features:
 	  linktext: "Find Out More"
 ---
 
-## We are a Small Team Doing Big Things!
+## Growing our people
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent justo ligula, interdum ut lobortis quis, interdum vitae metus. Proin fringilla metus non nulla cursus, sit amet rutrum est pretium.. 
+Harcourts attracts the best people in the business. Our training is often regarded as setting the benchmark for the entire real estate industry.
+
+Inherent in the Harcourts culture is the pride with which we are actively involved in the personal and professional development of every member of our team. The Academy offers a unique type of structured course path and tailored system of learning.
+
+It is our unparalleled investment in our people which provides rewarding futures for those who are motivated to learn and committed to high levels of personal and professional growth.
 
 ___

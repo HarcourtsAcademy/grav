@@ -12,6 +12,7 @@ content:
         custom:
             - _showcase
             - _highlights
+            - _menus
             - _callout
             - _bottom
             - _contact
