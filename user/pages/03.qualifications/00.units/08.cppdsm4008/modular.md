@@ -7,7 +7,7 @@ body_classes: "modular"
 published: true
 taxonomy:
 	category: qualifications
-	tag: [qualifications,unit,cppdsm4008a]
+	tag: [qualification-unit,cppdsm4008a]
 	
 metadata:
     description: Your page description goes here

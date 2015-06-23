@@ -4,13 +4,17 @@ menu: Get Qualified
 slug: get-qualified
 published: true
 
+taxonomy:
+	category: qualifications
+
 metadata:
     description: Your page description goes here
     keywords: real estate Harcourts resource media library
     author: Harcourts Academy
     
 content:
-    items: @self.children
+    items:
+        @taxonomy.tag: qualification-region
     
 ---
 
@@ -32,7 +36,3 @@ Our courses are written for busy real estate people who want to advance their ca
 ## Get Started
 
 Select your region below to register or find out more.
-
-
-
-<!--[CPPDSM4008A](/get-qualified/units/cppdsm4008a)-->

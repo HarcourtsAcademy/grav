@@ -4,9 +4,10 @@ menu: New South Wales Qualifications
 slug: nsw-qualifications
 published: true
 taxonomy:
-	category: qualification-region
+	category: qualifications
+    tag: [qualification-region]
     country: australia
-    region: new south wales
+    region: new-south-wales
 ---
 
 # New South Wales Qualifications
