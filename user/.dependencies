@@ -30,11 +30,7 @@ git:
     taxonomylist:
         url: https://github.com/getgrav/grav-plugin-taxonomylist
         path: user/plugins/taxonomylist
-        branch: develop
-    archives:
-        url: https://github.com/getgrav/grav-plugin-archives
-        path: user/plugins/archives
-        branch: develop                
+        branch: develop            
     deliver:
         url: https://github.com/getgrav/grav-theme-deliver
         path: user/themes/deliver
@@ -75,11 +71,7 @@ links:
     taxonomylist:
         src: grav-plugin-taxonomylist
         path: user/plugins/taxonomylist
-        scm: github
-    archives:
-        src: grav-plugin-archives
-        path: user/plugins/archives
-        scm: github                         
+        scm: github                      
     deliver:
         src: grav-theme-deliver
         path: user/themes/deliver
