@@ -92,3 +92,7 @@ links:
         src: grav-theme-deliver
         path: user/themes/deliver
         scm: github
+    academydeliver:
+        src: grav-theme-academydeliver
+        path: user/themes/academydeliver
+        scm: github
