@@ -11,6 +11,9 @@ metadata:
     keywords: real estate Harcourts resource media library
     author: Harcourts Academy
 
+body_classes: "modular header-lite fullwidth about"
+bg_color: "#B4B093"
+
 documentlibrary:
     - country: Australia
       library_url: http://one.harcourts.com.au/library
@@ -39,10 +42,6 @@ medialibrary:
     - country: USA
       library_url: http://one.harcourtsusa.com/Library/Folder.aspx?id=231
 ---
-
-# The Library
-
-![The Library](library.jpg)
 
 Gain access to extensive training resources unique to Harcourts. Our Resource and Media Libraries are the gateway to personal skills, technology and systems that enable our people to be among the most successful and respected real estate professionals in the world.
 
