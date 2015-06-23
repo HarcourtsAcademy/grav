@@ -12,6 +12,7 @@ content:
         custom:
             - _showcase
             - _highlights
+            - _youtube
             - _menus
             - _callout
             - _bottom
