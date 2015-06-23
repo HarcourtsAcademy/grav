@@ -11,10 +11,6 @@ git:
         url: https://github.com/getgrav/grav-plugin-simplesearch
         path: user/plugins/simplesearch
         branch: develop
-    feed:
-        url: https://github.com/getgrav/grav-plugin-feed
-        path: user/plugins/feed
-        branch: develop
     relatedpages:
         url: https://github.com/getgrav/grav-plugin-relatedpages
         path: user/plugins/relatedpages
@@ -59,10 +55,6 @@ links:
     simplesearch:
         src: grav-plugin-simplesearch
         path: user/plugins/simplesearch
-        scm: github
-    feed:
-        src: grav-plugin-feed
-        path: user/plugins/feed
         scm: github
     relatedpages:
         src: grav-plugin-relatedpages
