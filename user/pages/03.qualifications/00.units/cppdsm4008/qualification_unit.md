@@ -86,6 +86,109 @@ required_knowledge:
   - sales process, including ways of obtaining listings, methods of selling property, strategies for marketing property, and the process for settling the sale of property
   - trust funds and legislative controls on trust funds.
 
+range_statement:
+  - name: Land tenure systems
+    meaning:
+    - freehold or fee simple
+    - leasehold.
+  - name: Legislation
+    meaning:
+    - relevant federal, and state or territory legislation and local government regulations relating to-
+    - sublist:
+      - anti-discrimination and equal employment opportunity
+      - consumer protection, fair trading and trade practices
+      - employment and industrial relations
+      - financial services
+      - OHS
+      - privacy
+      - property sales.
+  - name: Certificate of Title
+    meaning:
+    - a plan of the land
+    - details of caveats over the land, such as easements and covenants
+    - lot, plan and subdivision
+    - names of registered proprietors
+    - names of the mortgagees and dates of registration and discharge
+    - volume and folio numbers.
+  - name: Types of property ownership
+    meaning:
+    - company ownership
+    - joint tenants
+    - sole owner
+    - tenants in common.
+  - name: Effective communication strategies
+    meaning:
+    - active listening
+    - being non-judgemental
+    - exploring problems
+    - expressing an individual perspective
+    - providing sufficient time for questions and responses
+    - providing summarising and reflective responses in conflict situations
+    - using appropriate words, behaviour and posture
+    - using clarifying and summarising questions
+    - using clear and concise language
+    - using culturally appropriate communication
+    - using plain English
+    - using verbal and non-verbal communication.
+  - name: Listings
+    meaning:
+    - advertising
+    - after-sales letters
+    - builders and developers
+    - callers to the office
+    - conjunctions and multiple listings
+    - farming
+    - open for inspections
+    - owner boards and seller advertisements
+    - recommendations
+    - telemarketing.
+  - name: Methods of selling property
+    meaning:
+    - alternative sales methods, such as set sales
+    - auction
+    - conjunctional sales
+    - private sale or treaty
+    - sale by tender
+    - vendor sale.
+  - name: Sale authority agreements
+    meaning:
+    - auction authority
+    - exclusive sale authority
+    - general sale authority
+    - sole sale authority.
+  - name: Statutory statements required to be prepared by sellers
+    meaning:
+    - additional vendor’s statement
+    - vendor’s statement
+    - statement for the sale of a small business.
+  - name: Contractual documents
+    meaning:
+    - contract note
+    - contract of sale of real estate
+    - finance statement to buyers
+    - prescribed or permitted forms used by agents in property sales
+    - release of deposit moneys.
+  - name: Roles and responsibilities of agent in sale of property
+    meaning:
+    - agreement to sell
+    - communication
+    - completing contract documents
+    - ethical and conduct standards
+    - general disclosure requirements
+    - legal responsibility
+    - listing
+    - marketing
+    - negotiating sale terms and conditions
+    - office procedures for presenting the property
+    - prospecting
+    - providing information to buyer
+    - sale settlement.
+  - name: Restrictions on agents purchasing property
+    meaning:
+    - restrictions on licensed real estate agents and real estate representatives
+    - restrictions on support staff
+    - restrictions on the spouse or domestic partner, parent, brother, sister or child of licensed real estate agents or real estate representatives.
+
 ---
 
 This unit of competency specifies the outcomes required to meet the core legal and ethical requirements associated with property sales. This includes awareness of the legislation relating to property sales, the role and responsibility of agency personnel in property sales, the administration of sales transactions and the completion of sales documentation.
