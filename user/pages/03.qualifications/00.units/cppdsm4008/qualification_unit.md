@@ -22,32 +22,49 @@ qualification_unit:
   sector: Property development, sales and management
   
 performance_criteria:
-  - name: Develop knowledge of property sales.
-    criteria:
-    - Types and characteristics of land tenure systems are identified in line with legislation.
-    - Legislation regulating the sale of properties is identified in line with agency practice.
-    - Information provided on the Certificate of Title is checked for accuracy against the agency agreement.
-    - Types of property ownership are identified in line with legislation.
-    - Legal requirements relating to the sale of property are identified and interpreted in line with legislation and agency requirements.
-    - Requirements of ethical and conduct standards and consumer protection and privacy legislation in relation to the sale of property are identified in line with legislative requirements and agency practice.
-  - name: Develop knowledge of sales process.
-    criteria:
-    - Need for demonstrating effective communication strategiesin establishing rapport with clients, determining client needs, providing accurate advice, addressing client concerns and dealing with conflict is identified in line with agency practice.
-    - Listing opportunitiesare identified and assessed in the context of legislative requirements and agency practice.
-    - Methods of selling property are identified and assessed in the context of legislative requirements and agency practice.
-    - Sale authority agreements are identified, completed and stored in line with legislative requirements and agency practice.
-    - Strategies for marketing propertyare identified and assessed in the context of legislative requirements and agency practice.
-    - Purpose and terms of statutory statements required to be prepared by sellers for the sale of property and businessesare identified and interpreted in the context of legislative requirements and agency practice.
-    - Contractual documents relating to the sale of property are identified, interpreted, completed and stored in line with legislative requirements and agency practice.
-    - Process for settling the sale of property is identified in the context of legislative requirements and agency practice.
-    - Processes for receipt, recording, banking and release of deposit moneys are identified in the context of legislative requirements and agency practice.
-  - name: Identify roles and responsibilities of sales personnel.
-    criteria:
-    - Relationship between salesperson and agency principal is identified in the context of legislative requirements and agency practice.
-    - Roles and responsibilities of agent in sale of property including general disclosure requirements are identified, interpreted and assessed in the context of legislative requirements and agency practice.
-    - Restrictionson agents purchasing property and sanctions for violations of restrictions are identified, interpreted and complied with in line with legislative requirements and agency practice.
-    - Controls and sanctions on secret commissions are identified in the context of legislative requirements and agency practice.
-    - Entitlements and commissions for agents are identified and calculated in the context of legislative requirements and agency practice.
+  - name: 1 Develop knowledge of property sales.
+    criteria: |
+      1\.1 Types and characteristics of land tenure systems are identified in line with legislation.
+      
+      1\.2 Legislation regulating the sale of properties is identified in line with agency practice.
+      
+      1\.3 Information provided on the Certificate of Title is checked for accuracy against the agency agreement.
+      
+      1\.4 Types of property ownership are identified in line with legislation.
+      
+      1\.5 Legal requirements relating to the sale of property are identified and interpreted in line with legislation and agency requirements.
+      
+      1\.6 Requirements of ethical and conduct standards and consumer protection and privacy legislation in relation to the sale of property are identified in line with legislative requirements and agency practice.
+  - name: 2 Develop knowledge of sales process.
+    criteria: |
+      2\.1 Need for demonstrating effective communication strategiesin establishing rapport with clients, determining client needs, providing accurate advice, addressing client concerns and dealing with conflict is identified in line with agency practice.
+      
+      2\.2 Listing opportunitiesare identified and assessed in the context of legislative requirements and agency practice.
+      
+      2\.3 Methods of selling property are identified and assessed in the context of legislative requirements and agency practice.
+      
+      2\.4 Sale authority agreements are identified, completed and stored in line with legislative requirements and agency practice.
+      
+      2\.5 Strategies for marketing propertyare identified and assessed in the context of legislative requirements and agency practice.
+      
+      2\.6 Purpose and terms of statutory statements required to be prepared by sellers for the sale of property and businessesare identified and interpreted in the context of legislative requirements and agency practice.
+      
+      2\.7 Contractual documents relating to the sale of property are identified, interpreted, completed and stored in line with legislative requirements and agency practice.
+      
+      2\.8 Process for settling the sale of property is identified in the context of legislative requirements and agency practice.
+      
+      2\.9 Processes for receipt, recording, banking and release of deposit moneys are identified in the context of legislative requirements and agency practice.
+  - name: 3 Identify roles and responsibilities of sales personnel.
+    criteria: |
+      3\.1 Relationship between salesperson and agency principal is identified in the context of legislative requirements and agency practice.
+      
+      3\.2 Roles and responsibilities of agent in sale of property including general disclosure requirements are identified, interpreted and assessed in the context of legislative requirements and agency practice.
+      
+      3\.3 Restrictionson agents purchasing property and sanctions for violations of restrictions are identified, interpreted and complied with in line with legislative requirements and agency practice.
+      
+      3\.4 Controls and sanctions on secret commissions are identified in the context of legislative requirements and agency practice.
+      
+      3\.5 Entitlements and commissions for agents are identified and calculated in the context of legislative requirements and agency practice.
 
 required_skills: |
     * ability to communicate with and relate to a range of people from diverse social, economic and cultural backgrounds and with varying physical and mental abilities
