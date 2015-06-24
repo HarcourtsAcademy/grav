@@ -86,8 +86,8 @@ footer:
 qualification_unit_path: /get-qualified/units/
 qualification_units:
   CPPDSM4003: 
-      id: CPPDSM4003A
-      name: Appraise property
+    id: CPPDSM4003A
+    name: Appraise property
   CPPDSM4005:
     id: CPPDSM4005A
     name: Establish and build client-agency relationships
