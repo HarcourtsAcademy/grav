@@ -5,7 +5,7 @@ home:
 
 pages:
   theme: academybootstrap
-  markdown_extra: false
+  markdown_extra: true
   process:
     markdown: true
     twig: false
