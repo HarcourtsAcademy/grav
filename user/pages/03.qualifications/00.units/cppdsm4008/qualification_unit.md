@@ -189,6 +189,36 @@ range_statement:
     - restrictions on support staff
     - restrictions on the spouse or domestic partner, parent, brother, sister or child of licensed real estate agents or real estate representatives.
 
+evidence_guide:
+  overview: |
+    This unit of competency could be assessed through case studies, demonstrations, practical exercises and targeted written (including alternative formats where necessary) or verbal questioning relating to the legal and ethical requirements of property sales. The case studies, demonstration and questioning would include collecting evidence of the candidate’s knowledge and application of ethical standards and relevant federal, and state or territory legislation and regulations. This assessment may be carried out in a simulated or workplace environment.
+  competency: |
+    A person who demonstrates competency in this unit must be able to provide evidence of:
+    * ability to communicate effectively and accurately with clients
+    * application and knowledge of ethical and conduct standards and key principles of consumer protection and privacy in relation to the sale of  property
+    * application and knowledge of the sales process, including ways of obtaining listings, methods of selling property, strategies for marketing property, and the process for settling the sale of property
+    * application and knowledge of accurately completing statutory and agency sales documentation, including authorities and contracts
+    * application and knowledge of the legislation and regulatory framework relevant to the sale of property
+    * application and knowledge of the role and responsibilities of the agent in the sale of property, including the legislative restrictions on agents purchasing property and the controls and sanctions associated with secret commissions.
+  resources: |
+    Resource implications for assessment include:
+    * access to suitable simulated or real opportunities and resources to demonstrate competence
+    * assessment instruments that may include personal planner and assessment record book
+    * access to a registered provider of assessment services.
+
+    Where applicable, physical resources should include equipment modified for people with disabilities.
+    Access must be provided to appropriate learning and/or assessment support when required.
+    Assessment processes and techniques must be culturally appropriate, and appropriate to the language and literacy capacity of the candidate and the work being performed.
+    Validity and sufficiency of evidence require that:
+    * competency will need to be demonstrated over a period of time reflecting the scope of the role and the practical requirements of the workplace
+    * where the assessment is part of a structured learning experience the evidence collected must relate to a number of performances assessed at different points in time and separated by further learning and practice with a decision of competence only taken at the point when the assessor has complete confidence in the person’s competence
+    * all assessment that is part of a structured learning experience must include a combination of direct, indirect and supplementary evidence
+    * where assessment is for the purpose of recognition (RCC/RPL), the evidence provided will need to be current and show that it represents competency demonstrated over a period of time
+    * assessment can be through simulated project‑based activity and must include evidence relating to each of the elements in this unit.
+    
+    In all cases where practical assessment is used it will be combined with targeted questioning to assess the underpinning knowledge. Questioning will be undertaken in such a manner as is appropriate to the language and literacy levels of the candidate and any cultural issues that may affect responses to the questions, and will reflect the requirements of the competency and the work being performed.
+
+
 ---
 
 This unit of competency specifies the outcomes required to meet the core legal and ethical requirements associated with property sales. This includes awareness of the legislation relating to property sales, the role and responsibility of agency personnel in property sales, the administration of sales transactions and the completion of sales documentation.
