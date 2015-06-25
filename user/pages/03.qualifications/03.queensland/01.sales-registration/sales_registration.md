@@ -4,10 +4,15 @@ menu: Queensland Sales Registration
 slug: queensland-sales-registration
 published: true
 taxonomy:
-	category: qualification-type
-	tag: [sales registration]
-    country: australia
-    region: queensland
+  category: qualification-type
+  tag: [sales registration]
+  country: australia
+  region: queensland
+    
+metadata:
+  description: Your pathway to a real estate career in Queensland Australia
+  keywords: sales registration Queensland Australia qualification real estate
+  author: Harcourts Academy
 
 core_qualification_units:
   - id: CPPDSM4008
