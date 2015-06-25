@@ -38,5 +38,6 @@ Provides an introduction to the real estate industry incorporating the seven cor
 
 ===
 
-
+## For those wanting to become a:
+* Real Estate Sales Consultant
 
