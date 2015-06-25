@@ -1,6 +1,7 @@
 ---
 title: Academy Courses
 menu: Courses
+onpage_menu: false
 slug: courses
 published: true
 taxonomy:
