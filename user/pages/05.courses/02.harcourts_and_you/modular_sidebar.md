@@ -7,8 +7,9 @@ taxonomy:
 	category: course
 	tag: [course,featured,induction]
     
-course:
-  - duration: 1 day
+course_information:
+  - key: Duration
+    value: 1 day
 ---
 
 The Harcourts and You day has been designed to provide an in-depth introduction to Harcourts – Who we are, Where we are in the world, What we have to offer, Why we do what we do, and How we operate as an organisation.
