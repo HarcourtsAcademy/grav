@@ -65,8 +65,8 @@
 {% endif %}
 {% if 'courses' in page.taxonomy.category %}
 <div class="sidebar-content">
-	<h4>Upcoming Training</h4>
-	<ul class="weblinkstitle1">
+  <h4>Upcoming Training</h4>
+  <ul class="weblinkstitle1">
     <li>
         <a href="http://one.harcourts.com.au/academy/UpcomingCourses.aspx" rel="nofollow">Australia Upcoming Training</a>
         </li>
@@ -91,7 +91,7 @@
 {% if page.header.online_learning %}
 {% set online_learning = page.header.online_learning %}
 <div class="sidebar-content">
-	<h4>{{ online_learning.name }}</h4>
+  <h4>{{ online_learning.name }}</h4>
   <a href="{{ online_learning.url }}" class="button">Start {{ online_learning.name }}</a>
 </div>
 {% endif %}
