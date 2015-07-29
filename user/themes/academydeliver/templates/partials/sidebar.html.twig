@@ -1,0 +1,97 @@
+{% if config.plugins.simplesearch.enabled %}
+<div class="sidebar-content">
+    <h4>Search</h4>
+    {% include 'partials/simplesearch_searchbox.html.twig' %}
+</div>
+{% endif %}
+{% if page.header.sidebar_links %}
+<div class="sidebar-content">
+  {% for links in page.header.sidebar_links %}
+     <h4>{{ links.heading }}</h4>
+     <ul>
+     {% for link in links.links %}
+         <li><a href="{{ link.url }}">{{ link.label }}</a></li>
+     {% endfor %}
+     </ul>
+  {% endfor %}
+ </div>
+{% endif %}
+{### Subpage Navigation ###}
+{% macro subpage_menu(page) %}
+
+  {% if page.visible %}
+    {% set current_page = (page.active) ? 'active' : '' %}
+      <li class="{{ current_page }}">
+        <a href="{{ page.url }}" class="external">
+            {% if page.header.icon %}<i class="fa fa-{{ page.header.icon }}"></i>{% endif %}
+            {{ page.menu }}
+        </a>
+        {% if page.active or page.activeChild %}
+          <ul class="navigation">
+            {% for subpage in page.children %}
+              {{ _self.subpage_menu(subpage) }}
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </li>
+  {% endif %}
+{% endmacro %}
+{% if page.header.side_bar_menu %}
+<div class="sidebar-content">
+  {% for toplevelpage in pages.children %}
+    {% if page.route starts with toplevelpage.route and toplevelpage.route != '/' %}
+    <h4>{{ toplevelpage.title }}</h4>
+    <ul class="navigation">
+      {% for page in toplevelpage.children %}
+        {{ _self.subpage_menu(page) }}
+      {% endfor %}
+    </ul>
+    {% endif %}
+  {% endfor %}
+</div>
+{% endif %}
+{### Related pages menu ###}
+{% if config.plugins.relatedpages.enabled and related_pages|length > 0 %}
+<div class="sidebar-content">
+  <h4>Related Pages</h4>
+  {% include 'partials/relatedpages.html.twig' %}
+</div>
+{% endif %}
+{% if config.plugins.random.enabled %}
+<div class="sidebar-content">
+  <h4>Random Article</h4>
+  <a class="button" href="{{ base_url_relative }}/random"><i class="fa fa-retweet"></i> I'm Feeling Lucky!</a>
+</div>
+{% endif %}
+{% if 'courses' in page.taxonomy.category %}
+<div class="sidebar-content">
+	<h4>Upcoming Training</h4>
+	<ul class="weblinkstitle1">
+    <li>
+        <a href="http://one.harcourts.com.au/academy/UpcomingCourses.aspx" rel="nofollow">Australia Upcoming Training</a>
+        </li>
+    <li>
+        <a href="http://one.harcourts.cn/academy/UpcomingCourses.aspx" rel="nofollow">China Upcoming Training</a>
+        </li>
+    <li>
+        <a href="http://one.harcourts.co.id/academy/UpcomingCourses.aspx" rel="nofollow">Indonesia Upcoming Training</a>
+        </li>
+    <li>
+        <a href="http://one.harcourts.co.nz/academy/UpcomingCourses.aspx" rel="nofollow">New Zealand Upcoming Training</a>
+        </li>
+    <li>
+        <a href="http://one.harcourts.co.za/academy/UpcomingCourses.aspx" rel="no follow">South Africa Upcoming Training</a>
+        </li>
+    <li>
+        <a href="http://one.harcourtsusa.com/academy/UpcomingCourses.aspx" rel="no follow">USA Upcoming Training</a>
+        </li>
+    </ul>
+</div>
+{% endif %}
+{% if page.header.online_learning %}
+{% set online_learning = page.header.online_learning %}
+<div class="sidebar-content">
+	<h4>{{ online_learning.name }}</h4>
+  <a href="{{ online_learning.url }}" class="button">Start {{ online_learning.name }}</a>
+</div>
+{% endif %}
