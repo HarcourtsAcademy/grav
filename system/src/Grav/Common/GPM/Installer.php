@@ -158,9 +158,9 @@ class Installer
 
 
     /**
-     * Unnstalls one or more given package
+     * Uninstalls one or more given package
      *
-     * @param  string $package     The slug of the package(s)
+     * @param  string $path     The slug of the package(s)
      * @param  array  $options     Options to use for uninstalling
      *
      * @return boolean True if everything went fine, False otherwise.

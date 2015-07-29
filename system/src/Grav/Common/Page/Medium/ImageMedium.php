@@ -2,7 +2,6 @@
 namespace Grav\Common\Page\Medium;
 
 use Grav\Common\Data\Blueprint;
-use Gregwar\Image\Image as ImageFile;
 
 class ImageMedium extends Medium
 {
@@ -216,7 +215,7 @@ class ImageMedium extends Medium
     }
 
     /**
-     * Turn the current Medium inta a Link with lightbox enabled
+     * Turn the current Medium into a Link with lightbox enabled
      *
      * @param  int  $width
      * @param  int  $height
@@ -308,7 +307,7 @@ class ImageMedium extends Medium
         }
 
         try {
-            $result = call_user_func_array([$this->image, $method], $args);
+            call_user_func_array([$this->image, $method], $args);
 
             foreach ($this->alternatives as $ratio => $medium) {
                 $args_copy = $args;
@@ -364,6 +363,10 @@ class ImageMedium extends Medium
             return parent::path(false);
         }
 
+        if (isset($this->result)) {
+            return $this->result;
+        }
+
         if ($this->get('debug') && !$this->debug_watermarked) {
             $ratio = $this->get('ratio');
             if (!$ratio) {
@@ -375,9 +378,7 @@ class ImageMedium extends Medium
             $this->image->merge(ImageFile::open($overlay));
         }
 
-        $result = $this->image->cacheFile($this->format, $this->quality);
-
-        return $result;
+        return $this->image->cacheFile($this->format, $this->quality);
     }
 
     /**

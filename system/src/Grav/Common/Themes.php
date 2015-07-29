@@ -106,10 +106,10 @@ class Themes extends Iterator
         $obj = new Data($file->content(), $blueprint);
 
         // Override with user configuration.
-        $file = CompiledYamlFile::instance("user://config/themes/{$name}" . YAML_EXT);
-        $obj->merge($file->content());
+        $obj->merge($this->grav['config']->get('themes.' . $name) ?: []);
 
         // Save configuration always to user/config.
+        $file = CompiledYamlFile::instance("config://themes/{$name}" . YAML_EXT);
         $obj->file($file);
 
         return $obj;
@@ -221,7 +221,13 @@ class Themes extends Iterator
     protected function loadConfiguration($name, Config $config)
     {
         $themeConfig = CompiledYamlFile::instance("themes://{$name}/{$name}" . YAML_EXT)->content();
-
         $config->joinDefaults("themes.{$name}", $themeConfig);
+
+        if ($this->config->get('system.languages.translations', true)) {
+            $languages = CompiledYamlFile::instance("themes://{$name}/languages". YAML_EXT)->content();
+            if ($languages) {
+                $config->getLanguages()->mergeRecursive($languages);
+            }
+        }
     }
 }
