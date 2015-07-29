@@ -2,7 +2,11 @@
 title: Customer Support
 menu: false
 slug: customer-support
-body_classes: "header-lite fullwidth"
+
+body_classes: "modular header-lite fullwidth about-us"
+bg_color: "#002b49"
+banner_image: theme://images/banners/about_us.jpg
+
 process:
   twig: true
 simple_form:
