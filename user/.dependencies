@@ -15,6 +15,10 @@ git:
         url: https://github.com/getgrav/grav-plugin-relatedpages
         path: user/plugins/relatedpages
         branch: develop
+    simple_contact:
+        url: https://github.com/nunopress/grav-plugin-simple_contact.git
+        path: user/plugins/simple_contact
+        branch: master
     simple_form:
         url: https://github.com/nunopress/grav-plugin-simple_form
         path: user/plugins/simple_form
@@ -51,6 +55,10 @@ links:
     relatedpages:
         src: grav-plugin-relatedpages
         path: user/plugins/relatedpages
+        scm: github
+    simple_contact:
+        src: grav-plugin-simple_contact
+        path: user/plugins/simple_contact
         scm: github
     simple_form:
         src: grav-plugin-simple_form
