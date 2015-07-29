@@ -2,8 +2,10 @@
 title: Contact Us
 slug: contact-us
 onpage_menu: false
-body_classes: "modular header-lite fullwidth"
-bg_color: "#B4B093"
+
+body_classes: "modular header-lite fullwidth about-us"
+bg_color: "#002b49"
+banner_image: theme://images/banners/about_us.jpg
 
 taxonomy:
   category: about_us
@@ -15,5 +17,4 @@ content:
         by: default
         dir: asc
 
-list_contacts: true
 ---
