@@ -13,10 +13,26 @@ side_bar_menu: true;
 body_classes: "modular header-lite fullwidth about-us"
 bg_color: "#002b49"
 banner_image: theme://images/banners/about_us.jpg
+
+side_bar_content:
+  - content: |
+      <h2>Our Purpose</h2>
+      To Grow our People
+  - content: |
+      <h2>Our Values</h2>
+      * Teaching
+      * Sharing
+      * Guiding
+      * Inspiring
+      * Helping others to be great
+
 ---
 Our training is often regarded as setting the benchmark for the entire real estate industry.
 
 ===
+
+##Why Choose Us
+The Academy offers a unique type of structured course path and tailored system of learning. It is our unparalleled investment in our people which provides rewarding futures for those who are motivated to learn and committed to high levels of personal and professional growth.
 
 ## It's all about people
 Successfully buying and selling real estate is mostly about fulfilling people's needs and aspirations. That's why Harcourts people not only receive in-depth professional training (the benchmark for the industry) but are also committed to building meaningful and genuine personal relationships with their clients. And the huge volume of referrals and repeat business generated is proof that this works to everyone's satisfaction.
