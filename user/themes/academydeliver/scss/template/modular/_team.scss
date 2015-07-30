@@ -22,7 +22,7 @@ $module-bg:        #EEEEEE;
         .member {
             //display: inline-block;
             float: left;
-            width: 44%;
+            width: 45%;
             margin: 0 1rem;
             margin-bottom: 2rem;
             min-height: 20rem;
@@ -47,13 +47,18 @@ $module-bg:        #EEEEEE;
                 text-align: inherit;
               }
               img {
-                padding-right: 2rem;
+                padding-right: 1.2rem;
               }
             }
             h4 {
                 text-align: left;
+                margin-top: 0;
                 margin-bottom: 0;
+                @include breakpoint(tablet-range) {
+                    margin-top: inherit;
+                }
                 @include breakpoint(mobile-only) {
+                    margin-top: inherit;
                     text-align: center;
                 }
             }

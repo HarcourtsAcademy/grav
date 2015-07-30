@@ -7,7 +7,7 @@
         {% set firstname = member.name|split(" ")|first %}
         <div class="member g-grid pure-g-r">
             <div class="profile-picture g-block size-1-2 pure-u-1-2">
-              <img src="{{page.media[member.image].cropZoom(113,150).url}}" alt="">
+              <img src="{{page.media[member.image].url}}" width="113" height="150" alt="">
             </div>
             <div class="g-block pure-u-1-2">
               <h4>{{ member.name }}</h4>

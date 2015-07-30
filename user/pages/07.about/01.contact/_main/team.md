@@ -3,8 +3,8 @@ title: Team
 menu: false
 
 members:
-    - name: Customer Support
-      image: michael.jpg
+    - name: Customer&nbsp;Support
+      image: customer-support.png
       title: Global Helpdesk
       phone: +61 7 3839 3100
       address:
@@ -48,7 +48,7 @@ members:
         country: Australia
       email: paul.casarotto@harcourts.net
     - name: Anthony Masci
-      image: anthony-masci.png
+      image: anthony-masci.jpg
       title: Academy Trainer
       phone: +61 7 3839 3100
       address:
@@ -59,7 +59,7 @@ members:
         country: Australia
       email: anthony.masci@harcourts.net
     - name: Ray Brincat
-      image: ray-brincat.png
+      image: ray-brincat.jpg
       title: Academy Trainer
       phone: +61 8 8410 4444
       address:
@@ -69,6 +69,28 @@ members:
         postcode: 5000
         country: Australia
       email: ray.brincat@harcourts.net
+    - name: Donna Whitehead
+      image: donna-whitehead.jpg
+      title: Academy Trainer
+      phone: +61 8 9388 7700
+      address:
+        street: 125 Cambridge Street
+        city: West Leederville
+        region: Western Australia
+        postcode: 6007
+        country: Australia
+      email: donna.whitehead@harcourts.net
+    - name: Vanessa Maher
+      image: vanessa-maher.jpg
+      title: Academy Trainer
+      phone: +61 1300 856 773
+      address:
+        street: 347 Bay Road
+        city: Cheltenham
+        region: Victoria
+        postcode: 3192
+        country: Australia
+      email: vanessa.maher@harcourts.com.au
 ---
 ## Meet our team
 

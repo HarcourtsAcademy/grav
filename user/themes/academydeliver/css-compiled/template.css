@@ -1483,7 +1483,7 @@ ul.pagination {
     padding-top: 2rem; }
     .team .members .member {
       float: left;
-      width: 44%;
+      width: 45%;
       margin: 0 1rem;
       margin-bottom: 2rem;
       min-height: 20rem; }
@@ -1508,12 +1508,17 @@ ul.pagination {
           .team .members .member .profile-picture {
             text-align: inherit; } }
         .team .members .member .profile-picture img {
-          padding-right: 2rem; }
+          padding-right: 1.2rem; }
       .team .members .member h4, .team .members .member .archive-list label, .archive-list .team .members .member label, .team .members .member .modular .bottom table th, .modular .bottom table .team .members .member th, .team .members .member .contact label, .contact .team .members .member label, .team .members .member .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .team .members .member .name, .team .members .member .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .team .members .member .button, .team .members .member .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list .team .members .member button, .team .members .member .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot .team .members .member button, .team .members .member .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact .team .members .member button, .team .members .member .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot .team .members .member button {
         text-align: left;
+        margin-top: 0;
         margin-bottom: 0; }
+        @media only all and (min-width: 48em) and (max-width: 59.938em) {
+          .team .members .member h4, .team .members .member .archive-list label, .archive-list .team .members .member label, .team .members .member .modular .bottom table th, .modular .bottom table .team .members .member th, .team .members .member .contact label, .contact .team .members .member label, .team .members .member .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .team .members .member .name, .team .members .member .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .team .members .member .button, .team .members .member .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list .team .members .member button, .team .members .member .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot .team .members .member button, .team .members .member .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact .team .members .member button, .team .members .member .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot .team .members .member button {
+            margin-top: inherit; } }
         @media only all and (max-width: 47.938em) {
           .team .members .member h4, .team .members .member .archive-list label, .archive-list .team .members .member label, .team .members .member .modular .bottom table th, .modular .bottom table .team .members .member th, .team .members .member .contact label, .contact .team .members .member label, .team .members .member .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .team .members .member .name, .team .members .member .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .team .members .member .button, .team .members .member .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list .team .members .member button, .team .members .member .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot .team .members .member button, .team .members .member .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact .team .members .member button, .team .members .member .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot .team .members .member button {
+            margin-top: inherit;
             text-align: center; } }
       .team .members .member hr {
         margin: 1rem 0; }
