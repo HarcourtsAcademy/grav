@@ -1464,8 +1464,7 @@ ul.pagination {
         font-size: 2rem; }
 
 .team {
-  background: #EEEEEE;
-  padding: 4rem 0;
+  padding: 2rem 0 0;
   text-align: center; }
   .team:after {
     content: "";
@@ -1484,9 +1483,8 @@ ul.pagination {
     .team .members .member {
       float: left;
       width: 45%;
-      margin: 0 1rem;
-      margin-bottom: 2rem;
-      min-height: 20rem; }
+      margin: 0 1rem 1rem;
+      min-height: 16rem; }
       @media only all and (max-width: 47.938em) {
         .team .members .member {
           display: block;
