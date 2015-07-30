@@ -4,7 +4,7 @@ menu: false
 
 members:
     - name: Customer&nbsp;Support
-      image: customer-support.png
+      image: support-male.png
       title: Global Helpdesk
       phone: +61 7 3839 3100
       address:

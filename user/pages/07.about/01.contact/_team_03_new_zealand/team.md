@@ -4,7 +4,7 @@ menu: false
 
 members:
     - name: Tyla Kvalsvig
-      image: academy-administrator.png
+      image: support-female.png
       title: Academy Administrator
       phone: +64 9 520 5569
       address:
