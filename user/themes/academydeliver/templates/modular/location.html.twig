@@ -1,0 +1,25 @@
+<div class="modular-row offices">
+    {{ content }}
+    <div class="locations">
+        {% for location in page.header.location %}
+        {% set shortaddress = location.address.region %}
+        {% set fulladdress = location.address.street ~ " " ~ location.address.city ~ " " ~ location.address.region  ~ " " ~ location.address.postcode  ~ " " ~ location.address.country %}
+        <div class="location g-grid pure-g-r">
+            <div class="location-picture g-block size-1-3 pure-u-1-3">
+              <img src="{{page.media[location.image].url}}" alt="" width="150" heigh="150">
+            </div>
+            <div class="g-block">
+              <h4>{{ location.name }}</h4>
+              <ul class="contact-icons">
+                  <li><i class="fa fa-map-marker"></i> <a href="http://maps.google.com/?q={{ fulladdress }}">{{ location.address.street  }}</a> </li>
+                  <li><i class="fa"></i> {{ location.address.city }}, {{ location.address.region }} {{ location.address.postcode }}</li>
+                  <li><i class="fa"></i> {{ location.address.country }}</li>
+                  <li><i class="fa fa-phone"></i> {{ location.phone }} <i class="fa fa-envelope"></i> <a href="#">Email</a> </li>
+              </ul>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="callout-line"></div>
+
+</div>

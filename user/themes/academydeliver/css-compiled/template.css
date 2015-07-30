@@ -68,7 +68,7 @@ b, strong, label, th {
   src: url("./fonts/Novecentosanswide-Medium-webfont.eot?#iefix") format("embedded-opentype"), url("./fonts/Novecentosanswide-Medium-webfont.woff2") format("woff2"), url("./fonts/Novecentosanswide-Medium-webfont.woff") format("woff"), url("./fonts/Novecentosanswide-Medium-webfont.ttf") format("truetype"), url("./fonts/Novecentosanswide-Medium-webfont.svg#novecento_sans_widemedium") format("svg");
   font-weight: normal;
   font-style: normal; }
-.default-animation, #body, #header #navbar ul.social-icons li, #header #navbar ul.social-icons li a, .modal, .archive-list button, .modular .showcase .button, .modular .showcase .archive-list button, .archive-list .modular .showcase button, .modular .showcase .contact button, .contact .modular .showcase button, .modular .slideme_container .arrow, .modular .slideme_container .pagination .numbers li, .modular .bottom .button, .modular .bottom .archive-list button, .archive-list .modular .bottom button, .modular .bottom .contact button, .contact .modular .bottom button, .contact input, .contact textarea, .contact button, .callout .pricing-container .pricing-item, .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .foot, .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .archive-list button, .archive-list .callout .pricing-container .pricing-item .foot button, .callout .pricing-container .pricing-item .foot .contact button, .contact .callout .pricing-container .pricing-item .foot button, .team .members .contact-icons li a, .logo h3, .logo ul.social-icons li, .logo ul.social-icons li a, .notebook .screen .screen-content-hover {
+.default-animation, #body, #header #navbar ul.social-icons li, #header #navbar ul.social-icons li a, .modal, .archive-list button, .modular .showcase .button, .modular .showcase .archive-list button, .archive-list .modular .showcase button, .modular .showcase .contact button, .contact .modular .showcase button, .modular .slideme_container .arrow, .modular .slideme_container .pagination .numbers li, .modular .bottom .button, .modular .bottom .archive-list button, .archive-list .modular .bottom button, .modular .bottom .contact button, .contact .modular .bottom button, .contact input, .contact textarea, .contact button, .callout .pricing-container .pricing-item, .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .foot, .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .archive-list button, .archive-list .callout .pricing-container .pricing-item .foot button, .callout .pricing-container .pricing-item .foot .contact button, .contact .callout .pricing-container .pricing-item .foot button, .team .members .contact-icons li a, .offices .locations .contact-icons li a, .logo h3, .logo ul.social-icons li, .logo ul.social-icons li a, .notebook .screen .screen-content-hover {
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   transition: all 0.5s ease; }
@@ -1693,6 +1693,75 @@ ul.pagination {
         font-size: 1.2rem; }
       .modular .menus.big .menu-content p {
         padding: 0; }
+
+.offices {
+  padding: 2rem 0 0;
+  text-align: center; }
+  .offices:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .offices h2 {
+    color: #656161;
+    margin: 0;
+    line-height: 100%; }
+  .offices p {
+    margin: 1rem 0; }
+  .offices .locations {
+    width: 100%;
+    text-align: left;
+    padding-top: 2rem; }
+    .offices .locations .location {
+      float: left;
+      width: 100%;
+      margin: 0 1rem 1rem;
+      min-height: 16rem; }
+      @media only all and (max-width: 47.938em) {
+        .offices .locations .location {
+          display: block;
+          width: 100%;
+          text-align: center;
+          margin: 0;
+          margin-bottom: 2rem; } }
+      @media only all and (min-width: 48em) and (max-width: 59.938em) {
+        .offices .locations .location {
+          display: block;
+          width: 100%;
+          margin-bottom: 2rem;
+          min-height: 22rem; } }
+      .offices .locations .location .location-picture {
+        text-align: right; }
+        @media only all and (min-width: 48em) and (max-width: 59.938em) {
+          .offices .locations .location .location-picture {
+            text-align: left; } }
+        @media only all and (max-width: 47.938em) {
+          .offices .locations .location .location-picture {
+            text-align: inherit; } }
+        .offices .locations .location .location-picture img {
+          padding-right: 1.2rem; }
+      .offices .locations .location h4, .offices .locations .location .archive-list label, .archive-list .offices .locations .location label, .offices .locations .location .modular .bottom table th, .modular .bottom table .offices .locations .location th, .offices .locations .location .contact label, .contact .offices .locations .location label, .offices .locations .location .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .offices .locations .location .name, .offices .locations .location .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .offices .locations .location .button, .offices .locations .location .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list .offices .locations .location button, .offices .locations .location .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot .offices .locations .location button, .offices .locations .location .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact .offices .locations .location button, .offices .locations .location .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot .offices .locations .location button {
+        text-align: left;
+        margin-top: 0;
+        margin-bottom: 0; }
+        @media only all and (min-width: 48em) and (max-width: 59.938em) {
+          .offices .locations .location h4, .offices .locations .location .archive-list label, .archive-list .offices .locations .location label, .offices .locations .location .modular .bottom table th, .modular .bottom table .offices .locations .location th, .offices .locations .location .contact label, .contact .offices .locations .location label, .offices .locations .location .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .offices .locations .location .name, .offices .locations .location .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .offices .locations .location .button, .offices .locations .location .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list .offices .locations .location button, .offices .locations .location .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot .offices .locations .location button, .offices .locations .location .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact .offices .locations .location button, .offices .locations .location .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot .offices .locations .location button {
+            margin-top: inherit; } }
+        @media only all and (max-width: 47.938em) {
+          .offices .locations .location h4, .offices .locations .location .archive-list label, .archive-list .offices .locations .location label, .offices .locations .location .modular .bottom table th, .modular .bottom table .offices .locations .location th, .offices .locations .location .contact label, .contact .offices .locations .location label, .offices .locations .location .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .offices .locations .location .name, .offices .locations .location .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .offices .locations .location .button, .offices .locations .location .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list .offices .locations .location button, .offices .locations .location .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot .offices .locations .location button, .offices .locations .location .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact .offices .locations .location button, .offices .locations .location .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot .offices .locations .location button {
+            margin-top: inherit;
+            text-align: center; } }
+      .offices .locations .location hr {
+        margin: 1rem 0; }
+    .offices .locations .contact-icons {
+      margin: 0;
+      list-style: none; }
+      .offices .locations .contact-icons li i {
+        min-width: 1rem; }
+      .offices .locations .contact-icons li a {
+        margin-top: 0.1rem; }
+  .offices .callout-line {
+    clear: both;
+    border-bottom: 1px solid #CBCBCB; }
 
 .logo {
   border-bottom: 1px solid #eaeaea; }
