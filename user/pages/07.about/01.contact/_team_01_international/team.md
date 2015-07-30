@@ -25,8 +25,19 @@ members:
         postcode: 4009
         country: Australia
       email: irene.green@harcourts.net
+    - name: Debbie MacQueen
+      image: debbie-macqueen.jpg
+      title: Academy Operations Manager Australasia
+      phone: +61 7 3839 3100
+      address:
+        street: 31 Amy Johnson Place
+        city: Eagle Farm
+        region: Queensland
+        postcode: 4009
+        country: Australia
+      email: debbie.macqueen@harcourts.net
 
 ---
 ## Meet our international team
 
-Sed posuere consectetur est at lobortis. Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod.
+Our international team, based in Brisbane Australia, support our students and trainers across the world.

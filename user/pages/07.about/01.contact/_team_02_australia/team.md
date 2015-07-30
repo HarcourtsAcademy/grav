@@ -3,20 +3,9 @@ title: Australian Team
 menu: false
 
 members:
-    - name: Debbie MacQueen
-      image: debbie-macqueen.jpg
-      title: Academy Operations Manager Australasia
-      phone: +61 7 3839 3100
-      address:
-        street: 31 Amy Johnson Place
-        city: Eagle Farm
-        region: Queensland
-        postcode: 4009
-        country: Australia
-      email: debbie.macqueen@harcourts.net
     - name: Paul Casarotto
       image: paul-casarotto.jpg
-      title: Academy Trainer / Business Development Manager
+      title: Academy Trainer
       phone: +61 2 9380 8665
       address:
         street: 75-85 O'Riordan St
@@ -47,6 +36,17 @@ members:
         postcode: 5000
         country: Australia
       email: ray.brincat@harcourts.net
+    - name: Megan Hampton
+      image: megan-hampton.jpg
+      title: Academy Trainer
+      phone: +61 3 6337 9700
+      address:
+        street: 187 Brisbane Street
+        city: Launceston
+        region: Tasmania
+        postcode: 7250
+        country: Australia
+      email: ray.brincat@harcourts.net
     - name: Donna Whitehead
       image: donna-whitehead.jpg
       title: Academy Trainer
@@ -73,4 +73,4 @@ members:
 
 ## Meet our Australian team
 
-Sed posuere consectetur est at lobortis. Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod.
+The Academy's regional trainers deliver training in all states of Australia.
