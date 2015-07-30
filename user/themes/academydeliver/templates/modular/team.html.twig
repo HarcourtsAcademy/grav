@@ -2,7 +2,7 @@
     {{ content }}
     <div class="members">
         {% for member in page.header.members %}
-        {% set shortaddress = member.address.region ~ ", " ~ member.address.country %}
+        {% set shortaddress = member.address.region %}
         {% set fulladdress = member.address.street ~ " " ~ member.address.city ~ " " ~ member.address.region  ~ " " ~ member.address.postcode  ~ " " ~ member.address.country %}
         {% set firstname = member.name|split(" ")|first %}
         <div class="member g-grid pure-g-r">
