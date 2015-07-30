@@ -4,7 +4,7 @@ menu: false
 
 location:
   - name: International Office
-    image: eagle-farm.jpg
+    image: eagle-farm-qld.jpg
     phone: +61 7 3839 3100
     address:
       street: 31 Amy Johnson Place

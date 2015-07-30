@@ -8,7 +8,7 @@ members:
       title: Academy Administrator
       phone: +64 9 520 5569
       address:
-        street: Level 2, 32 Manukau Road
+        street: 32 Manukau Road
         city: Newmarket
         region: Auckland
         postcode: 1023
@@ -19,7 +19,7 @@ members:
       title: Academy Trainer
       phone: +64 9 520 5569
       address:
-        street: Level 2, 32 Manukau Road
+        street: 32 Manukau Road
         city: Newmarket
         region: Auckland
         postcode: 1023
@@ -30,7 +30,7 @@ members:
       title: Professional Development Manager
       phone: +64 9 520 5569
       address:
-        street: Level 2, 32 Manukau Road
+        street: 32 Manukau Road
         city: Newmarket
         region: Auckland
         postcode: 1023
