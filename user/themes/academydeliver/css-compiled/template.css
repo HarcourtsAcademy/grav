@@ -1482,7 +1482,7 @@ ul.pagination {
     padding-top: 2rem; }
     .team .members .member {
       float: left;
-      width: 45%;
+      width: 44%;
       margin: 0 1rem 1rem;
       min-height: 16rem; }
       @media only all and (max-width: 47.938em) {
@@ -1496,7 +1496,8 @@ ul.pagination {
         .team .members .member {
           display: block;
           width: 44%;
-          margin-bottom: 2rem; } }
+          margin-bottom: 2rem;
+          min-height: 22rem; } }
       .team .members .member .profile-picture {
         text-align: right; }
         @media only all and (min-width: 48em) and (max-width: 59.938em) {
@@ -1527,6 +1528,9 @@ ul.pagination {
         min-width: 1rem; }
       .team .members .contact-icons li a {
         margin-top: 0.1rem; }
+  .team .callout-line {
+    clear: both;
+    border-bottom: 1px solid #CBCBCB; }
 
 .portfolio {
   padding: 2rem 0.938rem;
