@@ -46,6 +46,12 @@ quicklinks:
   - text: "About Us"
     url: "base_url:about-us"
 
+navigation:
+  maxdepth: 2
+
+sidebar-navigation:
+  maxdepth: 4
+
 blog:
   route: '/blog'                            # Route to blog
 metadata:

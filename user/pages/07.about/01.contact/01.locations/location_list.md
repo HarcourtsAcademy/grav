@@ -15,6 +15,9 @@ banner_image: theme://images/banners/about_us.jpg
 
 list_locations: true
 
+sidebar-navigation:
+  maxdepth: 2
+
 ---
 
 Select your location:

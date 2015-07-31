@@ -17,7 +17,15 @@
  </div>
 {% endif %}
 {### Subpage Navigation ###}
-{% macro subpage_menu(page) %}
+{% if page.header.side_bar_menu %}
+{% set depth = 1 %}
+{% if page.header.sidebar-navigation.maxdepth %}
+  {% set maxdepth = page.header.sidebar-navigation.maxdepth %}
+{% else %}
+  {% set maxdepth = config.site.navigation.maxdepth %}
+{% endif %}
+
+{% macro subpage_menu(page, maxdepth, depth) %}
 
   {% if page.visible %}
     {% set current_page = (page.active) ? 'active' : '' %}
@@ -26,24 +34,23 @@
             {% if page.header.icon %}<i class="fa fa-{{ page.header.icon }}"></i>{% endif %}
             {{ page.menu }}
         </a>
-        {% if page.active or page.activeChild %}
+        {% if page.active or page.activeChild and depth < maxdepth %}
           <ul class="navigation">
             {% for subpage in page.children %}
-              {{ _self.subpage_menu(subpage) }}
+              {{ _self.subpage_menu(subpage, maxdepth, (depth + 1) ) }}
             {% endfor %}
           </ul>
         {% endif %}
       </li>
   {% endif %}
 {% endmacro %}
-{% if page.header.side_bar_menu %}
 <div class="sidebar-content">
   {% for toplevelpage in pages.children %}
     {% if page.route starts with toplevelpage.route and toplevelpage.route != '/' %}
     <h4>{{ toplevelpage.title }}</h4>
     <ul class="navigation">
       {% for page in toplevelpage.children %}
-        {{ _self.subpage_menu(page) }}
+        {{ _self.subpage_menu(page, maxdepth, depth) }}
       {% endfor %}
     </ul>
     {% endif %}
