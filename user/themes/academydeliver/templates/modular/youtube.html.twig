@@ -1,0 +1,12 @@
+<div class="modular-row youtube {{ page.header.class}}">
+  <hr>
+  <h2>{{ page.header.title }}
+  <div class="g-grid">
+    <div class="g-block">
+      <div class="video-container">
+        <iframe src="//www.youtube-nocookie.com/embed/{{ page.header.video }}?autohide={{ page.header.autohide }}&amp;rel={{ page.header.related }}&amp;showinfo={{ page.header.showinfo }}" frameborder="0" allowfullscreen=""></iframe>
+      </div>
+    </div>
+  </div>
+  {{ content }}
+</div>

@@ -1,0 +1,27 @@
+<div class="modular-row team">
+    {{ content }}
+    <div class="members">
+        {% for member in page.header.members %}
+        {% set shortaddress = member.address.region %}
+        {% set fulladdress = member.address.street ~ " " ~ member.address.city ~ " " ~ member.address.region  ~ " " ~ member.address.postcode  ~ " " ~ member.address.country %}
+        {% set firstname = member.name|split(" ")|first %}
+        <div class="member g-grid pure-g-r">
+            <div class="profile-picture g-block size-1-2 pure-u-1-2">
+              <img src="{{page.media[member.image].grayscale.url}}" width="113" height="150" alt="">
+            </div>
+            <div class="g-block pure-u-1-2">
+              <h4>{{ member.name }}</h4>
+              <span>{{ member.title }}</span>
+              <hr>
+              <ul class="contact-icons">
+                  <li><i class="fa fa-map-marker"></i> <a href="http://maps.google.com/?q={{ fulladdress }}">{{ shortaddress  }}</a> </li>
+                  <li><i class="fa fa-envelope"></i> <a href="{{ member.contact_page }}">Email</a> </li>
+                  <li><i class="fa fa-phone"></i> {{ member.phone }} </li>
+              </ul>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="callout-line"></div>
+
+</div>

@@ -21,6 +21,8 @@ user/plugins/*
 !user/plugins/.*
 user/themes/*
 !user/themes/.*
+!user/themes/academydeliver
+user/themes/academydeliver/.sass-cache
 
 # OS Generated
 .DS_Store*
