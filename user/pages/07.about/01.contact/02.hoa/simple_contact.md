@@ -21,32 +21,5 @@ contact:
     Saturday - Sunday			Closed
     Holidays					Closed
 
-simple_contact:
-  subject: "New contact from your Grav site!"
-  recipient: "tim.butler@harcourts.net"
-
-  fields:
-    name:
-      label: "Name"
-      placeholder: "Add your name"
-
-    email:
-      label: "Email"
-      placeholder: "Add your email"
-
-    message:
-      label: "Message"
-      placeholder: "Add your message"
-
-    antispam:
-      label: "Antispam"
-      placeholder: "Please leave this field empty for Antispam"
-
-    submit:
-      label: "Submit"
-
-  messages:
-    success: "Thank You! Your message has been sent."
-    error: "Oops! There was a problem with your submission. Please complete the form and try again."
-    fail: "Oops! Something went wrong and we couldn't send your message."
+simple_contact: true
 ---

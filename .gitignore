@@ -17,6 +17,8 @@ images/*
 !images/.*
 user/data/*
 !user/data/.*
+user/plugins/*
+!user/plugins/.*
 
 # OS Generated
 .DS_Store*

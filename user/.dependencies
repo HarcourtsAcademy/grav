@@ -16,7 +16,7 @@ git:
         path: user/plugins/relatedpages
         branch: develop
     simple_contact:
-        url: https://github.com/nunopress/grav-plugin-simple_contact.git
+        url: https://github.com/HarcourtsAcademy/grav-plugin-simple_contact.git
         path: user/plugins/simple_contact
         branch: master
     simple_form:
@@ -34,7 +34,7 @@ git:
     taxonomylist:
         url: https://github.com/getgrav/grav-plugin-taxonomylist
         path: user/plugins/taxonomylist
-        branch: develop            
+        branch: develop
     deliver:
         url: https://github.com/getgrav/grav-theme-deliver
         path: user/themes/deliver
@@ -75,7 +75,7 @@ links:
     taxonomylist:
         src: grav-plugin-taxonomylist
         path: user/plugins/taxonomylist
-        scm: github                      
+        scm: github
     deliver:
         src: grav-theme-deliver
         path: user/themes/deliver
