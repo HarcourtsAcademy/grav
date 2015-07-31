@@ -1,0 +1,7 @@
+enabled: true
+built_in_css: true
+route: /search
+template: simplesearch_results
+filters:
+    category: [courses, qualifications, online_learning, library, about_us]
+filter_combinator: or

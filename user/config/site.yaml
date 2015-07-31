@@ -1,7 +1,151 @@
-title: Grav
+title: Academy Real Estate Training
+logo:
+    dark: 'theme://images/logo-dark.png'
+    light: 'theme://images/logo-light.png'
+    alt: Harcourts Academy
 author:
-  name: Joe Bloggs
-  email: 'joe@test.com'
-metadata:
-    description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+  name: Harcourts Academy
+  email: 'academy@harcourts.net'
+  email_link: "base_url:about-us/contact-us"
+  copyright: "&copy; Harcourts International Limited"
+social:
+  - url: 'https://facebook.com/harcourtsacademy'
+    icon: 'facebook'
+contact:
+  address:
+    - line: "Harcourts International Limited"
+    - line: "31 Amy Johnson Place"
+    - line: "Eagle Farm, QLD 4009 Australia"
+  phone:
+    - region: "+61 (7) 3839-3100"
 
+metadata:
+    description: 'Our training is often regarded as setting the benchmark for the entire real estate industry.'
+
+taxonomies: [category,tag,country,region]
+
+othermenu:
+  - text: "About"
+    url: "base_url:about-us"
+  - text: "Privacy Policy"
+    url: "base_url:privacy"
+  - text: "Contact"
+    url: "base_url:about-us/contact-us"
+
+quicklinks:
+  - text: "Courses"
+    url: "base_url:courses"
+  - text: "Qualifications"
+    url: "base_url:get-qualified"
+  - text: "CE & CPD"
+    url: "base_url:ce-cpd"
+  - text: "Online Learning"
+    url: "base_url:online-learning"
+  - text: "Library"
+    url: "base_url:the-library"
+  - text: "About Us"
+    url: "base_url:about-us"
+
+blog:
+  route: '/blog'                            # Route to blog
+metadata:
+    description: 'My Deliver Site'             # Site description
+summary:
+  size: 300                                 # Maximum length of summary (characters)
+routes:
+  /ce-cpd: '/courses/continuing-education-and-cpd'
+  /courses/auctioneering: '/courses/sales/auction'
+  /courses/leadership/auction: '/courses/sales/auction'
+  /online-learning/ce-cpd/new-zealand: '/courses/continuing-education-and-cpd/new-zealand-continuing-education'
+  /online-learning/ce-cpd/western-australia: '/courses/continuing-education-and-cpd/western-australia-cpd'
+  /online-learning/sales/istart: '/courses/sales/istart24'
+#  /new/*: '/blog/*'                         # Wildcard any /new/my-page URL to /blog/my-page Route
+
+header_options:
+  arrows: 'true'                            # Create Next and previous button
+  autoslide: 'false'                        # Auto slideshow mode
+  autoslideHoverStop: 'false'               # Pause auto slideshow mode on mouseover
+  interval: '2000'                          # The interval between each slide (Interval in millisecond)
+  loop: 'false'                             # Infinite slideshow
+  transition : zoom                         # Set the animation kind (fade/slide/page/zoom)
+  itemsForSlide: '0'                        # Wrap each 'n' item
+  touch: 'true'                             # Set a native slide for touch device
+  swipe : 'true'                            # Enable swipe for touch device
+
+footer:
+    description: "The Academy delivers a range of training programmes, from training for new real estate professionals to extensive management training for our business leaders. The Academy has an extensive team across the globe focused solely on developing and delivering training and skill building sessions."
+    contact_title: "Contact Info"
+    links_title: "Quick Links"
+    newsletter_title: "Newsletter"
+    newsletter_description: "Etiam porta sem malesuada magna mollis euismod."
+    copyright_text: "Copyright 2013 Deliver. All Rights Reserved."
+    feedburner: ""   # Your feedburner id for Newsletter footer modul
+
+qualification_unit_path: /get-qualified/units/
+qualification_units:
+  BSBSMB406:
+    id: BSBSMB406
+    name: Manage small business finances
+  CPPDSM3019:
+    id: CPPDSM3019B
+    name: Communicate with clients as part of agency operations
+  CPPDSM4003:
+    id: CPPDSM4003A
+    name: Appraise property
+  CPPDSM4004:
+    id: CPPDSM4004A
+    name: Conduct auction
+  CPPDSM4005:
+    id: CPPDSM4005A
+    name: Establish and build client-agency relationships
+  CPPDSM4006:
+    id: CPPDSM4006A
+    name: Establish and manage agency trust accounts
+  CPPDSM4007:
+    id: CPPDSM4007A
+    name: Identify legal and ethical requirements of property management to complete agency work
+  CPPDSM4008:
+      id: CPPDSM4008A
+      name: Identify legal and ethical requirements of property sales to complete agency work
+  CPPDSM4009:
+    id: CPPDSM4009B
+    name: Interpret legislation to complete agency work
+  CPPDSM4010:
+    id: CPPDSM4010A
+    name: Lease property
+  CPPDSM4011:
+    id: CPPDSM4011A
+    name: List property for lease
+  CPPDSM4012:
+    id: CPPDSM4012A
+    name: List property for sale
+  CPPDSM4013:
+    id: CPPDSM4013A
+    name: Market property for lease
+  CPPDSM4014:
+    id: CPPDSM4014A
+    name: Market property for sale
+  CPPDSM4015:
+    id: CPPDSM4015B
+    name: Minimise agency and consumer risk
+  CPPDSM4016:
+    id: CPPDSM4016B
+    name: Monitor and manage lease or tenancy agreement
+  CPPDSM4017:
+    id: CPPDSM4017A
+    name: Negotiate effectively in property transactions
+  CPPDSM4018:
+    id: CPPDSM4018A
+    name: Prepare and present property reports
+  CPPDSM4019:
+    id: CPPDSM4019A
+    name: Prepare for auction and complete sale
+  CPPDSM4022:
+    id: CPPDSM4022A
+    name: Sell and finalise the sale of property by private treaty
+  CPPDSM4046:
+    id: CPPDSM4046A
+    name: Manage tenancy disputes
+  CPPDSM4080:
+    id: CPPDSM4080A
+    name: Work in the real estate industry
