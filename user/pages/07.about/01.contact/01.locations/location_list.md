@@ -1,5 +1,5 @@
 ---
-title: Select your location
+title: Select Your Location
 onpage_menu: false
 slug: locations
 published: true
