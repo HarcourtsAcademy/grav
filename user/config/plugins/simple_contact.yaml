@@ -1,7 +1,7 @@
 enabled: true
 
 subject: "New contact from Grav site!"
-recipient: "hello@example.com"
+recipient: "tim.butler@harcourts.net"
 
 fields:
   name:
