@@ -7,6 +7,10 @@ git:
         url: https://github.com/getgrav/grav-plugin-problems
         path: user/plugins/problems
         branch: develop
+    antimatter:
+        url: https://github.com/getgrav/grav-theme-antimatter
+        path: user/themes/antimatter
+        branch: develop
     simplesearch:
         url: https://github.com/getgrav/grav-plugin-simplesearch
         path: user/plugins/simplesearch
@@ -47,6 +51,10 @@ links:
     problems:
         src: grav-plugin-problems
         path: user/plugins/problems
+        scm: github
+    antimatter:
+        src: grav-theme-antimatter
+        path: user/themes/antimatter
         scm: github
     simplesearch:
         src: grav-plugin-simplesearch
