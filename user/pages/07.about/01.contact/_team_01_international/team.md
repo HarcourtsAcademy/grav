@@ -24,7 +24,7 @@ members:
         region: Queensland
         postcode: 4009
         country: Australia
-      contact_page: contact-us/head-of-academy
+      email: irene.green@harcourts.net
     - name: Debbie MacQueen
       image: debbie-macqueen.jpg
       title: Academy Operations Manager Australasia
