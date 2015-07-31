@@ -24,6 +24,6 @@ fields:
     label: "Submit"
 
 messages:
-  success: "Thank You! Your message has been sent."
-  error: "Oops! There was a problem with your submission. Please complete the form and try again."
-  fail: "Oops! Something went wrong and we couldn't send your message."
+  success: "<blockquote><blockquote><blockquote><blockquote><blockquote><p>Thank You! Your message has been sent.</p></blockquote></blockquote></blockquote></blockquote></blockquote>"
+  error: "<blockquote><blockquote><blockquote><blockquote><p>Oops! There was a problem with your submission. Please complete the form and try again.</p></blockquote></blockquote></blockquote></blockquote>"
+  fail: "<blockquote><blockquote><blockquote><blockquote><p>Oops! Something went wrong and we couldn't send your message.</p></blockquote></blockquote></blockquote></blockquote>"
