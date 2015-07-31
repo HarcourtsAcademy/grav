@@ -18,7 +18,7 @@ git:
     simple_contact:
         url: https://github.com/HarcourtsAcademy/grav-plugin-simple_contact.git
         path: user/plugins/simple_contact
-        branch: master
+        branch: develop
     simple_form:
         url: https://github.com/nunopress/grav-plugin-simple_form
         path: user/plugins/simple_form
