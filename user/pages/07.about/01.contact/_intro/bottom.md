@@ -5,10 +5,10 @@ class: borderbottom
 
 buttons:
 - text: Ask our team a question
-  url: base_url:about-us/TBD
+  url: contact-us/locations/contact-type:question
   primary: true
 - text: Get help with a problem
-  url: base_url:about-us/TBD
+  url: contact-us/locations/contact-type:support
   primary: true
 
 ---
