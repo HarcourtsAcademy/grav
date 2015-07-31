@@ -107,16 +107,16 @@
           {% if page.header.list_locations %}
             {% for page in page.children %}
               {% if page.routable %}
-                <h3><a href="{{ page.url }}{{ uri.params }}">{{ page.menu }}</a></h3>
-                <p>{{ page.summary }} <a class="button" href="{{ page.url }}{{ uri.params }}">
+                <h3><a href="{{ page.url ~ '?' ~ uri.query }}">{{ page.menu }}</a></h3>
+                <p>{{ page.summary }} <a class="button" href="{{ page.url ~ '?' ~ uri.query }}">
                   {{- page.header.readmore_label ? page.header.readmore_label : "Read more" -}}
                 </a></p>
               {% else %}
                 {% for route_from, route_to in site.routes %}
                   {% if page.route == route_from %}
                     {% set page_to = page.find(route_to) %}
-                    <h3><a href="{{ page_to.url }}{{ uri.params }}">{{ page_to.menu }}</a></h3>
-                    <p>{{ page_to.summary }} <a class="button" href="{{ page_to.url }}{{ uri.params }}">
+                    <h3><a href="{{ page_to.url ~ '?' ~ uri.query }}">{{ page_to.menu }}</a></h3>
+                    <p>{{ page_to.summary }} <a class="button" href="{{ page_to.url ~ '?' ~ uri.query }}">
                       {{- page.header.readmore_label ? page.header.readmore_label : "Read more" -}}
                     </a></p>
                   {% endif %}

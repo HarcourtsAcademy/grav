@@ -41,7 +41,12 @@
                       </div>
 
                       <!-- Extra information -->
-                      <input id="contact-type" type="hidden" value="{{ uri.param('contact-type') }}" />
+                      {% if uri.query('contact-type') == 'question' %}
+                        <input id="subject" name="subject" type="hidden" value="New enquiry received at www.HarcourtsAcademy.com" />
+                      {% elseif uri.query('contact-type') == 'support' %}
+                        <input id="subject" name="subject" type="hidden" value="Customer support issue received at www.HarcourtsAcademy.com" />
+                      {% endif %}
+
 
                       <!-- Form actions -->
                       <div class="form-group">
