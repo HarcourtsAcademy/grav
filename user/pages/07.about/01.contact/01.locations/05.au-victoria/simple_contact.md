@@ -1,7 +1,7 @@
 ---
-title: New South Wales
+title: Victoria
 menu: false
-slug: new-south-wales
+slug: victoria
 
 body_classes: "modular header-lite fullwidth about-us"
 bg_color: "#002b49"
@@ -9,17 +9,17 @@ banner_image: theme://images/banners/about_us.jpg
 
 office:
   location:
-    street: 75-85 O'Riordan St
-    city: Alexandria
-    region: New South Wales
-    postcode: 2015
+    street: 347 Bay Road
+    city: Cheltenham
+    region: Victoria
+    postcode: 3192
     country: Australia
-  phone: +61 2 9380 8665
+  phone: +61 1300 856 773
   hours: |
     **Monday - Friday**			9 am - 5 pm  
     **Saturday - Sunday**			Closed  
     **Holidays**					Closed
 
 simple_contact:
-  recipient: nswsupport@harcourts.net
+  recipient: academy.victoria@harcourts.com.au
 ---

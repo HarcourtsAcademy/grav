@@ -1,7 +1,7 @@
 ---
-title: New South Wales
+title: Tasmania
 menu: false
-slug: new-south-wales
+slug: tasmania
 
 body_classes: "modular header-lite fullwidth about-us"
 bg_color: "#002b49"
@@ -9,17 +9,17 @@ banner_image: theme://images/banners/about_us.jpg
 
 office:
   location:
-    street: 75-85 O'Riordan St
-    city: Alexandria
-    region: New South Wales
-    postcode: 2015
+    street: 187 Brisbane Street
+    city: Launceston
+    region: Tasmania
+    postcode: 7250
     country: Australia
-  phone: +61 2 9380 8665
+  phone: +61 3 6337 9700
   hours: |
     **Monday - Friday**			9 am - 5 pm  
     **Saturday - Sunday**			Closed  
     **Holidays**					Closed
 
 simple_contact:
-  recipient: nswsupport@harcourts.net
+  recipient: megan.hampton@harcourts.com.au
 ---

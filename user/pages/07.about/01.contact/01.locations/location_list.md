@@ -20,4 +20,4 @@ sidebar-navigation:
 
 ---
 
-Select your location:
+Select the closest Academy office to you:

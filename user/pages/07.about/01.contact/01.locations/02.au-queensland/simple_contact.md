@@ -1,7 +1,7 @@
 ---
-title: Queensland Academy
+title: Queensland
 menu: false
-slug: australia-queensland
+slug: queensland
 
 body_classes: "modular header-lite fullwidth about-us"
 bg_color: "#002b49"
