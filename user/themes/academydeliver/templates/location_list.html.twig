@@ -105,23 +105,15 @@
           {{ page.content }}
 
           {% if page.header.list_locations %}
+            {% set country = "" %}
             {% for page in page.children %}
-              {% if page.routable %}
+                {% if not page.header.office.location.country == country %}
+                    {% set country = page.header.office.location.country %}
+                    <h2>{{ country}}</h2>
+                {% endif %}
                 <h3><a href="{{ page.url ~ '?' ~ uri.query }}">{{ page.menu }}</a></h3>
-                <p>{{ page.summary }} <a class="button" href="{{ page.url ~ '?' ~ uri.query }}">
-                  {{- page.header.readmore_label ? page.header.readmore_label : "Read more" -}}
-                </a></p>
-              {% else %}
-                {% for route_from, route_to in site.routes %}
-                  {% if page.route == route_from %}
-                    {% set page_to = page.find(route_to) %}
-                    <h3><a href="{{ page_to.url ~ '?' ~ uri.query }}">{{ page_to.menu }}</a></h3>
-                    <p>{{ page_to.summary }} <a class="button" href="{{ page_to.url ~ '?' ~ uri.query }}">
-                      {{- page.header.readmore_label ? page.header.readmore_label : "Read more" -}}
-                    </a></p>
-                  {% endif %}
-                {% endfor %}
-              {% endif %}
+                <p>{{ page.summary }}</p>
+
             {% endfor %}
           {% endif %}
 
