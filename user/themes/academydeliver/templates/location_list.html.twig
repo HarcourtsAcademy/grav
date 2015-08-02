@@ -105,15 +105,14 @@
           {{ page.content }}
 
           {% if page.header.list_locations %}
-            {% set country = "" %}
+            {% set country = null %}
             {% for page in page.children %}
-                {% if not page.header.office.location.country == country %}
-                    {% set country = page.header.office.location.country %}
-                    <h2>{{ country}}</h2>
-                {% endif %}
-                <h3><a href="{{ page.url ~ '?' ~ uri.query }}">{{ page.menu }}</a></h3>
-                <p>{{ page.summary }}</p>
-
+              {% if page.header.office.location.country != country %}
+                {% set country = page.header.office.location.country %}
+                <h2>{{ country}}</h2>
+              {% endif %}
+              <h3><a href="{{ page.url ~ '?' ~ uri.query }}">{{ page.menu }}</a></h3>
+              <p>{{ page.summary }}</p>
             {% endfor %}
           {% endif %}
 
