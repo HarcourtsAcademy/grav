@@ -1151,7 +1151,7 @@ ul.pagination {
       .modular .slideme_container .arrow.next {
         right: 1rem; } }
   .modular .slideme_container .arrow:disabled {
-    opacity: 0.1; }
+    display: none; }
   @media only all and (max-width: 47.938em) {
     .modular .slideme_container .arrow {
       width: 2.7rem;

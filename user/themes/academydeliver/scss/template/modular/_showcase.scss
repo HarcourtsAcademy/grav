@@ -125,7 +125,7 @@
                 right: 1rem;
              }
         }
-        &:disabled {opacity: 0.1}
+        &:disabled {display: none;}
         @include breakpoint(mobile-only) {
             width: 2.7rem;
             height: 2.7rem;
