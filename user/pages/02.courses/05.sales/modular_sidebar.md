@@ -1,5 +1,5 @@
 ---
-title: Sales
+title: Sales Courses
 menu: Sales
 slug: sales
 onpage_menu: false
