@@ -4,11 +4,15 @@ menu: false
 class: borderbottom
 
 buttons:
-- text: Ask our team a question
+- text: Find the Academy
+  icon: fa-map-marker
+  url: contact-us/locations
+  primary: true
+- text: Ask a question
   icon: fa-comments
   url: contact-us/locations?contact-type=question
   primary: true
-- text: Get help with a problem
+- text: Get help
   icon: fa-life-ring
   url: contact-us/locations?contact-type=support
   primary: true
