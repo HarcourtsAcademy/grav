@@ -294,6 +294,16 @@
         a, .menu-btn {
             color: $light-gray;
         }
+        #navbar ul.navigation  {
+            ul li a {
+                color: $core-accent;
+                text-transform: none;
+                &:hover {
+                    color: darken($core-accent, 20%);
+                    border-bottom: 0;
+                }
+            }
+        }
         .search-box {
             i {
                 color: $light-gray;

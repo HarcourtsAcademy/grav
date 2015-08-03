@@ -282,6 +282,12 @@ b, strong, label, th {
   color: #656161; }
   .header-lite #header a, .header-lite #header .menu-btn {
     color: #656161; }
+  .header-lite #header #navbar ul.navigation ul li a {
+    color: #178EE1;
+    text-transform: none; }
+    .header-lite #header #navbar ul.navigation ul li a:hover {
+      color: #0e5484;
+      border-bottom: 0; }
   .header-lite #header .search-box i {
     color: #656161; }
   .header-lite #header .search-box input[type=search]:focus {
