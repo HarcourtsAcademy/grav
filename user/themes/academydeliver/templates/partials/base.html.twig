@@ -53,20 +53,17 @@
                                 <img src="{{ url( config.site.logo.dark ) }}" class="img-responsive img-centered" alt="{{ config.site.logo.alt }}">
                             {% endif %}
                     </a></h3>
-                    {#% block social %}
+                    {% block social %}
                         {% include 'partials/social.html.twig' %}
-                    {% endblock %#}
-                    {% include 'partials/search.html.twig' %}
+                    {% endblock %}
                 </div>
                 <div id="navbar">
                     {% block header_extra %}{% endblock %}
                     {% block header_navigation %}
                     {% include 'partials/navigation.html.twig' %}
                     {% endblock %}
-                    {% block social %}
-                        {% include 'partials/social.html.twig' %}
-                    {% endblock %}
-                    <span class="panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars"> Menu</span>
+                    {% include 'partials/search.html.twig' %}
+                    <span class="panel-activation sb-toggle-left navbar-left menu-btn fa fa-bars"></span>
                 </div>
         </header>
         {% endblock %}

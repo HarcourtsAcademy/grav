@@ -240,7 +240,7 @@ b, strong, label, th {
     display: none;
     font-size: 1.8rem;
     cursor: pointer;
-    float: right;
+    float: left;
     text-transform: uppercase; }
     @media only all and (max-width: 59.938em) {
       #header #navbar .panel-activation {
