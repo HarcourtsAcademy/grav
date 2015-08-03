@@ -6,35 +6,17 @@ members:
     - name: Customer&nbsp;Support
       image: support-male.png
       title: Global Helpdesk
-      phone: +61 7 3839 3100
-      address:
-        street: 31 Amy Johnson Place
-        city: Eagle Farm
-        region: Queensland
-        postcode: 4009
-        country: Australia
+      office: queensland
       email: academy@harcourts.net
     - name: Irene Green
       image: irene-green.jpg
       title: Head of Academy
-      phone: +61 7 3839 3100
-      address:
-        street: 31 Amy Johnson Place
-        city: Eagle Farm
-        region: Queensland
-        postcode: 4009
-        country: Australia
+      office: queensland
       email: irene.green@harcourts.net
     - name: Debbie MacQueen
       image: debbie-macqueen.jpg
       title: Academy Operations Manager Australasia
-      phone: +61 7 3839 3100
-      address:
-        street: 31 Amy Johnson Place
-        city: Eagle Farm
-        region: Queensland
-        postcode: 4009
-        country: Australia
+      office: queensland
       email: debbie.macqueen@harcourts.net
 
 ---
