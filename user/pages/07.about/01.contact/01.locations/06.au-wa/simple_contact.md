@@ -1,11 +1,15 @@
 ---
-title: Western Australia
+title: Western Australia Office
 menu: false
 slug: western-australia
 
 body_classes: "modular header-lite fullwidth about-us"
 bg_color: "#002b49"
 banner_image: theme://images/banners/about_us.jpg
+
+taxonomy:
+  category: about_us
+  tag: [about us, contact us,academy office,academy location]
 
 office:
   location:
