@@ -1,5 +1,6 @@
 ---
-title: Select Your Location
+title: Contact the Academy
+menu: Select Your Location
 onpage_menu: false
 slug: locations
 published: true
