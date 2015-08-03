@@ -27,6 +27,7 @@
     }
 
     .search-item {
+        min-height: 5rem;
         @include breakpoint(mobile-only) {
             margin-left: 0;
         }
