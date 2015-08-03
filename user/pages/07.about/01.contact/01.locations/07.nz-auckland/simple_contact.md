@@ -1,5 +1,5 @@
 ---
-title: Auckland and Central North Island Office
+title: Auckland Office
 menu: false
 slug: auckland
 
