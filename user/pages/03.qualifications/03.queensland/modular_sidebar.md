@@ -1,5 +1,5 @@
 ---
-title: Queensland
+title: Queensland Qualifications
 slug: queensland
 onpage_menu: false
 published: true
