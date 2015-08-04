@@ -1215,6 +1215,16 @@ ul.pagination {
     @media only all and (max-width: 47.938em) {
       .modular .features p {
         font-size: 1rem; } }
+    .modular .features p img {
+      float: right;
+      max-width: 25%; }
+      @media only all and (min-width: 48em) and (max-width: 59.938em) {
+        .modular .features p img {
+          max-width: 50%; } }
+      @media only all and (max-width: 47.938em) {
+        .modular .features p img {
+          float: none;
+          max-width: 100%; } }
   .modular .features .button, .modular .features .archive-list button, .archive-list .modular .features button, .modular .features .contact button, .contact .modular .features button {
     background-color: #178EE1;
     color: #ffffff;
@@ -1608,7 +1618,8 @@ ul.pagination {
     display: table;
     clear: both; }
   .modular .youtube h2 {
-    color: #656161; }
+    color: #656161;
+    margin-bottom: 0; }
   .modular .youtube .video-container {
     margin-top: 2rem;
     height: 0;

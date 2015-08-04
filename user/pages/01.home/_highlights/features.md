@@ -19,6 +19,8 @@ features:
 
 ## Growing our people
 
+[![Growing Our People book cover](growing-our-people.jpg?sizes=50vw)](/about-us/growing-our-people-book)
+
 Harcourts attracts the best people in the business. Our training is often regarded as setting the benchmark for the entire real estate industry.
 
 Inherent in the Harcourts culture is the pride with which we are actively involved in the personal and professional development of every member of our team. The Academy offers a unique type of structured course path and tailored system of learning.
