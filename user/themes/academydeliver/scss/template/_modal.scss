@@ -40,23 +40,19 @@
         }
     }
     &.in {
-        opacity: 1; 
+        opacity: 1;
     }
     .client-details {
         list-style-type: none;
         li {
             display: inline-block;
-            strong {
-                color: $core-accent;
-                font-weight: normal;
-            }
         }
     }
     .modal-content {
         margin: 0 auto;
         width: 35rem;
         min-height: 100%;
-        margin-top: 10rem;
+        margin-top: 5rem;
         @include breakpoint(tablet-range) {
             width: 100%;
         }

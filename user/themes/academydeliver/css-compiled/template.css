@@ -798,14 +798,11 @@ dt, dd {
     list-style-type: none; }
     .modal .client-details li {
       display: inline-block; }
-      .modal .client-details li strong, .modal .client-details li label, .modal .client-details li th {
-        color: #178EE1;
-        font-weight: normal; }
   .modal .modal-content {
     margin: 0 auto;
     width: 35rem;
     min-height: 100%;
-    margin-top: 10rem; }
+    margin-top: 5rem; }
     @media only all and (min-width: 48em) and (max-width: 59.938em) {
       .modal .modal-content {
         width: 100%; } }
@@ -1876,7 +1873,7 @@ ul.pagination {
     background-color: #178EE1; }
     .notebook .screen .screen-content-hover .fa-plus-square {
       font-size: 5rem;
-      color: #464C51;
+      color: #ffffff;
       margin-top: 2.5rem;
       margin-left: 5.9rem; }
     .notebook .screen .screen-content-hover:hover {

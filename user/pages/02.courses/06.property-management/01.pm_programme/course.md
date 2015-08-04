@@ -1,11 +1,11 @@
 ---
-title: Property Management Registration
-slug: property-management-registration
+title: Property Management Programme
+slug: property-management-programme
 onpage_menu: false
 published: true
 taxonomy:
   category: courses
-  tag: [courses,property management,property management registration,property managers]
+  tag: [courses,property management,property management programme,property managers]
 
 body_classes: "modular header-lite fullwidth courses"
 bg_color: "#002b49"
@@ -41,6 +41,6 @@ further_information: true
 
 ---
 
-Property Management Registration provides best practice to ensure compliance, maximum productivity and optimum customer service. Gain fundamental knowledge in all areas of working with property owners and tenants. Learn how to systemise and streamline every property management task including client mediation and generating meaningful reports.
+Property Management Programme provides best practice to ensure compliance, maximum productivity and optimum customer service. Gain fundamental knowledge in all areas of working with property owners and tenants. Learn how to systemise and streamline every property management task including client mediation and generating meaningful reports.
 
 ===
