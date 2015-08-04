@@ -1,10 +1,11 @@
 ---
-title: Do you Like What You See?
+title: Ready to lift your performance
 menu: Other Pages
 class: small borderbottom
 buttons:
     - text: Find Training Near You
-      url: base_url:courses/calendars
+      icon: fa-map-marker
+      url: /courses/calendars-and-upcoming-courses
       primary: true
 ---
 
