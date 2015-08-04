@@ -11,9 +11,9 @@ content:
         dir: asc
         custom:
             - _showcase
-            - _highlights
-            - _youtube
             - _callout
             - _bottom
+            - _highlights
+            - _youtube
             - _contact
 ---

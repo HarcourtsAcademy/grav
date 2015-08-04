@@ -1,7 +1,7 @@
 ---
 title: Do you Like What You See?
 menu: Other Pages
-class: small
+class: small borderbottom
 buttons:
     - text: Find Training Near You
       url: base_url:courses/calendars

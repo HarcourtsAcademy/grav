@@ -1,7 +1,7 @@
 ---
 title: Service Highlights
 menu: Highlights
-class: big
+class: small
 features:
   - header: "2,017"
     text: "Classroom students trained"
@@ -16,6 +16,8 @@ features:
     text: "Online Learners connected"
     icon: laptop
 ---
+
+___
 
 ## Growing our people
 
