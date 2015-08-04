@@ -38,6 +38,10 @@
             }
         }
 
+        .content-container {
+          @include clearfix;
+        }
+
         .button {
             background-color: $core-accent;
             color: $header-text;

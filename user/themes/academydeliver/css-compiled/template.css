@@ -1221,6 +1221,10 @@ ul.pagination {
         .modular .features p img {
           float: none;
           max-width: 100%; } }
+  .modular .features .content-container:after {
+    content: "";
+    display: table;
+    clear: both; }
   .modular .features .button, .modular .features .archive-list button, .archive-list .modular .features button, .modular .features .contact button, .contact .modular .features button {
     background-color: #178EE1;
     color: #ffffff;
