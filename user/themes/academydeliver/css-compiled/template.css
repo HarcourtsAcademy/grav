@@ -1051,6 +1051,51 @@ ul.pagination {
 #body > script:first-child + .grav-lightslider {
   margin-top: -3rem; }
 
+.sidebar-content ul.navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block; }
+  .sidebar-content ul.navigation li {
+    position: relative; }
+    .sidebar-content ul.navigation li a {
+      display: inline-block;
+      padding: 0.3rem 0.8rem;
+      padding-bottom: 1px; }
+      .sidebar-content ul.navigation li a.active, .sidebar-content ul.navigation li a:hover {
+        border-bottom: 1px solid #178EE1;
+        padding-bottom: 0; }
+    .sidebar-content ul.navigation li:first-child a {
+      padding-left: 0; }
+    .sidebar-content ul.navigation li ul {
+      padding: 0; }
+    .sidebar-content ul.navigation li ul ul {
+      left: 100%;
+      top: 0; }
+    .sidebar-content ul.navigation li:hover > ul {
+      /*display: block;
+      position: absolute;
+      background: rgba($white, 0.9);
+      width: 18rem;*/ }
+    .sidebar-content ul.navigation li:hover li {
+      float: none;
+      margin: 0;
+      padding: 0; }
+      .sidebar-content ul.navigation li:hover li a {
+        padding: 0.5rem 0.8rem;
+        display: block;
+        text-transform: none; }
+        .sidebar-content ul.navigation li:hover li a:hover {
+          border-bottom: 0; }
+        .sidebar-content ul.navigation li:hover li a:before, .sidebar-content ul.navigation li:hover li a:after {
+          display: none; }
+      .sidebar-content ul.navigation li:hover li.active > a {
+        background: #178EE1;
+        color: #fff; }
+  @media only all and (max-width: 59.938em) {
+    .sidebar-content ul.navigation {
+      display: none; } }
+
 .modular.header-image #header {
   background-color: rgba(255, 255, 255, 0);
   box-shadow: none; }
