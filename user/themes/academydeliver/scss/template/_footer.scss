@@ -20,16 +20,16 @@
     hr {
       border-color: transparentize($core-text, 0.5);
     }
-    @include breakpoint(mobile-only) {
-      .social-icons {
+    .social-icons {
+      font-size: $core-font-size;
+      
+      @include breakpoint(mobile-only) {
         float: none;
         clear: both;
         width: 100%;
         padding-top: 2rem;
       }
-    }
-    @include breakpoint(tablet-range) {
-      .social-icons {
+      @include breakpoint(tablet-range) {
         float: none;
         clear: both;
         width: 100%;

@@ -320,18 +320,20 @@ b, strong, label, th {
     color: #fff; }
   .footer hr {
     border-color: rgba(154, 152, 152, 0.5); }
-  @media only all and (max-width: 47.938em) {
-    .footer .social-icons {
-      float: none;
-      clear: both;
-      width: 100%;
-      padding-top: 2rem; } }
-  @media only all and (min-width: 48em) and (max-width: 59.938em) {
-    .footer .social-icons {
-      float: none;
-      clear: both;
-      width: 100%;
-      padding-top: 2rem; } }
+  .footer .social-icons {
+    font-size: 1rem; }
+    @media only all and (max-width: 47.938em) {
+      .footer .social-icons {
+        float: none;
+        clear: both;
+        width: 100%;
+        padding-top: 2rem; } }
+    @media only all and (min-width: 48em) and (max-width: 59.938em) {
+      .footer .social-icons {
+        float: none;
+        clear: both;
+        width: 100%;
+        padding-top: 2rem; } }
   .footer .footer-items {
     margin-top: 2rem; }
     @media only all and (max-width: 47.938em) {
@@ -1132,8 +1134,7 @@ ul.pagination {
     font-size: 2.2rem;
     margin-top: 0;
     padding-left: 14rem;
-    padding-right: 14rem;
-    text-transform: uppercase; }
+    padding-right: 14rem; }
     @media only all and (min-width: 48em) and (max-width: 59.938em) {
       .modular .showcase h1 {
         font-size: 1.5rem; } }
