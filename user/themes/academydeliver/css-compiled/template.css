@@ -94,7 +94,7 @@ b, strong, label, th {
   padding-top: 3rem;
   padding-bottom: 3rem; }
 
-.home #header #navbar ul.navigation li a.active, .home #header #navbar ul.navigation li a:hover {
+.home.header-image #header #navbar ul.navigation li a.active, .home.header-image #header #navbar ul.navigation li a:hover {
   border-bottom: 1px solid #fff; }
 
 #header {
@@ -183,7 +183,7 @@ b, strong, label, th {
           padding-bottom: 1px; }
           #header #navbar ul.navigation li a.active, #header #navbar ul.navigation li a:hover {
             border-bottom: 1px solid #178EE1;
-            padding-bottom: 0; }
+            padding-bottom: 2px; }
         #header #navbar ul.navigation li:first-child a {
           padding-left: 0; }
         #header #navbar ul.navigation li ul {
