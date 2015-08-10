@@ -12,13 +12,16 @@ form:
                     type: text
                     size: large
                     label: Username
+                    disabled: true
                     readonly: true
 
                 email:
-                    type: text
+                    type: email
                     size: large
                     label: Email
                     validate:
+                      type: email
+                      message: Must be a valid email address
                       required: true
 
                 password:
@@ -27,8 +30,8 @@ form:
                     label: Password
                     validate:
                       required: true
-
-
+                      message: Password must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters
+                      pattern: '(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}'
 
                 fullname:
                     type: text
@@ -41,46 +44,3 @@ form:
                     type: text
                     size: large
                     label: Title
-
-        admin:
-            type: section
-            title: Admin Access
-
-            fields:
-                access.admin.super:
-                    type: toggle
-                    label: Super user
-                    default: 0
-                    highlight: 1
-                    options:
-                        1: Yes
-                        0: No
-                    validate:
-                        type: bool
-
-                access.admin.login:
-                    type: toggle
-                    label: Admin login
-                    default: 0
-                    highlight: 1
-                    options:
-                        1: Yes
-                        0: No
-                    validate:
-                        type: bool
-
-        site:
-            type: section
-            title: Site Access
-
-            fields:
-                access.site.login:
-                    type: toggle
-                    label: Site login
-                    default: 1
-                    highlight: 1
-                    options:
-                        1: Yes
-                        0: No
-                    validate:
-                        type: bool

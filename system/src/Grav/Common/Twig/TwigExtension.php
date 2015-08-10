@@ -1,10 +1,12 @@
 <?php
-namespace Grav\Common;
+namespace Grav\Common\Twig;
 
+use Grav\Common\Grav;
+use Grav\Common\Inflector;
+use Grav\Common\Utils;
 use Grav\Common\Markdown\Parsedown;
 use Grav\Common\Markdown\ParsedownExtra;
 use RocketTheme\Toolbox\ResourceLocator\UniformResourceLocator;
-
 
 /**
  * The Twig extension adds some filters and functions that are useful for Grav
@@ -16,11 +18,13 @@ class TwigExtension extends \Twig_Extension
 {
     protected $grav;
     protected $debugger;
+    protected $config;
 
     public function __construct()
     {
         $this->grav = Grav::instance();
         $this->debugger = isset($this->grav['debugger']) ? $this->grav['debugger'] : null;
+        $this->config = $this->grav['config'];
     }
 
     /**
@@ -52,7 +56,11 @@ class TwigExtension extends \Twig_Extension
             new \Twig_SimpleFilter('contains', [$this, 'containsFilter']),
             new \Twig_SimpleFilter('nicetime', [$this, 'nicetimeFilter']),
             new \Twig_SimpleFilter('absolute_url', [$this, 'absoluteUrlFilter']),
-            new \Twig_SimpleFilter('markdown', [$this, 'markdownFilter'])
+            new \Twig_SimpleFilter('markdown', [$this, 'markdownFilter']),
+            new \Twig_SimpleFilter('starts_with', [$this, 'startsWithFilter']),
+            new \Twig_SimpleFilter('ends_with', [$this, 'endsWithFilter']),
+            new \Twig_SimpleFilter('t', [$this, 'translate']),
+            new \Twig_SimpleFilter('ta', [$this, 'translateArray'])
         ];
     }
 
@@ -70,6 +78,9 @@ class TwigExtension extends \Twig_Extension
             new \Twig_SimpleFunction('debug', [$this, 'dump'], ['needs_context' => true, 'needs_environment' => true]),
             new \Twig_SimpleFunction('gist', [$this, 'gistFunc']),
             new \Twig_simpleFunction('random_string', [$this, 'randomStringFunc']),
+            new \Twig_SimpleFunction('array', [$this, 'arrayFunc']),
+            new \Twig_simpleFunction('t', [$this, 'translate']),
+            new \Twig_simpleFunction('ta', [$this, 'translateArray'])
         ];
     }
 
@@ -106,7 +117,7 @@ class TwigExtension extends \Twig_Extension
      * Truncate content by a limit.
      *
      * @param  string $string
-     * @param  int    $limit    Nax number of characters.
+     * @param  int    $limit    Max number of characters.
      * @param  string $break    Break point.
      * @param  string $pad      Appended padding to the end of the string.
      * @return string
@@ -184,16 +195,18 @@ class TwigExtension extends \Twig_Extension
         // TODO: check this and fix the docblock if needed.
         $action = $action.'ize';
 
+        $inflector = $this->grav['inflector'];
+
         if (in_array(
             $action,
             ['titleize','camelize','underscorize','hyphenize', 'humanize','ordinalize','monthize']
         )) {
-            return Inflector::$action($data);
+            return $inflector->$action($data);
         } elseif (in_array($action, ['pluralize','singularize'])) {
             if ($count) {
-                return Inflector::$action($data, $count);
+                return $inflector->$action($data, $count);
             } else {
-                return Inflector::$action($data);
+                return $inflector->$action($data);
             }
         } else {
             return $data;
@@ -333,19 +346,40 @@ class TwigExtension extends \Twig_Extension
     public function markdownFilter($string)
     {
         $page = $this->grav['page'];
-        $defaults = $this->grav['config']->get('system.pages.markdown');
+        $defaults = $this->config->get('system.pages.markdown');
 
         // Initialize the preferred variant of Parsedown
         if ($defaults['extra']) {
-            $parsedown = new ParsedownExtra($page);
+            $parsedown = new ParsedownExtra($page, $defaults);
         } else {
-            $parsedown = new Parsedown($page);
+            $parsedown = new Parsedown($page, $defaults);
         }
 
         $string = $parsedown->text($string);
 
         return $string;
     }
+
+    public function startsWithFilter($haystack, $needle)
+    {
+        return Utils::startsWith($haystack, $needle);
+    }
+
+    public function endsWithFilter($haystack, $needle)
+    {
+        return Utils::endsWith($haystack, $needle);
+    }
+
+    public function translate()
+    {
+         return $this->grav['language']->translate(func_get_args());
+    }
+
+    public function translateArray($key, $index, $lang = null)
+    {
+        return $this->grav['language']->translateArray($key, $index, $lang);
+    }
+
 
     /**
      * Repeat given string x times.
@@ -446,5 +480,15 @@ class TwigExtension extends \Twig_Extension
     public function randomStringFunc($count = 5)
     {
         return Utils::generateRandomString($count);
+    }
+
+    public function arrayFunc($value)
+    {
+        return (array) $value;
+    }
+
+    public function translateFunc()
+    {
+        return $this->grav['language']->translate(func_get_args());
     }
 }
