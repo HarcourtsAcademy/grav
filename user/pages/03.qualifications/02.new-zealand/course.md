@@ -70,6 +70,29 @@ online_learning:
   name: National Certificate Online
   url: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=56
 
+documents:
+  - name: National Certificate + Salesperson Brochure - January 2015
+    url: National_Certificate_Salesperson_Brochure_v29Jan15.pdf
+  - name: Agreement for Provision of Administrative Assistant Services
+    url: Agreement_for_Provision_of_Administrative_Assistant_Services_300310.pdf
+  - name: Harcourts Withdrawals and Refunds Form
+    url: Harcourts_Withdrawals_and_Refunds_Form.pdf
+  - name: National Certificate in RE (Salesperson) - FAQs
+    url: National_Certificate_in_RE_Salesperson_-_FAQs.pdf
+  - name: Enrolment Payment Form
+    url: Enrolment_Payment_Form.pdf
+  - name: Salesperson National Certificate Scholarship Candidates
+    url: Salesperson_National_Certificate_Scholarship_Candidates.pdf
+  - name: Pre-Course Pack - Auckland, Central & Northland
+    url: Pre-Course_Pack-_Auckland_Central__Northland.pdf
+  - name: Pre-Course Pack - South Island
+    url: Pre-Course_Pack-_Christchurch.pdf
+  - name: Pre-Course Pack - Wellington
+    url: Pre-Course_Pack-_Wellington.pdf
+  - name: Skills Trainee Information Handbook
+    url: Trainee_Handbook_Salesperson_L4_v1_1.0.pdf
+
+
 ---
 
 The first step in your career in Real Estate. Become qualified as an accredited real estate salesperson by achieving your National Certificate in Real Estate (Salesperson).
@@ -79,3 +102,15 @@ The first step in your career in Real Estate. Become qualified as an accredited 
 National Certificate in Real Estate (Salesperson) is delivered in partnership with [The Skills Organisation](http://skills.org.nz/) and is recognised nationally throughout New Zealand.
 
 Contact person: The [New Zealand Academy Administrator](#)
+
+## Download Attachments
+[]()
+[]()
+Harcourts Withdrawals and Refunds Form
+Pre-Course Pack - Auckland, Central & Northland
+National Certificate in RE (Salesperson) - FAQs
+Enrolment Payment Form
+Salesperson National Certificate Scholarship Candidates
+Pre-Course Pack - South Island
+Pre-Course Pack - Wellington
+Skills Trainee Information Handbook
