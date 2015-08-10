@@ -65,7 +65,72 @@ routes:
   /online-learning/ce-cpd/new-zealand: '/courses/continuing-education-and-cpd/new-zealand-continuing-education'
   /online-learning/ce-cpd/western-australia: '/courses/continuing-education-and-cpd/western-australia-cpd'
   /online-learning/sales/istart: '/courses/sales/istart24'
-#  /new/*: '/blog/*'                         # Wildcard any /new/my-page URL to /blog/my-page Route
+
+redirects:
+  /au/auction-programme: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=153
+  /au/enrolment-questionnaire: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=153
+  /au/istart24: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150
+  /au/istart24/certificates/completion: http://www.academyrealestatetraining.com/au/moodle/mod/certificate/view.php?id=2341
+  /au/istart24/certificates/participation: http://www.academyrealestatetraining.com/au/moodle/mod/certificate/view.php?id=2345
+  /au/istart24/select-manager: http://www.academyrealestatetraining.com/au/moodle/blocks/istart_reports/managers.php?courseid=150
+  /au/istart24/week01: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=1
+  /au/istart24/week02: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=6
+  /au/istart24/week03: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=11
+  /au/istart24/week03survey: http://www.academyrealestatetraining.com/au/moodle/mod/feedback/view.php?id=1770
+  /au/istart24/week04: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=16
+  /au/istart24/week05: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=21
+  /au/istart24/week06: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=26
+  /au/istart24/week07: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=31
+  /au/istart24/week08: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=36
+  /au/istart24/week09: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=41
+  /au/istart24/week10: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=46
+  /au/istart24/week11: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=51
+  /au/istart24/week12: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=56
+  /au/istart24/week13: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=61
+  /au/istart24/week14: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=66
+  /au/istart24/week15: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=71
+  /au/istart24/week16: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=76
+  /au/istart24/week17: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=81
+  /au/istart24/week18: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=86
+  /au/istart24/week19: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=91
+  /au/istart24/week20: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=96
+  /au/istart24/week21: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=101
+  /au/istart24/week22: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=106
+  /au/istart24/week23: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=111
+  /au/istart24/week24: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=116
+  /au/istart24/week25survey: http://www.academyrealestatetraining.com/au/moodle/mod/questionnaire/view.php?id=2337
+  /au/rpl: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=154
+  /nz/ce/2015: http://www.academyrealestatetraining.com/courses/continuing-education-and-cpd/new-zealand-continuing-education
+  /nz/istart24: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145
+  /nz/istart24/certificates/completion: http://www.academyrealestatetraining.com/nz/moodle/mod/certificate/view.php?id=2609
+  /nz/istart24/certificates/participation: http://www.academyrealestatetraining.com/nz/moodle/mod/certificate/view.php?id=2610
+  /nz/istart24/select-manager: http://www.academyrealestatetraining.com/nz/moodle/blocks/istart_reports/managers.php?courseid=145
+  /nz/istart24/week01: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=1
+  /nz/istart24/week02: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=6
+  /nz/istart24/week03: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=11
+  /nz/istart24/week03survey: http://www.academyrealestatetraining.com/nz/moodle/mod/feedback/view.php?id=2073
+  /nz/istart24/week04: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=16
+  /nz/istart24/week05: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=21
+  /nz/istart24/week06: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=26
+  /nz/istart24/week07: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=31
+  /nz/istart24/week08: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=36
+  /nz/istart24/week09: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=41
+  /nz/istart24/week10: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=46
+  /nz/istart24/week11: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=51
+  /nz/istart24/week12: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=56
+  /nz/istart24/week13: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=61
+  /nz/istart24/week14: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=66
+  /nz/istart24/week15: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=71
+  /nz/istart24/week16: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=76
+  /nz/istart24/week17: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=81
+  /nz/istart24/week18: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=86
+  /nz/istart24/week19: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=91
+  /nz/istart24/week20: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=96
+  /nz/istart24/week21: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=101
+  /nz/istart24/week22: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=106
+  /nz/istart24/week23: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=111
+  /nz/istart24/week24: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145&section=116
+  /nz/istart24/week25survey: http://www.academyrealestatetraining.com/nz/moodle/mod/questionnaire/view.php?id=2608
 
 header_options:
   arrows: 'true'                            # Create Next and previous button
