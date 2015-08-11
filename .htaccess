@@ -1,6 +1,10 @@
-<IfModule mod_headers.c>    
-  Header add Access-Control-Allow-Origin "http://d3fx1wys5hr4wh.cloudfront.net"
-  Header add Access-Control-Allow-Origin "https://d3fx1wys5hr4wh.cloudfront.net"
+<IfModule mod_headers.c>
+  <If "%{HTTPS} == 'on'">
+    Header add Access-Control-Allow-Origin "https://www.academyrealestatetraining.com"
+  </If>
+  <Else>
+    Header add Access-Control-Allow-Origin "http://www.academyrealestatetraining.com"
+  </Else>
 </IfModule>
 
 <IfModule mod_rewrite.c>
