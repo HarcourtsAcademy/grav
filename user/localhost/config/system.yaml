@@ -1,43 +1,30 @@
 # Localhost
 
-absolute_urls: false
-
-home:
-  alias: '/home'
-
-pages:
-  theme: academydeliver
-  markdown_extra: true
-  process:
-    markdown: true
-    twig: false
-
 cache:
   enabled: false
-  check:
-    method: file
-  driver: auto
-  prefix: 'g'
+  gzip: false
 
 twig:
   cache: false
   debug: true
-  auto_reload: true
-  autoescape: false
 
 assets:
   css_pipeline: false
-  css_minify: true
-  css_rewrite: true
+  css_minify: false
   js_pipeline: false
-  js_minify: true
-
-errors:
-  display: true
-  log: true
+  js_minify: false
 
 debugger:
   enabled: true
   twig: true
   shutdown:
     close_connection: false
+
+images:
+  default_image_quality: 90
+  cache_all: false
+
+analytics:
+  enabled: true
+  url: //www.academyrealestatetraining.com/webstats/
+  siteid: 8
