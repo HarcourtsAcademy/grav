@@ -8,7 +8,7 @@ pages:
   expires: 604800                      # Page expires time in seconds (604800 seconds = 7 days)
   last_modified: true                  # Set the last modified date header based on file modifcation timestamp
   etag: true                           # Set the etag header tag
-  redirect_default_route: false        # Automatically redirect to a page's default route
+  redirect_default_route: true         # Automatically redirect to a page's default route
 
 cache:
   gzip: true
