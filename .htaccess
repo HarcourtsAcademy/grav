@@ -1,3 +1,8 @@
+<IfModule mod_headers.c>    
+  Header add Access-Control-Allow-Origin "http://d3fx1wys5hr4wh.cloudfront.net"
+  Header add Access-Control-Allow-Origin "https://d3fx1wys5hr4wh.cloudfront.net"
+</IfModule>
+
 <IfModule mod_rewrite.c>
 
 RewriteEngine On
