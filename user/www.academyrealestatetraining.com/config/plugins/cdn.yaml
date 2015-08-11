@@ -1,2 +1,2 @@
 enabled: true                                           # set to false to disable this plugin completely
-pullzone: cdn.academyrealestatetraining.com             # pullzone domain
+pullzone: cdn.academyrealestatetraining.com/grav        # pullzone domain
