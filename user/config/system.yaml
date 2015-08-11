@@ -19,6 +19,7 @@ twig:
 assets:
   css_pipeline: true
   js_pipeline: true
+  enable_asset_timestamp: true
 
 errors:
   display: false
@@ -29,6 +30,9 @@ debugger:
 images:
   default_image_quality: 90
   cache_all: true
+
+media:
+  enable_media_timestamp: true
 
 analytics:
   enabled: true
