@@ -25,6 +25,4 @@ images:
   cache_all: false
 
 analytics:
-  enabled: true
-  url: //www.academyrealestatetraining.com/webstats/
-  siteid: 8
+  enabled: false
