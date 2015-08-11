@@ -43,6 +43,10 @@ git:
         url: https://github.com/getgrav/grav-theme-deliver
         path: user/themes/deliver
         branch: develop
+    cdn:
+        url: https://github.com/getgrav/grav-plugin-cdn
+        path: user/plugins/cdn
+        branch: develop
 links:
     error:
         src: grav-plugin-error
@@ -87,4 +91,8 @@ links:
     deliver:
         src: grav-theme-deliver
         path: user/themes/deliver
+        scm: github
+    cdn:
+        src: grav-plugin-cdn
+        path: user/plugins/cdn
         scm: github
