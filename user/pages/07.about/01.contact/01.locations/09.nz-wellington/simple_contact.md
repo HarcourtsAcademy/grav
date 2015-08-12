@@ -11,6 +11,9 @@ taxonomy:
   category: about_us
   tag: [about us, contact us,academy office,academy location]
 
+process:
+  markdown: false
+
 office:
   location:
     street: 54 - 56 Cambridge Terrace
