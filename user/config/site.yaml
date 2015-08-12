@@ -49,7 +49,7 @@ quicklinks:
 navigation:
   maxdepth: 2
 
-sidebar-navigation:
+sidebar_navigation:
   maxdepth: 4
 
 blog:

@@ -19,19 +19,21 @@
 {### Subpage Navigation ###}
 {% if page.header.side_bar_menu %}
 {% set depth = 1 %}
-{% if page.header.sidebar-navigation.maxdepth %}
-  {% set maxdepth = page.header.sidebar-navigation.maxdepth %}
+{% if page.header.sidebar_navigation.maxdepth %}
+  {% set maxdepth = page.header.sidebar_navigation.maxdepth %}
 {% else %}
-  {% set maxdepth = config.site.navigation.maxdepth %}
+  {% set maxdepth = config.site.sidebar_navigation.maxdepth %}
 {% endif %}
-
 {% macro subpage_menu(page, maxdepth, depth) %}
 
   {% if page.visible %}
     {% set current_page = (page.active) ? 'active' : '' %}
       <li class="{{ current_page }}">
         <a href="{{ page.url }}" class="external">
-            {% if page.header.icon %}<i class="fa fa-{{ page.header.icon }}"></i>{% endif %}
+            {% if page.active %}<i class="fa fa-fw fa-chevron-right"></i>
+            {% elseif page.header.icon %}<i class="fa fa-fw fa-{{ page.header.icon }}"></i>
+            {% else %}<i class="fa fa-fw"></i>
+            {% endif %}
             {{ page.menu }}
         </a>
         {% if page.active or page.activeChild and depth < maxdepth %}

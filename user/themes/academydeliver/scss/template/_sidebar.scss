@@ -3,7 +3,6 @@
     ul {
 
         &.navigation {
-            margin-top: 0;
             margin: 0;
             padding: 0;
             list-style: none;
@@ -11,11 +10,15 @@
             //display: inline-block;
             // float: left;
             li {
+                margin-top: 0.2rem;
                 //float: left;
                 //position: relative;
                 //text-transform: uppercase;
 
                 a {
+                  i {
+                      font-size: 0.7rem;
+                  }
                     //font-family: $font-family-header;
                     /*display: inline-block;
                     padding: 0.3rem 0.8rem;
@@ -51,9 +54,9 @@
                     }
 
                     li {
-                        float: none;
+                        /*float: none;
                         margin: 0;
-                        padding: 0;
+                        padding: 0;*/
 
                         a {
                             /*padding: 0.5rem 0.8rem;
@@ -71,8 +74,8 @@
 
                         &.active {
                             & > a {
-                                background: $core-accent;
-                                color: $white;
+                                /*background: $core-accent;
+                                color: $white;*/
                             }
                         }
                     }
