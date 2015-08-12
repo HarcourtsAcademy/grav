@@ -94,9 +94,6 @@ b, strong, label, th {
   padding-top: 3rem;
   padding-bottom: 3rem; }
 
-.home.header-image #header #navbar ul.navigation li a.active, .home.header-image #header #navbar ul.navigation li a:hover {
-  border-bottom: 1px solid #fff; }
-
 #header {
   position: absolute;
   z-index: 11;
@@ -115,20 +112,7 @@ b, strong, label, th {
     display: block;
     float: right;
     text-align: right;
-    margin-right: 0.75rem;
-    /*@include breakpoint(mobile-only) {
-        float: left;
-        text-align: left;
-        i {
-            left: 0.6rem;
-        }
-        input[type=search] {
-            padding-left: 2rem;
-            &:focus {
-                width: 8rem;
-            }
-        }
-    }*/ }
+    margin-right: 0.75rem; }
     #header .search-box i {
       color: #ffffff;
       position: absolute;
@@ -179,11 +163,15 @@ b, strong, label, th {
         #header #navbar ul.navigation li a {
           font-family: "Source Sans Pro", Helvetica, "Tahoma", "Geneva", "Arial", sans-serif;
           display: inline-block;
-          padding: 0.3rem 0.8rem;
-          padding-bottom: 1px; }
+          padding: 0.3rem 0.8rem 2px; }
           #header #navbar ul.navigation li a.active, #header #navbar ul.navigation li a:hover {
-            border-bottom: 1px solid #178EE1;
-            padding-bottom: 2px; }
+            background: white;
+            color: #178EE1;
+            color: #0e5484; }
+        #header #navbar ul.navigation li:hover {
+          background: rgba(255, 255, 255, 0.9); }
+          #header #navbar ul.navigation li:hover a {
+            color: #178EE1; }
         #header #navbar ul.navigation li:first-child a {
           padding-left: 0; }
         #header #navbar ul.navigation li ul {

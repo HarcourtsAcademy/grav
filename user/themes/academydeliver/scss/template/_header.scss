@@ -1,11 +1,5 @@
 // Header styling
 
-.home.header-image #header #navbar ul.navigation li a {
-  &.active, &:hover {
-      border-bottom: 1px solid #fff;
-  }
-}
-
 #header {
     @extend .padding-horiz;
     position: absolute;
@@ -87,20 +81,6 @@
             color: transparent;
         }
 
-        /*@include breakpoint(mobile-only) {
-            float: left;
-            text-align: left;
-            i {
-                left: 0.6rem;
-            }
-            input[type=search] {
-                padding-left: 2rem;
-                &:focus {
-                    width: 8rem;
-                }
-            }
-        }*/
-
     }
 
     #navbar {
@@ -118,17 +98,22 @@
                 li {
                     float: left;
                     position: relative;
-                    // text-transform: uppercase;
 
                     a {
                         font-family: $font-family-header;
                         display: inline-block;
-                        padding: 0.3rem 0.8rem;
-                        padding-bottom: 1px;
+                        padding: 0.3rem 0.8rem 2px;
 
                         &.active, &:hover {
-                            border-bottom: 1px solid $core-accent;
-                            padding-bottom: 2px;
+                            background: white;
+                            color: $core-accent;
+                            color: darken($core-accent, 20%);
+                        }
+                    }
+                    &:hover {
+                        background: rgba($white, 0.9);
+                        a {
+                            color: $core-accent;
                         }
                     }
                     &:first-child a {
