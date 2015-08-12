@@ -1046,43 +1046,16 @@ ul.pagination {
   list-style: none; }
   #sidebar .sidebar-content ul.navigation li {
     margin-top: 0.2rem; }
-    #sidebar .sidebar-content ul.navigation li a {
-      /*display: inline-block;
-      padding: 0.3rem 0.8rem;
-      padding-bottom: 1px;*/
-      /*&.active, &:hover {
-          border-bottom: 1px solid $core-accent;
-          padding-bottom: 0;
-      }*/ }
-      #sidebar .sidebar-content ul.navigation li a i {
-        font-size: 0.7rem; }
+    #sidebar .sidebar-content ul.navigation li a i {
+      font-size: 0.7rem; }
     #sidebar .sidebar-content ul.navigation li:first-child a {
       padding-left: 0; }
     #sidebar .sidebar-content ul.navigation li ul {
       padding-left: 1rem; }
-    #sidebar .sidebar-content ul.navigation li ul ul {
-      /*left: 100%;
-      top: 0;*/ }
-    #sidebar .sidebar-content ul.navigation li:hover > ul {
-      /*display: block;
-      position: absolute;
-      background: rgba($white, 0.9);
-      width: 18rem;*/ }
-    #sidebar .sidebar-content ul.navigation li:hover li {
-      /*float: none;
-      margin: 0;
-      padding: 0;*/ }
-      #sidebar .sidebar-content ul.navigation li:hover li a {
-        /*padding: 0.5rem 0.8rem;
-        display: block;
-        text-transform: none;*/ }
-        #sidebar .sidebar-content ul.navigation li:hover li a:hover {
-          border-bottom: 0; }
-        #sidebar .sidebar-content ul.navigation li:hover li a:before, #sidebar .sidebar-content ul.navigation li:hover li a:after {
-          display: none; }
-      #sidebar .sidebar-content ul.navigation li:hover li.active > a {
-        /*background: $core-accent;
-        color: $white;*/ }
+    #sidebar .sidebar-content ul.navigation li:hover li a:hover {
+      border-bottom: 0; }
+    #sidebar .sidebar-content ul.navigation li:hover li a:before, #sidebar .sidebar-content ul.navigation li:hover li a:after {
+      display: none; }
   @media only all and (max-width: 59.938em) {
     #sidebar .sidebar-content ul.navigation {
       display: none; } }
