@@ -7,7 +7,7 @@ members:
       image: support-male.png
       title: Global Helpdesk
       office: queensland
-      email: academy@harcourts.net
+      contact: /about-us/contact-us/customer-support
     - name: Irene Green
       image: irene-green.jpg
       title: Head of Academy
