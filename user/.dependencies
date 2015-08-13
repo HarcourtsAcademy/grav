@@ -23,21 +23,9 @@ git:
         url: https://github.com/HarcourtsAcademy/grav-plugin-simple_contact.git
         path: user/plugins/simple_contact
         branch: develop
-    simple_form:
-        url: https://github.com/nunopress/grav-plugin-simple_form
-        path: user/plugins/simple_form
-        branch: develop
-    jscomments:
-        url: https://github.com/nunopress/grav-plugin-jscomments
-        path: user/plugins/jscomments
-        branch: develop
     breadcrumbs:
         url: https://github.com/getgrav/grav-plugin-breadcrumbs
         path: user/plugins/breadcrumbs
-        branch: develop
-    taxonomylist:
-        url: https://github.com/getgrav/grav-plugin-taxonomylist
-        path: user/plugins/taxonomylist
         branch: develop
     deliver:
         url: https://github.com/getgrav/grav-theme-deliver
@@ -72,21 +60,9 @@ links:
         src: grav-plugin-simple_contact
         path: user/plugins/simple_contact
         scm: github
-    simple_form:
-        src: grav-plugin-simple_form
-        path: user/plugins/simple_form
-        scm: github
-    jscomments:
-        src: grav-plugin-jscomments
-        path: user/plugins/jscomments
-        scm: github
     breadcrumbs:
         src: grav-plugin-breadcrumbs
         path: user/plugins/breadcrumbs
-        scm: github
-    taxonomylist:
-        src: grav-plugin-taxonomylist
-        path: user/plugins/taxonomylist
         scm: github
     deliver:
         src: grav-theme-deliver
