@@ -7,6 +7,8 @@ vendor/
 .sass-cache
 
 # Grav Specific
+backup/*
+!backup/.*
 cache/*
 !cache/.*
 assets/*
@@ -15,6 +17,8 @@ logs/*
 !logs/.*
 images/*
 !images/.*
+user/accounts/*
+!user/accounts/.*
 user/data/*
 !user/data/.*
 user/plugins/*
