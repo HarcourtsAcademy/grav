@@ -101,7 +101,7 @@ The first step in your career in Real Estate. Become qualified as an accredited 
 
 National Certificate in Real Estate (Salesperson) is delivered in partnership with [The Skills Organisation](http://skills.org.nz/) and is recognised nationally throughout New Zealand.
 
-Contact person: The [New Zealand Academy Administrator](#)
+Contact person: The [New Zealand Academy Administrator](http://420-c85.qld.harcourts.com.au/about-us/contact-us/locations/auckland)
 
 ## Download Attachments
 []()

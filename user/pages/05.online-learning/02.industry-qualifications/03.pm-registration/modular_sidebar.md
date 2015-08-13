@@ -14,6 +14,6 @@ list_subpages: true
 
 ---
 
-[Property Management Registration](/courses/property-management/property-management-registration) provides best practice to ensure compliance, maximum productivity and optimum customer service. Gain fundamental knowledge in all areas of working with property owners and tenants. Learn how to systemise and streamline every property management task including client mediation and generating meaningful reports.
+[Property Management Registration](/courses/property-management/property-management-programme) provides best practice to ensure compliance, maximum productivity and optimum customer service. Gain fundamental knowledge in all areas of working with property owners and tenants. Learn how to systemise and streamline every property management task including client mediation and generating meaningful reports.
 
 ===

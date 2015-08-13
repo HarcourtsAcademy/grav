@@ -22,7 +22,7 @@ To become a real estate Property Manager in Australia or New Zealand you need a 
 - A correctly completed application form
 - Payment of required fees.
 
-The Harcourts Academy currently offers a [Property Management Programme](/courses/property-management/property-management-registration) across Australia and New Zealand. Qualifications for Property Management registration can be issued in New South Wales, Victoria, Western Australia and Tasmania. In South Australia, it is not required to obtain a registration to work in the Property Management industry.
+The Harcourts Academy currently offers a [Property Management Programme](/courses/property-management/property-management-programme) across Australia and New Zealand. Qualifications for Property Management registration can be issued in New South Wales, Victoria, Western Australia and Tasmania. In South Australia, it is not required to obtain a registration to work in the Property Management industry.
 
 ### Cost involved
 

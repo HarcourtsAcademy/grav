@@ -28,7 +28,7 @@ course_content :
 
       - Law, Ethics and Documents (online) - 3 days
       - [Sales Programme](/courses/sales/sales-programme) - 6 days
-      - [Property Management Programme](/courses/property-management/property-management-registration) - 3 days
+      - [Property Management Programme](/courses/property-management/property-management-programme) - 3 days
       - [Auction Sales Programme](/courses/sales/auction)- 1 day
       - Licence Workshop - 4 days
 

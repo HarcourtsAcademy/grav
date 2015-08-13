@@ -20,5 +20,5 @@ Academy programmes include [Sales](/courses/sales), [Property Management](/cours
 Some popular programmes include:
 
 - [Sales Programme](/courses/sales/sales-programme)
-- [Property Management Programme](/courses/property-management/property-management-registration)
+- [Property Management Programme](/courses/property-management/property-management-programme)
 - [Leadership Programme](/courses/leadership/leadership-programme)

@@ -128,7 +128,7 @@ In the 2015 programme we are moving focus away from the topic of disclosure. The
 The Academy is not offering 2014 Verifiable Continuing Education Referesher training this year.
 
 ## The Support Behind You
-- Contact your local Academy trainer for information, assistance and advice ([Northern and Central](#), [Wellington](#), [South Island](#)
+- Contact your local Academy trainer for information, assistance and advice ([Northern and Central](/about-us/contact-us/locations/auckland), [Wellington](/about-us/contact-us/locations/wellington), [South Island](http://420-c85.qld.harcourts.com.au/about-us/contact-us/locations/christchurch)
 - Use the [Academy helpdesk](/about-us/contact-us/customer-support) during self-paced learning online
 - Go to [Harcourts One](http://one.harcourts.co.nz) > Search Directory > (your name) > Training Attended to access your classroom training attendance - records (Please note that your verifiable online CE records are updated nightly)
 - All verifiable training records will be sent to the REAA by Harcourts on your behalf

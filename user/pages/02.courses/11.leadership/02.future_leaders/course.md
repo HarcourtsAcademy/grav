@@ -38,7 +38,7 @@ course_content:
       * Initial meeting to complete a strategic business plan and training schedule
       * Complete all Academy [sales](/courses/sales) and [technology](/courses/technology) programmes
       * Complete the [Office Administration Programme](/courses/office-administrator-programme)
-      * Complete the [Property Management Programme](/courses/property-management/property-management-registration)
+      * Complete the [Property Management Programme](/courses/property-management/property-management-programme)
       * Complete the [Leadership Programme](/courses/leadership/leadership-programme) – all units
       * Attend retreats and conferences
   - title: Support
