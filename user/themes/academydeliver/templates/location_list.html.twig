@@ -109,7 +109,7 @@
             {% for page in page.children %}
               {% if page.header.office.location.country != country %}
                 {% set country = page.header.office.location.country %}
-                <h2>{{ country}}</h2>
+                <h2 id="{{ country|url_encode }}">{{ country }}</h2>
               {% endif %}
               {% if uri.query %}
                 <h3><a href="{{ page.url ~ '?' ~ uri.query }}">{{ page.menu }}</a></h3>
