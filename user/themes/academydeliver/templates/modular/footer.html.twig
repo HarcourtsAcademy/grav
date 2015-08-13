@@ -18,7 +18,7 @@
                     <span>{{ item.line }}</span>
                 {% endfor %}
             </p>
-            <p class="emailaddress"><i class="fa fa-envelope-o"></i> <a href="{% if "base_url:" in site.author.email_link %}{{ base_url_absolute }}/{{ site.author.email_link|replace({"base_url:": ""}) }}{% else %}{{ site.author.email_link }}{% endif %}">{{ site.author.email }}</a></p>
+            <p class="emailaddress"><i class="fa fa-envelope-o"></i> <a href="{% if "base_url:" in site.author.email_link %}{{ base_url_absolute }}/{{ site.author.email_link|replace({"base_url:": ""}) }}{% else %}{{ site.author.email_link }}{% endif %}">{{ site.author.email|safe_email }}</a></p>
             <ul class="quickmenu">
                 {% for item in site.contact.phone %}
                     <li><i class="fa fa-phone"></i> {{ item.region }}</li>
