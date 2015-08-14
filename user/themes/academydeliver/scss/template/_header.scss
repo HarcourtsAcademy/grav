@@ -24,13 +24,18 @@
                 font-size: 1.9rem;
             }
             img {
-                width: 50%;
-                height: 50%;
+                max-height: 42px;
             }
         }
         ul {
             &.social-icons {
                 @extend %vertical-align;
+            }
+        }
+
+        .search-box {
+            @include breakpoint(mobile-only) {
+               display: none;
             }
         }
     }
@@ -215,6 +220,12 @@
             text-transform: uppercase;
             @include breakpoint(desktop-only) {
                 display: inline-block;
+            }
+        }
+
+        .search-box {
+            @include breakpoint(no-mobile) {
+               display: none;
             }
         }
     }
