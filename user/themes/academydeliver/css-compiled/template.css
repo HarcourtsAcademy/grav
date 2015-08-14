@@ -1862,6 +1862,8 @@ ul.pagination {
   min-width: 33%;
   position: relative;
   z-index: 10; }
+  .notebook h4, .notebook .archive-list label, .archive-list .notebook label, .notebook .modular .bottom table th, .modular .bottom table .notebook th, .notebook .contact label, .contact .notebook label, .notebook .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .notebook .name, .notebook .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .notebook .button, .notebook .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list .notebook button, .notebook .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot .notebook button, .notebook .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact .notebook button, .notebook .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot .notebook button {
+    text-transform: none; }
   @media only all and (min-width: 60em) and (max-width: 74.938em) {
     .notebook {
       width: 100%;
