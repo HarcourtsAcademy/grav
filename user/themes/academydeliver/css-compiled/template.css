@@ -215,7 +215,7 @@ b, strong, label, th {
           #header #navbar ul.navigation li:hover li.active > a {
             background: #178EE1;
             color: #fff; }
-      @media only all and (max-width: 59.938em) {
+      @media only all and (max-width: 47.938em) {
         #header #navbar ul.navigation {
           display: none; } }
     #header #navbar ul.social-icons {
@@ -243,7 +243,7 @@ b, strong, label, th {
     cursor: pointer;
     float: left;
     text-transform: uppercase; }
-    @media only all and (max-width: 59.938em) {
+    @media only all and (max-width: 47.938em) {
       #header #navbar .panel-activation {
         display: inline-block; } }
   @media only all and (min-width: 48em) {

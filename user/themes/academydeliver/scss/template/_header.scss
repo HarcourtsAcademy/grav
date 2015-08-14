@@ -177,7 +177,7 @@
                         }
                     }
                 }
-                @include breakpoint(desktop-only) {
+                @include breakpoint(mobile-only) {
                     display: none;
                 }
             }
@@ -218,7 +218,7 @@
             cursor: pointer;
             float: left;
             text-transform: uppercase;
-            @include breakpoint(desktop-only) {
+            @include breakpoint(mobile-only) {
                 display: inline-block;
             }
         }
