@@ -86,6 +86,10 @@
       {% include 'partials/header_image.html.twig' %}
     {% endif %}
 
+    {% if config.plugins.breadcrumbs.enabled %}
+            {% include 'partials/breadcrumbs.html.twig' %}
+    {% endif %}
+
     {{ page.content }}
     {% for module in page.collection() %}
         <div id="{{ _self.pageLinkName(module.menu) }}"></div>
