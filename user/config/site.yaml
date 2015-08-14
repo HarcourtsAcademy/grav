@@ -1,7 +1,7 @@
 title: Academy Real Estate Training
 logo:
-    dark: 'theme://images/logo-dark.png'
-    light: 'theme://images/logo-light.png'
+    dark: 'theme://images/logo-dark@2x.png'
+    light: 'theme://images/logo-light@2x.png'
     alt: Harcourts Academy
 author:
   name: Harcourts Academy

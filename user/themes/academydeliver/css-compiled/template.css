@@ -117,6 +117,9 @@ b, strong, label, th {
   @media only all and (max-width: 47.938em) {
     #header .logo h3 {
       font-size: 1.9rem; } }
+  #header .logo h3 img {
+    width: 50%;
+    height: 50%; }
   #header .search-box {
     display: block;
     float: right;
