@@ -385,6 +385,9 @@ b, strong, label, th {
       clear: both; }
     .footer .logo h3 a {
       color: #fff; }
+      .footer .logo h3 a img {
+        width: 50%;
+        height: 50%; }
   .footer .quickmenu {
     margin: 0;
     padding: 0;

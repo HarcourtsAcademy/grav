@@ -22,7 +22,7 @@
     }
     .social-icons {
       font-size: $core-font-size;
-      
+
       @include breakpoint(mobile-only) {
         float: none;
         clear: both;
@@ -85,6 +85,10 @@
       color: $white;
       h3 a {
         color: $white;
+        img {
+            width: 50%;
+            height: 50%;
+        }
       }
     }
     .quickmenu {
