@@ -1019,39 +1019,44 @@ ul.pagination {
 .error #body {
   padding-top: 16rem; }
 
-.simplesearch h1 {
-  margin-bottom: 0; }
-.simplesearch .center {
-  text-align: center; }
-.simplesearch input {
-  display: inline-block;
-  max-width: 30rem;
-  font-size: 2rem; }
-.simplesearch .search-image {
-  margin-top: 1rem; }
-  .simplesearch .search-image img {
-    border-radius: 4px; }
+.simplesearch {
+  padding-top: 1rem; }
+  .simplesearch h1 {
+    margin-bottom: 0; }
+  .simplesearch .center {
+    text-align: center; }
+  .simplesearch input {
+    display: inline-block;
+    width: 85%;
+    font-size: 2rem; }
+  .simplesearch .searchbox i {
+    font-size: 1.8rem;
+    padding-right: 1rem; }
+  .simplesearch .search-image {
+    margin-top: 1rem; }
+    .simplesearch .search-image img {
+      border-radius: 4px; }
+      @media only all and (max-width: 47.938em) {
+        .simplesearch .search-image img {
+          display: none; } }
+  .simplesearch .search-item {
+    min-height: 5rem; }
     @media only all and (max-width: 47.938em) {
-      .simplesearch .search-image img {
-        display: none; } }
-.simplesearch .search-item {
-  min-height: 5rem; }
-  @media only all and (max-width: 47.938em) {
-    .simplesearch .search-item {
-      margin-left: 0; } }
-.simplesearch .search-details {
-  float: right;
-  margin-top: -2.5rem;
-  font-weight: bold;
-  font-size: 1rem;
-  color: #cdcccc; }
-  @media only all and (max-width: 47.938em) {
-    .simplesearch .search-details {
-      float: none;
-      margin-top: -0.2rem;
-      margin-bottom: 1rem; } }
-.simplesearch hr {
-  border-bottom: 1px solid #eee; }
+      .simplesearch .search-item {
+        margin-left: 0; } }
+  .simplesearch .search-details {
+    float: right;
+    margin-top: -2.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #cdcccc; }
+    @media only all and (max-width: 47.938em) {
+      .simplesearch .search-details {
+        float: none;
+        margin-top: -0.2rem;
+        margin-bottom: 1rem; } }
+  .simplesearch hr {
+    border-bottom: 1px solid #eee; }
 
 #breadcrumbs {
   height: 3rem;

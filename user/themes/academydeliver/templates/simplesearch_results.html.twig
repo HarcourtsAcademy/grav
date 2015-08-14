@@ -1,0 +1,24 @@
+{% extends 'partials/simplesearch_base.html.twig' %}
+
+{% block content %}
+
+    {% set bg_color = '#002b49' %}
+    {% set banner_image = 'theme://images/banners/courses.jpg' %}
+
+    <div class="flush-top page-header page-header-image" style="background: {{ bg_color }} url({{ url( banner_image ) }}) no-repeat right;">
+        <h1>Search Results</h1>
+    </div>
+
+    <div class="content-wrapper simplesearch">
+    <div class="searchbox">
+        {% include 'partials/simplesearch_searchbox.html.twig' %}
+
+    </div>
+{% set body_classes = 'bar' %}
+
+    <p>Query: <strong>{{ query }}</strong> found {{ search_results.count }} {{ 'result'|pluralize(search_results.count) }}</p>
+    {% for page in search_results %}
+        {% include 'partials/simplesearch_item.html.twig' with {'page':page} %}
+    {% endfor %}
+    </div>
+{% endblock %}
