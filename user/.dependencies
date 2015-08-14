@@ -19,6 +19,10 @@ git:
         url: https://github.com/getgrav/grav-plugin-relatedpages
         path: user/plugins/relatedpages
         branch: develop
+    redirects2:
+        url: https://github.com/dfrankland/grav-plugin-redirects2
+        path: user/plugins/redirects2
+        branch: master
     simple_contact:
         url: https://github.com/HarcourtsAcademy/grav-plugin-simple_contact.git
         path: user/plugins/simple_contact
@@ -55,6 +59,10 @@ links:
     relatedpages:
         src: grav-plugin-relatedpages
         path: user/plugins/relatedpages
+        scm: github
+    redirects2:
+        src: grav-plugin-redirects2
+        path: user/plugins/redirects2
         scm: github
     simple_contact:
         src: grav-plugin-simple_contact
