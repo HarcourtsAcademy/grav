@@ -30,13 +30,13 @@
     {% set current_page = (page.active) ? 'active' : '' %}
       <li class="{{ current_page }}">
         <a href="{{ page.url }}" class="external">
-            {% if page.active %}<i class="fa fa-fw fa-chevron-right"></i>
-            {% elseif page.header.icon %}<i class="fa fa-fw fa-{{ page.header.icon }}"></i>
-            {% else %}<i class="fa fa-fw"></i>
-            {% endif %}
+            {% if page.header.icon %}<i class="fa fa-fw fa-{{ page.header.icon }}"></i>{% endif %}
+            {% if page.active %}<strong>{{ page.menu }}</strong>
+            {% else %}
             {{ page.menu }}
+            {% endif %}
         </a>
-        {% if page.active or page.activeChild and depth < maxdepth %}
+        {% if ( (page.active and page.children.count > 0) or page.activeChild ) and depth < maxdepth  %}
           <ul class="navigation">
             {% for subpage in page.children %}
               {{ _self.subpage_menu(subpage, maxdepth, (depth + 1) ) }}

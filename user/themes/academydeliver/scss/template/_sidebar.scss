@@ -5,6 +5,7 @@
             margin: 0;
             padding: 0;
             list-style: none;
+            padding-bottom: 1rem;
 
             li {
                 margin-top: 0.2rem;
@@ -33,9 +34,6 @@
                         }
                     }
                 }
-            }
-            @include breakpoint(desktop-only) {
-                display: none;
             }
         }
     }

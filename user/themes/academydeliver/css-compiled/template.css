@@ -1069,7 +1069,8 @@ ul.pagination {
 #sidebar .sidebar-content ul.navigation {
   margin: 0;
   padding: 0;
-  list-style: none; }
+  list-style: none;
+  padding-bottom: 1rem; }
   #sidebar .sidebar-content ul.navigation li {
     margin-top: 0.2rem; }
     #sidebar .sidebar-content ul.navigation li a i {
@@ -1082,9 +1083,6 @@ ul.pagination {
       border-bottom: 0; }
     #sidebar .sidebar-content ul.navigation li:hover li a:before, #sidebar .sidebar-content ul.navigation li:hover li a:after {
       display: none; }
-  @media only all and (max-width: 59.938em) {
-    #sidebar .sidebar-content ul.navigation {
-      display: none; } }
 
 .modular.header-image #header {
   background-color: rgba(255, 255, 255, 0);
