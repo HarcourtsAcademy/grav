@@ -10,7 +10,7 @@
                       </div>
                     </div>
                   </div>
-                <h4>{{ video.title }}</h4>
+                <h4>{% if video.link %}<a href="{{ video.link }}">{% endif %}{% if video.icon %}<i class="fa fa-{{ video.icon }}"></i> {% endif %}{{ video.title }}</h4>
             </div>
         {% endfor %}
     </div>
@@ -19,23 +19,3 @@
 
 <div class="callout-line"></div>
 </div>
-
-{% for portfolio in page.header.portfolio %}
-    <div class="portfolio-modal modal" id="portfolioModal{{ portfolio.modalid }}" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal"><i class="fa fa-times"></i></div>
-            <div class="modal-body">
-                <h1>{{ portfolio.title }}</h1>
-                <a href="{{ portfolio.url }}">
-                    <img src="{{ page.media[portfolio.image].url }}" class="img-responsive img-centered" alt="{{ portfolio.alt }}">
-                </a>
-                <p>{{ portfolio.desc|markdown }}</p>
-                <ul class="client-details">
-                    <li>{{ portfolio.date }}</li>
-                </ul>
-                <a href="{{ portfolio.url }}" type="button" class="button" ><i class="fa fa-ellipsis-h"></i> Read More</a>
-                <button type="button" class="button-secondary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-            </div>
-        </div>
-    </div>
-{% endfor %}
