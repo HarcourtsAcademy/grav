@@ -78,7 +78,7 @@ b, strong, label, th {
   font-stretch: normal;
   src: url("../fonts/EOT/SourceSansPro-BoldIt.eot");
   src: url("../fonts/EOT/SourceSansPro-BoldIt.eot?#iefix") format("embedded-opentype"), url("../fonts/WOFF2/TTF/SourceSansPro-BoldIt.ttf.woff2") format("woff2"), url("../fonts/WOFF/OTF/SourceSansPro-BoldIt.otf.woff") format("woff"), url("../fonts/TTF/SourceSansPro-BoldIt.ttf") format("truetype"); }
-.default-animation, #body, #header #navbar ul.social-icons li, #header #navbar ul.social-icons li a, .modal, .archive-list button, .modular .showcase .button, .modular .showcase .archive-list button, .archive-list .modular .showcase button, .modular .showcase .contact button, .contact .modular .showcase button, .modular .slideme_container .arrow, .modular .slideme_container .pagination .numbers li, .modular .bottom .button, .modular .bottom .archive-list button, .archive-list .modular .bottom button, .modular .bottom .contact button, .contact .modular .bottom button, .tablet .screen .screen-content-hover, .contact input, .contact textarea, .contact button, .callout .pricing-container .pricing-item, .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .foot, .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .archive-list button, .archive-list .callout .pricing-container .pricing-item .foot button, .callout .pricing-container .pricing-item .foot .contact button, .contact .callout .pricing-container .pricing-item .foot button, .team .members .contact-icons li a, .offices .locations .contact-icons li a, .logo h3, .logo ul.social-icons li, .logo ul.social-icons li a, .notebook .screen .screen-content-hover {
+.default-animation, #body, #header #navbar ul.social-icons li, #header #navbar ul.social-icons li a, .modal, .archive-list button, .modular .showcase .button, .modular .showcase .archive-list button, .archive-list .modular .showcase button, .modular .showcase .contact button, .contact .modular .showcase button, .modular .slideme_container .arrow, .modular .slideme_container .pagination .numbers li, .modular .bottom .button, .modular .bottom .archive-list button, .archive-list .modular .bottom button, .modular .bottom .contact button, .contact .modular .bottom button, .contact input, .contact textarea, .contact button, .callout .pricing-container .pricing-item, .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .foot, .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .archive-list button, .archive-list .callout .pricing-container .pricing-item .foot button, .callout .pricing-container .pricing-item .foot .contact button, .contact .callout .pricing-container .pricing-item .foot button, .team .members .contact-icons li a, .offices .locations .contact-icons li a, .logo h3, .logo ul.social-icons li, .logo ul.social-icons li a, .notebook .screen .screen-content-hover {
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   transition: all 0.5s ease; }
@@ -1452,6 +1452,21 @@ ul.pagination {
           @media only all and (min-width: 48em) and (max-width: 59.938em) {
             .brag .tablets .tablet-row .tablet .desc {
               width: 100%; } }
+  .brag .video-container {
+    height: 0;
+    /*padding-top: 25px;*/
+    padding-bottom: 56.25%;
+    /*margin-bottom: 10px;*/
+    position: relative;
+    overflow: hidden;
+    max-width: 1280px;
+    max-height: 720px; }
+    .brag .video-container iframe {
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      position: absolute; }
 
 .tablet {
   display: inline-block;
@@ -1487,46 +1502,30 @@ ul.pagination {
   background: #E5EBED;
   height: 0.5rem;
   width: 0.5rem;
-  margin: 11.0rem 0 0 9.14rem; }
+  margin: 17.85rem 0 0 15.7rem; }
 
 .tablet .screen {
   background: #464C51;
   border-radius: 0.5rem;
-  height: 11.72rem;
-  width: 18.28rem;
+  height: 18.495rem;
+  width: 31.55rem;
   margin: 0 auto; }
   .tablet .screen .screen-content {
-    height: 10.1rem;
-    width: 16.73rem;
+    height: 16.875rem;
+    width: 30rem;
     position: absolute;
     z-index: 1;
     margin-top: 0.8rem;
     margin-left: 0.8rem;
     background-size: cover;
     background-repeat: no-repeat; }
-  .tablet .screen .screen-content-hover {
-    height: 10.1rem;
-    width: 16.73rem;
-    position: absolute;
-    z-index: 2;
-    opacity: 0;
-    margin-top: 0.8rem;
-    margin-left: 0.8rem;
-    background-color: #178EE1; }
-    .tablet .screen .screen-content-hover .fa-play {
-      font-size: 5rem;
-      color: #ffffff;
-      margin-top: 2.5rem;
-      margin-left: 5.9rem; }
-    .tablet .screen .screen-content-hover:hover {
-      opacity: 0.8; }
 
 .tablet .screen:after {
   content: "";
   position: absolute;
   background: #161B21;
-  height: 10rem;
-  width: 16.63rem;
+  height: 16.875rem;
+  width: 30rem;
   border-radius: 0.125rem;
   margin: 0.875rem 0 0 0.8125rem;
   transition: background 1s ease-in-out; }

@@ -1,13 +1,16 @@
 <div class="modular-row brag">
  {{ content }}
-{% if page.header.portfolio %}
+{% if page.header.video %}
     <div class="tablets">
-        {% for portfolio in page.header.portfolio %}
+        {% for video in page.header.video %}
             <div class="tablet">
-                <a href="#portfolioModal{{ portfolio.modalid }}" class="portfolio-link" data-toggle="modal">
-                    <div class='screen'><div class="screen-content" style="background-image: url({{ page.media[portfolio.image].url }})" ></div><div class="screen-content-hover"><i class="fa fa-play"></i></div></div>
-                </a>
-                <h4>{{ portfolio.title }}</h4>
+                    <div class='screen'><div class="screen-content">
+                      <div class="video-container">
+                        <iframe src="//www.youtube-nocookie.com/embed/{{ video.youtube_id }}?autohide=1&rel=0&showinfo=0vq=hd720" width="480" height="270" frameborder="0" allowfullscreen=""></iframe>
+                      </div>
+                    </div>
+                  </div>
+                <h4>{{ video.title }}</h4>
             </div>
         {% endfor %}
     </div>
