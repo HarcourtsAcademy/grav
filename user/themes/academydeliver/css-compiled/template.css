@@ -177,28 +177,25 @@ b, strong, label, th {
         #header #navbar ul.navigation li a {
           font-family: "Source Sans Pro", Helvetica, "Tahoma", "Geneva", "Arial", sans-serif;
           display: inline-block;
-          padding: 0.3rem 0.8rem 2px; }
+          padding: 0.3rem 0.8rem; }
           #header #navbar ul.navigation li a.active, #header #navbar ul.navigation li a:hover {
             background: white;
             color: #178EE1;
             color: #0e5484; }
         #header #navbar ul.navigation li:hover {
-          background: rgba(255, 255, 255, 0.9); }
+          background: rgba(244, 244, 244, 0.9); }
           #header #navbar ul.navigation li:hover a {
             color: #178EE1; }
-        #header #navbar ul.navigation li:first-child a {
-          padding-left: 0; }
         #header #navbar ul.navigation li ul {
           display: none;
-          padding: 0;
-          box-shadow: 0 0.05rem 1rem rgba(0, 0, 0, 0.15) !important; }
+          padding: 0; }
         #header #navbar ul.navigation li ul ul {
           left: 100%;
           top: 0; }
         #header #navbar ul.navigation li:hover > ul {
           display: block;
           position: absolute;
-          background: rgba(255, 255, 255, 0.9);
+          background: rgba(244, 244, 244, 0.9);
           width: 18rem; }
         #header #navbar ul.navigation li:hover li {
           float: none;
