@@ -11,6 +11,7 @@ content:
         dir: asc
         custom:
             - _showcase
+            - _brag
             - _callout
             - _bottom
             - _highlights

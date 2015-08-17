@@ -1,0 +1,38 @@
+<div class="modular-row brag">
+ {{ content }}
+{% if page.header.portfolio %}
+    <div class="tablets">
+        {% for portfolio in page.header.portfolio %}
+            <div class="tablet">
+                <a href="#portfolioModal{{ portfolio.modalid }}" class="portfolio-link" data-toggle="modal">
+                    <div class='screen'><div class="screen-content" style="background-image: url({{ page.media[portfolio.image].url }})" ></div><div class="screen-content-hover"><i class="fa fa-play"></i></div></div>
+                </a>
+                <h4>{{ portfolio.title }}</h4>
+            </div>
+        {% endfor %}
+    </div>
+{% endif %}
+
+
+<div class="callout-line"></div>
+</div>
+
+{% for portfolio in page.header.portfolio %}
+    <div class="portfolio-modal modal" id="portfolioModal{{ portfolio.modalid }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal"><i class="fa fa-times"></i></div>
+            <div class="modal-body">
+                <h1>{{ portfolio.title }}</h1>
+                <a href="{{ portfolio.url }}">
+                    <img src="{{ page.media[portfolio.image].url }}" class="img-responsive img-centered" alt="{{ portfolio.alt }}">
+                </a>
+                <p>{{ portfolio.desc|markdown }}</p>
+                <ul class="client-details">
+                    <li>{{ portfolio.date }}</li>
+                </ul>
+                <a href="{{ portfolio.url }}" type="button" class="button" ><i class="fa fa-ellipsis-h"></i> Read More</a>
+                <button type="button" class="button-secondary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+            </div>
+        </div>
+    </div>
+{% endfor %}

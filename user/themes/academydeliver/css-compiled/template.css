@@ -78,7 +78,7 @@ b, strong, label, th {
   font-stretch: normal;
   src: url("../fonts/EOT/SourceSansPro-BoldIt.eot");
   src: url("../fonts/EOT/SourceSansPro-BoldIt.eot?#iefix") format("embedded-opentype"), url("../fonts/WOFF2/TTF/SourceSansPro-BoldIt.ttf.woff2") format("woff2"), url("../fonts/WOFF/OTF/SourceSansPro-BoldIt.otf.woff") format("woff"), url("../fonts/TTF/SourceSansPro-BoldIt.ttf") format("truetype"); }
-.default-animation, #body, #header #navbar ul.social-icons li, #header #navbar ul.social-icons li a, .modal, .archive-list button, .modular .showcase .button, .modular .showcase .archive-list button, .archive-list .modular .showcase button, .modular .showcase .contact button, .contact .modular .showcase button, .modular .slideme_container .arrow, .modular .slideme_container .pagination .numbers li, .modular .bottom .button, .modular .bottom .archive-list button, .archive-list .modular .bottom button, .modular .bottom .contact button, .contact .modular .bottom button, .contact input, .contact textarea, .contact button, .callout .pricing-container .pricing-item, .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .foot, .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .archive-list button, .archive-list .callout .pricing-container .pricing-item .foot button, .callout .pricing-container .pricing-item .foot .contact button, .contact .callout .pricing-container .pricing-item .foot button, .team .members .contact-icons li a, .offices .locations .contact-icons li a, .logo h3, .logo ul.social-icons li, .logo ul.social-icons li a, .notebook .screen .screen-content-hover {
+.default-animation, #body, #header #navbar ul.social-icons li, #header #navbar ul.social-icons li a, .modal, .archive-list button, .modular .showcase .button, .modular .showcase .archive-list button, .archive-list .modular .showcase button, .modular .showcase .contact button, .contact .modular .showcase button, .modular .slideme_container .arrow, .modular .slideme_container .pagination .numbers li, .modular .bottom .button, .modular .bottom .archive-list button, .archive-list .modular .bottom button, .modular .bottom .contact button, .contact .modular .bottom button, .tablet .screen .screen-content-hover, .contact input, .contact textarea, .contact button, .callout .pricing-container .pricing-item, .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .foot, .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .archive-list button, .archive-list .callout .pricing-container .pricing-item .foot button, .callout .pricing-container .pricing-item .foot .contact button, .contact .callout .pricing-container .pricing-item .foot button, .team .members .contact-icons li a, .offices .locations .contact-icons li a, .logo h3, .logo ul.social-icons li, .logo ul.social-icons li a, .notebook .screen .screen-content-hover {
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   transition: all 0.5s ease; }
@@ -1394,6 +1394,142 @@ ul.pagination {
 
 .about hr {
   margin: 3rem 0; }
+
+.brag {
+  padding: 2rem 0.938rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  text-align: center; }
+  @media only all and (max-width: 59.938em) {
+    .brag {
+      text-align: center; } }
+  .brag h2 {
+    color: #656161; }
+  .brag .tablets {
+    margin-top: 4rem; }
+    .brag .tablets .tablet-row {
+      box-shadow: inset 0px -90px 0px -20px #f7f7f7;
+      margin-left: -14rem;
+      margin-right: -14rem;
+      padding-left: 14rem;
+      padding-right: 14rem;
+      background: #EEEEEE;
+      padding-bottom: 2rem; }
+      @media only all and (max-width: 47.938em) {
+        .brag .tablets .tablet-row {
+          margin-left: -10rem;
+          margin-right: -10rem; } }
+      .brag .tablets .tablet-row .tablet {
+        min-width: 24%; }
+        @media only all and (min-width: 48em) and (max-width: 59.938em) {
+          .brag .tablets .tablet-row .tablet {
+            width: 100%; } }
+        @media only all and (min-width: 60em) and (max-width: 74.938em) {
+          .brag .tablets .tablet-row .tablet {
+            min-width: 24%;
+            float: none; } }
+        @media only all and (max-width: 30em) {
+          .brag .tablets .tablet-row .tablet {
+            width: 170%;
+            margin-left: -4.7rem; } }
+        .brag .tablets .tablet-row .tablet h4, .brag .tablets .tablet-row .tablet .archive-list label, .archive-list .brag .tablets .tablet-row .tablet label, .brag .tablets .tablet-row .tablet .modular .bottom table th, .modular .bottom table .brag .tablets .tablet-row .tablet th, .brag .tablets .tablet-row .tablet .contact label, .contact .brag .tablets .tablet-row .tablet label, .brag .tablets .tablet-row .tablet .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .brag .tablets .tablet-row .tablet .name, .brag .tablets .tablet-row .tablet .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .brag .tablets .tablet-row .tablet .button, .brag .tablets .tablet-row .tablet .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list .brag .tablets .tablet-row .tablet button, .brag .tablets .tablet-row .tablet .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot .brag .tablets .tablet-row .tablet button, .brag .tablets .tablet-row .tablet .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact .brag .tablets .tablet-row .tablet button, .brag .tablets .tablet-row .tablet .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot .brag .tablets .tablet-row .tablet button {
+          text-align: left;
+          margin-bottom: 0; }
+        .brag .tablets .tablet-row .tablet p {
+          margin-top: 0; }
+        .brag .tablets .tablet-row .tablet .desc {
+          width: 20rem;
+          margin-left: 2rem; }
+          @media only all and (min-width: 60em) and (max-width: 74.938em) {
+            .brag .tablets .tablet-row .tablet .desc {
+              width: 100%; } }
+          @media only all and (max-width: 47.938em) {
+            .brag .tablets .tablet-row .tablet .desc {
+              width: 100%; } }
+          @media only all and (max-width: 30em) {
+            .brag .tablets .tablet-row .tablet .desc {
+              width: 90%; } }
+          @media only all and (min-width: 48em) and (max-width: 59.938em) {
+            .brag .tablets .tablet-row .tablet .desc {
+              width: 100%; } }
+
+.tablet {
+  display: inline-block;
+  text-align: left;
+  min-width: 33%;
+  padding: 0 2rem;
+  position: relative;
+  z-index: 10; }
+  .tablet h4, .tablet .archive-list label, .archive-list .tablet label, .tablet .modular .bottom table th, .modular .bottom table .tablet th, .tablet .contact label, .contact .tablet label, .tablet .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .tablet .name, .tablet .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .tablet .button, .tablet .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list .tablet button, .tablet .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot .tablet button, .tablet .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact .tablet button, .tablet .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot .tablet button {
+    text-transform: none; }
+  @media only all and (min-width: 60em) and (max-width: 74.938em) {
+    .tablet {
+      width: 100%;
+      float: none; } }
+  @media only all and (min-width: 48em) and (max-width: 59.938em) {
+    .tablet {
+      width: 100%;
+      float: none; } }
+  @media only all and (max-width: 47.938em) {
+    .tablet {
+      width: 100%;
+      float: none; } }
+  @media only all and (max-width: 30em) {
+    .tablet {
+      width: 150%;
+      margin-left: -5.1rem;
+      float: none; } }
+
+.tablet .screen:before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  background: #E5EBED;
+  height: 0.5rem;
+  width: 0.5rem;
+  margin: 11.0rem 0 0 9.14rem; }
+
+.tablet .screen {
+  background: #464C51;
+  border-radius: 0.5rem;
+  height: 11.72rem;
+  width: 18.28rem;
+  margin: 0 auto; }
+  .tablet .screen .screen-content {
+    height: 10.1rem;
+    width: 16.73rem;
+    position: absolute;
+    z-index: 1;
+    margin-top: 0.8rem;
+    margin-left: 0.8rem;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  .tablet .screen .screen-content-hover {
+    height: 10.1rem;
+    width: 16.73rem;
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+    margin-top: 0.8rem;
+    margin-left: 0.8rem;
+    background-color: #178EE1; }
+    .tablet .screen .screen-content-hover .fa-play {
+      font-size: 5rem;
+      color: #ffffff;
+      margin-top: 2.5rem;
+      margin-left: 5.9rem; }
+    .tablet .screen .screen-content-hover:hover {
+      opacity: 0.8; }
+
+.tablet .screen:after {
+  content: "";
+  position: absolute;
+  background: #161B21;
+  height: 10rem;
+  width: 16.63rem;
+  border-radius: 0.125rem;
+  margin: 0.875rem 0 0 0.8125rem;
+  transition: background 1s ease-in-out; }
 
 .contact h4, .contact .modular .bottom table th, .modular .bottom table .contact th, .contact label, .contact .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .contact .name, .contact .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .contact .button, .callout .pricing-container .pricing-item .foot .contact button, .contact .callout .pricing-container .pricing-item .foot button {
   text-align: left; }
