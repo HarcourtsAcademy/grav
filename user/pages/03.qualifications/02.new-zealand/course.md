@@ -102,15 +102,3 @@ The first step in your career in Real Estate. Become qualified as an accredited 
 National Certificate in Real Estate (Salesperson) is delivered in partnership with [The Skills Organisation](http://skills.org.nz/) and is recognised nationally throughout New Zealand.
 
 Contact person: The [New Zealand Academy Administrator](http://420-c85.qld.harcourts.com.au/about-us/contact-us/locations/auckland)
-
-## Download Attachments
-[]()
-[]()
-Harcourts Withdrawals and Refunds Form
-Pre-Course Pack - Auckland, Central & Northland
-National Certificate in RE (Salesperson) - FAQs
-Enrolment Payment Form
-Salesperson National Certificate Scholarship Candidates
-Pre-Course Pack - South Island
-Pre-Course Pack - Wellington
-Skills Trainee Information Handbook
