@@ -1,5 +1,5 @@
 ---
-menu: Western Australia
+menu: New Zealand CE
 
 routable: false
 ---
