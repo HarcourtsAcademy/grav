@@ -3,11 +3,13 @@ title: Portfolio
 menu: Portfolio
 portfolio:
     - image: work1.jpg
-      title: Growing Our People eBook
-      desc: We've captured our students rave reviews in a book.
+      title: August interview@academy
+      desc: Leigh Brown - Be Your Own CEO
       modalid: 13
-      url: /about-us/growing-our-people-book
+      url: https://harcourtsacademy.wistia.com/medias/14qn3fn6ox
       date: <strong>Released</strong> August 2015
+      button: Watch
+      icon: fa-play
     - image: work2.jpg
       title: Our Promise Workshop
       desc: Join us at the Academy to take a closer look at the changes to Our Promise and its significance within your business.
