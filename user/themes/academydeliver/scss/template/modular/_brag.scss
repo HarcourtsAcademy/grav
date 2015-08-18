@@ -3,8 +3,8 @@ $text-bg:        #EEEEEE;
 $text-padding:   2rem;
 $image-margin:      2rem;
 $core-font-size-in-px: 16;
-$screen-width: (320 / $core-font-size-in-px);
-$screen-height: (180 / $core-font-size-in-px);
+$screen-width: (256 / $core-font-size-in-px);
+$screen-height: (144 / $core-font-size-in-px);
 $screen-padding-height: 3;
 $screen-padding-width: 3;
 $tablet-button-size: 0.9;
@@ -123,6 +123,7 @@ $tablet-button-size: 0.9;
         @include breakpoint(small-mobile-range) {
             width: 150%;
             margin-left: -5.1rem;
+            margin-right: -5.1rem;
             float: none;
         }
 

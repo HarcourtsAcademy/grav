@@ -1491,6 +1491,7 @@ ul.pagination {
     .tablet {
       width: 150%;
       margin-left: -5.1rem;
+      margin-right: -5.1rem;
       float: none; } }
 
 .tablet .screen:before {
@@ -1500,17 +1501,17 @@ ul.pagination {
   background: #E5EBED;
   height: 0.9rem;
   width: 0.9rem;
-  margin: 13.05rem 0 0 11.05rem; }
+  margin: 10.8rem 0 0 9.05rem; }
 
 .tablet .screen {
   background: #464C51;
   border-radius: 0.5rem;
-  height: 14.25rem;
-  width: 23rem;
+  height: 12rem;
+  width: 19rem;
   margin: 0 auto; }
   .tablet .screen .screen-content {
-    height: 11.25rem;
-    width: 20rem;
+    height: 9rem;
+    width: 16rem;
     position: absolute;
     z-index: 1;
     margin-top: 1.5rem;
@@ -1522,8 +1523,8 @@ ul.pagination {
   content: "";
   position: absolute;
   background: #161B21;
-  height: 11.25rem;
-  width: 20rem;
+  height: 9rem;
+  width: 16rem;
   border-radius: 0.125rem;
   margin: 1.5rem 0 0 1.5rem;
   transition: background 1s ease-in-out; }

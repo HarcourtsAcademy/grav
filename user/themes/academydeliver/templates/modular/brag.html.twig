@@ -33,8 +33,9 @@
   function onYouTubePlayerAPIReady() {
     {% for video in page.header.video %}
     player = new YT.Player('ytplayer-{{ video.youtube_id }}', {
-      height: '320',
-      width: '180',
+      height: '256',
+      width: '144',
+      playerVars: { 'rel': 0, 'showinfo':0 },
       videoId: '{{ video.youtube_id }}'
     });
     {% endfor %}
