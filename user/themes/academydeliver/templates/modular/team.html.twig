@@ -6,9 +6,12 @@
           {% set shortaddress = member.address.region %}
           {% set fulladdress = member.address.street ~ " " ~ member.address.city ~ " " ~ member.address.region  ~ " " ~ member.address.postcode  ~ " " ~ member.address.country %}
           {% set firstname = member.name|split(" ")|first %}
+          {% set image_link = member.email ? "mailto:" ~ member.email : member.contact %}
           <div class="member g-grid pure-g-r">
               <div class="profile-picture g-block size-1-2 pure-u-1-2">
-                <img src="{{page.media[member.image].grayscale.url}}" width="113" height="150" alt="">
+                <a href="{{ image_link }}">
+                <img src="{{page.media[member.image].url}}" width="113" height="150" alt="{{ member.name }}">
+                </a>
               </div>
               <div class="g-block pure-u-1-2">
                 <h4>{{ member.name }}</h4>

@@ -9,7 +9,7 @@
             padding-top: 3rem;
             margin: 0;
             line-height: 100%;
-            color: $light-gray; 
+            color: $light-gray;
         }
 
         p {
@@ -35,7 +35,7 @@
         }
         &.borderbottom {
             hr {
-                padding-top: 3rem;
+                padding-top: 2rem;
             }
             padding-bottom: 0;
         }
@@ -44,13 +44,13 @@
             th {
                 background: none;
                 @extend h4;
-                text-align: left; 
+                text-align: left;
                 @include breakpoint(mobile-only) {
                     display: none;
                 }
             }
             td {
-                text-align: left;  
+                text-align: left;
                 vertical-align: top;
                 border: 0 none;
                 @include breakpoint(mobile-only) {
@@ -81,7 +81,7 @@
                     margin-right: 1rem;
                 }
                 h4 {
-                    text-align: left; 
+                    text-align: left;
                     margin-bottom: 0;
                 }
             }

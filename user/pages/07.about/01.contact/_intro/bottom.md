@@ -19,4 +19,6 @@ buttons:
 
 ---
 
-## We would like to hear from you !
+## We want to hear from you !
+
+Contact us to register for training, ask a question, give feedback or get help.
