@@ -2,7 +2,12 @@
 $text-bg:        #EEEEEE;
 $text-padding:   2rem;
 $image-margin:      2rem;
-
+$core-font-size-in-px: 16;
+$screen-width: (320 / $core-font-size-in-px);
+$screen-height: (180 / $core-font-size-in-px);
+$screen-padding-height: 3;
+$screen-padding-width: 3;
+$tablet-button-size: 0.9;
 
 // styling
 .brag {
@@ -17,7 +22,6 @@ $image-margin:      2rem;
         color: $light-gray;
     }
     .tablets {
-        margin-top: 4rem;
         .tablet-row {
             box-shadow: inset 0px -90px 0px -20px $main-bg;
             margin-left: -$padding-horiz;
@@ -128,24 +132,24 @@ $image-margin:      2rem;
         position: absolute;
         border-radius: 50%;
         background: #E5EBED;
-        height: 0.5rem;
-        width: 0.5rem;
-        margin: 17.85rem 0 0 15.7rem;
+        height: $tablet-button-size + rem;
+        width: $tablet-button-size + rem;
+        margin: ($screen-padding-height / 2) + $screen-height + ($tablet-button-size / 3) + rem 0 0 ($screen-padding-width / 2) + ($screen-width / 2) - ($tablet-button-size / 2) + rem;
     }
     .tablet .screen{
         background:#464C51;
         border-radius: 0.5rem;
-        height: 18.495rem;
-        width: 31.55rem;
+        height: $screen-padding-height + $screen-height + rem;
+        width: $screen-padding-width + $screen-width + rem;
         margin: 0 auto;
 
         .screen-content {
-            height: 16.875rem;
-            width: 30rem;
+            height: $screen-height + rem;
+            width: $screen-width + rem;
             position: absolute;
             z-index: 1;
-            margin-top: 0.8rem;
-            margin-left: 0.8rem;
+            margin-top: $screen-padding-height / 2 + rem;
+            margin-left: $screen-padding-width / 2 + rem;
             background-size: cover;
             background-repeat: no-repeat
         }
@@ -154,9 +158,9 @@ $image-margin:      2rem;
         content: "";
         position: absolute;
         background: #161B21;
-        height: 16.875rem;
-        width: 30rem;
+        height: $screen-height + rem;
+        width: $screen-width + rem;
         border-radius: 0.125rem;
-        margin: 0.875rem 0 0 0.8125rem;
+        margin: ($screen-padding-height / 2) + rem 0 0 ($screen-padding-width / 2) + rem;
         transition: background 1s ease-in-out;
     }

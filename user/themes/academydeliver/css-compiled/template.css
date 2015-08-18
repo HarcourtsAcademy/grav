@@ -1405,53 +1405,51 @@ ul.pagination {
       text-align: center; } }
   .brag h2 {
     color: #656161; }
-  .brag .tablets {
-    margin-top: 4rem; }
-    .brag .tablets .tablet-row {
-      box-shadow: inset 0px -90px 0px -20px #f7f7f7;
-      margin-left: -14rem;
-      margin-right: -14rem;
-      padding-left: 14rem;
-      padding-right: 14rem;
-      background: #EEEEEE;
-      padding-bottom: 2rem; }
-      @media only all and (max-width: 47.938em) {
-        .brag .tablets .tablet-row {
-          margin-left: -10rem;
-          margin-right: -10rem; } }
-      .brag .tablets .tablet-row .tablet {
-        min-width: 24%; }
-        @media only all and (min-width: 48em) and (max-width: 59.938em) {
-          .brag .tablets .tablet-row .tablet {
-            width: 100%; } }
+  .brag .tablets .tablet-row {
+    box-shadow: inset 0px -90px 0px -20px #f7f7f7;
+    margin-left: -14rem;
+    margin-right: -14rem;
+    padding-left: 14rem;
+    padding-right: 14rem;
+    background: #EEEEEE;
+    padding-bottom: 2rem; }
+    @media only all and (max-width: 47.938em) {
+      .brag .tablets .tablet-row {
+        margin-left: -10rem;
+        margin-right: -10rem; } }
+    .brag .tablets .tablet-row .tablet {
+      min-width: 24%; }
+      @media only all and (min-width: 48em) and (max-width: 59.938em) {
+        .brag .tablets .tablet-row .tablet {
+          width: 100%; } }
+      @media only all and (min-width: 60em) and (max-width: 74.938em) {
+        .brag .tablets .tablet-row .tablet {
+          min-width: 24%;
+          float: none; } }
+      @media only all and (max-width: 30em) {
+        .brag .tablets .tablet-row .tablet {
+          width: 170%;
+          margin-left: -4.7rem; } }
+      .brag .tablets .tablet-row .tablet h4, .brag .tablets .tablet-row .tablet .archive-list label, .archive-list .brag .tablets .tablet-row .tablet label, .brag .tablets .tablet-row .tablet .modular .bottom table th, .modular .bottom table .brag .tablets .tablet-row .tablet th, .brag .tablets .tablet-row .tablet .contact label, .contact .brag .tablets .tablet-row .tablet label, .brag .tablets .tablet-row .tablet .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .brag .tablets .tablet-row .tablet .name, .brag .tablets .tablet-row .tablet .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .brag .tablets .tablet-row .tablet .button, .brag .tablets .tablet-row .tablet .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list .brag .tablets .tablet-row .tablet button, .brag .tablets .tablet-row .tablet .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot .brag .tablets .tablet-row .tablet button, .brag .tablets .tablet-row .tablet .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact .brag .tablets .tablet-row .tablet button, .brag .tablets .tablet-row .tablet .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot .brag .tablets .tablet-row .tablet button {
+        text-align: left;
+        margin-bottom: 0; }
+      .brag .tablets .tablet-row .tablet p {
+        margin-top: 0; }
+      .brag .tablets .tablet-row .tablet .desc {
+        width: 20rem;
+        margin-left: 2rem; }
         @media only all and (min-width: 60em) and (max-width: 74.938em) {
-          .brag .tablets .tablet-row .tablet {
-            min-width: 24%;
-            float: none; } }
+          .brag .tablets .tablet-row .tablet .desc {
+            width: 100%; } }
+        @media only all and (max-width: 47.938em) {
+          .brag .tablets .tablet-row .tablet .desc {
+            width: 100%; } }
         @media only all and (max-width: 30em) {
-          .brag .tablets .tablet-row .tablet {
-            width: 170%;
-            margin-left: -4.7rem; } }
-        .brag .tablets .tablet-row .tablet h4, .brag .tablets .tablet-row .tablet .archive-list label, .archive-list .brag .tablets .tablet-row .tablet label, .brag .tablets .tablet-row .tablet .modular .bottom table th, .modular .bottom table .brag .tablets .tablet-row .tablet th, .brag .tablets .tablet-row .tablet .contact label, .contact .brag .tablets .tablet-row .tablet label, .brag .tablets .tablet-row .tablet .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .brag .tablets .tablet-row .tablet .name, .brag .tablets .tablet-row .tablet .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .brag .tablets .tablet-row .tablet .button, .brag .tablets .tablet-row .tablet .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list .brag .tablets .tablet-row .tablet button, .brag .tablets .tablet-row .tablet .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot .brag .tablets .tablet-row .tablet button, .brag .tablets .tablet-row .tablet .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact .brag .tablets .tablet-row .tablet button, .brag .tablets .tablet-row .tablet .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot .brag .tablets .tablet-row .tablet button {
-          text-align: left;
-          margin-bottom: 0; }
-        .brag .tablets .tablet-row .tablet p {
-          margin-top: 0; }
-        .brag .tablets .tablet-row .tablet .desc {
-          width: 20rem;
-          margin-left: 2rem; }
-          @media only all and (min-width: 60em) and (max-width: 74.938em) {
-            .brag .tablets .tablet-row .tablet .desc {
-              width: 100%; } }
-          @media only all and (max-width: 47.938em) {
-            .brag .tablets .tablet-row .tablet .desc {
-              width: 100%; } }
-          @media only all and (max-width: 30em) {
-            .brag .tablets .tablet-row .tablet .desc {
-              width: 90%; } }
-          @media only all and (min-width: 48em) and (max-width: 59.938em) {
-            .brag .tablets .tablet-row .tablet .desc {
-              width: 100%; } }
+          .brag .tablets .tablet-row .tablet .desc {
+            width: 90%; } }
+        @media only all and (min-width: 48em) and (max-width: 59.938em) {
+          .brag .tablets .tablet-row .tablet .desc {
+            width: 100%; } }
   .brag .video-container {
     height: 0;
     /*padding-top: 25px;*/
@@ -1500,23 +1498,23 @@ ul.pagination {
   position: absolute;
   border-radius: 50%;
   background: #E5EBED;
-  height: 0.5rem;
-  width: 0.5rem;
-  margin: 17.85rem 0 0 15.7rem; }
+  height: 0.9rem;
+  width: 0.9rem;
+  margin: 13.05rem 0 0 11.05rem; }
 
 .tablet .screen {
   background: #464C51;
   border-radius: 0.5rem;
-  height: 18.495rem;
-  width: 31.55rem;
+  height: 14.25rem;
+  width: 23rem;
   margin: 0 auto; }
   .tablet .screen .screen-content {
-    height: 16.875rem;
-    width: 30rem;
+    height: 11.25rem;
+    width: 20rem;
     position: absolute;
     z-index: 1;
-    margin-top: 0.8rem;
-    margin-left: 0.8rem;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
     background-size: cover;
     background-repeat: no-repeat; }
 
@@ -1524,10 +1522,10 @@ ul.pagination {
   content: "";
   position: absolute;
   background: #161B21;
-  height: 16.875rem;
-  width: 30rem;
+  height: 11.25rem;
+  width: 20rem;
   border-radius: 0.125rem;
-  margin: 0.875rem 0 0 0.8125rem;
+  margin: 1.5rem 0 0 1.5rem;
   transition: background 1s ease-in-out; }
 
 .contact h4, .contact .modular .bottom table th, .modular .bottom table .contact th, .contact label, .contact .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .contact .name, .contact .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .contact .button, .callout .pricing-container .pricing-item .foot .contact button, .contact .callout .pricing-container .pricing-item .foot button {
