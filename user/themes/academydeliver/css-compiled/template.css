@@ -1055,6 +1055,11 @@ ul.pagination {
   .simplesearch hr {
     border-bottom: 1px solid #eee; }
 
+#sidebar .sidebar-content.simplesearch i {
+  display: none; }
+#sidebar .sidebar-content.simplesearch input {
+  font-size: 1rem; }
+
 #breadcrumbs {
   height: 3rem;
   line-height: 3rem;
