@@ -11,6 +11,6 @@ buttons:
 
 ___
 
-## Find Training Near You
+## Find Classroom Training Near You
 
 Join the hundreds of real estate professionals who list, lease and sell more property after attending one of our many training courses available in class and online.
