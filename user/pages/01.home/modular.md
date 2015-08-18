@@ -17,4 +17,5 @@ content:
             - _highlights
             - _youtube
             - _contact
+            - _bookmark
 ---

@@ -1322,6 +1322,31 @@ ul.pagination {
       .modular .features.big .feature-content p {
         padding: 0; }
 
+.modular .bookmark {
+  text-align: center;
+  padding-bottom: 4rem; }
+  .modular .bookmark:after {
+    content: "";
+    display: table;
+    clear: both; }
+  @media only all and (min-width: 48em) {
+    .modular .bookmark {
+      display: none; } }
+  .modular .bookmark h2 {
+    padding-top: 3rem;
+    margin: 0;
+    line-height: 100%;
+    color: #656161; }
+  .modular .bookmark p {
+    margin: 1rem 0; }
+    @media only all and (max-width: 47.938em) {
+      .modular .bookmark p {
+        font-size: 1rem; } }
+  .modular .bookmark.borderbottom {
+    padding-bottom: 0; }
+    .modular .bookmark.borderbottom hr {
+      padding-top: 3rem; }
+
 .modular .bottom {
   text-align: center;
   padding-bottom: 4rem; }
