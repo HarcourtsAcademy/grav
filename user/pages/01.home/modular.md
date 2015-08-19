@@ -15,7 +15,6 @@ content:
             - _callout
             - _bottom
             - _highlights
-            - _youtube
             - _contact
             - _bookmark
 ---
