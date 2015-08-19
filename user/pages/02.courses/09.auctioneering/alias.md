@@ -1,5 +1,5 @@
 ---
-menu: Auctioneering
+menu: Auction & Auctioneering
 
 routable: false
 ---

@@ -1,6 +1,6 @@
 ---
 title: Auction Programme
-menu: Auction
+menu: Auction & Auctioneering
 slug: auction
 onpage_menu: false
 published: true
