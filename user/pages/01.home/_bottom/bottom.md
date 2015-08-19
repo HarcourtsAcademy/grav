@@ -1,7 +1,6 @@
 ---
 title: Training new you
 menu: Other Pages
-class: small borderbottom
 buttons:
     - text: Lift your performance
       icon: fa-map-marker

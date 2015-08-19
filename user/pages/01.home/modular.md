@@ -13,8 +13,7 @@ content:
             - _showcase
             - _brag
             - _callout
-            - _bottom
             - _highlights
-            - _contact
+            - _bottom
             - _bookmark
 ---
