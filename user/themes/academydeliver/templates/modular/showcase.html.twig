@@ -1,7 +1,7 @@
 <div id="content-slide">
   <div class="slideme">
     {% for slide in page.header.slides %}
-       <div class="modular-row showcase flush-top" {% if page.media[slide.image] %}style="background-image: url({{ page.media[slide.image].url }});"{% endif %}>
+       <div class="modular-row showcase flush-top" {% if page.media[slide.image] %}style="background-image: url({{ page.media[slide.image].grayscale.url }});"{% endif %}>
           <div class="slideoverlay modular-row flush-top"></div>
           <h1>{{ slide.heading }}</h1>
           <h2>{{ slide.subheading }}</h2>
