@@ -79,14 +79,15 @@
         color: $header-text;
         font-family: $font-family-header;
         padding: 0.3rem 1rem;
-        background: rgba(255,255,255,0);
-        border: 2px solid $header-text;
+        background: transparent;
+        border: 2px solid $core-accent;
         border-radius: $border-radius;
         box-shadow: none;
         font-size: $core-font-size;
 
         &:hover {
-            background: rgba(255,255,255,0.2);
+            background: $core-accent;
+            border-color: transparent;
         }
     }
 }

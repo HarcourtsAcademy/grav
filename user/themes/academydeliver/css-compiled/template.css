@@ -1163,13 +1163,14 @@ ul.pagination {
     color: #ffffff;
     font-family: "Source Sans Pro", Helvetica, "Tahoma", "Geneva", "Arial", sans-serif;
     padding: 0.3rem 1rem;
-    background: rgba(255, 255, 255, 0);
-    border: 2px solid #ffffff;
+    background: transparent;
+    border: 2px solid #178EE1;
     border-radius: 0;
     box-shadow: none;
     font-size: 1rem; }
     .modular .showcase .button:hover, .modular .showcase .archive-list button:hover, .archive-list .modular .showcase button:hover, .modular .showcase .contact button:hover, .contact .modular .showcase button:hover {
-      background: rgba(255, 255, 255, 0.2); }
+      background: #178EE1;
+      border-color: transparent; }
 .modular .slideme_container .arrow {
   position: absolute;
   display: block;
