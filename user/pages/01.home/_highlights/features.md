@@ -2,18 +2,18 @@
 title: Service Highlights
 menu: Highlights
 class: small
-feature_title: In the last 90 Days
+feature_title: In the last 3 months (Apr to Jun 2015)
 features:
-  - header: "2,017"
+  - header: "2,975"
     text: "Classroom students trained"
     icon: users
-  - header: 199
+  - header: 314
     text: "Coached in the field"
     icon: bullhorn
-  - header: 45
-    text: "Provided with CE"
+  - header: 111
+    text: "Provided with industry CE"
     icon: legal
-  - header: "2,777"
+  - header: "4,089"
     text: "Online Learners connected"
     icon: laptop
 
