@@ -30,7 +30,7 @@
             font-size: $core-font-size;
             border: 0 none;
             &:hover {
-                background-color: darken($core-accent, 20%);
+                background-color: $core-accent-dark;
             }
         }
         &.borderbottom {
