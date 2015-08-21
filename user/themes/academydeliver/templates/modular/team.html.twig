@@ -22,7 +22,7 @@
                     <li><i class="fa fa-envelope"></i> <a href="mailto:{{ member.email|safe_email }}">Email {{ member.name|split(" ")|first }}</a> </li>
                     {% endif %}
                     {% if member.contact %}
-                    <li><i class="fa fa-comments"></i> <a href="{{ member.contact }}">Contact {{ member.name|split(" ")|first }}</a> </li>
+                    <li><i class="fa fa-envelope"></i> <a href="{{ member.contact }}">Contact {{ member.name|split(" ")|first }}</a> </li>
                     {% endif %}
                     <li><i class="fa fa-phone"></i> {{ officepage.header.office.phone }} </li>
                 </ul>
