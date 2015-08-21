@@ -70,10 +70,10 @@
         </header>
         {% endblock %}
 
-        {% block showcase %}{% endblock %}
 
         {% block body %}
         <section id="body" class="{{ class }}">
+            {% block showcase %}{% endblock %}
             {% block content %}{% endblock %}
 
             {% block footer %}

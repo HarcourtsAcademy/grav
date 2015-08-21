@@ -32,21 +32,54 @@
          z-index: -99;
      }
 }
+.showcase_container {
+    @include clearfix;
+    overflow: hidden;
+    margin-top: - $header-height - 3rem;
+    padding-top: $header-height + 3rem;
+    position: relative;
+
+    h1 {
+        text-align: left;
+        margin: 0;
+
+        @extend .padding-horiz;
+
+        @include breakpoint(mobile-only) {
+            padding: 0;
+        }
+    }
+
+    .showcaseoverlay {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0,0,0,0.5);
+        z-index: -99;
+    }
+}
+
+.slideme .showcase {
+    padding-bottom: 10rem;
+    text-align: center;
+}
+
 .showcase {
     position: relative;
     z-index: 1;
-    padding-bottom: 10rem;
     background-color: #666;
     background-size: cover;
     background-position: center;
 
     text-align: center;
     color: $header-text;
+
     h1 {
         font-size: 2.2rem;
         margin-top: 0;
-        padding-left: $padding-horiz;
-        padding-right: $padding-horiz;
+
         @include breakpoint(tablet-range) {
             font-size: 1.5rem;
         }
@@ -57,11 +90,12 @@
             padding-right: 0;
             margin-left: 4rem;
             margin-right: 4rem;
+
         }
         strong {
             color: $core-accent;
         }
-        // text-transform: uppercase;
+        text-transform: uppercase;
     }
     h2 {
         text-transform: none;

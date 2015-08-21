@@ -245,14 +245,19 @@
     }
 
     #body {
-        .flush-top {
+        .slideme_container .flush-top {
             margin-top: - $header-height - $padding-vert - 0.5rem;
             padding-top: $header-height + 4rem;
+        }
+
+        .showcase_container .flush-top {
+            margin-top: - $header-height - $padding-vert - 0.5rem;
+            padding-top: $header-height + 2rem;
         }
     }
 
     #breadcrumbs {
-        margin-top: 1rem;
+        //margin-top: 1rem;
     }
 
     #header {
@@ -282,9 +287,6 @@
     }
 }
 .header-lite {
-    #body {
-        padding-top: 12rem;
-    }
     #header {
         box-shadow: none;
         color: $light-gray;

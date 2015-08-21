@@ -83,19 +83,19 @@ b, strong, label, th {
   -moz-transition: all 0.5s ease;
   transition: all 0.5s ease; }
 
-.padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .page-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer {
+.padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .page-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer, .modular .showcase_container h1 {
   padding-left: 14rem;
   padding-right: 14rem; }
   @media only all and (min-width: 60em) and (max-width: 74.938em) {
-    .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .page-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer {
+    .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .page-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer, .modular .showcase_container h1 {
       padding-left: 7rem;
       padding-right: 7rem; } }
   @media only all and (min-width: 48em) and (max-width: 59.938em) {
-    .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .page-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer {
+    .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .page-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer, .modular .showcase_container h1 {
       padding-left: 2rem;
       padding-right: 2rem; } }
   @media only all and (max-width: 47.938em) {
-    .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .page-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer {
+    .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .page-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer, .modular .showcase_container h1 {
       padding-left: 1rem;
       padding-right: 1rem; } }
 
@@ -255,11 +255,12 @@ b, strong, label, th {
     padding-right: 14rem; }
 .header-image .listing-row:last-child {
   margin-bottom: 2rem; }
-.header-image #body .flush-top {
+.header-image #body .slideme_container .flush-top {
   margin-top: -15.5rem;
   padding-top: 16rem; }
-.header-image #breadcrumbs {
-  margin-top: 1rem; }
+.header-image #body .showcase_container .flush-top {
+  margin-top: -15.5rem;
+  padding-top: 14rem; }
 .header-image #header {
   background-color: rgba(255, 255, 255, 0);
   box-shadow: none; }
@@ -276,8 +277,6 @@ b, strong, label, th {
       color: #006389;
       border-bottom: 0; }
 
-.header-lite #body {
-  padding-top: 12rem; }
 .header-lite #header {
   box-shadow: none;
   color: #656161; }
@@ -1123,10 +1122,35 @@ ul.pagination {
     left: 0;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: -99; }
+.modular .showcase_container {
+  overflow: hidden;
+  margin-top: -15rem;
+  padding-top: 15rem;
+  position: relative; }
+  .modular .showcase_container:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .modular .showcase_container h1 {
+    text-align: left;
+    margin: 0; }
+    @media only all and (max-width: 47.938em) {
+      .modular .showcase_container h1 {
+        padding: 0; } }
+  .modular .showcase_container .showcaseoverlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -99; }
+.modular .slideme .showcase {
+  padding-bottom: 10rem;
+  text-align: center; }
 .modular .showcase {
   position: relative;
   z-index: 1;
-  padding-bottom: 10rem;
   background-color: #666;
   background-size: cover;
   background-position: center;
@@ -1135,8 +1159,7 @@ ul.pagination {
   .modular .showcase h1 {
     font-size: 2.2rem;
     margin-top: 0;
-    padding-left: 14rem;
-    padding-right: 14rem; }
+    text-transform: uppercase; }
     @media only all and (min-width: 48em) and (max-width: 59.938em) {
       .modular .showcase h1 {
         font-size: 1.5rem; } }
