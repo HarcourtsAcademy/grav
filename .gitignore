@@ -23,7 +23,8 @@ user/data/*
 !user/data/.*
 user/plugins/*
 !user/plugins/.*
-user/themes/*
+user/themes/antimatter
+user/themes/deliver
 !user/themes/.*
 !user/themes/academydeliver
 user/themes/academydeliver/.sass-cache
