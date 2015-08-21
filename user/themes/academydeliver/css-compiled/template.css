@@ -729,11 +729,12 @@ dt, dd {
     padding: 0;
     margin-left: 0; }
     #panel .navigation li {
+      padding: 0.5rem 0;
       border-bottom: 1px solid #3d3d3d; }
       #panel .navigation li a {
         color: #ddd;
         display: block;
-        padding: 0.5rem 1rem;
+        padding: 0.5rem 0.5rem;
         font-weight: 600; }
         #panel .navigation li a:hover {
           color: white;
@@ -754,7 +755,7 @@ dt, dd {
           border: 0 !important; }
           #panel .navigation li ul li a {
             color: #c4c4c4;
-            padding: 0.2rem 1rem 0.2rem 2rem;
+            padding: 0.2rem 1rem 0.2rem 0;
             font-size: 0.9rem; }
           #panel .navigation li ul li li a {
             padding-left: 3rem; }
