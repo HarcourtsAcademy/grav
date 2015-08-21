@@ -1125,7 +1125,7 @@ ul.pagination {
 .modular .showcase_container {
   overflow: hidden;
   margin-top: -15rem;
-  padding-top: 15rem;
+  padding-top: 13rem;
   position: relative; }
   .modular .showcase_container:after {
     content: "";
@@ -1136,7 +1136,8 @@ ul.pagination {
     margin: 0; }
     @media only all and (max-width: 47.938em) {
       .modular .showcase_container h1 {
-        padding: 0; } }
+        padding-bottom: 1rem;
+        text-align: center; } }
   .modular .showcase_container .showcaseoverlay {
     position: absolute;
     top: 0;
@@ -1165,12 +1166,8 @@ ul.pagination {
         font-size: 1.5rem; } }
     @media only all and (max-width: 47.938em) {
       .modular .showcase h1 {
-        font-size: 1.3rem;
-        line-height: 1.2;
-        padding-left: 0;
-        padding-right: 0;
-        margin-left: 4rem;
-        margin-right: 4rem; } }
+        font-size: 1.4rem;
+        line-height: 1.2; } }
     .modular .showcase h1 strong, .modular .showcase h1 label, .modular .showcase h1 th {
       color: #00adef; }
   .modular .showcase h2 {

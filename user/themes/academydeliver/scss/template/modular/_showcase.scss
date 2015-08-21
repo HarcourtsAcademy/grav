@@ -36,7 +36,7 @@
     @include clearfix;
     overflow: hidden;
     margin-top: - $header-height - 3rem;
-    padding-top: $header-height + 3rem;
+    padding-top: $header-height + 1rem;
     position: relative;
 
     h1 {
@@ -46,7 +46,8 @@
         @extend .padding-horiz;
 
         @include breakpoint(mobile-only) {
-            padding: 0;
+            padding-bottom: 1rem;
+            text-align: center;
         }
     }
 
@@ -84,13 +85,8 @@
             font-size: 1.5rem;
         }
         @include breakpoint(mobile-only) {
-            font-size: 1.3rem;
+            font-size: 1.4rem;
             line-height: 1.2;
-            padding-left: 0;
-            padding-right: 0;
-            margin-left: 4rem;
-            margin-right: 4rem;
-
         }
         strong {
             color: $core-accent;
