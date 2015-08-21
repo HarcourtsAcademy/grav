@@ -5,9 +5,14 @@ menu: false
 members:
     - name: Paul Casarotto
       image: paul-casarotto.jpg
-      title: Academy Trainer
+      title: Academy Auction Trainer
       office: new-south-wales
       email: paul.casarotto@harcourts.net
+    - name: Janet Okaro
+      image: janet-okaro.jpg
+      title: Academy Sales and Technology Trainer
+      office: new-south-wales
+      email: janet.okaro@harcourts.net
     - name: Anthony Masci
       image: anthony-masci.jpg
       title: Academy Trainer

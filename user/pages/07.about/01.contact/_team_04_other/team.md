@@ -13,6 +13,11 @@ members:
       title: Academy Trainer California
       office: california
       email: valerie.acevez@harcourtsusa.com
+    - name: Ray Bachman
+      image: ray-bachman.jpg
+      title: Academy Trainer Oregon
+      office: oregon
+      email: ray.bachman@harcourtsusa.com
 
 ---
 
