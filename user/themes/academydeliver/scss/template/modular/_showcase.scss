@@ -108,19 +108,25 @@
         }
     }
     .button {
-        @extend .default-animation;
-        color: $header-text;
-        font-family: $font-family-header;
-        padding: 0.3rem 1rem;
-        background: transparent;
-        border: 2px solid $core-accent;
-        border-radius: $border-radius;
-        box-shadow: none;
-        font-size: $core-font-size;
 
         &:hover {
-            background: $core-accent;
-            border-color: transparent;
+            border-color: transparent $white;
+
+            &:after {
+                border-color: transparent $white;
+            }
+        }
+
+        &:after {
+            content: "";
+            position: absolute;
+            margin-top: 7px;
+            border-width: 0 20px 20px 0px;
+            border-style: solid;
+            border-color: transparent $core-accent;
+            /* reduce the damage in FF3.0 */
+            display:block;
+            width:0;
         }
     }
 }

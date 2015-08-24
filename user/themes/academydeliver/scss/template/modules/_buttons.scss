@@ -1,7 +1,18 @@
 %button {
-  display: inline-block;
-  padding: 7px 20px;
-  margin: 0.5rem;
+    display: inline-block;
+    padding: 7px 20px;
+    margin: 0.5rem;
+    font-family: $font-family-header;
+    border-radius: $border-radius;
+    box-shadow: none;
+    font-size: $core-font-size;
+    border: 0 none;
+    background-color: $core-accent;
+               color: $white;
+
+    &:hover {
+        background-color: $core-accent-dark;
+    }
 
     &.button-small {
         padding: 3px 10px;
@@ -11,14 +22,11 @@
 }
 
 @mixin button-color($color) {
-  background: $color;
-    color: $white;
-  border: 1px solid $color;
-  &:hover {
-    background: $white;
-        color: $color;
-  }
-  &:active {
-    box-shadow: 0 1px 0 darken($color, 12%);
-  }
+    background: $color;
+         color: $white;
+    border: 1px solid $color;
+    &:hover {
+      background: $white;
+           color: $color;
+    }
 }

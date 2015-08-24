@@ -10,7 +10,16 @@
 .button, .archive-list button, .contact button, .button-secondary {
   display: inline-block;
   padding: 7px 20px;
-  margin: 0.5rem; }
+  margin: 0.5rem;
+  font-family: "Source Sans Pro", Helvetica, "Tahoma", "Geneva", "Arial", sans-serif;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 1rem;
+  border: 0 none;
+  background-color: #00adef;
+  color: #fff; }
+  .button:hover, .archive-list button:hover, .contact button:hover, .button-secondary:hover {
+    background-color: #002b49; }
   .button-small.button, .archive-list button.button-small, .contact button.button-small, .button-small.button-secondary {
     padding: 3px 10px;
     font-size: 0.9rem; }
@@ -78,7 +87,7 @@ b, strong, label, th {
   font-stretch: normal;
   src: url("../fonts/EOT/SourceSansPro-BoldIt.eot");
   src: url("../fonts/EOT/SourceSansPro-BoldIt.eot?#iefix") format("embedded-opentype"), url("../fonts/WOFF2/TTF/SourceSansPro-BoldIt.ttf.woff2") format("woff2"), url("../fonts/WOFF/OTF/SourceSansPro-BoldIt.otf.woff") format("woff"), url("../fonts/TTF/SourceSansPro-BoldIt.ttf") format("truetype"); }
-.default-animation, #body, #header #navbar ul.social-icons li, #header #navbar ul.social-icons li a, .modal, .archive-list button, .modular .showcase .button, .modular .showcase .archive-list button, .archive-list .modular .showcase button, .modular .showcase .contact button, .contact .modular .showcase button, .modular .slideme_container .arrow, .modular .slideme_container .pagination .numbers li, .modular .bottom .button, .modular .bottom .archive-list button, .archive-list .modular .bottom button, .modular .bottom .contact button, .contact .modular .bottom button, .contact input, .contact textarea, .contact button, .callout .pricing-container .pricing-item, .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .foot, .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .archive-list button, .archive-list .callout .pricing-container .pricing-item .foot button, .callout .pricing-container .pricing-item .foot .contact button, .contact .callout .pricing-container .pricing-item .foot button, .team .members .contact-icons li a, .offices .locations .contact-icons li a, .logo h3, .logo ul.social-icons li, .logo ul.social-icons li a, .notebook .screen .screen-content-hover {
+.default-animation, #body, #header #navbar ul.social-icons li, #header #navbar ul.social-icons li a, .modal, .archive-list button, .modular .slideme_container .arrow, .modular .slideme_container .pagination .numbers li, .contact input, .contact textarea, .contact button, .callout .pricing-container .pricing-item, .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .foot, .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .archive-list button, .archive-list .callout .pricing-container .pricing-item .foot button, .callout .pricing-container .pricing-item .foot .contact button, .contact .callout .pricing-container .pricing-item .foot button, .team .members .contact-icons li a, .offices .locations .contact-icons li a, .logo h3, .logo ul.social-icons li, .logo ul.social-icons li a, .notebook .screen .screen-content-hover {
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   transition: all 0.5s ease; }
@@ -639,8 +648,6 @@ td {
   .button:hover, .archive-list button:hover, .contact button:hover {
     background: #fff;
     color: #00adef; }
-  .button:active, .archive-list button:active, .contact button:active {
-    box-shadow: 0 1px 0 #0081b2; }
 
 .button-secondary {
   background: #a7a7a7;
@@ -649,8 +656,6 @@ td {
   .button-secondary:hover {
     background: #fff;
     color: #a7a7a7; }
-  .button-secondary:active {
-    box-shadow: 0 1px 0 #888888; }
 
 .bullets {
   margin: 1.7rem 0;
@@ -1186,18 +1191,20 @@ ul.pagination {
         padding-right: 0;
         margin-left: 4rem;
         margin-right: 4rem; } }
-  .modular .showcase .button, .modular .showcase .archive-list button, .archive-list .modular .showcase button, .modular .showcase .contact button, .contact .modular .showcase button {
-    color: #ffffff;
-    font-family: "Source Sans Pro", Helvetica, "Tahoma", "Geneva", "Arial", sans-serif;
-    padding: 0.3rem 1rem;
-    background: transparent;
-    border: 2px solid #00adef;
-    border-radius: 0;
-    box-shadow: none;
-    font-size: 1rem; }
-    .modular .showcase .button:hover, .modular .showcase .archive-list button:hover, .archive-list .modular .showcase button:hover, .modular .showcase .contact button:hover, .contact .modular .showcase button:hover {
-      background: #00adef;
-      border-color: transparent; }
+  .modular .showcase .button:hover, .modular .showcase .archive-list button:hover, .archive-list .modular .showcase button:hover, .modular .showcase .contact button:hover, .contact .modular .showcase button:hover {
+    border-color: transparent #fff; }
+    .modular .showcase .button:hover:after, .modular .showcase .archive-list button:hover:after, .archive-list .modular .showcase button:hover:after, .modular .showcase .contact button:hover:after, .contact .modular .showcase button:hover:after {
+      border-color: transparent #fff; }
+  .modular .showcase .button:after, .modular .showcase .archive-list button:after, .archive-list .modular .showcase button:after, .modular .showcase .contact button:after, .contact .modular .showcase button:after {
+    content: "";
+    position: absolute;
+    margin-top: 7px;
+    border-width: 0 20px 20px 0px;
+    border-style: solid;
+    border-color: transparent #00adef;
+    /* reduce the damage in FF3.0 */
+    display: block;
+    width: 0; }
 .modular .slideme_container .arrow {
   position: absolute;
   display: block;
@@ -1397,16 +1404,6 @@ ul.pagination {
     @media only all and (max-width: 47.938em) {
       .modular .bottom p {
         font-size: 1rem; } }
-  .modular .bottom .button, .modular .bottom .archive-list button, .archive-list .modular .bottom button, .modular .bottom .contact button, .contact .modular .bottom button {
-    background-color: #00adef;
-    color: #ffffff;
-    font-family: "Source Sans Pro", Helvetica, "Tahoma", "Geneva", "Arial", sans-serif;
-    border-radius: 0;
-    box-shadow: none;
-    font-size: 1rem;
-    border: 0 none; }
-    .modular .bottom .button:hover, .modular .bottom .archive-list button:hover, .archive-list .modular .bottom button:hover, .modular .bottom .contact button:hover, .contact .modular .bottom button:hover {
-      background-color: #002b49; }
   .modular .bottom.borderbottom {
     padding-bottom: 0; }
     .modular .bottom.borderbottom hr {
