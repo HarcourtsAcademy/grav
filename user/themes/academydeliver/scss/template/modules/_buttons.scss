@@ -10,15 +10,31 @@
     background-color: $core-accent;
                color: $white;
 
-    &:hover {
-        background-color: $core-accent-dark;
-    }
-
     &.button-small {
         padding: 3px 10px;
         font-size: $core-font-size - 0.1rem;
     }
 
+    &.button-chat-bubble {
+        &:hover {
+            border-color: $core-accent;
+
+            &:after {
+                border-color: transparent $core-accent;
+            }
+        }
+
+        &:after {
+            content: "";
+            position: absolute;
+            margin-top: 7px;
+            border-width: 0 20px 20px 0px;
+            border-style: solid;
+            border-color: transparent $core-accent;
+            display:block;
+            width:0;
+        }
+    }
 }
 
 @mixin button-color($color) {

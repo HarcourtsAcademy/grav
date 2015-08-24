@@ -109,24 +109,15 @@
     }
     .button {
 
-        &:hover {
-            border-color: transparent $white;
+        &.button-chat-bubble {
+            &:hover {
+                border-color: $white;
 
-            &:after {
-                border-color: transparent $white;
+                &:after {
+                    border-color: transparent $white;
+                }
             }
-        }
 
-        &:after {
-            content: "";
-            position: absolute;
-            margin-top: 7px;
-            border-width: 0 20px 20px 0px;
-            border-style: solid;
-            border-color: transparent $core-accent;
-            /* reduce the damage in FF3.0 */
-            display:block;
-            width:0;
         }
     }
 }

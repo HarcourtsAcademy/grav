@@ -18,11 +18,22 @@
   border: 0 none;
   background-color: #00adef;
   color: #fff; }
-  .button:hover, .archive-list button:hover, .contact button:hover, .button-secondary:hover {
-    background-color: #002b49; }
   .button-small.button, .archive-list button.button-small, .contact button.button-small, .button-small.button-secondary {
     padding: 3px 10px;
     font-size: 0.9rem; }
+  .button-chat-bubble.button:hover, .archive-list button.button-chat-bubble:hover, .contact button.button-chat-bubble:hover, .button-chat-bubble.button-secondary:hover {
+    border-color: #00adef; }
+    .button-chat-bubble.button:hover:after, .archive-list button.button-chat-bubble:hover:after, .contact button.button-chat-bubble:hover:after, .button-chat-bubble.button-secondary:hover:after {
+      border-color: transparent #00adef; }
+  .button-chat-bubble.button:after, .archive-list button.button-chat-bubble:after, .contact button.button-chat-bubble:after, .button-chat-bubble.button-secondary:after {
+    content: "";
+    position: absolute;
+    margin-top: 7px;
+    border-width: 0 20px 20px 0px;
+    border-style: solid;
+    border-color: transparent #00adef;
+    display: block;
+    width: 0; }
 
 html, body {
   height: 100%; }
@@ -1191,20 +1202,10 @@ ul.pagination {
         padding-right: 0;
         margin-left: 4rem;
         margin-right: 4rem; } }
-  .modular .showcase .button:hover, .modular .showcase .archive-list button:hover, .archive-list .modular .showcase button:hover, .modular .showcase .contact button:hover, .contact .modular .showcase button:hover {
-    border-color: transparent #fff; }
-    .modular .showcase .button:hover:after, .modular .showcase .archive-list button:hover:after, .archive-list .modular .showcase button:hover:after, .modular .showcase .contact button:hover:after, .contact .modular .showcase button:hover:after {
+  .modular .showcase .button.button-chat-bubble:hover, .modular .showcase .archive-list button.button-chat-bubble:hover, .archive-list .modular .showcase button.button-chat-bubble:hover, .modular .showcase .contact button.button-chat-bubble:hover, .contact .modular .showcase button.button-chat-bubble:hover {
+    border-color: #fff; }
+    .modular .showcase .button.button-chat-bubble:hover:after, .modular .showcase .archive-list button.button-chat-bubble:hover:after, .archive-list .modular .showcase button.button-chat-bubble:hover:after, .modular .showcase .contact button.button-chat-bubble:hover:after, .contact .modular .showcase button.button-chat-bubble:hover:after {
       border-color: transparent #fff; }
-  .modular .showcase .button:after, .modular .showcase .archive-list button:after, .archive-list .modular .showcase button:after, .modular .showcase .contact button:after, .contact .modular .showcase button:after {
-    content: "";
-    position: absolute;
-    margin-top: 7px;
-    border-width: 0 20px 20px 0px;
-    border-style: solid;
-    border-color: transparent #00adef;
-    /* reduce the damage in FF3.0 */
-    display: block;
-    width: 0; }
 .modular .slideme_container .arrow {
   position: absolute;
   display: block;
