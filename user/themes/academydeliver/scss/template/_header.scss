@@ -245,12 +245,12 @@
     }
 
     #body {
-        .slideme_container .flush-top {
+        .slideme_container .showcase {
             margin-top: - $header-height - $padding-vert - 0.5rem;
             padding-top: $header-height + 4rem;
         }
 
-        .showcase_container .flush-top {
+        .showcase_container .showcase {
             margin-top: - $header-height - $padding-vert - 0.5rem;
             padding-top: $header-height + 2rem;
         }
@@ -325,6 +325,16 @@
                 .fa {
                     color: $light-gray;
                 }
+            }
+        }
+    }
+
+    #body {
+        .showcase_container .showcase {
+            margin-top: -1rem;
+
+            .showcaseoverlay {
+                display: none;
             }
         }
     }

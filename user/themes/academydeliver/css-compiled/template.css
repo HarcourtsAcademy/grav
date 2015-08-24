@@ -255,10 +255,10 @@ b, strong, label, th {
     padding-right: 14rem; }
 .header-image .listing-row:last-child {
   margin-bottom: 2rem; }
-.header-image #body .slideme_container .flush-top {
+.header-image #body .slideme_container .showcase {
   margin-top: -15.5rem;
   padding-top: 16rem; }
-.header-image #body .showcase_container .flush-top {
+.header-image #body .showcase_container .showcase {
   margin-top: -15.5rem;
   padding-top: 14rem; }
 .header-image #header {
@@ -300,6 +300,10 @@ b, strong, label, th {
       color: white; }
     .header-lite #header .logo ul.social-icons li:hover .fa {
       color: #656161; }
+.header-lite #body .showcase_container .showcase {
+  margin-top: -1rem; }
+  .header-lite #body .showcase_container .showcase .showcaseoverlay {
+    display: none; }
 
 .footer {
   font-size: 0.9rem;
