@@ -12,14 +12,15 @@ body_classes: "modular header-image fullwidth courses"
 bg_color: "#002b49"
 banner_image: theme://images/banners/courses.jpg
 
-side_bar_menu: true;
+side_bar_menu: true
+visible: false
 ---
 
 Download the latest Academy training calendars for Australia, New Zealand and the USA:
 
 ===
 
-## Australia
+## Australia Training Calendars {#australia}
 * [New South Wales 2015 Calendar](_calendars/2015/NSW-Training-Calendar-2015.pdf)
 * [Queensland 2015 Calendar](_calendars/2015/QLD-Training-Calendar-2015.pdf)
 * [South Australia 2015 Calendar](_calendars/2015/SA-Training-Calendar-2015.pdf)
@@ -27,13 +28,13 @@ Download the latest Academy training calendars for Australia, New Zealand and th
 * [Victoria 2015 Calendar](_calendars/2015/VIC-Training-Calendar-2015.pdf)
 * [Western Australia 2015 Calendar](_calendars/2015/WA-Training-Calendar-2015.pdf)
 
-## New Zealand
+## New Zealand Training Calendars {#new-zealand}
 * [Central Region 2015 Calendar](_calendars/2015/NZ-Central-Region-Training-Calendar-2015.pdf)
 * [Christchurch Region 2015 Calendar](_calendars/2015/NZ-Christchurch-Training-Calendar-2015.pdf)
 * [Northern Region 2015 Calendar](_calendars/2015/NZ-Northern-Region-Training-Calendar-2015.pdf)
 * [Wellington Region 2015 Calendar](_calendars/2015/NZ-Wellington-Training-Calendar-2015.pdf)
 
-## USA
+## USA Training Calendar {#usa}
 * [USA 2014-15 Calendar](_calendars/2015/USA-Training-Calendar-2014-2015.pdf)
 
 ## Upcoming Training
