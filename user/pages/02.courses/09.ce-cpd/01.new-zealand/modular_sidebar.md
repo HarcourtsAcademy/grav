@@ -9,7 +9,7 @@ taxonomy:
   tag: [continuing education,ce,continuing professional development,cpd]
   country: [new zealand]
 
-body_classes: "modular header-lite fullwidth courses"
+body_classes: "modular header-image fullwidth courses"
 bg_color: "#002b49"
 banner_image: theme://images/banners/courses.jpg
 

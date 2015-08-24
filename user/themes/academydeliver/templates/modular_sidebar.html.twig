@@ -85,18 +85,6 @@
     {% endif %}
 {% endblock %}
 
-{% block showcase %}
-  {% set banner_image = page.header.banner_image %}
-  {% if banner_image %}
-    <div class="showcase_container">
-      <div class="modular-row showcase flush-top" style="background-image: url({{ url( banner_image ) }});">
-        <div class="showcaseoverlay modular-row flush-top"></div>
-        <h1>{{ page.title }}</h1>
-      </div>
-    </div>
-  {% endif %}
-{% endblock %}
-
 {% block content %}
 
     {% if config.plugins.breadcrumbs.enabled %}

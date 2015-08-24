@@ -3,7 +3,7 @@ title: Tasmania Office
 menu: false
 slug: tasmania
 
-body_classes: "modular header-lite fullwidth about-us"
+body_classes: "modular header-image fullwidth about-us"
 bg_color: "#002b49"
 banner_image: theme://images/banners/about_us.jpg
 

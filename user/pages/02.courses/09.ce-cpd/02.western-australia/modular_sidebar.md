@@ -8,7 +8,7 @@ taxonomy:
   tag: [continuing professional development,cpd,continuing education,ce]
   country: [australia]
 
-body_classes: "modular header-lite fullwidth courses"
+body_classes: "modular header-image fullwidth courses"
 bg_color: "#002b49"
 banner_image: theme://images/banners/courses.jpg
 

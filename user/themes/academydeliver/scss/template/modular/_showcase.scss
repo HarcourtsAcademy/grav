@@ -13,6 +13,9 @@
         #navbar a {
             color: $header-text;
         }
+        #navbar .active a {
+            color: $core-accent;
+        }
     }
 }
 .slideme_container {

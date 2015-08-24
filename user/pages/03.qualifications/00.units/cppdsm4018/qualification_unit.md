@@ -3,13 +3,12 @@ title: CPPDSM4018A: Prepare and present property reports
 menu: CPPDSM4018A
 onpage_menu: false
 slug: cppdsm4018
-body_classes: "modular header-lite fullwidth qualifications"
 published: true
 taxonomy:
   category: qualifications
   tag: [qualifications,cppdsm4018]
 
-body_classes: "modular header-lite fullwidth qualifications"
+body_classes: "modular header-image fullwidth qualifications"
 bg_color: "#002b49"
 banner_image: theme://images/banners/qualifications.jpg
 

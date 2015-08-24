@@ -3,13 +3,12 @@ title: CPPDSM4019A: Conduct Auction
 menu: CPPDSM4019A
 onpage_menu: false
 slug: cppdsm4019
-body_classes: "modular header-lite fullwidth qualifications"
 published: true
 taxonomy:
   category: qualifications
   tag: [qualifications,cppdsm4019]
 
-body_classes: "modular header-lite fullwidth qualifications"
+body_classes: "modular header-image fullwidth qualifications"
 bg_color: "#002b49"
 banner_image: theme://images/banners/qualifications.jpg
 

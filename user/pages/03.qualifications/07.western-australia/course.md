@@ -10,7 +10,7 @@ taxonomy:
   country: australia
   region: western-australia
 
-body_classes: "modular header-lite fullwidth qualifications"
+body_classes: "modular header-image fullwidth qualifications"
 bg_color: "#002b49"
 banner_image: theme://images/banners/qualifications.jpg
 

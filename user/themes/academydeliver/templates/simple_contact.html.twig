@@ -87,10 +87,6 @@
 
 {% block content %}
 
-    {% if page.header.banner_image %}
-        {% include 'partials/header_image.html.twig' %}
-    {% endif %}
-
     {% if config.plugins.breadcrumbs.enabled %}
         {% include 'partials/breadcrumbs.html.twig' %}
     {% endif %}

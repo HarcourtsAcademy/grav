@@ -1109,6 +1109,8 @@ ul.pagination {
     color: #ffffff; }
   .modular.header-image #header #navbar a {
     color: #ffffff; }
+  .modular.header-image #header #navbar .active a {
+    color: #00adef; }
 .modular .slideme_container {
   overflow: hidden;
   margin-top: -15rem;

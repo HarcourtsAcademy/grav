@@ -7,7 +7,7 @@ taxonomy:
   category: courses
   tag: [courses,featured,induction]
 
-body_classes: "modular header-lite fullwidth courses"
+body_classes: "modular header-image fullwidth courses"
 bg_color: "#002b49"
 banner_image: theme://images/banners/courses.jpg
 

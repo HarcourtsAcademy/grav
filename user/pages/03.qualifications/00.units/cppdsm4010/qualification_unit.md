@@ -3,13 +3,12 @@ title: CPPDSM4010A: Lease property
 menu: CPPDSM4010A
 onpage_menu: false
 slug: cppdsm4010
-body_classes: "modular header-lite fullwidth qualifications"
 published: true
 taxonomy:
   category: qualifications
   tag: [qualifications,cppdsm4010]
 
-body_classes: "modular header-lite fullwidth qualifications"
+body_classes: "modular header-image fullwidth qualifications"
 bg_color: "#002b49"
 banner_image: theme://images/banners/qualifications.jpg
 

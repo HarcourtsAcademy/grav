@@ -3,13 +3,12 @@ title: CPPDSM4008A: Identify legal and ethical requirements of property sales to
 menu: CPPDSM4008A
 onpage_menu: false
 slug: cppdsm4008
-body_classes: "modular header-lite fullwidth qualifications"
 published: true
 taxonomy:
   category: qualifications
   tag: [qualifications,cppdsm4008]
 
-body_classes: "modular header-lite fullwidth qualifications"
+body_classes: "modular header-image fullwidth qualifications"
 bg_color: "#002b49"
 banner_image: theme://images/banners/qualifications.jpg
 
