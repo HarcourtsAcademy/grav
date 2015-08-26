@@ -1,13 +1,16 @@
-{% extends 'partials/simplesearch_base.html.twig' %}
+{% extends 'partials/base.html.twig' %}
 
 {% block content %}
 
-    {% set bg_color = '#002b49' %}
-    {% set banner_image = 'theme://images/banners/courses.jpg' %}
-
-    <div class="flush-top page-header page-header-image" style="background: {{ bg_color }} url({{ url( banner_image ) }}) no-repeat right;">
-        <h1>Search Results</h1>
-    </div>
+    {% block showcase %}
+      {% set banner_image = 'theme://images/banners/search.jpg' %}
+        <div class="showcase_container">
+          <div class="modular-row showcase" style="background-image: url({{ url( banner_image ) }});">
+            <div class="showcaseoverlay modular-row"></div>
+            <h1>{{ page.title }}</h1>
+          </div>
+        </div>
+    {% endblock %}
 
     <div class="content-wrapper simplesearch">
     <div class="searchbox">

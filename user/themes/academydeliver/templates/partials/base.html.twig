@@ -42,16 +42,17 @@
 
 {% endblock head%}
 </head>
-<body id="top" class="{{ page.header.body_classes }}">
+{% set body_classes = page.header.body_classes ? page.header.body_classes : 'modular header-image fullwidth' %}
+<body id="top" class="{{ body_classes }}">
     <div id="sb-site">
         {% block header %}
         <header id="header">
                 <div class="logo">
                     <h3><a href="{{ base_url_absolute }}">
-                            {% if 'header-image' in page.header.body_classes %}
-                                <img src="{{ url( config.site.logo.light ) }}" class="img-responsive img-centered" alt="{{ config.site.logo.alt }}">
-                            {% else %}
+                            {% if 'logo-dark' in page.header.body_classes %}
                                 <img src="{{ url( config.site.logo.dark ) }}" class="img-responsive img-centered" alt="{{ config.site.logo.alt }}">
+                            {% else %}
+                                <img src="{{ url( config.site.logo.light ) }}" class="img-responsive img-centered" alt="{{ config.site.logo.alt }}">
                             {% endif %}
                     </a></h3>
                     {#% block social %}
@@ -74,15 +75,13 @@
         {% block body %}
         <section id="body" class="{{ class }}">
             {% block showcase %}
-              {% set banner_image = page.header.banner_image %}
-              {% if banner_image %}
-                <div class="showcase_container">
-                  <div class="modular-row showcase" style="background-image: url({{ url( banner_image ) }});">
-                    <div class="showcaseoverlay modular-row"></div>
-                    <h1>{{ page.title }}</h1>
-                  </div>
+              {% set banner_image = page.header.banner_image ? page.header.banner_image : 'theme://images/banners/default.jpg' %}
+              <div class="showcase_container">
+                <div class="modular-row showcase" style="background-image: url({{ url( banner_image ) }});">
+                  <div class="showcaseoverlay modular-row"></div>
+                  <h1>{{ page.title }}</h1>
                 </div>
-              {% endif %}
+              </div>
             {% endblock %}
 
             {% block content %}{% endblock %}
