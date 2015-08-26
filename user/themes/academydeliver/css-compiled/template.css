@@ -1222,8 +1222,8 @@ body.error #error {
       .showcase h2 {
         padding-left: 0;
         padding-right: 0;
-        margin-left: 4rem;
-        margin-right: 4rem; } }
+        margin-left: 0;
+        margin-right: 0; } }
   .showcase .button.button-chat-bubble:hover, .showcase .archive-list button.button-chat-bubble:hover, .archive-list .showcase button.button-chat-bubble:hover, .showcase .contact button.button-chat-bubble:hover, .contact .showcase button.button-chat-bubble:hover {
     border-color: #fff; }
     .showcase .button.button-chat-bubble:hover:after, .showcase .archive-list button.button-chat-bubble:hover:after, .archive-list .showcase button.button-chat-bubble:hover:after, .showcase .contact button.button-chat-bubble:hover:after, .contact .showcase button.button-chat-bubble:hover:after {

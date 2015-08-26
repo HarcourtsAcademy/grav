@@ -86,8 +86,8 @@
         @include breakpoint(mobile-only) {
             padding-left: 0;
             padding-right: 0;
-            margin-left: 4rem;
-            margin-right: 4rem;
+            margin-left: 0;
+            margin-right: 0;
         }
     }
     .button {
