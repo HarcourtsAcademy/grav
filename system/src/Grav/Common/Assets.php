@@ -47,7 +47,7 @@ class Assets
      * Closure used by the pipeline to fetch assets.
      *
      * Useful when file_get_contents() function is not available in your PHP
-     * instalation or when you want to apply any kind of preprocessing to
+     * installation or when you want to apply any kind of preprocessing to
      * your assets before they get pipelined.
      *
      * The closure will receive as the only parameter a string with the path/URL of the asset and
@@ -509,7 +509,7 @@ class Assets
 
 
     /**
-     * Minifiy and concatenate CSS / JS files.
+     * Minify and concatenate CSS / JS files.
      *
      * @return string
      */
@@ -741,7 +741,7 @@ class Assets
     /**
      * Determine whether a link is local or remote.
      *
-     * Undestands both "http://" and "https://" as well as protocol agnostic links "//"
+     * Understands both "http://" and "https://" as well as protocol agnostic links "//"
      *
      * @param  string $link
      *
@@ -825,7 +825,8 @@ class Assets
             } else {
                 // Fix to remove relative dir if grav is in one
                 if (($this->base_url != '/') && (strpos($this->base_url, $link) == 0)) {
-                    $relative_path = str_replace($this->base_url, '/', $link);
+                    $base_url = '#' . preg_quote($this->base_url, '#') . '#';
+                    $relative_path = ltrim(preg_replace($base_url, '/', $link, 1), '/');
                 }
 
                 $relative_dir = dirname($relative_path);
@@ -881,18 +882,7 @@ class Assets
                     return $matches[0];
                 }
 
-                $newpath = array();
-                $paths = explode('/', $old_url);
-
-                foreach ($paths as $path) {
-                    if ($path == '..') {
-                        $relative_path = dirname($relative_path);
-                    } else {
-                        $newpath[] = $path;
-                    }
-                }
-
-                $new_url = rtrim($this->base_url, '/') . $relative_path . '/' . implode('/', $newpath);
+                $new_url = $this->base_url . ltrim(Utils::normalizePath($relative_path . '/' . $old_url), '/');
 
                 return str_replace($old_url, $new_url, $matches[0]);
             },
@@ -930,7 +920,7 @@ class Assets
      *
      * @param  string $directory
      * @param  string $pattern (regex)
-     * @param  string $ltrim   Will be trimed from the left of the file path
+     * @param  string $ltrim   Will be trimmed from the left of the file path
      *
      * @return array
      */

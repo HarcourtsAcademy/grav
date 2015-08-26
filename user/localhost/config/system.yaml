@@ -1,0 +1,31 @@
+# Localhost
+
+cache:
+  enabled: false
+  gzip: false
+
+twig:
+  cache: false
+  debug: true
+
+assets:
+  css_pipeline: false
+  css_minify: false
+  js_pipeline: false
+  js_minify: false
+
+errors:
+  display: true
+
+debugger:
+  enabled: true
+  twig: true
+  shutdown:
+    close_connection: false
+
+images:
+  default_image_quality: 90
+  cache_all: false
+
+analytics:
+  enabled: false

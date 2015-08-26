@@ -1,0 +1,82 @@
+git:
+    error:
+        url: https://github.com/getgrav/grav-plugin-error
+        path: user/plugins/error
+        branch: develop
+    problems:
+        url: https://github.com/getgrav/grav-plugin-problems
+        path: user/plugins/problems
+        branch: develop
+    antimatter:
+        url: https://github.com/getgrav/grav-theme-antimatter
+        path: user/themes/antimatter
+        branch: develop
+    simplesearch:
+        url: https://github.com/getgrav/grav-plugin-simplesearch
+        path: user/plugins/simplesearch
+        branch: develop
+    relatedpages:
+        url: https://github.com/getgrav/grav-plugin-relatedpages
+        path: user/plugins/relatedpages
+        branch: develop
+    redirects2:
+        url: https://github.com/dfrankland/grav-plugin-redirects2
+        path: user/plugins/redirects2
+        branch: master
+    simple_contact:
+        url: https://github.com/HarcourtsAcademy/grav-plugin-simple_contact.git
+        path: user/plugins/simple_contact
+        branch: develop
+    breadcrumbs:
+        url: https://github.com/getgrav/grav-plugin-breadcrumbs
+        path: user/plugins/breadcrumbs
+        branch: develop
+    deliver:
+        url: https://github.com/getgrav/grav-theme-deliver
+        path: user/themes/deliver
+        branch: develop
+    cdn:
+        url: https://github.com/getgrav/grav-plugin-cdn
+        path: user/plugins/cdn
+        branch: develop
+links:
+    error:
+        src: grav-plugin-error
+        path: user/plugins/error
+        scm: github
+    problems:
+        src: grav-plugin-problems
+        path: user/plugins/problems
+        scm: github
+    antimatter:
+        src: grav-theme-antimatter
+        path: user/themes/antimatter
+        scm: github
+    simplesearch:
+        src: grav-plugin-simplesearch
+        path: user/plugins/simplesearch
+        scm: github
+    relatedpages:
+        src: grav-plugin-relatedpages
+        path: user/plugins/relatedpages
+        scm: github
+    redirects2:
+        src: grav-plugin-redirects2
+        path: user/plugins/redirects2
+        scm: github
+    simple_contact:
+        src: grav-plugin-simple_contact
+        path: user/plugins/simple_contact
+        scm: github
+    breadcrumbs:
+        src: grav-plugin-breadcrumbs
+        path: user/plugins/breadcrumbs
+        scm: github
+    deliver:
+        src: grav-theme-deliver
+        path: user/themes/deliver
+        scm: github
+    cdn:
+        src: grav-plugin-cdn
+        path: user/plugins/cdn
+        scm: github

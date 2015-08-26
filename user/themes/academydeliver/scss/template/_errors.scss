@@ -1,0 +1,21 @@
+// Error specific styling
+
+body.error {
+
+  .showcase h1 {
+    text-align: center;
+  }
+
+  #error {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 4rem 0;
+
+    p {
+      //margin: 4rem 0;
+    }
+  }
+}

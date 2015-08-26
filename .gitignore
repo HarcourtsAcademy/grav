@@ -7,6 +7,8 @@ vendor/
 .sass-cache
 
 # Grav Specific
+backup/*
+!backup/.*
 cache/*
 !cache/.*
 assets/*
@@ -15,12 +17,17 @@ logs/*
 !logs/.*
 images/*
 !images/.*
+user/accounts/*
+!user/accounts/.*
 user/data/*
 !user/data/.*
 user/plugins/*
 !user/plugins/.*
-user/themes/*
+user/themes/antimatter
+user/themes/deliver
 !user/themes/.*
+!user/themes/academydeliver
+user/themes/academydeliver/.sass-cache
 
 # OS Generated
 .DS_Store*
@@ -31,3 +38,4 @@ Thumbs.db
 
 # phpstorm
 .idea/*
+nbproject/*
