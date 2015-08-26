@@ -64,6 +64,9 @@ b, strong, label, th {
   background: #fff;
   padding-top: 15rem; }
 
+#content p:first-child {
+  margin-top: 0; }
+
 .left {
   float: left; }
 
@@ -971,7 +974,9 @@ div#breadcrumbs {
       display: none; } }
 
 #sidebar {
-  padding-left: 3rem; }
+  padding: 0 1rem;
+  margin: 0 0 2rem 2rem;
+  background-color: #F6F6F6; }
   @media only all and (max-width: 47.938em) {
     #sidebar {
       padding-left: 0; } }

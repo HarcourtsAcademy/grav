@@ -46,6 +46,10 @@ b, strong {
 	padding-top: $header-height + $padding-vert;
 }
 
+#content p:first-child {
+    margin-top: 0;
+}
+
 // Alignment
 .left {
   float: left;
