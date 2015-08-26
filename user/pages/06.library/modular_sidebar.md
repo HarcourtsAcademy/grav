@@ -8,7 +8,6 @@ taxonomy:
   tag: []
 
 body_classes: "modular header-image fullwidth library"
-bg_color: "#002b49"
 banner_image: theme://images/banners/library.jpg
 
 sidebar_links:

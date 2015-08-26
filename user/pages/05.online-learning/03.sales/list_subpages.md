@@ -10,7 +10,6 @@ taxonomy:
   tag: [sales,sales-consultants]
 
 body_classes: "modular header-image fullwidth online-learning"
-bg_color: "#002b49"
 banner_image: theme://images/banners/online_learning.jpg
 
 side_bar_menu: true

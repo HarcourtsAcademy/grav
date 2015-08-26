@@ -8,7 +8,6 @@ taxonomy:
   tag: [courses,sales,sales programme,sales registration,sales consultants]
 
 body_classes: "modular header-image fullwidth courses"
-bg_color: "#002b49"
 banner_image: theme://images/banners/courses.jpg
 
 side_bar_menu: true;

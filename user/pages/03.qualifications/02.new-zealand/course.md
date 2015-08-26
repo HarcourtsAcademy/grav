@@ -10,7 +10,6 @@ taxonomy:
   country: new-zealand
 
 body_classes: "modular header-image fullwidth qualifications"
-bg_color: "#002b49"
 banner_image: theme://images/banners/qualifications.jpg
 
 side_bar_menu: true

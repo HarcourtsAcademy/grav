@@ -9,7 +9,6 @@ taxonomy:
   tag: [faq,programmes,courses,sales consultants,property managers,business owners,managers,office administrators]
 
 body_classes: "modular header-image fullwidth about-us"
-bg_color: "#002b49"
 banner_image: theme://images/banners/about_us.jpg
 
 side_bar_menu: true

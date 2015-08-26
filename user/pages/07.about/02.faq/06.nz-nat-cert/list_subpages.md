@@ -9,7 +9,6 @@ taxonomy:
   tag: [faq,new zealand,national certificate,sales,sales consultant]
 
 body_classes: "modular header-image fullwidth about-us"
-bg_color: "#002b49"
 banner_image: theme://images/banners/about_us.jpg
 
 side_bar_menu: true
