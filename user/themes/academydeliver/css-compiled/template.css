@@ -101,24 +101,24 @@ b, strong, label, th {
   font-stretch: normal;
   src: url("../fonts/EOT/SourceSansPro-BoldIt.eot");
   src: url("../fonts/EOT/SourceSansPro-BoldIt.eot?#iefix") format("embedded-opentype"), url("../fonts/WOFF2/TTF/SourceSansPro-BoldIt.ttf.woff2") format("woff2"), url("../fonts/WOFF/OTF/SourceSansPro-BoldIt.otf.woff") format("woff"), url("../fonts/TTF/SourceSansPro-BoldIt.ttf") format("truetype"); }
-.default-animation, #body, #header #navbar ul.social-icons li, #header #navbar ul.social-icons li a, .modal, .archive-list button, .modular .slideme_container .arrow, .modular .slideme_container .pagination .numbers li, .contact input, .contact textarea, .contact button, .callout .pricing-container .pricing-item, .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .foot, .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .archive-list button, .archive-list .callout .pricing-container .pricing-item .foot button, .callout .pricing-container .pricing-item .foot .contact button, .contact .callout .pricing-container .pricing-item .foot button, .team .members .contact-icons li a, .offices .locations .contact-icons li a, .logo h3, .logo ul.social-icons li, .logo ul.social-icons li a, .notebook .screen .screen-content-hover {
+.default-animation, #body, #header #navbar ul.social-icons li, #header #navbar ul.social-icons li a, .modal, .archive-list button, .slideme_container .arrow, .slideme_container .pagination .numbers li, .contact input, .contact textarea, .contact button, .callout .pricing-container .pricing-item, .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .foot, .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .archive-list button, .archive-list .callout .pricing-container .pricing-item .foot button, .callout .pricing-container .pricing-item .foot .contact button, .contact .callout .pricing-container .pricing-item .foot button, .team .members .contact-icons li a, .offices .locations .contact-icons li a, .logo h3, .logo ul.social-icons li, .logo ul.social-icons li a, .notebook .screen .screen-content-hover {
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   transition: all 0.5s ease; }
 
-.padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .page-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer, .modular .showcase_container h1 {
+.padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .page-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer, .showcase_container h1 {
   padding-left: 14rem;
   padding-right: 14rem; }
   @media only all and (min-width: 60em) and (max-width: 74.938em) {
-    .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .page-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer, .modular .showcase_container h1 {
+    .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .page-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer, .showcase_container h1 {
       padding-left: 7rem;
       padding-right: 7rem; } }
   @media only all and (min-width: 48em) and (max-width: 59.938em) {
-    .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .page-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer, .modular .showcase_container h1 {
+    .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .page-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer, .showcase_container h1 {
       padding-left: 2rem;
       padding-right: 2rem; } }
   @media only all and (max-width: 47.938em) {
-    .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .page-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer, .modular .showcase_container h1 {
+    .padding-horiz, .fullwidth #header, .fullwidth #breadcrumbs, .fullwidth .page-header, .fullwidth .blog-content-item, .fullwidth .content-wrapper, .fullwidth ul.pagination, .fullwidth #body > .modular-row, #body, #header, .footer, .showcase_container h1 {
       padding-left: 1rem;
       padding-right: 1rem; } }
 
@@ -529,7 +529,19 @@ h4, .archive-list label, .modular .bottom table th, .contact label, .callout .pr
 
 h1 {
   text-align: center;
-  font-weight: normal; }
+  font-weight: normal;
+  font-size: 2.2rem;
+  margin-top: 0;
+  text-transform: uppercase; }
+  @media only all and (min-width: 48em) and (max-width: 59.938em) {
+    h1 {
+      font-size: 1.5rem; } }
+  @media only all and (max-width: 47.938em) {
+    h1 {
+      font-size: 1.4rem;
+      line-height: 1.2; } }
+  h1 strong, h1 label, h1 th {
+    color: #00adef; }
 
 h3 {
   letter-spacing: -1px; }
@@ -1026,20 +1038,15 @@ ul.pagination {
   font-family: "Source Sans Pro", Helvetica, "Tahoma", "Geneva", "Arial", sans-serif;
   text-transform: uppercase; }
 
-#error {
+body.error .showcase h1 {
+  text-align: center; }
+body.error #error {
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
-  padding-bottom: 12rem; }
-  #error h1 {
-    font-size: 5rem; }
-  #error p {
-    margin: 1rem 0; }
-
-.error #body {
-  padding-top: 16rem; }
+  padding: 4rem 0; }
 
 .simplesearch {
   padding-top: 1rem; }
@@ -1123,25 +1130,26 @@ ul.pagination {
     #sidebar .sidebar-content ul.navigation li:hover li a:before, #sidebar .sidebar-content ul.navigation li:hover li a:after {
       display: none; }
 
-.modular.header-image #header {
+.header-image #header {
   background-color: rgba(255, 255, 255, 0);
   box-shadow: none; }
-  .modular.header-image #header #logo h3 {
+  .header-image #header #logo h3 {
     color: #ffffff; }
-  .modular.header-image #header #navbar a {
+  .header-image #header #navbar a {
     color: #ffffff; }
-  .modular.header-image #header #navbar .active a {
+  .header-image #header #navbar .active a {
     color: #00adef; }
-.modular .slideme_container {
+
+.slideme_container {
   overflow: hidden;
   margin-top: -15rem;
   padding-top: 15rem;
   height: 34.7rem; }
-  .modular .slideme_container:after {
+  .slideme_container:after {
     content: "";
     display: table;
     clear: both; }
-  .modular .slideme_container .slideoverlay {
+  .slideme_container .slideoverlay {
     position: absolute;
     top: 0;
     right: 0;
@@ -1149,23 +1157,24 @@ ul.pagination {
     left: 0;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: -99; }
-.modular .showcase_container {
+
+.showcase_container {
   overflow: hidden;
   margin-top: -15rem;
   padding-top: 13rem;
   position: relative; }
-  .modular .showcase_container:after {
+  .showcase_container:after {
     content: "";
     display: table;
     clear: both; }
-  .modular .showcase_container h1 {
+  .showcase_container h1 {
     text-align: left;
     margin: 0; }
     @media only all and (max-width: 47.938em) {
-      .modular .showcase_container h1 {
+      .showcase_container h1 {
         padding-bottom: 1rem;
         text-align: center; } }
-  .modular .showcase_container .showcaseoverlay {
+  .showcase_container .showcaseoverlay {
     position: absolute;
     top: 0;
     right: 0;
@@ -1173,10 +1182,12 @@ ul.pagination {
     left: 0;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: -99; }
-.modular .slideme .showcase {
+
+.slideme .showcase {
   padding-bottom: 10rem;
   text-align: center; }
-.modular .showcase {
+
+.showcase {
   position: relative;
   z-index: 1;
   background-color: #666;
@@ -1184,34 +1195,22 @@ ul.pagination {
   background-position: center;
   text-align: center;
   color: #ffffff; }
-  .modular .showcase h1 {
-    font-size: 2.2rem;
-    margin-top: 0;
-    text-transform: uppercase; }
-    @media only all and (min-width: 48em) and (max-width: 59.938em) {
-      .modular .showcase h1 {
-        font-size: 1.5rem; } }
-    @media only all and (max-width: 47.938em) {
-      .modular .showcase h1 {
-        font-size: 1.4rem;
-        line-height: 1.2; } }
-    .modular .showcase h1 strong, .modular .showcase h1 label, .modular .showcase h1 th {
-      color: #00adef; }
-  .modular .showcase h2 {
+  .showcase h2 {
     text-transform: none;
     padding-left: 14rem;
     padding-right: 14rem; }
     @media only all and (max-width: 47.938em) {
-      .modular .showcase h2 {
+      .showcase h2 {
         padding-left: 0;
         padding-right: 0;
         margin-left: 4rem;
         margin-right: 4rem; } }
-  .modular .showcase .button.button-chat-bubble:hover, .modular .showcase .archive-list button.button-chat-bubble:hover, .archive-list .modular .showcase button.button-chat-bubble:hover, .modular .showcase .contact button.button-chat-bubble:hover, .contact .modular .showcase button.button-chat-bubble:hover {
+  .showcase .button.button-chat-bubble:hover, .showcase .archive-list button.button-chat-bubble:hover, .archive-list .showcase button.button-chat-bubble:hover, .showcase .contact button.button-chat-bubble:hover, .contact .showcase button.button-chat-bubble:hover {
     border-color: #fff; }
-    .modular .showcase .button.button-chat-bubble:hover:after, .modular .showcase .archive-list button.button-chat-bubble:hover:after, .archive-list .modular .showcase button.button-chat-bubble:hover:after, .modular .showcase .contact button.button-chat-bubble:hover:after, .contact .modular .showcase button.button-chat-bubble:hover:after {
+    .showcase .button.button-chat-bubble:hover:after, .showcase .archive-list button.button-chat-bubble:hover:after, .archive-list .showcase button.button-chat-bubble:hover:after, .showcase .contact button.button-chat-bubble:hover:after, .contact .showcase button.button-chat-bubble:hover:after {
       border-color: transparent #fff; }
-.modular .slideme_container .arrow {
+
+.slideme_container .arrow {
   position: absolute;
   display: block;
   width: 3.7rem;
@@ -1227,36 +1226,36 @@ ul.pagination {
   opacity: 0.5;
   color: #000; }
   @media only all and (max-width: 47.938em) {
-    .modular .slideme_container .arrow {
+    .slideme_container .arrow {
       font-size: 1.5rem;
       line-height: 2.8rem; } }
-  .modular .slideme_container .arrow:hover {
+  .slideme_container .arrow:hover {
     opacity: 1; }
-  .modular .slideme_container .arrow.prev {
+  .slideme_container .arrow.prev {
     left: 4rem; }
     @media only all and (max-width: 47.938em) {
-      .modular .slideme_container .arrow.prev {
+      .slideme_container .arrow.prev {
         left: 1rem; } }
-  .modular .slideme_container .arrow.next {
+  .slideme_container .arrow.next {
     right: 4rem; }
     @media only all and (max-width: 47.938em) {
-      .modular .slideme_container .arrow.next {
+      .slideme_container .arrow.next {
         right: 1rem; } }
-  .modular .slideme_container .arrow:disabled {
+  .slideme_container .arrow:disabled {
     display: none; }
   @media only all and (max-width: 47.938em) {
-    .modular .slideme_container .arrow {
+    .slideme_container .arrow {
       width: 2.7rem;
       height: 2.7rem; } }
-.modular .slideme_container .arrow.next:before {
+.slideme_container .arrow.next:before {
   content: '\f054';
   font-family: FontAwesome;
   margin-left: 0.4rem; }
-.modular .slideme_container .arrow.prev:before {
+.slideme_container .arrow.prev:before {
   content: '\f053';
   font-family: FontAwesome;
   margin-right: 0.5rem; }
-.modular .slideme_container .pagination {
+.slideme_container .pagination {
   text-align: center;
   z-index: 5;
   position: absolute;
@@ -1264,7 +1263,7 @@ ul.pagination {
   right: 0;
   vertical-align: middle;
   bottom: 5%; }
-  .modular .slideme_container .pagination .numbers li {
+  .slideme_container .pagination .numbers li {
     -webkit-transition-duration: 0.2s;
     -moz-transition-duration: 0.2s;
     transition-duration: 0.2s;
@@ -1276,7 +1275,7 @@ ul.pagination {
     cursor: pointer;
     margin: 0 0.2rem;
     vertical-align: middle; }
-    .modular .slideme_container .pagination .numbers li.current {
+    .slideme_container .pagination .numbers li.current {
       width: 1rem;
       height: 1rem; }
 
