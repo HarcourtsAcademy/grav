@@ -76,7 +76,7 @@
             @include transition(all .5s);
 
             &:focus {
-                width: 10rem;
+                width: 12rem;
                 background-color: transparentize($header-text, 0.7);
                 cursor: auto;
                 color: $header-text;
