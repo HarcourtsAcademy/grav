@@ -18,7 +18,7 @@ A self paced 24 week programme for those new to real estate sales. iStart24 will
 
 Throughout the programme we’ve provided real life examples that have worked for some of our most successful sales consultants.  Let their experience guide you along your journey.
 
-iStart24 Online Starts 1st August 2014. Registration is free until August 7th 2014. Select your country to begin:
+iStart24 Online runs monthly, starting on the 1st of each month. Registration is free. Select your country to begin:
 
 [iStart24 Online Australia](http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150) {.button} [iStart24 Online New Zealand](http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145) {.button}
 
