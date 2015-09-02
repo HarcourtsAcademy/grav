@@ -12,8 +12,6 @@ banner_image: theme://images/banners/qualifications.jpg
 
 side_bar_menu: true
 
-list_subpages: true
-
 ---
 
 Our courses are written for busy real estate people who want to advance their career without the pressure of huge study commitments. Delivery is via online self-paced learning, classroom attendance and study by correspondence.
