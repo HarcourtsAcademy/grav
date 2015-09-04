@@ -1,6 +1,7 @@
 ---
 title: Victoria Office
 menu: false
+onpage_menu: false
 slug: victoria
 
 body_classes: "modular header-image fullwidth about-us"

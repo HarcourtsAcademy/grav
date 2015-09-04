@@ -1,6 +1,7 @@
 ---
 title: Wellington Office
 menu: false
+onpage_menu: false
 slug: wellington
 
 body_classes: "modular header-image fullwidth about-us"

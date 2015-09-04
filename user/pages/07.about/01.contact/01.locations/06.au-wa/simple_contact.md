@@ -1,6 +1,7 @@
 ---
 title: Western Australia Office
 menu: false
+onpage_menu: false
 slug: western-australia
 
 body_classes: "modular header-image fullwidth about-us"

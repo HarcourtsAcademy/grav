@@ -1,6 +1,7 @@
 ---
 title: KwaZulu-Natal Office
 menu: false
+onpage_menu: false
 slug: kwazulu-natal
 
 body_classes: "modular header-image fullwidth about-us"

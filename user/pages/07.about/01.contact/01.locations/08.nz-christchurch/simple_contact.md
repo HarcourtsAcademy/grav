@@ -1,6 +1,7 @@
 ---
 title: Christchurch Office
 menu: false
+onpage_menu: false
 slug: christchurch
 
 body_classes: "modular header-image fullwidth about-us"
