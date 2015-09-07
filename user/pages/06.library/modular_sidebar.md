@@ -1,6 +1,7 @@
 ---
 title: The Library
 menu: Library
+onpage_menu: false
 slug: the-library
 published: true
 taxonomy:
