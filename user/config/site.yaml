@@ -62,6 +62,7 @@ routes:
   /ce-cpd: '/courses/continuing-education-and-cpd'
   /courses/auctioneering: '/courses/sales/auction'
   /courses/leadership/auction: '/courses/sales/auction'
+  /istart24: '/courses/sales/istart24'
   /online-learning/new-zealand-ce: '/courses/continuing-education-and-cpd/new-zealand-continuing-education'
   /online-learning/western-australia-cpd: '/courses/continuing-education-and-cpd/western-australia-cpd'
   /online-learning/sales/istart: '/courses/sales/istart24'
