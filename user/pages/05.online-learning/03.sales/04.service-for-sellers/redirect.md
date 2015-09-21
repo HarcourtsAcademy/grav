@@ -4,7 +4,7 @@ menu: Service for Sellers
 redirects2:
   url: http://www.academyrealestatetraining.com/nz/moodle/course/index.php?categoryid=8
 
-readmore_label: "Open Service for Sellers Online Sales Workshop"
+readmore_label: "Service for Sellers Online Sales Workshop"
 
 ---
 
