@@ -21,8 +21,6 @@ As their manager your support is essential as your team member works diligently 
 
 ===
 
-![iStart24 Banner](istart24.jpg)
-
 ## Weekly iStart24 progress reports for Managers
 Managers of iStart24 Online participants receive weekly progress report emails that contain a summary of iStart24 tasks completed by the participant during the previous week. Refer to weekly progress reports during your weekly one-on-ones and keep your team accountable to the programme.
 
