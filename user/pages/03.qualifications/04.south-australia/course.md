@@ -1,7 +1,7 @@
 ---
 title: South Australia Sales Registration
 menu: South Australia
-slug: new-south-wales
+slug: south-australia
 onpage_menu: false
 published: true
 taxonomy:
