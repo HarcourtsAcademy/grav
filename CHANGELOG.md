@@ -1,3 +1,84 @@
+# v1.0.0-rc.4
+## 10/29/2015
+
+1. [](#bugfix)
+    * Fixed a fatal error if you have a collection with missing or invalid `@page: /route`
+
+# v1.0.0-rc.3
+## 10/29/2015
+
+1. [](#new)
+    * New Page collection options! `@self.parent, @self.siblings, @self.descendants` + more
+    * Whitelist of file types for fallback route functionality (images by default)
+1. [](#improved)
+    * Assets switched from defines to streams
+1. [](#bugfix)
+    * README.md typos fixed
+    * Fixed issue with routes that have lang string in them (`/en/english`)
+    * Trim strings before validation so whitespace is not satisfy 'required'
+
+# v1.0.0-rc.2
+## 10/27/2015
+
+1. [](#new)
+    * Added support for CSS Asset groups
+    * Added a `wrapped_site` system option for themes/plugins to use
+    * Pass `Page` object as event to `onTwigPageVariables()` event hook
+    * New `Data.items()` method to get all items
+1. [](#improved)
+    * Missing pipelined remote asset will now fail quietly
+    * More reliably handle inline JS and CSS to remove only surrounding HTML tags
+    * `Medium.meta` returns new Data object so null checks are possible
+    * Improved Medium metadata merging to allow for automatic title/alt/class attributes
+    * Moved Grav object to global variable rather than template variable (useful for macros)
+    * German language improvements
+    * Updated bundled composer
+1. [](#bugfix)
+    * Accept variety of `true` values in `User.authorize()` method 
+    * Fix for `Validation` throwing an error if no label set
+
+# v1.0.0-rc.1
+## 10/23/2015
+
+1. [](#new)
+    * Use native PECL YAML parser if installed for 4X speed boost in parsing YAML files
+    * Support for inherited theme class
+    * Added new default language prepend system configuration option
+    * New `|evaluate` Twig filter to evaluate a string as twig
+    * New system option to ignore all **hidden** files and folders
+    * New system option for default redirect code
+    * Added ability to append specific `[30x]` codes to redirect URLs
+    * Added `url_taxonomy_filters` for page collections
+    * Added `@root` page and `recurse` flag for page collections
+    * Support for **multiple** page collection types as an array
+    * Added Dutch language file
+    * Added Russian language file
+    * Added `remove` method to User object
+1. [](#improved)
+    * Moved hardcoded mimetypes to `media.yaml` to be treated as Page media files
+    * Set `errors: display: false` by default in `system.yaml`
+    * Strip out extra slashes in the URI
+    * Validate hostname to ensure it is valid
+    * Ignore more SCM folders in Backups
+    * Removed `home_redirect` settings from `system.yaml`
+    * Added Page `media` as root twig object for consistency
+    * Updated to latest vendor libraries
+    * Optimizations to Asset pipeline logic for minor speed increase
+    * Block direct access to a variety of files in `.htaccess` for increased security
+    * Debugbar vendor library update
+    * Always fallback to english if other translations are not available
+1. [](#bugfix)
+    * Fix for redirecting external URL with multi-language
+    * Fix for Asset pipeline not respecting asset groups
+    * Fix language files with child/parent theme relationships
+    * Fixed a regression issue resulting in incorrect default language
+    * Ensure error handler is initialized before URI is processed
+    * Use default language in Twig if active language is not set
+    * Fixed issue with `safeEmailFilter()` Twig filter not separating with `;` properly
+    * Fixed empty YAML file causing error with native PECL YAML parser
+    * Fixed `SVG` mimetype
+    * Fixed incorrect `Cache-control: max-age` value format
+
 # v0.9.45
 ## 10/08/2015
 
