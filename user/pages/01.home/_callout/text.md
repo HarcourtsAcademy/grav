@@ -3,11 +3,11 @@ title: Portfolio
 menu: Portfolio
 portfolio:
     - image: work1.jpg
-      title: August interview@academy
-      desc: Leigh Brown - Be Your Own CEO
+      title: October interview@academy
+      desc: Brandon Small - The Keys to Success
       modalid: 13
-      url: https://harcourtsacademy.wistia.com/medias/14qn3fn6ox
-      date: <strong>Released</strong> August 2015
+      url: https://harcourtsacademy.wistia.com/medias/4wcazw4ym6
+      date: <strong>Released</strong> October 2015
       button: Watch
       icon: fa-play
     - image: work2.jpg
