@@ -13,11 +13,11 @@ members:
       title: Academy Sales and Technology Trainer
       office: new-south-wales
       email: janet.okaro@harcourts.net
-    - name: Anthony Masci
-      image: anthony-masci.jpg
-      title: Academy Trainer
+    - name: Heather de Fina
+      image: heather-de-fina.jpg
+      title: Professional Development Manager
       office: queensland
-      email: anthony.masci@harcourts.net
+      email: heather.defina@harcourts.net
     - name: Ray Brincat
       image: ray-brincat.jpg
       title: Academy Trainer
