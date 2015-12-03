@@ -3,11 +3,11 @@ title: Portfolio
 menu: Portfolio
 portfolio:
     - image: work1.jpg
-      title: October interview@academy
-      desc: Brandon Small - The Keys to Success
+      title: November interview@academy
+      desc: Brian King - Leadership
       modalid: 13
-      url: https://harcourtsacademy.wistia.com/medias/4wcazw4ym6
-      date: <strong>Released</strong> October 2015
+      url: https://harcourtsacademy.wistia.com/medias/tab23nwkc1
+      date: <strong>Released</strong> November 2015
       button: Watch
       icon: fa-play
     - image: work2.jpg
