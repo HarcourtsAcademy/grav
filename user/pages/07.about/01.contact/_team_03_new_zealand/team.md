@@ -13,11 +13,6 @@ members:
       title: Academy Trainer
       office: auckland
       email: robyn.martin@harcourts.net
-    - name: Tim Snell
-      image: tim-snell.jpg
-      title: Professional Development Manager
-      office: auckland
-      email: tim.snell@harcourts.net
     - name: Kyle Sutherland
       image: kyle-sutherland.jpg
       title: Academy Trainer
