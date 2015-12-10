@@ -3,7 +3,7 @@ title: New Zealand Team
 menu: false
 
 members:
-    - name: Tyla Kvalsvig
+    - name: Rhiana Kenny-Dowall
       image: support-female.png
       title: Academy Administrator
       office: auckland
