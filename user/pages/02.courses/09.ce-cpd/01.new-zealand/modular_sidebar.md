@@ -16,6 +16,17 @@ side_bar_menu: true;
 
 ---
 
+# IMPORTANT LICENCE SUSPENSION WARNING
+
+>>>> If you fail to complete your 10 hours of Verifiable and 10 hours of Non-Verifiable Continuing Education training by December 31, there will be an **automatic stand-down period of five years** (unless you have voluntarily suspended your licence).
+
+>>>> All licence holders who have incomplete Verifiable Continuing Education records for 2015 (as at December 18th, 2015) with the REAA will be emailed on Wednesday December 23, 2015.
+
+- If you have not completed your 10 Verifiable training hours, [start now](#get-started).
+- If you have not completed your 10 Non-Verifiable training hours, this can be done by logging into the [REINZ website](http://myce.reinz.co.nz/).
+
+---
+
 The REAA requires every person who holds a current real estate certificate or license to attend ongoing learning every year to remain current in knowledge and skill that ultimately provides consumer protection and a consistently high standard of service for the buying, selling and leasing public.
 
 ===
