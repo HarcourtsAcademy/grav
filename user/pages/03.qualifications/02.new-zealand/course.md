@@ -63,7 +63,7 @@ course_content :
 
 course_structure: The National Certificate is a self-paced course that includes a number of written assessment activities, online interactive practise and support and 1 day in-class reinforcement training and final assessment. Upon enrolment you will have 8 months to complete the course however the average time taken to finish it is between one and three months.
 
-further_information: For New Zealand legislation and other information visit [REINZ](https://www.reinz.co.nz/reinz/)
+further_information: For New Zealand legislation and other information visit [REINZ](https://www.reinz.co.nz/)
 
 online_learning:
   name: National Certificate Online
