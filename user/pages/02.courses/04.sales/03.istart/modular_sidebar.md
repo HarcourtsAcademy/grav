@@ -20,7 +20,7 @@ Throughout the programme we’ve provided real life examples that have worked fo
 
 iStart24 Online runs monthly, starting on the 1st of each month. Registration is free. Select your country to begin:
 
-[iStart24 Online Australia](http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150) {.button} [iStart24 Online New Zealand](http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145) {.button}
+[iStart24 Online Australia](http://www.academyrealestatetraining.com/au/istart24) {.button} [iStart24 Online New Zealand](http://www.academyrealestatetraining.com/nz/istart24) {.button}
 
 ===
 
