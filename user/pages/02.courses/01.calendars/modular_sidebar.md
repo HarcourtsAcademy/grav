@@ -20,21 +20,21 @@ Download the latest Academy training calendars for Australia, New Zealand and th
 ===
 
 ## Australia Training Calendars {#australia}
-* [New South Wales 2015 Calendar](_calendars/2015/NSW-Training-Calendar-2015.pdf)
-* [Queensland 2015 Calendar](_calendars/2015/QLD-Training-Calendar-2015.pdf)
-* [South Australia 2015 Calendar](_calendars/2015/SA-Training-Calendar-2015.pdf)
-* [Tasmania 2015 Calendar](_calendars/2015/TAS-Training-Calendar-2015.pdf)
-* [Victoria 2015 Calendar](_calendars/2015/VIC-Training-Calendar-2015.pdf)
-* [Western Australia 2015 Calendar](_calendars/2015/WA-Training-Calendar-2015.pdf)
+* New South Wales 2016 Calendar
+* [Queensland 2016 Calendar](_calendars/2016/QLD-Training-Calendar-2016.pdf)
+* [South Australia 2016 Calendar](_calendars/2016/SA-Training-Calendar-2016.pdf)
+* [Tasmania 2016 Calendar](_calendars/2016/TAS-Training-Calendar-2016.pdf)
+* [Victoria 2016 Calendar](_calendars/2016/VIC-Training-Calendar-2016.pdf)
+* [Western Australia 2016 Calendar](_calendars/2016/WA-Training-Calendar-2016.pdf)
 
 ## New Zealand Training Calendars {#new-zealand}
-* [Central Region 2015 Calendar](_calendars/2015/NZ-Central-Region-Training-Calendar-2015.pdf)
-* [Christchurch Region 2015 Calendar](_calendars/2015/NZ-Christchurch-Training-Calendar-2015.pdf)
-* [Northern Region 2015 Calendar](_calendars/2015/NZ-Northern-Region-Training-Calendar-2015.pdf)
-* [Wellington Region 2015 Calendar](_calendars/2015/NZ-Wellington-Training-Calendar-2015.pdf)
+* Central Region 2016 Calendar
+* [South Island Region 2016 Calendar](_calendars/2016/NZ-South-Island-Training-Calendar-2016.pdf)
+* Northern Region 2016 Calendar
+* Wellington Region 2016 Calendar
 
 ## USA Training Calendar {#usa}
-* [USA 2014-15 Calendar](_calendars/2015/USA-Training-Calendar-2014-2015.pdf)
+* USA 2016 Calendar
 
 ## Upcoming Training
 * [Australia Upcoming Training](http://one.harcourts.com.au/academy/UpcomingCourses.aspx)
