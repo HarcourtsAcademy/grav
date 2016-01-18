@@ -3,11 +3,11 @@ title: Portfolio
 menu: Portfolio
 portfolio:
     - image: work1.jpg
-      title: December interview@academy
-      desc: Donna Starkins - Property Management - Challenges, Procedures and Advice
+      title: January interview@academy
+      desc: Leigh Brown - Consistency Of Top Producers
       modalid: 13
-      url: https://harcourtsacademy.wistia.com/medias/l8hnmjwxru
-      date: <strong>Released</strong> December 2015
+      url: https://harcourtsacademy.wistia.com/medias/ushk1sg122
+      date: <strong>Released</strong> January 2016
       button: Watch
       icon: fa-play
     - image: work2.jpg
