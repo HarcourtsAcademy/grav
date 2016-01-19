@@ -20,7 +20,7 @@ Download the latest Academy training calendars for Australia, New Zealand and th
 ===
 
 ## Australia Training Calendars {#australia}
-* New South Wales 2016 Calendar
+* [New South Wales 2016 Calendar](_calendars/2016/NSW-Training-Calendar-2016.pdf)
 * [Queensland 2016 Calendar](_calendars/2016/QLD-Training-Calendar-2016.pdf)
 * [South Australia 2016 Calendar](_calendars/2016/SA-Training-Calendar-2016.pdf)
 * [Tasmania 2016 Calendar](_calendars/2016/TAS-Training-Calendar-2016.pdf)
@@ -28,10 +28,10 @@ Download the latest Academy training calendars for Australia, New Zealand and th
 * [Western Australia 2016 Calendar](_calendars/2016/WA-Training-Calendar-2016.pdf)
 
 ## New Zealand Training Calendars {#new-zealand}
-* Central Region 2016 Calendar
+* [Central Region 2016 Calendar](_calendars/2016/NZ-Central-Training-Calendar-2016.pdf)
 * [South Island Region 2016 Calendar](_calendars/2016/NZ-South-Island-Training-Calendar-2016.pdf)
-* Northern Region 2016 Calendar
-* Wellington Region 2016 Calendar
+* [Northern Region 2016 Calendar](_calendars/2016/NZ-Northern-Training-Calendar-2016.pdf)
+* [Wellington Region 2016 Calendar](_calendars/2016/NZ-Wellington-Training-Calendar-2016.pdf)
 
 ## USA Training Calendar {#usa}
 * USA 2016 Calendar
