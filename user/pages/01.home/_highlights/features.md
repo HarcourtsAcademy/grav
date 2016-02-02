@@ -1,20 +1,23 @@
 ---
-title: Service Highlights
+title: 'Service Highlights'
 menu: Highlights
 class: small
-feature_title: In the last 3 months (Apr to Jun 2015)
+feature_title: 'In the 3 months (Oct to Dec 2015)'
 features:
-  - header: "2,975"
-    text: "Classroom students trained"
-    icon: users
-  - header: 314
-    text: "Coached in the field"
-    icon: bullhorn
-  - header: 111
-    text: "Provided with industry CE"
-    icon: legal
-  - header: "4,089"
-    text: "Online Learners connected"
-    icon: laptop
-
+    -
+        header: '2,044'
+        text: 'Classroom students trained'
+        icon: users
+    -
+        header: 369
+        text: 'Coached in the field'
+        icon: bullhorn
+    -
+        header: 570
+        text: 'Provided with industry CE'
+        icon: legal
+    -
+        header: '2,046'
+        text: 'Online Learners connected'
+        icon: laptop
 ---
