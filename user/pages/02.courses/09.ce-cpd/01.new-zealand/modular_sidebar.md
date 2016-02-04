@@ -25,9 +25,10 @@ side_bar_menu: true;
 
 - If you have not completed your 10 Verifiable training hours, [start now](#get-started).
 - If you have not completed your 10 Non-Verifiable training hours, this can be done by logging into the [REINZ website](http://myce.reinz.co.nz/).
--->
 
 ---
+
+-->
 
 The REAA requires every person who holds a current real estate certificate or license to attend ongoing learning every year to remain current in knowledge and skill that ultimately provides consumer protection and a consistently high standard of service for the buying, selling and leasing public.
 
