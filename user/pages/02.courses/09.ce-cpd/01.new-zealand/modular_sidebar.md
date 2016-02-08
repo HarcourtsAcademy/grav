@@ -44,20 +44,16 @@ We **report** your results to the REAA on your behalf
 
 ## Get Started {#get-started}
 
-Module 1
-: Available online February 8th 2016
-
-Module 2
-: Available online February 22nd 2016
-
-<!--
-
 Register via Harcourts One to complete all 10 hours of Verifiable CE online
 
 Module 1
 : Includes required Topics 1-4a <br/>
-  [Register for Module 1](http://one.harcourts.co.nz/Academy/RegistrationWizard.aspx?id2=3654){.button-secondary} [Start Module 1](http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=159&noprocess){.button}
+  [Register for Module 1](http://one.harcourts.co.nz/Academy/RegistrationWizard.aspx?id2=4297){.button-secondary} [Start Module 1](http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=163&noprocess){.button}
 
+Module 2
+: Available online February 22<sup>nd</sup> 2016
+
+<!--
 
 Module 2:
 : Includes required Topics 5a-7 <br/>
@@ -91,7 +87,7 @@ Harcourts can provide all 20 hours
 
 ### Non-verifiable Hours
 8 Hours
-: Harcourts May Conference <br/>
+: [Harcourts May Conference](http://harcourtsevents.com/new-zealand/conference/) <br/>
   plus
 
 2 Hours
