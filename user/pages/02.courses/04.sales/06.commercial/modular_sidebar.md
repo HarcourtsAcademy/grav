@@ -1,17 +1,18 @@
 ---
-title: Commercial Programme
+title: 'Commercial Programme'
 slug: commercial-programme
 onpage_menu: false
-published: true
+published: false
 taxonomy:
-  category: courses
-  tag: [courses,sales,commercial,commercial sales consultants]
-
-body_classes: "modular header-image fullwidth courses"
-banner_image: theme://images/banners/courses.jpg
-
+    category: courses
+    tag:
+        - courses
+        - sales
+        - commercial
+        - 'commercial sales consultants'
+body_classes: 'modular header-image fullwidth courses'
+banner_image: 'theme://images/banners/courses.jpg'
 side_bar_menu: true;
-
 ---
 
 Introduction to Commercial Real Estate – In this interactive programme you will learn the basics of commercial real estate sales and leasing so that you can enter this specialised segment of the industry and expand your market share.
