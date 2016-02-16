@@ -20,6 +20,7 @@ images/*
 user/accounts/*
 !user/accounts/.*
 user/config/security.yaml
+user/www.academyrealestatetraining.com/config/security.yaml
 user/data/*
 !user/data/.*
 user/plugins/*
