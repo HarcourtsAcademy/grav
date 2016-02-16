@@ -38,7 +38,7 @@ Download the latest Academy training calendars for Australia, New Zealand and th
 
 ## Upcoming Training
 * [Australia Upcoming Training](http://one.harcourts.com.au/academy/UpcomingCourses.aspx)
-* [China Upcoming Training](http://one.harcourts.cn/academy/UpcomingCourses.aspx)
+<!-- * [China Upcoming Training](http://one.harcourts.cn/academy/UpcomingCourses.aspx) -->
 * [Indonesia Upcoming Training](http://one.harcourts.co.id/academy/UpcomingCourses.aspx)
 * [New Zealand Upcoming Training](http://one.harcourts.co.nz/academy/UpcomingCourses.aspx)
 * [South Africa Upcoming Training](http://one.harcourts.co.za/academy/UpcomingCourses.aspx)

@@ -16,8 +16,6 @@ sidebar_links:
     links:
       - label: Australia
         url: http://one.harcourts.com.au/library
-      - label: China
-        url: http://one.harcourts.cn/library
       - label: Indonesia
         url: http://one.harcourts.co.id/library
       - label: New Zealand
@@ -30,8 +28,6 @@ sidebar_links:
     links:
       - label: Australia
         url: http://one.harcourts.com.au/Library/Folder.aspx?id=231
-      - label: China
-        url: http://one.harcourts.cn/Library/Folder.aspx?id=231
       - label: Indonesia
         url: http://one.harcourts.co.id/Library/Folder.aspx?id=231
       - label: New Zealand
