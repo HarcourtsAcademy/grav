@@ -39,6 +39,10 @@ git:
         url: https://github.com/getgrav/grav-plugin-cdn
         path: user/plugins/cdn
         branch: develop
+    youtube:
+        url: https://github.com/getgrav/grav-plugin-youtube
+        path: user/plugins/youtube
+        branch: develop
 links:
     error:
         src: grav-plugin-error
@@ -79,4 +83,8 @@ links:
     cdn:
         src: grav-plugin-cdn
         path: user/plugins/cdn
+        scm: github
+    youtube:
+        src: grav-plugin-youtube
+        path: user/plugins/youtube
         scm: github
