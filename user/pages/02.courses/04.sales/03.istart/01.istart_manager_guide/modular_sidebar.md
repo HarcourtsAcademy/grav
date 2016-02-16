@@ -12,6 +12,8 @@ banner_image: theme://images/banners/courses.jpg
 
 side_bar_menu: true;
 
+unpublish_date: 12/31/2016 11:59
+
 ---
 
 ## The iStart24 Programme
@@ -20,6 +22,10 @@ The iStart24 programme is a six month coaching course for new and existing sales
 As their manager your support is essential as your team member works diligently to complete assignments and apply techniques throughout the programme. This includes participating in weekly catch-ups with you to discuss their progress.
 
 ===
+
+## iStart24 Ends July 2016
+
+[iStart Online](/courses/sales/istart) replaces the iStart24 24-week online programme. Current iStart24 students will have access to the old iStart24 online course until their 24-week programme concludes.
 
 ## Weekly iStart24 progress reports for Managers
 Managers of iStart24 Online participants receive weekly progress report emails that contain a summary of iStart24 tasks completed by the participant during the previous week. Refer to weekly progress reports during your weekly one-on-ones and keep your team accountable to the programme.

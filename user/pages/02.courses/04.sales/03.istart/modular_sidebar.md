@@ -1,61 +1,60 @@
 ---
-title: iStart24 Programme
-slug: istart24
+title: iStart Programme
+slug: istart
 onpage_menu: false
 published: true
 taxonomy:
   category: courses
-  tag: [courses,sales,sales programme,istart,sales consultants]
+  tag: [courses,sales,sales programme,istart,istart24,sales consultants]
 
 body_classes: "modular header-image fullwidth courses"
 banner_image: theme://images/banners/courses.jpg
 
 side_bar_menu: true;
 
+youtube:
+    player_parameters:
+        modestbranding: true
+        rel: false
+        showinfo: false
+
 ---
 
-A self paced 24 week programme for those new to real estate sales. iStart24 will help you attain lifetime success in the real estate business.  The programme requires full-time commitment and a willingness to complete all assignments, including Daily Activity Records.
+iStart Online is a self paced programme for those new to real estate sales. It covers the foundations of real estate sales and is designed to help students attain lifetime success in the real estate business.
 
-Throughout the programme we’ve provided real life examples that have worked for some of our most successful sales consultants.  Let their experience guide you along your journey.
-
-iStart24 Online runs monthly, starting on the 1st of each month. Registration is free. Select your country to begin:
-
-[iStart24 Online Australia](http://www.academyrealestatetraining.com/au/istart24) {.button} [iStart24 Online New Zealand](http://www.academyrealestatetraining.com/nz/istart24) {.button}
+[Open iStart24 Online](http://www.academyrealestatetraining.com/istart) {.button}
 
 ===
 
-Target Group: New to the industry sales consultants and their personal assistants
+Real life examples that have worked for some of our most successful sales consultants are provided throughout the course. Let their experience guide you along your journey.
 
-**Duration**: 24 weeks
+[plugin:youtube](https://www.youtube.com/watch?v=5hkyVoXiXhw)
+
+Target Group: New to the industry buyers assistants, sales consultants and their personal assistants
+
+**Duration**: self paced
+
+## iStart24
+
+iStart Online replaces the iStart24 24-week online programme. Current iStart24 students will have access to the iStart24 course until their 24-week programme concludes.
 
 ## What You Will Learn
+iStart Online consists of 12 workshops
 <div class="g-grid">
   <div class="g-block size-1-2 pure-u-1-2">
-  <strong>Week 1</strong> Your Business Plan<br/>
-  <strong>Week 2</strong> Lead Generation 1<br/>
-  <strong>Week 3</strong> Lead Generation 2<br/>
-  <strong>Week 4</strong> Personal Promotion<br/>
-  <strong>Week 5</strong> Time Management<br/>
-  <strong>Week 6</strong> Technology and You<br/>
-  <strong>Week 7</strong> Open Homes<br/>
-  <strong>Week 8</strong> Buyer's Book<br/>
-  <strong>Week 9</strong> Qualifying<br/>
-  <strong>Week 10</strong> Preparing to Buy<br/>
-  <strong>Week 11</strong> Showing Property<br/>
-  <strong>Week 12</strong> Closing the Sale<br/>
+  <strong>Workshop 1</strong> Qualifying Buyers<br/>
+  <strong>Workshop 2</strong> Showing Property<br/>
+  <strong>Workshop 3</strong> Open Homes<br/>
+  <strong>Workshop 4</strong> Lead Generation 1<br/>
+  <strong>Workshop 5</strong> Lead Generation 2<br/>
+  <strong>Workshop 6</strong> Personal Promotion<br/>
   </div>
   <div class="g-block size-1-2 pure-u-1-2">
-  <strong>Week 13</strong> Understanding Personality Profiles<br/>
-  <strong>Week 14</strong> Seller's Book / Pre-Listing Package<br/>
-  <strong>Week 15</strong> Listing Interview Preparation<br/>
-  <strong>Week 16</strong> The Listing Interview 1<br/>
-  <strong>Week 17</strong> The Listing Interview 2<br/>
-  <strong>Week 18</strong> The Marketing Appointment<br/>
-  <strong>Week 19</strong> Service to Sellers<br/>
-  <strong>Week 20</strong> Negotiating a Sale<br/>
-  <strong>Week 21</strong> Sale to Settlement<br/>
-  <strong>Week 22</strong> Creating Clients for Life<br/>
-  <strong>Week 23</strong> Accountability Systems for You<br/>
-  <strong>Week 24</strong> Build Around Your Strengths<br/>
+  <strong>Workshop 7</strong> Closing the Sale<br/>
+  <strong>Workshop 8</strong> Negotiating a Sale<br/>
+  <strong>Workshop 9</strong> Listing Interview Preparation<br/>
+  <strong>Workshop 10</strong> The Listing Interview 1<br/>
+  <strong>Workshop 11</strong> The Listing Interview 2<br/>
+  <strong>Workshop 12</strong> Service to Sellers<br/>
   </div>
 </div>
