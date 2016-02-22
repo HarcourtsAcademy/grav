@@ -25,13 +25,13 @@ iStart Online is a self paced programme for those new to real estate sales. It c
 [Open NEW iStart Online](/istart) {.button}
 [Where is iStart24?](/courses/sales/istart/istart24) {.button-text}
 
+===
+
 ## The NEW iStart Online
 
 The [new iStart Online](http://www.academyrealestatetraining.com/istart) replaces the old [iStart24 24-week online programme](/courses/sales/istart/istart24). We have refined and updated the new iStart making it faster and easier to complete.
 
 The new iStart is available in Australia, New Zealand, South Africa and the USA. To get started, buy unlimited access using your credit card or attend an Academy 4-day Getting Started the Harcourts Way and receive access to new iStart included in the course cost.
-
-===
 
 [plugin:youtube](https://www.youtube.com/watch?v=5hkyVoXiXhw)
 
