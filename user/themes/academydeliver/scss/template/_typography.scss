@@ -130,6 +130,10 @@ blockquote > blockquote > blockquote {
     border-left: 10px solid #5BC0DE;
     background: #F4F8FA;
     color: darken(#5BC0DE,15%);
+
+    a {
+      color: $light-gray;
+    }
   }
 
   > blockquote > blockquote > blockquote > p {

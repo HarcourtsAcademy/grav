@@ -582,6 +582,8 @@ blockquote > blockquote > blockquote {
     border-left: 10px solid #5BC0DE;
     background: #F4F8FA;
     color: #28a1c5; }
+    blockquote > blockquote > blockquote > blockquote > blockquote > p a {
+      color: #656161; }
   blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > p {
     margin-left: -142px;
     border-left: 10px solid #5CB85C;
