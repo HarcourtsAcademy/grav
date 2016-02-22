@@ -52,7 +52,7 @@ Module 1
 
 Module 2:
 : Includes required Topics 5a-7 <br/>
-  [Register for Module 2](http://one.harcourts.co.nz/Academy/RegistrationWizard.aspx?id2=3655){.button-secondary} [Start Module 2](http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=161&noprocess){.button}
+  [Register for Module 2](http://one.harcourts.co.nz/Academy/RegistrationWizard.aspx?id2=4298){.button-secondary} [Start Module 2](http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=164&noprocess){.button}
 
 ## Who
 The REAA requires every person who holds a current real estate certificate or license to attend ongoing learning every year to remain current in knowledge and skill that ultimately provides consumer protection and a consistently high standard of service for the buying, selling and leasing public.
