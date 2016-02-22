@@ -233,7 +233,7 @@
           {% if page.header.list_subpages %}
             {% for page in page.children %}
               <h3><a href="{{ page.url }}">{{ page.title }}</a></h3>
-              <p>{{ page.summary }} <a class="button" href="{{ page.url }}">Read more</a></p>
+              <p>{{ page.summary }} <a class="button-secondary" href="{{ page.url }}">Read more</a></p>
             {% endfor %}
           {% endif %}
 
