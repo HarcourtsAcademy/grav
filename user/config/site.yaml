@@ -62,8 +62,7 @@ routes:
   /ce-cpd: '/courses/continuing-education-and-cpd'
   /courses/auctioneering: '/courses/sales/auction'
   /courses/leadership/auction: '/courses/sales/auction'
-  ^/istart24: '/courses/sales/istart' # Needs the caret to prevent recursive redirections
-  /courses/sales/istart24: '/courses/sales/istart' # Old course
+  ^/istart24$: '/courses/sales/istart/istart24' # Needs the caret and '$' to prevent recursive redirections
   /online-learning/new-zealand-ce: '/courses/continuing-education-and-cpd/new-zealand-continuing-education'
   /online-learning/western-australia-cpd: '/courses/continuing-education-and-cpd/western-australia-cpd'
   /online-learning/sales/istart: '/courses/sales/istart24'
@@ -102,7 +101,7 @@ redirects:
   /au/istart24/week24: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=116
   /au/istart24/week25survey: http://www.academyrealestatetraining.com/au/moodle/mod/questionnaire/view.php?id=2337
   /au/rpl: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=154
-  /istart: http://www.academyrealestatetraining.com/moodle/course/view.php?id=8
+  /istart$: http://www.academyrealestatetraining.com/moodle/course/view.php?id=8 #needs the end '$' to prevent it matching the start of '/istart24'
   /nz/ce/2015: http://www.academyrealestatetraining.com/courses/continuing-education-and-cpd/new-zealand-continuing-education
   /nz/ce/2016: http://www.academyrealestatetraining.com/courses/continuing-education-and-cpd/new-zealand-continuing-education
   /nz/istart24: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=145
