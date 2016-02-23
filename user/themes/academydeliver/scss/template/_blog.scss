@@ -186,7 +186,7 @@ div#breadcrumbs {
     background-color: #F6F6F6;
 
     @include breakpoint(mobile-only) {
-        padding-left: 0;
+        margin: 0 0 1rem 0;
     }
     .sidebar-content {
 
