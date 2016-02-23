@@ -791,12 +791,12 @@ dt, dd {
         border-top: 1px solid #3d3d3d; }
       #panel .navigation li ul {
         list-style: none;
-        padding: 0; }
+        padding: 0;
+        margin: 0; }
         #panel .navigation li ul li {
           border: 0 !important; }
           #panel .navigation li ul li a {
             color: #c4c4c4;
-            padding: 0.2rem 1rem 0.2rem 0;
             font-size: 0.9rem; }
           #panel .navigation li ul li li a {
             padding-left: 3rem; }

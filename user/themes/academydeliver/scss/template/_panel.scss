@@ -49,12 +49,12 @@ $panel-text:        #ddd;
             ul {
                 list-style: none;
                 padding: 0;
+                margin: 0;
 
                 li {
                     border: 0 !important;
                     a {
                         color: darken($panel-text, 10%);
-                        padding: 0.2rem 1rem 0.2rem 0;
                         font-size: 0.9rem;
                     }
                     li a {
