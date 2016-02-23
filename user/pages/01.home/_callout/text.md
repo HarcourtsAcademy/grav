@@ -11,23 +11,23 @@ portfolio:
       button: Watch
       icon: fa-play
     - image: work2.jpg
-      title: Our Promise Workshop
-      desc: Join us at the Academy to take a closer look at the changes to Our Promise and its significance within your business.
+      title: New Zealand Verifiable Continuing Education
+      desc: Complete your 10 hours of Verifiable Continuing Education online for $69 (inc. GST).
       modalid: 14
-      url: /courses/sales/sales-workshops/our-promise
-      date: <strong>Released</strong> July 2015
+      url: /courses/continuing-education-and-cpd/new-zealand-continuing-education
+      date: <strong>Released</strong> February 2015
     - image: work3.jpg
-      title: Property Managment Programme
-      desc: The only training a property manager needs to be get started or to take their business to the next level.
+      title: iStart Online
+      desc: The new iStart Online replaces the old iStart24 24-week online programme. We have refined and updated the new iStart making it faster and easier to complete.
       modalid: 15
-      url: /courses/property-management/property-management-programme
-      date: <strong>Updated</strong> July 2015
+      url: /courses/sales/istart
+      date: <strong>Released</strong> February 2015
     - image: work4.jpg
-      title: Educating Sellers Workshop
-      desc: Join us at the Academy to discover how educating your sellers on price is one of the key ingredients to a successful selling campaign.
+      title: Listing System Workshop
+      desc: ￼￼￼￼￼￼In line with our brand refresh we have reinvented our listing system and the products that sit within this range. Join us at the Academy to witness the transformation from the old to the new listing system and learn how to implement the new products into your business.
       modalid: 16
-      url: /courses/sales/sales-workshops/educating-sellers
-      date: <strong>Released</strong> July 2015
+      url: /courses/sales/sales-workshops/listing-system
+      date: <strong>Released</strong> January 2016
 
 ---
 
