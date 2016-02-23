@@ -65,7 +65,7 @@ routes:
   ^/istart24$: '/courses/sales/istart/istart24' # Needs the caret and '$' to prevent recursive redirections
   /online-learning/new-zealand-ce: '/courses/continuing-education-and-cpd/new-zealand-continuing-education'
   /online-learning/western-australia-cpd: '/courses/continuing-education-and-cpd/western-australia-cpd'
-  /online-learning/sales/istart: '/courses/sales/istart24'
+  /online-learning/sales/istart: '/courses/sales/istart'
 
 redirects:
   /au/auction-programme: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=153
