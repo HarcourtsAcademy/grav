@@ -49,6 +49,10 @@ b, strong {
 #content {
   margin-bottom: 2rem;
 
+  @include breakpoint(mobile-only) {
+    padding-top: 1rem;
+  }
+
   p:first-child {
     margin-top: 0;
   }

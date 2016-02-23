@@ -66,6 +66,9 @@ b, strong, label, th {
 
 #content {
   margin-bottom: 2rem; }
+  @media only all and (max-width: 47.938em) {
+    #content {
+      padding-top: 1rem; } }
   #content p:first-child {
     margin-top: 0; }
 
