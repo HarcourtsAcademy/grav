@@ -1,5 +1,5 @@
 ---
-menu: iStart24 Online
+menu: iStart Online
 
 routable: false
 ---
