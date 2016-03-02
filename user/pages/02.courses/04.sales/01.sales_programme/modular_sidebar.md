@@ -40,11 +40,9 @@ New to the industry consultants attend 6 training days in the full programme in 
 
 To kick-start their career new to the industry consultants first attend Getting Started the Harcourts Way.
 
-### [iStart24](/courses/sales/istart24) (24 weeks in the field)
+### [iStart Online](/courses/sales/istart) (12 online workshops)
 
-A self paced 24 week programme for those new to real estate sales. iStart24 will help you attain lifetime success in the real estate business.  The programme requires full-time commitment and a willingness to complete all assignments, including Daily Activity Records.
-
-Throughout the programme we’ve provided real life examples that have worked for some of our most successful sales consultants.  Let their experience guide you along your journey.
+A self paced 12 workshop programme for those new to real estate sales. iStart Online will help you attain lifetime success in the real estate business.
 
 ### [Succeeding the Harcourts Way](/courses/sales/sales-programme/succeeding-the-harcourts-way) (2 days in the classroom)
 This programme caters for experienced consultants to help them take their businesses to the next level of success. New to the industry consultants also attend.

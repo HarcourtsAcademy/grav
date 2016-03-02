@@ -14,7 +14,9 @@ side_bar_menu: true;
 
 ---
 
-This programme is designed for people who wish to become registered real estate salespersons, have moved country or interstate, or operate as personal assistants. A blended learning programme incorporating online learning, in-class training and in-the-field projects, this programme provides the required qualifications for industry certification. Attached to this programme is [iStart24](/courses/sales/istart24) - a 6 month programme of clear instruction and learning activities each day, each week, for 24 weeks. Throughout the programme we've provided real life examples that have worked for some of our most successful sales consultants. Let their experience guide you along your journey.
+This programme is designed for people who wish to become registered real estate salespersons, have moved country or interstate, or operate as personal assistants. A blended learning programme incorporating online learning, in-class training and in-the-field projects, this programme provides the required qualifications for industry certification.
+
+Attached to this programme is [iStart Online](/courses/sales/istart) - a 12 workshop programme of clear instruction and on-the-job business activities.
 
 ===
 

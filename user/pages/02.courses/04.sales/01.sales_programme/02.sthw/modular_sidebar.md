@@ -36,7 +36,7 @@ Succeeding the Harcourts Way is the final component of the Academy [Sales Progra
 Experienced consultants need only attend Succeeding the Harcourts Way as part of the Academy Sales Programme.
 
 ### New to the Industry Consultants
-New to the industry consultants first complete a number of online tasks, attend [Getting Started the Harcourts Way](/courses/sales/sales-programme/getting-started-the-harcourts-way) and undertake the [iStart24 Programme](/courses/sales/istart24) prior to attending Succeeding the Harcourts Way.
+New to the industry consultants first complete a number of online tasks, attend [Getting Started the Harcourts Way](/courses/sales/sales-programme/getting-started-the-harcourts-way) and undertake [iStart Online](/courses/sales/istart) prior to attending Succeeding the Harcourts Way.
 
 ## Availability
 Succeeding the Harcourts way is presented in all the main Academy training centres by the Academy's team of specialist trainers.
