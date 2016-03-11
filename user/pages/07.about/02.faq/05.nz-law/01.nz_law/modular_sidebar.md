@@ -45,7 +45,7 @@ In 2007 the Government issued a public consultation paper, The Government's Pref
 - consumers needed more information when buying or selling property.
 
 ## What do the new licensing requirements mean for consumers?{#consumers}
-All agents, branch managers and salespersons have to be licensed and consumers have better access to information about people working in the industry. There is a [public register](http://www.reaa.govt.nz/Pages/PublicRegisterSearch.aspx) which shows who has a licence, and records whether a licensee has had any disciplinary action taken against them as an individual in the last three years by the Authority or the Real Estate Licensing Board.
+All agents, branch managers and salespersons have to be licensed and consumers have better access to information about people working in the industry. There is a [public register](https://portal.reaa.govt.nz/public/register-search/) which shows who has a licence, and records whether a licensee has had any disciplinary action taken against them as an individual in the last three years by the Authority or the Real Estate Licensing Board.
 
 ## How does the Real Estate Agents Authority benefit consumers?{#consumerbenefit}
 The independent Real Estate Agents Authority began issuing licences and receiving complaints on 17 November 2009. The Authority plays a key role in ensuring the quality and professionalism of the industry. The Authority:
