@@ -26,4 +26,4 @@ content:
 
 ## Our People, Your Event
 Take advantage of the talent within our global team. Our network of international speakers come from all
-roles. [Book them now](Harcourts-International-Speaker-Network-2016-01-14.pdf) to speak at your next Harcourts event.
+roles. [Book them now](Harcourts-International-Speaker-Network-2016-03-14.pdf) to speak at your next Harcourts event.
