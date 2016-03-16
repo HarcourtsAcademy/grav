@@ -2230,4 +2230,21 @@ body.error #error {
   z-index: -1;
   border-radius: 100%; }
 
+.subpage-item h3 {
+  margin: 0; }
+.subpage-item .subpage-image {
+  margin-top: 0.5rem;
+  margin-right: 2rem;
+  float: left; }
+  .subpage-item .subpage-image img {
+    border-radius: 4px; }
+    @media only all and (max-width: 47.938em) {
+      .subpage-item .subpage-image img {
+        display: none; } }
+.subpage-item a.button, .subpage-item a.button-secondary {
+  display: none; }
+.subpage-item hr {
+  padding-top: 1rem;
+  border-bottom: 1px solid #eee; }
+
 /*# sourceMappingURL=template.css.map */

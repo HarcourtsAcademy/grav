@@ -1,0 +1,29 @@
+.subpage-item {
+
+  h3 {
+    margin: 0;
+  }
+
+  .subpage-image {
+      margin-top: 0.5rem;
+      margin-right: 2rem;
+      float: left;
+      img {
+         border-radius: 4px;
+
+         @include breakpoint(mobile-only) {
+              display: none;
+          }
+      }
+  }
+
+  a.button, a.button-secondary {
+    display: none;
+  }
+
+  hr {
+      padding-top: 1rem;
+      border-bottom: 1px solid #eee;
+  }
+
+}
