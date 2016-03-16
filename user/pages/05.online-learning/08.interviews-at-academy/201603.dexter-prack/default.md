@@ -10,6 +10,14 @@ taxonomy:
 jscomments:
   provider: "facebook"
 
+metadata:
+    description: 'Your page description goes here'
+    keywords: 'dexter prack, auction, marketing'
+    'og:title': Dexter Prack - interviews@academy - March 2016
+    'og:type': video.movie
+    'og:url': https://www.academyrealestatetraining.com/online-learning/interviews-at-academy/2016/03/dexter-prack#pk_campaign=Social-2016-03
+    'og:image': https://www.academyrealestatetraining.com/online-learning/interviews-at-academy/2016/03/dexter-prack/2016-03-dexter-prack.jpg
+
 ---
 
 Dexter Prack overviews some of his recent successful marketing campaigns and explains why his business is pushing auctions.
