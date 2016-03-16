@@ -2,12 +2,12 @@
 title: Portfolio
 menu: Portfolio
 portfolio:
-    - image: work1.jpg
-      title: February interview@academy
-      desc: Peter Williams - Embracing Technology
+    - image: 2016-03-dexter-prack.jpg
+      title: March interview@academy
+      desc: Dexter Prack - Marketing & Sustaining Auction Culture
       modalid: 13
-      url: https://harcourtsacademy.wistia.com/medias/7r8iyec26z
-      date: <strong>Released</strong> February 2016
+      url: https://www.academyrealestatetraining.com/online-learning/interviews-at-academy/2016/03/dexter-prack#pk_campaign=Web-2016-03
+      date: <strong>Released</strong> March 2016
       button: Watch
       icon: fa-play
     - image: work2.jpg
