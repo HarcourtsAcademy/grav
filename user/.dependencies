@@ -43,6 +43,10 @@ git:
         url: https://github.com/getgrav/grav-plugin-youtube
         path: user/plugins/youtube
         branch: develop
+    jscomments:
+        url: https://github.com/nunopress/grav-plugin-jscomments
+        path: user/plugins/jscomments
+        branch: develop
 links:
     error:
         src: grav-plugin-error
@@ -87,4 +91,8 @@ links:
     youtube:
         src: grav-plugin-youtube
         path: user/plugins/youtube
+        scm: github
+    jscomments:
+        src: grav-plugin-jscomments
+        path: user/plugins/jscomments
         scm: github
