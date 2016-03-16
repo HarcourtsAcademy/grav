@@ -13,10 +13,6 @@ RewriteEngine On
 
 ## End - RewriteBase
 
-## Begin - Piwik shortcode redirects
-RewriteRule ^([a-zA-Z0-9]{6})$ /webstats/index.php?module=API&method=ShortcodeTracker.performRedirectForShortcode&code=$1 [L]
-## End - Piwik
-
 ## Begin - Exploits
 # If you experience problems on your site block out the operations listed below
 # This attempts to block the most common type of exploit `attempts` to Grav
