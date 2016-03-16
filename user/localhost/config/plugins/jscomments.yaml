@@ -1,0 +1,13 @@
+enabled: true # Enable / Disable the plugin
+
+provider: "facebook" # (disqus | intensedebate | facebook | muut)
+
+providers:
+
+  facebook:
+    appId: "1103875102990449"
+    lang: "en_UK"
+    num_posts: 5
+    colorscheme: "light"
+    order_by: social
+    width: "100%"
