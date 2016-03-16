@@ -5,7 +5,7 @@ slug: 2016/03/dexter-prack
 
 taxonomy:
   category: online_learning
-  tag: [dexter prack,auction,sales,office administrations,sales consultants,property managers,property managers,business owners,managers]
+  tag: [dexter prack,interview,interviews@academy,interview@academy,auction,sales,office administrations,sales consultants,property managers,property managers,business owners,managers]
 
 jscomments:
   provider: "facebook"
