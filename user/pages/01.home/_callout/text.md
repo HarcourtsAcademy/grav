@@ -11,7 +11,7 @@ portfolio:
       button: Watch
       icon: fa-play
     - image: work2.jpg
-      title: New Zealand Verifiable Continuing Education
+      title: New Zealand Verifiable CE
       desc: Complete your 10 hours of Verifiable Continuing Education online for $69 (inc. GST).
       modalid: 14
       url: /courses/continuing-education-and-cpd/new-zealand-continuing-education
