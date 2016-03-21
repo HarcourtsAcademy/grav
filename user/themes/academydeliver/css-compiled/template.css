@@ -687,6 +687,9 @@ form .buttons {
 form input {
   font-weight: 400; }
 
+::-ms-clear {
+  display: none; }
+
 table {
   border: 1px solid #d8d8d8; }
 
