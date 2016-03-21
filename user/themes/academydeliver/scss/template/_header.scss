@@ -12,9 +12,6 @@
     > .grid, .logo, #navbar, .social-navigation {
         height: 50%;
     }
-    .fa {
-        color: $black;
-    }
 
     .logo {
         h3 {
@@ -32,6 +29,11 @@
                 @extend %vertical-align;
             }
         }
+        ul {
+            &.login {
+                @extend %vertical-align;
+            }
+        }
 
         .search-box {
             @include breakpoint(mobile-only) {
@@ -46,11 +48,13 @@
         float: right;
         text-align: right;
         margin-right: 0.75rem;
+        padding: ($leading-margin / 4) 0;
         i {
             color: $header-text;
             position: absolute;
             top: 0.5rem;
             right: 0.6rem;
+            padding-top: ($leading-margin / 4);
             z-index: -1;
             cursor: pointer;
         }
@@ -70,8 +74,10 @@
             color: transparent;
             background: transparent;
             width: 4rem;
-            height: 1.3rem;
+            height: 2rem;
+            line-height: 2rem;
             margin-bottom: 0;
+            padding: 0 ($leading-margin / 4);
             font-size:  $core-font-size - 0.1rem;
             @include transition(all .5s);
 
@@ -196,12 +202,43 @@
                     margin-right: 0.8rem;
                     a {
                         @extend .default-animation;
-                        color: $black;
                         display: block;
                         margin-top: 0.1rem;
                     }
                     &:hover {
+                        background: transparentize($white, 0.7);
+                    }
+                }
+            }
+
+            &.login {
+                float: right;
+                line-height: 2rem;
+                margin: 0;
+                @extend %vertical-align;
+
+                li {
+                    @extend .default-animation;
+                    width: 2.1rem;
+                    background: $white;
+                    border-radius: 100%;
+                    text-align: center;
+                    margin-left: 0.8rem;
+                    .fa {
+                        color: white;
+                    }
+                    &:hover {
+                    }
+                    a {
+                        @extend .default-animation;
+                        color: $black;
+                        display: block;
+                    }
+                    &:hover {
                         background: transparentize($white, 0.5);
+                        .fa {
+                          color: $light-gray;
+                        }
                     }
                 }
             }
@@ -321,6 +358,14 @@
             .fa {
                 color: white;
             }
+            &:hover {
+                .fa {
+                    color: $light-gray;
+                }
+            }
+        }
+        .logo ul.login li {
+            background: transparentize($light-gray, 0.8);
             &:hover {
                 .fa {
                     color: $light-gray;

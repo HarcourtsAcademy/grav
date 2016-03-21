@@ -66,6 +66,15 @@
                                 <img src="{{ url( config.site.logo.light ) }}" class="img-responsive img-centered" alt="{{ config.site.logo.alt }}">
                             {% endif %}
                     </a></h3>
+                    {% if site.studentlogin.url %}
+                    <ul class="login">
+                      <li>
+                        <a href="{{ site.studentlogin.url }}">
+                          <i class="fa fa-{{ site.studentlogin.icon }}"></i><span class="login-label"> Login</span>
+                        </a>
+                      </li>
+                    </ul>
+                    {% endif %}
                     {#% block social %}
                         {% include 'partials/social.html.twig' %}
                     {% endblock %#}
