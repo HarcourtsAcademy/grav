@@ -72,6 +72,7 @@ routes:
   /online-learning/new-zealand-ce: '/courses/continuing-education-and-cpd/new-zealand-continuing-education'
   /online-learning/western-australia-cpd: '/courses/continuing-education-and-cpd/western-australia-cpd'
   /online-learning/sales/istart: '/courses/sales/istart'
+  /online-learning/interviews-at-academy/2016/03/dexter-prack: '/online-learning/bites/2016/03/dexter-prack' # Link used in March 2016 emails
 
 redirects:
   /au/auction-programme: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=153

@@ -12,9 +12,19 @@ banner_image: theme://images/banners/online_learning.jpg
 
 side_bar_menu: true;
 
+list_subpages: true
+
+content:
+  items:
+    '@taxonomy':
+      category: online_learning_bites
+  order:
+    by: date
+    dir: desc
+
 ---
 
-The Academy provides self-paced and webinar online learning across Australia and New Zealand.
+The Academy provides self-paced and webinar online learning across Australia, New Zealand, South Africa and the USA.
 
 ===
 
@@ -32,3 +42,6 @@ Real Estate professionals around the world are benefiting from online learning. 
 - No travel time or cost – no need to pay for petrol, parking, accommodation or plane tickets
 - Convenience –  learn from the comfort of your home or office
 - Stay current – connect with the latest training produced by experienced trainers and industry experts
+
+## Learning Bites
+Short on time? Snack on our learning bites.  

@@ -17,7 +17,13 @@ side_bar_menu: true
 list_subpages: default
 
 content:
-  items: @self.children
+  items:
+    '@taxonomy':
+      category: online_learning_bites
+      tag: interviews@academy
+  order:
+    by: date
+    dir: desc
 
 ---
 
