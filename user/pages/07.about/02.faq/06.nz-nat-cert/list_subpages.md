@@ -13,4 +13,7 @@ banner_image: theme://images/banners/about_us.jpg
 
 side_bar_menu: true
 
+content:
+  items: @self.children
+
 ---

@@ -16,6 +16,9 @@ side_bar_menu: true
 
 list_subpages: short
 
+content:
+  items: @self.children
+
 ---
 
 The NAI Harcourts recorded webinars are a springboard for your business. They are available to NAI Harcourts team members in Australia and New Zealand.

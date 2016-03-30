@@ -16,6 +16,9 @@ side_bar_menu: true
 
 list_subpages: short
 
+content:
+  items: @self.children
+
 ---
 
 Watch Harcourts technology trainers explain and demonstrate how to use Harcourts One and Harcourts mobile apps effectively.

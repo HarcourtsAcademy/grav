@@ -1,6 +1,6 @@
 ---
-title: Listen
-menu: Listen
+title: Sound Advice
+menu: Sound Advice
 slug: listen
 onpage_menu: false
 published: true
@@ -15,6 +15,12 @@ banner_image: theme://images/banners/online_learning.jpg
 side_bar_menu: true
 
 list_subpages: default
+
+content:
+  items: @self.children
+  order:
+    by: date
+    dir: desc
 
 ---
 

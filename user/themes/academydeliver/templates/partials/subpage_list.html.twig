@@ -1,6 +1,6 @@
 {% if page.header.list_subpages == 'short' %}
   <ul>
-    {% for page in page.children %}
+    {% for page in page.collection %}
       {% if page.routable %}
         <li><a href="{{ page.url }}">{{ page.menu }}</a></li>
       {% else %}
@@ -16,7 +16,7 @@
 
 {% else %}
 
-  {% for page in page.children %}
+  {% for page in page.collection %}
 
     <section class="subpage-item">
 

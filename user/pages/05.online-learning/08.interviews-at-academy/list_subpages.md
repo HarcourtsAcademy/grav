@@ -16,6 +16,9 @@ side_bar_menu: true
 
 list_subpages: default
 
+content:
+  items: @self.children
+
 ---
 
 Watch Harcourts top performers and conference speakers discuss their tips, strategies and techniques for success.

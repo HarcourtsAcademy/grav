@@ -3,6 +3,7 @@ template: default
 menu: March 30th 2016 - Rob Forde
 title: Rob Forde on the US Market
 slug: 2016/03/30/rob-forde
+date: 30-03-2016
 onpage_menu: false
 
 taxonomy:

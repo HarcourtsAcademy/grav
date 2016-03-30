@@ -26,6 +26,8 @@ banner_image: theme://images/banners/about_us.jpg
 - [What if I bought or sold my property before 17 November 2009?](#soldbefore2009)
 - [How can I find out more?](#findoutmore)
 
+===
+
 ## What changes does the new Real Estate Agents Act make?{#key-changes}
 
 The key changes introduced by the new Act are:

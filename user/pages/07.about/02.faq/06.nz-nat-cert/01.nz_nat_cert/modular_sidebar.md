@@ -25,6 +25,8 @@ banner_image: theme://images/banners/about_us.jpg
 - [What additional costs may a new salesperson incur?](#additionalcosts)
 - [What does the Open Polytechnic charge for their National Certificate in Real Estate (Salesperson) course?](#openpolytechnic)
 
+===
+
 ## How many papers are in the new salesperson entry level qualification?{#qualificationpapers}
 The National Certificate in Real Estate (Salesperson) is the new entry level qualification for salespersons. The qualification is made up of 11 unit standards, compared to 6 in the old ‘Salespersons’ Certificate’ qualification.
 
