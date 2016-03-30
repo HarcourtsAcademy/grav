@@ -23,7 +23,7 @@ metadata:
     'og:description': 'Rob Forde Regional Director of Harcourts Pacific gives an update on the real estate market in the USA.'
     'og:type': 'music.song'
     'og:music:duration': 642
-    'og:url': https://www.academyrealestatetraining.com/online-learning/listen/2016/03/30/rob-forde#pk_campaign=Social-2016-03
+    'og:url': https://soundcloud.com/harcourts-victoria/rob-forde-on-the-us-market
     'og:image': https://www.academyrealestatetraining.com/online-learning/listen/2016/03/30/rob-forde/rob-forde.jpg
 
 ---
