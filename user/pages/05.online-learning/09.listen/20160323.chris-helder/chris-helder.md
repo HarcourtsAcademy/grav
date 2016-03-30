@@ -2,6 +2,7 @@
 template: default
 menu: March 23rd 2016 - Chris Helder
 title: Chris Helder - Code Success versus Code Failure
+visible: false
 slug: 2016/03/23/chris-helder
 date: 23-03-2016
 onpage_menu: false
