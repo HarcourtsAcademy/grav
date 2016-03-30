@@ -16,7 +16,7 @@ jscomments:
   provider: "facebook"
 
 metadata:
-    description: 'Your page description goes here'
+    description: 'Dexter Prack overviews some of his recent successful marketing campaigns and explains why his business is pushing auctions.'
     keywords: 'dexter prack, auction, marketing'
     'og:title': 'Dexter Prack - interviews@academy - March 2016'
     'og:description': 'Dexter Prack overviews some of his recent successful marketing campaigns and explains why his business is pushing auctions.'
