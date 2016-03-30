@@ -17,6 +17,10 @@
       }
   }
 
+  .subpage-date {
+    color: lighten($core-text,20%);
+  }
+
   a.button, a.button-secondary {
     display: none;
   }

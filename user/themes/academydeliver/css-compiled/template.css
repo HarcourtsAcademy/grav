@@ -2285,6 +2285,8 @@ body.error #error {
     @media only all and (max-width: 47.938em) {
       .subpage-item .subpage-image img {
         display: none; } }
+.subpage-item .subpage-date {
+  color: #cdcccc; }
 .subpage-item a.button, .subpage-item a.button-secondary {
   display: none; }
 .subpage-item hr {

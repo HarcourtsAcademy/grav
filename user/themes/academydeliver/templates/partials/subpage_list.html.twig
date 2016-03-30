@@ -31,6 +31,9 @@
         {% if page.routable %}
 
             <h3><a href="{{ page.url }}">{{ page.menu }}</a></h3>
+            <div class="subpage-date">
+                {{ page.date|date(config.system.pages.dateformat.short) }}
+            </div>
             <div>{{ page.summary }} <a class="{{- page.header.readmore_label ? "button" : "button-secondary" }}" href="{{ page.url }}">
               {{- page.header.readmore_label ? page.header.readmore_label : "Read more" -}}
             </a></div>
