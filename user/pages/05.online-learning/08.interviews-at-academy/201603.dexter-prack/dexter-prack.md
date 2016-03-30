@@ -1,13 +1,14 @@
 ---
-menu: March 2016 - Dexter Prack
+template: default
 title: Marketing & Sustaining Auction Culture
+visible: false
 slug: 2016/03/dexter-prack
+date: 15-03-2016
 onpage_menu: false
 
 taxonomy:
   category: online_learning
   tag: [dexter prack,interview,interviews@academy,interview@academy,auction,sales,office administrations,sales consultants,property managers,property managers,business owners,managers]
-
 
 body_classes: "modular header-image fullwidth online-learning"
 banner_image: theme://images/banners/online_learning.jpg
