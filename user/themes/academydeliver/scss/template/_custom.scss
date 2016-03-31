@@ -16,7 +16,10 @@
 
 img.infographic {
   margin: 0 auto;
-  @include breakpoint(no-mobile) {
+  @include breakpoint(desktop-range) {
+    max-width: 48em;
+  }
+  @include breakpoint(large-desktop-range) {
     max-width: 48em;
   }
   display: block;

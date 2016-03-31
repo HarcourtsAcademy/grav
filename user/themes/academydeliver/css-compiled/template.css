@@ -1172,7 +1172,10 @@ body.error #error {
 img.infographic {
   margin: 0 auto;
   display: block; }
-  @media only all and (min-width: 48em) {
+  @media only all and (min-width: 60em) and (max-width: 74.938em) {
+    img.infographic {
+      max-width: 48em; } }
+  @media only all and (min-width: 75em) {
     img.infographic {
       max-width: 48em; } }
 
@@ -2285,13 +2288,13 @@ img.infographic {
   margin: 0; }
 .subpage-item .subpage-image {
   margin-top: 0.5rem;
-  margin-right: 2rem;
+  margin-right: 1rem;
   float: left; }
   .subpage-item .subpage-image img {
     border-radius: 4px; }
     @media only all and (max-width: 47.938em) {
       .subpage-item .subpage-image img {
-        display: none; } }
+        max-width: 33vw; } }
 .subpage-item .subpage-date {
   color: #cdcccc; }
 .subpage-item a.button, .subpage-item a.button-secondary {
