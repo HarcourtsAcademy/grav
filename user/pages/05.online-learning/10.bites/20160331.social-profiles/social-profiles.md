@@ -1,6 +1,6 @@
 ---
 template: online_learning_bites
-title: Which social profile should you choose?
+title: How many social networking profiles do you need?
 visible: false
 slug: 2016/03/31/social-profiles
 date: 31-03-2016
@@ -18,17 +18,17 @@ jscomments:
   provider: "facebook"
 
 metadata:
-    description: 'Wikipedia over 200 well known social networking websites. Use this infographic to help determine which you should focus on.'
+    description: 'Wikipedia over 200 well-known social networking websites. Which ones will help you grow your business?'
     keywords: 'social media, profile, choice, infographic'
-    'og:title': 'Social Media Profiles'
-    'og:description': 'Wikipedia over 200 well known social networking websites. Use this infographic to help determine which you should focus on.'
+    'og:title': 'How many social networking profiles do you need?'
+    'og:description': 'Wikipedia over 200 well-known social networking websites. Which ones will help you grow your business?'
     'og:type': 'website'
     'og:url': https://www.academyrealestatetraining.com/online-learning/bites/2016/03/31/social-profiles
     'og:image': https://www.academyrealestatetraining.com/online-learning/bites/2016/03/31/social-profiles/sociasocial-profiles.png
 
 ---
 
-Wikipedia [lists](https://en.wikipedia.org/wiki/List_of_social_networking_websites) over 200 well known social networking websites. Use this infographic to help determine which you should focus on.
+Wikipedia [lists](https://en.wikipedia.org/wiki/List_of_social_networking_websites) over 200 well-known social networking websites. Which ones will help you grow your business?
 
 ===
 
