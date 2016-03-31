@@ -13,3 +13,11 @@
 #body > script:first-child + .grav-lightslider {
   margin-top: -3rem;
 }
+
+img.infographic {
+  margin: 0 auto;
+  @include breakpoint(no-mobile) {
+    max-width: 48em;
+  }
+  display: block;
+}

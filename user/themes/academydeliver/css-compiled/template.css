@@ -1169,6 +1169,13 @@ body.error #error {
 #body > script:first-child + .grav-lightslider {
   margin-top: -3rem; }
 
+img.infographic {
+  margin: 0 auto;
+  display: block; }
+  @media only all and (min-width: 48em) {
+    img.infographic {
+      max-width: 48em; } }
+
 #sidebar .sidebar-content ul.navigation {
   margin: 0;
   padding: 0;
