@@ -24,7 +24,7 @@ metadata:
     'og:description': 'Wikipedia lists over 200 well-known social networking websites. Which ones will help you grow your business?'
     'og:type': 'website'
     'og:url': https://www.academyrealestatetraining.com/online-learning/bites/2016/03/31/social-profiles
-    'og:image': https://www.academyrealestatetraining.com/online-learning/bites/2016/03/31/social-profiles/sociasocial-profiles.png
+    'og:image': https://www.academyrealestatetraining.com/online-learning/bites/2016/03/31/social-profiles/social-profiles.png
 
 ---
 
