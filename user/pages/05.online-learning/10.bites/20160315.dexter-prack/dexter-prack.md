@@ -2,9 +2,13 @@
 template: default
 title: Marketing & Sustaining Auction Culture
 visible: false
-slug: 2016/03/15/exter-prack
+slug: 2016/03/15/dexter-prack
 date: 15-03-2016
 onpage_menu: false
+
+routes:
+  aliases:
+    - '/online-learning/interviews-at-academy/2016/03/dexter-prack'
 
 taxonomy:
   category: online_learning_bites
