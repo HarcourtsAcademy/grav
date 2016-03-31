@@ -8,7 +8,7 @@ onpage_menu: false
 
 taxonomy:
   category: online_learning_bites
-  tag: [mike green,interview,listen,podcast,audio,sales consultants,business owners,managers]
+  tag: [mike green, interview, listen, podcast, audio, sales consultants, business owners, managers]
 
 
 body_classes: "header-image fullwidth online-learning"
