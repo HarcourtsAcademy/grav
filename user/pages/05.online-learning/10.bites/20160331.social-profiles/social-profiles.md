@@ -1,5 +1,5 @@
 ---
-template: default
+template: online_learning_bites
 title: Which social profile should you choose?
 visible: false
 slug: 2016/03/31/social-profiles

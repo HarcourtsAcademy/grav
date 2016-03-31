@@ -1,5 +1,5 @@
 ---
-template: default
+template: online_learning_bites
 title: Rob Forde on the US Market
 visible: false
 slug: 2016/03/30/rob-forde
@@ -11,7 +11,7 @@ taxonomy:
   tag: [rob forde,interview,listen,podcast,audio,auction,sales,office administrations,sales consultants,property managers,property managers,business owners,managers]
 
 
-body_classes: "modular header-image fullwidth online-learning"
+body_classes: "header-image fullwidth online-learning"
 banner_image: theme://images/banners/online_learning.jpg
 
 jscomments:
@@ -25,7 +25,7 @@ metadata:
     'og:type': 'music.song'
     'og:music:duration': 642
     'og:url': https://soundcloud.com/harcourts-victoria/rob-forde-on-the-us-market
-    'og:image': https://www.academyrealestatetraining.com/online-learning/listen/2016/03/30/rob-forde/rob-forde.jpg
+    'og:image': https://www.academyrealestatetraining.com/online-learning/bites/2016/03/30/rob-forde/rob-forde.jpg
 
 ---
 

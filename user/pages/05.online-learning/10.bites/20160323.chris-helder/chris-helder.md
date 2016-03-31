@@ -1,5 +1,5 @@
 ---
-template: default
+template: online_learning_bites
 title: Chris Helder - Code Success versus Code Failure
 visible: false
 slug: 2016/03/23/chris-helder
@@ -25,7 +25,7 @@ metadata:
     'og:type': 'music.song'
     'og:music:duration': 658
     'og:url': https://soundcloud.com/harcourts-victoria/code-success-v-code-failure
-    'og:image': https://www.academyrealestatetraining.com/online-learning/listen/2016/03/23/chris-helder/chris-helder.jpg
+    'og:image': https://www.academyrealestatetraining.com/online-learning/bites/2016/03/23/chris-helder/chris-helder.jpg
 
 ---
 
@@ -33,4 +33,4 @@ Chris Helder explains Code Success versus Code Failure and what he was doing whe
 
 ===
 
-<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/255962131&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/253927735&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
