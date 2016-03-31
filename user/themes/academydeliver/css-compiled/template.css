@@ -1119,20 +1119,22 @@ body.error #error {
       padding: 0 0.425rem;
       font-size: 0.9rem; }
   .simplesearch .search-image {
-    margin-top: 1rem; }
+    margin: 1rem 0; }
     .simplesearch .search-image img {
-      border-radius: 4px; }
+      border-radius: 4px;
+      max-width: 100px; }
       @media only all and (max-width: 47.938em) {
         .simplesearch .search-image img {
           display: none; } }
   .simplesearch .search-item {
-    min-height: 5rem; }
+    min-height: 5rem;
+    margin-bottom: 1em; }
     @media only all and (max-width: 47.938em) {
       .simplesearch .search-item {
         margin-left: 0; } }
   .simplesearch .search-details {
     float: right;
-    margin-top: -2.5rem;
+    margin-top: -1.8rem;
     font-weight: bold;
     font-size: 1rem;
     color: #cdcccc; }
@@ -1142,7 +1144,8 @@ body.error #error {
         margin-top: -0.2rem;
         margin-bottom: 1rem; } }
   .simplesearch hr {
-    border-bottom: 1px solid #eee; }
+    border-bottom: 1px solid #eee;
+    clear: both; }
 
 #sidebar .sidebar-content.simplesearch i {
   display: none; }
