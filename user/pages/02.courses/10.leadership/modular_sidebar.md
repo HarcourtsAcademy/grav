@@ -15,6 +15,9 @@ side_bar_menu: true;
 
 list_subpages: true
 
+content:
+  items: @self.children
+
 ---
 
 ===
