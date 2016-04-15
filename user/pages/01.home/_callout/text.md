@@ -2,12 +2,12 @@
 title: Portfolio
 menu: Portfolio
 portfolio:
-    - image: 2016-03-dexter-prack.jpg
-      title: March interview@academy
-      desc: Dexter Prack - Marketing & Sustaining Auction Culture
+    - image: 2016-04-fiona-blayney.jpg
+      title: April interview@academy
+      desc: Fiona Blayney - Using Social Media Effectively
       modalid: 13
-      url: https://www.academyrealestatetraining.com/online-learning/interviews-at-academy/2016/03/dexter-prack#pk_campaign=Web-2016-03
-      date: <strong>Released</strong> March 2016
+      url: /online-learning/interviews-at-academy/2016/04/fiona-blayney#pk_campaign=Web-2016-04
+      date: <strong>Released</strong> April 2016
       button: Watch
       icon: fa-play
     - image: work2.jpg
