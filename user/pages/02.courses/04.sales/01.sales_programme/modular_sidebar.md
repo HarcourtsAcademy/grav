@@ -44,7 +44,7 @@ To kick-start their career new to the industry consultants first attend Getting 
 
 A self paced 12 workshop programme for those new to real estate sales. iStart Online will help you attain lifetime success in the real estate business.
 
-### [Succeeding the Harcourts Way](/courses/sales/sales-programme/succeeding-the-harcourts-way) (2 days in the classroom)
+### [Agents of Change](/courses/sales/sales-programme/agents-of-change) (2 days in the classroom)
 This programme caters for experienced consultants to help them take their businesses to the next level of success. New to the industry consultants also attend.
 
 They will be embraced by the Harcourts culture and made aware of the extensive support and in-the-field resources available to them. Bring your offline and online personal marketing resources inline; examine your listing ability and consistency of service; and learn how to manage your time more effectively and earn more.
