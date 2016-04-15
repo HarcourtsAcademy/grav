@@ -16,7 +16,7 @@ side_bar_menu: true;
 
 This programme is designed for people who wish to become registered real estate salespersons, have moved country or interstate, or operate as personal assistants. A blended learning programme incorporating online learning, in-class training and in-the-field projects, this programme provides the required qualifications for industry certification.
 
-Attached to this programme is [iStart Online](/courses/sales/istart) - a 12 workshop programme of clear instruction and on-the-job business activities.
+Attached to this programme is [iStart](/courses/sales/istart) - a 12 workshop programme of clear instruction and on-the-job business activities.
 
 ===
 
@@ -36,7 +36,7 @@ Attached to this programme is [iStart Online](/courses/sales/istart) - a 12 work
 ## Getting Started the Harcourts Way Structure
 Getting Started the Harcourts Way is the first component of the Academy [Sales Programme](/courses/sales/sales-programme).
 
-The full Sales Programme for new to the industry consultants incorporates approximately 3 – 4 days completing online tasks prior to attending 4 days classroom training. Students then commence the iStart24 programme consisting of 24 weeks one-on-one coaching and in the field project work with your manager and during this time students return to the classroom to complete [Succeeding the Harcourts Way](/courses/sales/sales-programme/succeeding-the-harcourts-way).
+The full Sales Programme for new to the industry consultants incorporates approximately 3 – 4 days completing online tasks prior to attending 4 days classroom training. Students then commence the [iStart](/courses/sales/istart) programme consisting of 12 in-the-field workshops and during this time students return to the classroom to complete [Agent of Change](/courses/sales/sales-programme/agents-of-change).
 
 Participants may return at no charge within 12 months to attend the course again.
 
