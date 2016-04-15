@@ -5,16 +5,15 @@ slug: privacy
 published: true
 date: 29-03-2013 3:14pm
 taxonomy:
-	category: privacy
-	tag: [privacy]
+  category: privacy
+  tag: [privacy]
 
 metadata:
     description: Your page description goes here
     keywords: real estate Harcourts resource media library
     author: Harcourts Academy
 
-body_classes: "default header-lite fullwidth privacy"
-bg_color: "#B4B093"
+body_classes: "default header-image fullwidth privacy"
 ---
 
 # Privacy Policy
