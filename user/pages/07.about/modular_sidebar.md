@@ -14,7 +14,7 @@ body_classes: "modular header-image fullwidth about-us"
 banner_image: theme://images/banners/about_us.jpg
 
 content:
-    items: @self.modular
+    items: '@self.modular'
     order:
         by: default
         dir: asc
