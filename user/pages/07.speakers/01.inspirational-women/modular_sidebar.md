@@ -27,11 +27,11 @@ I have been blessed to have strong role models, mentors and positive influence i
 I realised that ordinary hard working women like me could make a difference for the women of Harcourts. We may not be professional speakers but we have important stories to share of how we faced the challenges they now face. We may not be famous but we are extraordinary in our accomplishments and the life lessons we have learned.  We can provide practical advice and valuable support that may help other women to succeed, to keep trying, to take more opportunities, to be proud of themselves.  
 In May 2016 we launched Harcourts Inspirational women.  I am grateful to the wonderful [ambassadors](Harcourts_Inspirational_Women_Ambassadors.pdf) who drive this in their regions. We shall continue to inspire other women to know that they are powerful beyond measure.
 
-![](name.png?cropResize=100)
+![](name.png?cropResize=150)
 
 Irene Green
 
-> &ldquo; Our deepest fear is not that we are inadequate. Our deepest fear is that we are powerful beyond measure. It is our light, not our darkness that most frightens us. We ask ourselves, who am I to be brilliant, gorgeous, talented, and fabulous? Actually, who are you not to be? You are a child of God. Your playing small does not serve the world. There is nothing enlightened about shrinking so that other people won't feel insecure around you. We are all meant to shine, as children do. It's not just in some of us; it's in everyone. And as we let our own light shine, we unconsciously give other people permission to do the same. As we are liberated from our own fear, our presence automatically liberates others.&rdquo;
+> &ldquo;Our deepest fear is not that we are inadequate. Our deepest fear is that we are powerful beyond measure. It is our light, not our darkness that most frightens us. We ask ourselves, who am I to be brilliant, gorgeous, talented, and fabulous? Actually, who are you not to be? You are a child of God. Your playing small does not serve the world. There is nothing enlightened about shrinking so that other people won't feel insecure around you. We are all meant to shine, as children do. It's not just in some of us; it's in everyone. And as we let our own light shine, we unconsciously give other people permission to do the same. As we are liberated from our own fear, our presence automatically liberates others.&rdquo;
 >
 > &mdash; Marianne Williamson
 
@@ -42,7 +42,10 @@ Irene Green
 
 
 ## Harcourts Inspirational Women Speakers.
-- Every speaker will be profiled in the Harcourts Inspirational Women’s register online with their photo, contact details and  brief outline of the key messages from their presentation.   
+- Every speaker will be profiled in the Harcourts Inspirational Women’s register online with their photo, contact details and  brief outline of the key messages from their presentation.
 - Harcourts women looking for a mentor should view our register of Harcourts Inspirational Women
-- Every year one speaker will be chosen from the register to speak at the annual Harcourts Inspirational Women’s event held at conference. To be chosen from so many is a significant honour.
+- Every year one speaker will be chosen from the register to speak at the annual Harcourts Inspirational Women’s event held at [Harcourts Annual Conference](http://www.harcourtsevents.com/). To be chosen from so many is a significant honour.
 - Simply contact your local [Harcourts Inspirational Ambassador](Harcourts_Inspirational_Women_Ambassadors.pdf) to discuss speaking at one of our events.
+
+## Harcourts Inspirational Women Ambassadors
+- Download the list of [Inspirational Women Ambassadors](Harcourts_Inspirational_Women_Ambassadors.pdf).
