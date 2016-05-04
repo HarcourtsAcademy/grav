@@ -1182,6 +1182,11 @@ img.infographic {
     img.infographic {
       max-width: 48em; } }
 
+img.inline-left {
+  float: left;
+  margin: 0.5em 1em 0.5em 0;
+  max-width: 20em; }
+
 #sidebar .sidebar-content ul.navigation {
   margin: 0;
   padding: 0;
