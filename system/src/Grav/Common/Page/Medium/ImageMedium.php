@@ -368,7 +368,7 @@ class ImageMedium extends Medium
     {
 
         if ($sizes) {
-            $this->sizes = $sizes;
+            $this->sizes = urldecode($sizes);
             return $this;
         }
 
