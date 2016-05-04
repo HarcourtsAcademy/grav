@@ -207,7 +207,7 @@ b, strong, label, th {
         #header #navbar ul.navigation li a {
           font-family: "Source Sans Pro", Helvetica, "Tahoma", "Geneva", "Arial", sans-serif;
           display: inline-block;
-          padding: 0.3rem 0.8rem; }
+          padding: 0.3rem 0.7rem; }
           #header #navbar ul.navigation li a.active, #header #navbar ul.navigation li a:hover {
             background: white;
             color: #00adef;
