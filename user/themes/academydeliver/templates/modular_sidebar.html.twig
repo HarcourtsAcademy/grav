@@ -112,7 +112,7 @@
 
 
           {% for module in page.collection() %}
-            {% if page.routable == false %}
+            {% if module.routable == false %}
               <div id="{{ _self.pageLinkName(module.menu) }}"></div>
               {{ module.content }}
             {% endif %}
