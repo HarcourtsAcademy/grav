@@ -28,7 +28,7 @@ metadata:
     'og:type': 'video.other'
     'og:url': https://www.academyrealestatetraining.com/online-learning/bites/2016/05/20/sally-millard#pk_campaign=Social-2016-05
     'og:image': https://www.academyrealestatetraining.com/online-learning/bites/2016/05/20/sally-millard/sally-millard.jpg
-    'og:video': "https://embed-ssl.wistia.com/flash/embed_player_v2.0.swf?videoUrl=http%3A%2F%2Fembed.wistia.com%2Fdeliveries%2Fbc49c32e3d1de2ae3dcddd766e2ce1a9737f811e.bin&amp;stillUrl=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F8c02a3fc34a487d6cdd4b39fbc0e5a8407584823.bin&amp;controlsVisibleOnLoad=false&amp;unbufferedSeek=true&amp;autoLoad=false&amp;autoPlay=true&amp;endVideoBehavior=default&amp;showVolume=true&amp;embedServiceURL=http%3A%2F%2Fdistillery.wistia.com%2Fx&amp;accountKey=wistia-production_341965&amp;mediaID=wistia-production_19631510&amp;mediaDuration=160.205&amp;fullscreenDisabled=false&amp;customColor=7b796a"
+    'og:video': "https://embed-ssl.wistia.com/flash/embed_player_v2.0.swf?videoUrl=http%3A%2F%2Fembed.wistia.com%2Fdeliveries%2F5a83e550d248cab1c2d55b061820b9e68ba9af54.bin&stillUrl=https%3A%2F%2Fembed-ssl.wistia.com%2Fdeliveries%2F73ef6033b695545462cc19c0ce4a6aeb83d2b206.bin&controlsVisibleOnLoad=false&unbufferedSeek=true&autoLoad=false&autoPlay=true&endVideoBehavior=default&showVolume=true&embedServiceURL=http%3A%2F%2Fdistillery.wistia.com%2Fx&accountKey=wistia-production_341965&mediaID=wistia-production_20379335&mediaDuration=215.445&fullscreenDisabled=false&customColor=00adef"
     'og:video:width': 640
     'og:video:height': 360
     'og:video:type': "application/x-shockwave-flash"
