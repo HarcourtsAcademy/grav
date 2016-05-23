@@ -17,7 +17,7 @@ sidebar_links:
       - label: Australia
         url: http://one.harcourts.com.au/library
       - label: Canada
-        url: http://one.harcourtscanada.ca/library
+        url: http://one.harcourtsrealestate.ca/library
       - label: Indonesia
         url: http://one.harcourts.co.id/library
       - label: New Zealand
@@ -31,7 +31,7 @@ sidebar_links:
       - label: Australia
         url: http://one.harcourts.com.au/Library/Folder.aspx?id=231
       - label: Canada
-        url: http://one.harcourtscanada.ca/library/Folder.aspx?id=231
+        url: http://one.harcourtsrealestate.ca/library/Folder.aspx?id=231
       - label: Indonesia
         url: http://one.harcourts.co.id/Library/Folder.aspx?id=231
       - label: New Zealand
