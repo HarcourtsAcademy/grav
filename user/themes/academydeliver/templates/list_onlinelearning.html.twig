@@ -100,6 +100,17 @@
 
           {{ page.content }}
 
+          {% if page.header.course_information %}
+            <h2>Additional Information</h2>
+            <dl class="dl-horizontal">
+            {% for info in page.header.course_information %}
+              <dt>{{ info.key}}</dt>
+              <dd>{{ info.value }}</dd>
+            {% endfor %}
+            </dl>
+          {% endif %}
+
+
           {% for module in page.collection() %}
             {% if module.routable == false %}
               <div id="{{ _self.pageLinkName(module.menu) }}"></div>
@@ -140,11 +151,11 @@
                   {% endfor %}
                 {% endif %}
 
-                  <hr/>
+                <hr/>
 
-              </section>
+            </section>
 
-            {% endfor %}
+          {% endfor %}
 
         </div>
         <div id="sidebar" class="g-block size-1-3 pure-u-1-3">

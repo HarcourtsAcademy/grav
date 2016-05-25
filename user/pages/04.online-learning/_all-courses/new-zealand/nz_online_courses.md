@@ -1,9 +1,12 @@
 ---
-title: Australia Online Courses
+title: New Zealand Online Courses
 template: list_onlinelearning
 onpage_menu: false
-slug: australia
 published: true
+
+routes:
+  default: '/online-learning/new-zealand'
+
 taxonomy:
   category: online_learning
   tag: []
@@ -17,12 +20,12 @@ content:
   items:
     '@taxonomy':
       tag: [online_learning, courses]
-      country: australia
+      country: 'new zealand'
   order:
     by: title
 
 ---
 
-The Academy offers self-paced online learning across Australia.
+The Academy offers self-paced online learning across New Zealand.
 
 ===

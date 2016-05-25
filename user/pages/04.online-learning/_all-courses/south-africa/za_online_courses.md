@@ -1,9 +1,12 @@
 ---
-title: Canada Online Courses
+title: South Africa Online Courses
 template: list_onlinelearning
 onpage_menu: false
-slug: canada
 published: true
+
+routes:
+  default: '/online-learning/south-africa'
+
 taxonomy:
   category: online_learning
   tag: []
@@ -17,12 +20,12 @@ content:
   items:
     '@taxonomy':
       tag: [online_learning, courses]
-      country: canada
+      country: 'south africa'
   order:
     by: title
 
 ---
 
-The Academy offers self-paced online learning across Canada.
+The Academy offers self-paced online learning across South Africa.
 
 ===

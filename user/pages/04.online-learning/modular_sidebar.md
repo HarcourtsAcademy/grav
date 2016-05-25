@@ -10,17 +10,24 @@ taxonomy:
 body_classes: "modular header-image fullwidth online-learning"
 banner_image: theme://images/banners/online_learning.jpg
 
-side_bar_menu: true;
-
-list_subpages: true
+side_bar_menu: true
 
 content:
-  items:
-    '@taxonomy':
-      category: online_learning_bites
+  items: '@self.modular'
   order:
-    by: date
-    dir: desc
+      by: default
+      dir: asc
+      custom:
+          - _all-courses
+          - _learning-bites
+
+##content:
+##  items:
+##    '@taxonomy':
+##      category: online_learning_bites
+##  order:
+##    by: date
+##    dir: desc
 ##  limit: 4
 ##  pagination: true
 
@@ -44,6 +51,3 @@ Real Estate professionals around the world are benefiting from online learning. 
 - No travel time or cost – no need to pay for petrol, parking, accommodation or plane tickets
 - Convenience –  learn from the comfort of your home or office
 - Stay current – connect with the latest training produced by experienced trainers and industry experts
-
-## Learning Bites
-Short on time? Snack on our learning bites.  

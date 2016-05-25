@@ -1,9 +1,12 @@
 ---
-title: South Africa Online Courses
+title: Australia Online Courses
 template: list_onlinelearning
 onpage_menu: false
-slug: south-africa
 published: true
+
+routes:
+  default: '/online-learning/australia'
+
 taxonomy:
   category: online_learning
   tag: []
@@ -17,12 +20,12 @@ content:
   items:
     '@taxonomy':
       tag: [online_learning, courses]
-      country: 'south africa'
+      country: australia
   order:
     by: title
 
 ---
 
-The Academy offers self-paced online learning across South Africa.
+The Academy offers self-paced online learning across Australia.
 
 ===
