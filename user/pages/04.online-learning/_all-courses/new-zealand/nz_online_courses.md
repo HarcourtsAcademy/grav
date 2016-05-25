@@ -1,5 +1,5 @@
 ---
-title: New Zealand Online Courses
+title: New Zealand Online Learning
 template: list_onlinelearning
 onpage_menu: false
 published: true

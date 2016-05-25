@@ -1,5 +1,5 @@
 ---
-title: Canada Online Courses
+title: Canada Online Learning
 template: list_onlinelearning
 onpage_menu: false
 published: true

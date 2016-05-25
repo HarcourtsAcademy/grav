@@ -1,5 +1,5 @@
 ---
-title: Australia Online Courses
+title: Australia Online Learning
 template: list_onlinelearning
 onpage_menu: false
 published: true
