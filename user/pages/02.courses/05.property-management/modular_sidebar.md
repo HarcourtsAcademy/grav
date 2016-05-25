@@ -17,5 +17,6 @@ list_subpages: true
 
 content:
   items: @self.children
-
+  order:
+    by: title
 ---

@@ -18,6 +18,8 @@ list_subpages: short
 
 content:
   items: @self.children
+  order:
+    by: title
 
 ---
 
