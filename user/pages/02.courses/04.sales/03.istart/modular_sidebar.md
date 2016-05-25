@@ -5,7 +5,8 @@ onpage_menu: false
 published: true
 taxonomy:
   category: courses
-  tag: [courses,sales,sales programme,istart,istart24,sales consultants]
+  tag: [online_learning,courses,sales,sales programme,istart,istart24,sales consultants]
+  country: [australia, canada, new zealand, usa, south africa]
 
 body_classes: "modular header-image fullwidth courses"
 banner_image: theme://images/banners/courses.jpg
@@ -22,10 +23,10 @@ youtube:
 
 iStart Online is a self paced programme for those new to real estate sales. It covers the foundations of real estate sales and is designed to help students attain lifetime success in the real estate business. Real life examples that have worked for some of our most successful sales consultants are provided throughout the course. Let their experience guide you along your journey.
 
+===
+
 [Open NEW iStart Online](/istart#pk_campaign=web-ARET.com&pk_kwd=OpenNewIStartOnline) {.button}
 [Where is iStart24?](/courses/sales/istart/istart24) {.button-text}
-
-===
 
 ## The NEW iStart Online
 

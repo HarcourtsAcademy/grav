@@ -6,7 +6,7 @@ onpage_menu: false
 published: true
 taxonomy:
   category: courses
-  tag: [continuing education,ce,continuing professional development,cpd]
+  tag: [online_learning,courses,continuing education,ce,continuing professional development,cpd]
   country: [new zealand]
 
 body_classes: "modular header-image fullwidth courses"

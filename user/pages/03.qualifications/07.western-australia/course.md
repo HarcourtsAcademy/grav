@@ -6,7 +6,7 @@ onpage_menu: false
 published: true
 taxonomy:
   category: qualifications
-  tag: [qualification-region,qualification,sales registration,sales,sales consultants,western australia]
+  tag: [online_learning,courses,qualification-region,qualification,sales registration,sales,sales consultants,western australia]
   country: australia
   region: western-australia
 

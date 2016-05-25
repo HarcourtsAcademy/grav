@@ -5,8 +5,9 @@ onpage_menu: false
 published: true
 taxonomy:
   category: courses
-  tag: [continuing professional development,cpd,continuing education,ce]
-  country: [australia]
+  tag: [online_learning,courses,continuing professional development,cpd,continuing education,ce]
+  country: australia
+  region: western-australia
 
 body_classes: "modular header-image fullwidth courses"
 banner_image: theme://images/banners/courses.jpg

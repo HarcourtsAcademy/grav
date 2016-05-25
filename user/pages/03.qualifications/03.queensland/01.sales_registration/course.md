@@ -6,7 +6,7 @@ onpage_menu: false
 published: true
 taxonomy:
   category: qualifications
-  tag: [queensland,sales consultants,sales registration,sales]
+  tag: [online_learning,courses,queensland,sales consultants,sales registration,sales]
   country: australia
   region: queensland
 
