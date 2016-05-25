@@ -972,7 +972,7 @@ class Pages
 
             switch ($order_by) {
                 case 'title':
-                    $list[$key] = $child->title();
+                    $list[$key] = strtolower($child->title());
                     break;
                 case 'date':
                     $list[$key] = $child->date();
