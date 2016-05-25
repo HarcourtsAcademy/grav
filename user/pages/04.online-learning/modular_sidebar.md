@@ -21,6 +21,8 @@ content:
   order:
     by: date
     dir: desc
+##  limit: 4
+##  pagination: true
 
 ---
 
