@@ -88,81 +88,13 @@
 {% block content %}
 
     {% if config.plugins.breadcrumbs.enabled %}
-        {% include 'partials/breadcrumbs.html.twig' %}
+      {% include 'partials/breadcrumbs.html.twig' %}
     {% endif %}
 
     <div class="content-wrapper g-grid pure-g-r">
         <div id="content" class="g-block pure-u-2-3">
-          {% set page_image = page.media.images|first %}
-          {% if page_image %}
-            <p><img src="{{ page_image.url }}"/></p>
-          {% endif %}
 
-          {{ page.content }}
-
-          {% if page.header.course_information %}
-            <h2>Additional Information</h2>
-            <dl class="dl-horizontal">
-            {% for info in page.header.course_information %}
-              <dt>{{ info.key}}</dt>
-              <dd>{{ info.value }}</dd>
-            {% endfor %}
-            </dl>
-          {% endif %}
-
-
-          {% for module in page.collection() %}
-            {% if module.routable == false %}
-              <div id="{{ _self.pageLinkName(module.menu) }}"></div>
-              {{ module.content }}
-            {% endif %}
-          {% endfor %}
-
-          {% if page.header.list_subpages %}
-            {% for page in page.collection %}
-
-              <section class="subpage-item">
-
-                  {% set banner = page.media.images|first %}
-
-                  {% if banner %}
-                  <div class="subpage-image">
-                      <a href="{{ page.url }}">{{ banner.display('thumbnail').cropZoom(100,100).html }}</a>
-                  </div>
-                  {% endif %}
-
-                  {% if page.routable %}
-
-                      <h3><a href="{{ page.url }}">{{ page.menu }}</a></h3>
-                      <div class="subpage-date">
-                          {{ page.date|date(config.system.pages.dateformat.short) }}
-                      </div>
-                      <div>{{ page.summary }} <a class="{{- page.header.readmore_label ? "button" : "button-secondary" }}" href="{{ page.url }}">
-                        {{- page.header.readmore_label ? page.header.readmore_label : "Read more" -}}
-                      </a></div>
-                  {% else %}
-                    {% for route_from, route_to in site.routes %}
-                      {% if page.route == route_from %}
-                        {% set page_to = page.find(route_to) %}
-                        <h3><a href="{{ page_to.url }}">{{ page_to.menu }}</a></h3>
-                        <p>{{ page_to.summary }} <a class="{{- page.header.readmore_label ? "button" : "button-secondary" }}" href="{{ page_to.url }}">
-                          {{- page.header.readmore_label ? page.header.readmore_label : "Read more" -}}
-                        </a></p>
-                      {% endif %}
-                    {% endfor %}
-                  {% endif %}
-
-                  <hr/>
-
-              </section>
-
-            {% endfor %}
-          {% endif %}
-
-          {% set inspirational_women_collection = page.collection('inspirational-women') %}
-          {{ dump(inspirational_women_collection[page.path]) }}
-          {% for page in inspirational_women_collection %}
-            <section class="inspirational-women-item">
+          <section class="inspirational-women-item">
 
                 {% set banner = page.media.images|first %}
 
@@ -172,11 +104,21 @@
                 </div>
                 {% endif %}
 
-                <h3><a href="{{ page.url }}">{{ page.title }}</a> ({{ page.header.inspirational_women.region }})</h3>
+                <h3>{{ page.header.inspirational_women.region }}</h3>
+
+                <ul class="contact-icons">
+                    {% if page.header.inspirational_women.email %}
+                    <li><i class="fa fa-envelope"></i> <a href="mailto:{{ page.header.inspirational_women.email|safe_email }}">Email {{ page.header.inspirational_women.name|split(" ")|first }}</a> </li>
+                    {% endif %}
+                    <li><i class="fa fa-phone"></i> {{ page.header.inspirational_women.phone }} </li>
+                    <li><i class="fa fa-mobile"></i> {{ page.header.inspirational_women.mobile }} </li>
+                </ul>
+
+                <div class="profile">{{ page.header.inspirational_women.profile }}</div>
 
             </section>
 
-          {% endfor %}
+          {{ page.content }}
 
         </div>
         <div id="sidebar" class="g-block size-1-3 pure-u-1-3">

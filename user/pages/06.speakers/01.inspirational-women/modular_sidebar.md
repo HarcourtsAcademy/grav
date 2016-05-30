@@ -2,7 +2,6 @@
 title: Harcourts Inspirational Women
 menu: Harcourts Inspirational Women
 slug: inspirational-women
-onpage_menu: false
 published: true
 
 body_classes: "modular header-image fullwidth about-us"
@@ -13,6 +12,12 @@ taxonomy:
   tag: [speakers, harcourts inspirational women, inspirational women]
 
 side_bar_menu: true
+
+inspirational-women:
+  items:
+    '@taxonomy':
+      category: [speakers]
+      tag: ['inspirational women speaker']
 
 ---
 
@@ -48,4 +53,4 @@ Irene Green
 - Simply contact your local [Harcourts Inspirational Ambassador](Harcourts_Inspirational_Women_Ambassadors.pdf) to discuss speaking at one of our events.
 
 ## Harcourts Inspirational Women Ambassadors
-- Download the list of [Inspirational Women Ambassadors](Harcourts_Inspirational_Women_Ambassadors.pdf).
+<!-- - Download the list of [Inspirational Women Ambassadors](Harcourts_Inspirational_Women_Ambassadors.pdf). -->
