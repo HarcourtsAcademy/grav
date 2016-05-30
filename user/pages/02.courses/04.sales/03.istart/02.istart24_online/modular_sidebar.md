@@ -3,6 +3,8 @@ title: iStart24 Online
 slug: istart24
 onpage_menu: false
 published: true
+date: 22-02-2016
+
 taxonomy:
   category: courses
   tag: [courses,sales,sales programme,istart,sales consultants]
@@ -16,6 +18,8 @@ side_bar_menu: true;
 
 >>>>> The [new iStart Online](/courses/sales/istart) replaces the iStart24 24-week online programme. We have refined and updated the new iStart making it faster and easier to complete. Current iStart24 students will have access to the old iStart24 course until their 24-week programme concludes.
 
+===
+
 iStart24 is a self paced 24 week programme for those new to real estate sales. iStart24 will help you attain lifetime success in the real estate business.  The programme requires full-time commitment and a willingness to complete all assignments, including Daily Activity Records.
 
 Throughout the programme we’ve provided real life examples that have worked for some of our most successful sales consultants.  Let their experience guide you along your journey.
@@ -23,8 +27,6 @@ Throughout the programme we’ve provided real life examples that have worked fo
 iStart24 Online runs monthly, starting on the 1st of each month. Registration is free. Select your country to begin:
 
 [iStart24 Online Australia](http://www.academyrealestatetraining.com/au/istart24) {.button} [iStart24 Online New Zealand](http://www.academyrealestatetraining.com/nz/istart24) {.button}
-
-===
 
 Target Group: New to the industry sales consultants and their personal assistants
 
