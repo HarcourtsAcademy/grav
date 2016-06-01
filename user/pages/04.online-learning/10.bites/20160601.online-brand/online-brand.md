@@ -33,4 +33,4 @@ How do you maintain your online brand and reputation? Share your thoughts in the
 
 ===
 
-![Online Brand and Reputation Infographic](online-brand.png?class=infographic&derivatives=320,1440)
+![Online Brand and Reputation Infographic](online-brand.png?resize=1000,1584&class=infographic&derivatives=300,1100)
