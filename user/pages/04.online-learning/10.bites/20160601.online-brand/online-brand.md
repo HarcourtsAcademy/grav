@@ -1,5 +1,5 @@
 ---
-template: default
+template: online_learning_bites
 title: Online Brand and Reputation
 visible: false
 slug: 2016/06/01/online-brand
@@ -17,19 +17,19 @@ jscomments:
   provider: "facebook"
 
 metadata:
-    description: 'Harcourts Conference Takeways for maintaining an exceptional online brand from Bridget Gabites, Mark Armstrong (RateMyAgent), Andrew Drane and Lee Wade (CoreLogic). How do you maintain your online brand and reputation? Share your thoughts in the comments and tag them #harconf.'
+    description: 'How do you maintain your online brand and reputation? Share your thoughts in the comments and tag them #harconf. Harcourts Conference Takeways for maintaining an exceptional online brand from Bridget Gabites, Mark Armstrong (RateMyAgent), Andrew Drane and Lee Wade (CoreLogic).'
     keywords: 'social media, profile, online, brand, reputation, infographic'
     'og:title': '2016 Conference Takeaways: Online Brand and Reputation'
-    'og:description': 'Harcourts Conference Takeways for maintaining an exceptional online brand from Bridget Gabites, Mark Armstrong (RateMyAgent), Andrew Drane and Lee Wade (CoreLogic). How do you maintain your online brand and reputation? Share your thoughts in the comments and tag them #harconf.'
+    'og:description': 'How do you maintain your online brand and reputation? Share your thoughts in the comments and tag them #harconf. Harcourts Conference Takeways for maintaining an exceptional online brand from Bridget Gabites, Mark Armstrong (RateMyAgent), Andrew Drane and Lee Wade (CoreLogic). '
     'og:type': 'website'
     'og:url': https://www.academyrealestatetraining.com/online-learning/bites/2016/06/01/online-brand
     'og:image': https://www.academyrealestatetraining.com/online-learning/bites/2016/06/01/online-brand/online-brand.png
 
 ---
 
-Harcourts Conference Takeways for maintaining an exceptional online brand from Bridget Gabites, Mark Armstrong (RateMyAgent), Andrew Drane and Lee Wade (CoreLogic).
-
 How do you maintain your online brand and reputation? Share your thoughts in the comments and tag them [#harconf](https://www.hashatit.com/hashtags/harconf).
+
+Harcourts Conference Takeways for maintaining an exceptional online brand from Bridget Gabites, Mark Armstrong (RateMyAgent), Andrew Drane and Lee Wade (CoreLogic).
 
 ===
 
