@@ -5,7 +5,7 @@ onpage_menu: false
 published: true
 taxonomy:
   category: courses
-  tag: [leadership,business owners,managers,future leaders]
+  tag: [leadership,business owners,managers,future leaders, partners in excellence, the critical ingredient, effective marketing, establishing an auction culture, training and coaching your people, recruitment the life blood of your business, essentials of finance, building a business plan, communication profit from connections, know your people to manage their performance, the art of leadership, marketing for impact and influence, master mentor, building a secure business, advanced money matters, managing change]
 
 body_classes: "modular header-image fullwidth courses"
 banner_image: theme://images/banners/courses.jpg
@@ -20,7 +20,7 @@ course_content:
     list: |
       <h3>Partners in Excellence (Half day)</h3>
 
-      Harcourts, the Academy and you, our leaders, must be partners in excellence in order to help our people succeed. This programme has been designed to demonstrate how the academy can be your biggest recruitment and retention tool. It aims to increase awareness of the products and services available and for you to know what your people are learning at the Academy. You will explore programmes and resources that will assist you to recruit, grow and retain great team members in sales, property management and administration.
+      Harcourts, the Academy and you, our leaders, must be partners in excellence in order to help our people succeed. This programme has been designed to demonstrate how the Academy can be your biggest recruitment and retention tool. It aims to increase awareness of the products and services available and for you to know what your people are learning at the Academy. You will explore programmes and resources that will assist you to recruit, grow and retain great team members in sales, property management and administration.
 
       <h3>Leadership – The Critical Ingredient (One day)</h3>
 
