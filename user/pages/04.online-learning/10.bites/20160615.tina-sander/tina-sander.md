@@ -24,7 +24,7 @@ metadata:
     description: 'Tina Sander speaks about the fundamentals of getting ahead in real estate sales.'
     keywords: 'tina sander, real estate, sales, performance, get ahead, rising star, harcourts'
     'og:title': 'Tina Sander - interviews@academy - June 2016'
-    'og:description': 'Tina Sander speaks about the fundamentals of getting ahead in real estate sales.'
+    'og:description': 'Tina Sander received Rising Star of the Year at our recent ‪‎Harcourts‬ Australian Conference - during which time we managed to have a quick chat with her about exactly what she is doing to stand out from the crowd and any systems or procedures that she is using to get ahead.'
     'og:type': 'video.other'
     'og:url': https://www.academyrealestatetraining.com/online-learning/bites/2016/06/15/tina-sander#pk_campaign=Social-2016-06
     'og:image': https://www.academyrealestatetraining.com/online-learning/bites/2016/06/15/tina-sander/tina-sander.jpg
