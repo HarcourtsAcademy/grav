@@ -1,7 +1,8 @@
 ---
 title: Western Australia Sales Registration
-menu: Western Australia
-slug: western-australia
+menu: Sales Registration
+slug: western-australia-sales-registration
+template: course
 onpage_menu: false
 published: true
 taxonomy:
