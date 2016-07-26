@@ -32,7 +32,7 @@ iStart Online is a self paced programme for those new to real estate sales. It c
 
 The [new iStart Online](/istart#pk_campaign=web-ARET.com&pk_kwd=NewIStartOnline) replaces the old [iStart24 24-week online programme](/courses/sales/istart/istart24). We have refined and updated the new iStart making it faster and easier to complete.
 
-The new iStart is available in Australia, Dubai, New Zealand, South Africa and the USA. To get started, buy unlimited access using your credit card or attend an Academy 4-day Getting Started the Harcourts Way and receive access to new iStart included in the course cost.
+The new iStart is available in Australia, Canada, Dubai, New Zealand, South Africa and the USA. To get started, buy unlimited access using your credit card or attend an Academy 4-day Getting Started the Harcourts Way and receive access to new iStart included in the course cost.
 
 [plugin:youtube](https://www.youtube.com/watch?v=5hkyVoXiXhw)
 

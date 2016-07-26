@@ -10,6 +10,7 @@
       float: left;
       img {
          border-radius: 4px;
+         max-width: 100px;
 
          @include breakpoint(mobile-only) {
               max-width: 33vw;

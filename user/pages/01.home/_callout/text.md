@@ -2,12 +2,12 @@
 title: Portfolio
 menu: Portfolio
 portfolio:
-    - image: 2016-05-sally-millard.jpg
-      title: May interview@academy
-      desc: Sally Millard - Growing a Rent Roll Organically and Through Acquisition
+    - image: 2016-06-tina-sander.jpg
+      title: June interview@academy
+      desc: Tina Sander - The fundamentals of getting ahead in real estate sales.
       modalid: 13
-      url: /online-learning/interviews-at-academy/2016/05/sally-millard#pk_campaign=Web-2016-05
-      date: <strong>Released</strong> May 2016
+      url: /online-learning/interviews-at-academy/2016/06/tina-sander#pk_campaign=Web-2016-06
+      date: <strong>Released</strong> June 2016
       button: Watch
       icon: fa-play
     - image: work2.jpg

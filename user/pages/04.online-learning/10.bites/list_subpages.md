@@ -3,6 +3,9 @@ title: Learning Bites
 slug: bites
 onpage_menu: false
 published: true
+routes:
+  aliases:
+    - '/bites'
 
 taxonomy:
   category: online_learning
@@ -23,6 +26,6 @@ content:
 
 ---
 
-Short on time? Snack on our learning bites. 
+Short on time? Snack on our learning bites.
 
 ===
