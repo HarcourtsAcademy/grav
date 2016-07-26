@@ -106,7 +106,7 @@ b, strong, label, th {
   font-stretch: normal;
   src: url("../fonts/EOT/SourceSansPro-BoldIt.eot");
   src: url("../fonts/EOT/SourceSansPro-BoldIt.eot?#iefix") format("embedded-opentype"), url("../fonts/WOFF2/TTF/SourceSansPro-BoldIt.ttf.woff2") format("woff2"), url("../fonts/WOFF/OTF/SourceSansPro-BoldIt.otf.woff") format("woff"), url("../fonts/TTF/SourceSansPro-BoldIt.ttf") format("truetype"); }
-.default-animation, #body, #header #navbar ul.social-icons li, #header #navbar ul.social-icons li a, #header #navbar ul.login li, #header #navbar ul.login li a, .modal, .archive-list button, .slideme_container .arrow, .slideme_container .pagination .numbers li, .contact input, .contact textarea, .contact button, .callout .pricing-container .pricing-item, .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .foot, .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .archive-list button, .archive-list .callout .pricing-container .pricing-item .foot button, .callout .pricing-container .pricing-item .foot .contact button, .contact .callout .pricing-container .pricing-item .foot button, .team .members .contact-icons li a, .offices .locations .contact-icons li a, .logo h3, .logo ul.social-icons li, .logo ul.social-icons li a, .logo ul.login li, .notebook .screen .screen-content-hover {
+.default-animation, #body, #header #navbar ul.social-icons li, #header #navbar ul.social-icons li a, #header #navbar ul.login li, #header #navbar ul.login li a, .modal, .archive-list button, .slideme_container .arrow, .slideme_container .pagination .numbers li, .inspirational-women-item .contact-icons li a, .contact input, .contact textarea, .contact button, .callout .pricing-container .pricing-item, .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .foot, .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .archive-list button, .archive-list .callout .pricing-container .pricing-item .foot button, .callout .pricing-container .pricing-item .foot .contact button, .contact .callout .pricing-container .pricing-item .foot button, .team .members .contact-icons li a, .offices .locations .contact-icons li a, .logo h3, .logo ul.social-icons li, .logo ul.social-icons li a, .logo ul.login li, .notebook .screen .screen-content-hover {
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   transition: all 0.5s ease; }
@@ -1664,6 +1664,38 @@ img.inline-left {
   border-radius: 0.125rem;
   margin: 1.5rem 0 0 1.5rem;
   transition: background 1s ease-in-out; }
+
+.inspirational-women-item .profile-image {
+  float: left;
+  margin-right: 1rem;
+  max-width: 11rem; }
+  @media only all and (max-width: 47.938em) {
+    .inspirational-women-item .profile-image {
+      float: none;
+      display: block;
+      margin: auto;
+      max-width: 20rem; } }
+.inspirational-women-item .contact-icons {
+  margin: 0;
+  list-style: none; }
+  .inspirational-women-item .contact-icons li {
+    line-height: 2rem;
+    margin: 0;
+    list-style: none; }
+    .inspirational-women-item .contact-icons li i {
+      min-width: 1rem;
+      width: 2.1rem;
+      height: 2.1rem;
+      font-size: 1.4rem;
+      background: #00adef;
+      color: white;
+      border-radius: 100%;
+      text-align: center;
+      margin-top: 0.5rem;
+      margin-right: 0.8rem;
+      padding-top: 0.3rem; }
+    .inspirational-women-item .contact-icons li a {
+      margin-top: 0.3rem; }
 
 .contact h4, .contact .modular .bottom table th, .modular .bottom table .contact th, .contact label, .contact .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .contact .name, .contact .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .contact .button, .callout .pricing-container .pricing-item .foot .contact button, .contact .callout .pricing-container .pricing-item .foot button {
   text-align: left; }

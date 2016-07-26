@@ -1,0 +1,44 @@
+.inspirational-women-item {
+
+
+  .profile-image {
+    float: left;
+    margin-right: 1rem;
+    max-width: 11rem;
+    @include breakpoint(mobile-only) {
+        float: none;
+        display: block;
+        margin: auto;
+        max-width: 20rem
+    }
+  }
+
+  .contact-icons {
+      margin: 0;
+      list-style: none;
+
+      li {
+          line-height: 2rem;
+          margin: 0;
+          list-style: none;
+          i {
+            min-width: 1rem;
+            width: 2.1rem;
+            height: 2.1rem;
+            font-size: 1.4rem;
+            background: #00adef;
+            color: white;
+            border-radius: 100%;
+            text-align: center;
+            margin-top: 0.5rem;
+            margin-right: 0.8rem;
+            padding-top: 0.3rem;
+          }
+          a {
+              @extend .default-animation;
+              margin-top: 0.3rem;
+          }
+      }
+  }
+
+}

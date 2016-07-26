@@ -96,25 +96,36 @@
 
           <section class="inspirational-women-item">
 
-                {% set banner = page.media.images|first %}
+              <h3>{{ page.header.inspirational_women.region }} - {{ page.header.inspirational_women.country }} </h3>
 
-                {% if banner %}
-                <div class="profile-image">
-                    <a href="{{ page.url }}">{{ banner.display('thumbnail').cropZoom(100,100).html }}</a>
-                </div>
-                {% endif %}
+              {% set banner = page.media.images|first %}
 
-                <h3>{{ page.header.inspirational_women.region }}</h3>
+              {% if banner %}
+              <div class="profile-image">
+                  <a href="{{ page.url }}">{{ banner.resize(150,150).html }}</a>
+              </div>
+              {% endif %}
 
-                <ul class="contact-icons">
-                    {% if page.header.inspirational_women.email %}
-                    <li><i class="fa fa-envelope"></i> <a href="mailto:{{ page.header.inspirational_women.email|safe_email }}">Email {{ page.header.inspirational_women.name|split(" ")|first }}</a> </li>
-                    {% endif %}
-                    <li><i class="fa fa-phone"></i> {{ page.header.inspirational_women.phone }} </li>
-                    <li><i class="fa fa-mobile"></i> {{ page.header.inspirational_women.mobile }} </li>
-                </ul>
+              <ul class="contact-icons">
+                  {% if page.header.inspirational_women.email %}
+                  <li><i class="fa fa-envelope-o"></i> <a href="mailto:{{ page.header.inspirational_women.email|safe_email }}"> Email {{ page.header.inspirational_women.firstname }}</a> </li>
+                  {% endif %}
+                  <li><i class="fa fa-phone"></i> {{ page.header.inspirational_women.phone }} </li>
+                  <li><i class="fa fa-mobile"></i> {{ page.header.inspirational_women.mobile }} </li>
+                  {% if page.header.inspirational_women.harcourtsone %}
+                  <li><i class="fa fa-user"></i> <a href="{{ page.header.inspirational_women.harcourtsone }}"> HarcourtsOne profile</a> </li>
+                  {% endif %}
+              </ul>
 
-                <div class="profile">{{ page.header.inspirational_women.profile }}</div>
+              {% if page.header.inspirational_women.profile %}
+              <h3>About {{ page.header.inspirational_women.firstname }}</h3>
+              <div class="profile">{{ page.header.inspirational_women.profile }}</div>
+              {% endif %}
+
+              {% if page.header.inspirational_women.profile %}
+              <h3>{{ page.header.inspirational_women.firstname }} Speaks About</h3>
+              <div class="profile">{{ page.header.inspirational_women.profile }}</div>
+              {% endif %}
 
             </section>
 
