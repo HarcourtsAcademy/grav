@@ -1662,7 +1662,8 @@ img.inline-left {
   text-align: center; }
   .inspirational-women-list .inspirational-women-item .profile-image {
     float: none;
-    margin: 0; }
+    margin: 0;
+    max-width: 100%; }
     .inspirational-women-list .inspirational-women-item .profile-image img {
       display: block;
       max-width: 100%;
