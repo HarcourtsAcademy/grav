@@ -12,7 +12,11 @@ routes:
 
 taxonomy:
   category: online_learning_bites
-  tag: [fiona blayney,interview,interviews@academy,interview@academy,auction,sales,office administrations,sales consultants,property managers,property managers,business owners,managers]
+  tag: [learning bites]
+  topic: [social media]
+  format: [interview]
+  audience: [sales consultants,property managers,property managers,business owners,managers]
+  people: [fiona blayney]
 
 body_classes: "modular header-image fullwidth online-learning"
 banner_image: theme://images/banners/online_learning.jpg

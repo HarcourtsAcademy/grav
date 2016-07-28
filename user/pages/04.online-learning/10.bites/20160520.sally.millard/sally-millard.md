@@ -12,7 +12,11 @@ routes:
 
 taxonomy:
   category: online_learning_bites
-  tag: [sally millard,interview,interviews@academy,interview@academy,property management,property managers,business owners,managers]
+  tag: [learning bites]
+  topic: [social media]
+  format: [interview]
+  audience: [property managers,property managers,business owners,managers]
+  people: [sally millard]
 
 body_classes: "modular header-image fullwidth online-learning"
 banner_image: theme://images/banners/online_learning.jpg

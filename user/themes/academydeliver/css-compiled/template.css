@@ -953,36 +953,14 @@ dt, dd {
 .blog-content-item .list-blog-padding > p:nth-child(2) {
   font-size: 1.2rem; }
 
-.tags {
-  margin: 0;
-  padding: 0;
-  display: inline;
-  background-color: rgba(101, 97, 97, 0.1);
-  padding: 0.7rem 1rem;
+.tags a {
+  display: inline-block;
+  font-size: 0.8rem;
+  border: 1px solid #00adef;
+  border-radius: 0;
+  padding: 0.1rem 0.4rem;
   margin-bottom: 0.2rem;
-  list-style: none;
-  text-align: center; }
-  .tags li {
-    display: inline-block;
-    font-size: 1rem;
-    text-transform: uppercase;
-    font-family: "Source Sans Pro", Helvetica, "Tahoma", "Geneva", "Arial", sans-serif; }
-    .tags li a {
-      color: #9A9898; }
-      .tags li a:after {
-        content: ","; }
-    .tags li:last-child a:after {
-      display: none; }
-  @media only all and (min-width: 48em) and (max-width: 59.938em) {
-    .tags {
-      display: block;
-      width: 100%;
-      clear: both; } }
-  @media only all and (max-width: 47.938em) {
-    .tags {
-      display: block;
-      width: 100%;
-      clear: both; } }
+  text-transform: uppercase; }
 
 .archives, .related-pages {
   margin: 0;

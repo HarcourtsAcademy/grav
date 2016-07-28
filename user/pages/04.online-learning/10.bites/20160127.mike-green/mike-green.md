@@ -8,7 +8,11 @@ onpage_menu: false
 
 taxonomy:
   category: online_learning_bites
-  tag: [mike green,interview,listen,podcast,audio,office administrations,sales consultants,property managers,property managers,business owners,managers]
+  tag: [learning bites]
+  topic: [customer service]
+  format: [audio]
+  audience: [office administrations,sales consultants,property managers,business owners,managers]
+  people: [mike green]
 
 
 body_classes: "header-image fullwidth online-learning"

@@ -12,7 +12,11 @@ routes:
 
 taxonomy:
   category: online_learning_bites
-  tag: [dexter prack,interview,interviews@academy,interview@academy,auction,sales,office administrations,sales consultants,property managers,property managers,business owners,managers]
+  tag: [learning bites]
+  topic: [auction,marketing]
+  format: [interview]
+  audience: [sales consultants,business owners,managers]
+  people: [dexter prack]
 
 body_classes: "modular header-image fullwidth online-learning"
 banner_image: theme://images/banners/online_learning.jpg

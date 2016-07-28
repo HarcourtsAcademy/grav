@@ -12,7 +12,11 @@ routes:
 
 taxonomy:
   category: online_learning_bites
-  tag: [tina sander,interview,interviews@academy,interview@academy,sales,real estate]
+  tag: [learning bites]
+  topic: [sales]
+  format: [interview]
+  audience: [sales consultants,business owners,managers]
+  people: [tina sander]
 
 body_classes: "modular header-image fullwidth online-learning"
 banner_image: theme://images/banners/online_learning.jpg

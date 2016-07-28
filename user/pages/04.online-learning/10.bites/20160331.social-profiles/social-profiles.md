@@ -8,7 +8,10 @@ onpage_menu: false
 
 taxonomy:
   category: online_learning_bites
-  tag: [social media,linkedin,facebook,twitter,youtube,interview,listen,infographic,picture,sales consultants,property managers,property managers,business owners,managers]
+  tag: [learning bites]
+  topic: [social media]
+  format: [infographic]
+  audience: [sales consultants,property managers,property managers,business owners,managers]
 
 
 body_classes: "header-image fullwidth online-learning"

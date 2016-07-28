@@ -8,7 +8,10 @@ onpage_menu: false
 
 taxonomy:
   category: online_learning_bites
-  tag: [rob forde,interview,listen,podcast,audio,auction,sales,office administrations,sales consultants,property managers,property managers,business owners,managers]
+  tag: [learning bites]
+  format: [audio]
+  audience: [sales consultants,business owners,managers]
+  people: [rob forde]
 
 
 body_classes: "header-image fullwidth online-learning"

@@ -8,7 +8,10 @@ onpage_menu: false
 
 taxonomy:
   category: online_learning_bites
-  tag: [online, brand, reputation, infographic]
+  tag: [learning bites]
+  topic: [online brand]
+  format: [infographic]
+  audience: [sales consultants,property managers,property managers,business owners,managers]
 
 body_classes: "modular header-image fullwidth online-learning"
 banner_image: theme://images/banners/online_learning.jpg

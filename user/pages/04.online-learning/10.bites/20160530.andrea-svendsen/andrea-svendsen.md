@@ -12,7 +12,11 @@ routes:
 
 taxonomy:
   category: online_learning_bites
-  tag: [andrea svendsen,how to,sales, sales consultant, property management,property managers]
+  tag: [learning bites]
+  topic: [home staging]
+  format: [how to]
+  audience: [sales consultants,property managers,business owners,managers]
+  people: [andrea svendsen]
 
 body_classes: "modular header-image fullwidth online-learning"
 banner_image: theme://images/banners/online_learning.jpg

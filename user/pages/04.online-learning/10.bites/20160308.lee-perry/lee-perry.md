@@ -8,7 +8,11 @@ onpage_menu: false
 
 taxonomy:
   category: online_learning_bites
-  tag: [lee perry,interview,listen,podcast,audio,auction,sales,office administrations,sales consultants,property managers,property managers,business owners,managers]
+  tag: [learning bites]
+  topic: [listing]
+  format: [audio]
+  audience: [sales consultants,business owners,managers]
+  people: [lee perry]
 
 
 body_classes: "modular header-image fullwidth online-learning"
