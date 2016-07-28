@@ -1186,6 +1186,12 @@ img.inline-left {
   float: left;
   margin: 0.5em 1em 0.5em 0;
   max-width: 20em; }
+  @media only all and (max-width: 47.938em) {
+    img.inline-left {
+      float: none;
+      display: block;
+      clear: both;
+      margin: 1rem auto; } }
 
 #sidebar .sidebar-content ul.navigation {
   margin: 0;
@@ -1664,6 +1670,14 @@ img.inline-left {
   border-radius: 0.125rem;
   margin: 1.5rem 0 0 1.5rem;
   transition: background 1s ease-in-out; }
+
+.awards img {
+  max-width: 13rem;
+  display: block;
+  margin: auto; }
+  @media only all and (max-width: 47.938em) {
+    .awards img {
+      max-width: 50%; } }
 
 .inspirational-women-item .profile-image {
   float: left;

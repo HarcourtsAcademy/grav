@@ -165,3 +165,11 @@ $tablet-button-size: 0.9;
         margin: ($screen-padding-height / 2) + rem 0 0 ($screen-padding-width / 2) + rem;
         transition: background 1s ease-in-out;
     }
+    .awards img {
+      max-width: 13rem;
+      display: block;
+      margin: auto;
+      @include breakpoint(mobile-only) {
+          max-width: 50%
+      }
+    }

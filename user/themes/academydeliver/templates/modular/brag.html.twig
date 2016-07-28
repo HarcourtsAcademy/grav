@@ -16,6 +16,20 @@
     </div>
 {% endif %}
 
+{% if page.header.awards %}
+  <div class="awards">
+    <h2>Our Awards</h2>
+    {% for award in page.header.awards %}
+      <h4>
+      {% if award.link %}<a href="{{ award.link }}">{% endif %}
+      {{ page.media[award.image].resize(150,150).html() }}
+      {{ award.title }}
+      {% if award.link %}</a>{% endif %}
+      </h4>
+    {% endfor %}
+  </div>
+{% endif %}
+
 
 <div class="callout-line"></div>
 </div>
