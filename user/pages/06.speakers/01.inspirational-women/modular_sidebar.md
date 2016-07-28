@@ -30,7 +30,7 @@ Powerful beyond measure.
 I have been blessed to have strong role models, mentors and positive influence in my life. I wear a necklace of thirteen diamonds in memory of the year 2013 when my father died, my mentor Nelson Mandela died and I was inducted into the Harcourts Hall of Fame. Also that year a young woman decided not to give up on her dream to have a career in real estate because of something I said that inspired her to keep going in her struggle to succeed as well as raise a young child.
 
 I realised that ordinary hard working women like me could make a difference for the women of Harcourts. We may not be professional speakers but we have important stories to share of how we faced the challenges they now face. We may not be famous but we are extraordinary in our accomplishments and the life lessons we have learned.  We can provide practical advice and valuable support that may help other women to succeed, to keep trying, to take more opportunities, to be proud of themselves.  
-In May 2016 we launched Harcourts Inspirational women.  I am grateful to the wonderful [ambassadors](Harcourts_Inspirational_Women_Ambassadors.pdf) who drive this in their regions. We shall continue to inspire other women to know that they are powerful beyond measure.
+In May 2016 we launched Harcourts Inspirational women.  I am grateful to the wonderful [ambassadors](#ambassadors) who drive this in their regions. We shall continue to inspire other women to know that they are powerful beyond measure.
 
 ![](name.png?cropResize=150)
 
@@ -50,7 +50,6 @@ Irene Green
 - Every speaker will be profiled in the Harcourts Inspirational Women’s register online with their photo, contact details and  brief outline of the key messages from their presentation.
 - Harcourts women looking for a mentor should view our register of Harcourts Inspirational Women
 - Every year one speaker will be chosen from the register to speak at the annual Harcourts Inspirational Women’s event held at [Harcourts Annual Conference](http://www.harcourtsevents.com/). To be chosen from so many is a significant honour.
-- Simply contact your local [Harcourts Inspirational Ambassador](Harcourts_Inspirational_Women_Ambassadors.pdf) to discuss speaking at one of our events.
+- Simply contact your local [Harcourts Inspirational Ambassador](#ambassadors) to discuss speaking at one of our events.
 
-## Harcourts Inspirational Women Ambassadors
-<!-- - Download the list of [Inspirational Women Ambassadors](Harcourts_Inspirational_Women_Ambassadors.pdf). -->
+## Harcourts Inspirational Women Ambassadors {#ambassadors}
