@@ -1,3 +1,23 @@
+.inspirational-women-list {
+  .inspirational-women-item {
+    padding: 1rem;
+    text-align: center;
+
+    .profile-image {
+      float: none;
+      margin: 0;
+      img {
+        display: block;
+        max-width: 100%;
+        margin: auto;
+      }
+    }
+    .profile-name {
+      font-weight: bold;
+    }
+  }
+}
+
 .inspirational-women-item {
 
 
@@ -39,6 +59,10 @@
               margin-top: 0.3rem;
           }
       }
+  }
+
+  h3 {
+    clear: both;
   }
 
 }

@@ -1,13 +1,16 @@
 ---
 template: inspirational-women-register
 title: Mindy Powell-Hodges
+visible: true
 
 taxonomy:
   category: speakers
   tag: [speakers, harcourts inspirational women, inspirational women, inspirational women ambassador, inspirational women speaker]
 
-body_classes: "modular header-image fullwidth about-us"
-banner_image: theme://images/banners/about_us.jpg
+body_classes: "modular header-image fullwidth speakers"
+banner_image: theme://images/banners/speakers.jpg
+
+side_bar_menu: true
 
 inspirational_women:
   firstname: Mindy

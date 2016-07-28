@@ -10,7 +10,7 @@ taxonomy:
 
 side_bar_menu: true;
 
-body_classes: "modular header-image fullwidth about-us"
+body_classes: "modular header-image fullwidth speakers"
 banner_image: theme://images/banners/speakers.jpg
 
 list_subpages: true

@@ -111,7 +111,9 @@
                   <li><i class="fa fa-envelope-o"></i> <a href="mailto:{{ page.header.inspirational_women.email|safe_email }}"> Email {{ page.header.inspirational_women.firstname }}</a> </li>
                   {% endif %}
                   <li><i class="fa fa-phone"></i> {{ page.header.inspirational_women.phone }} </li>
+                  {% if page.header.inspirational_women.mobile %}
                   <li><i class="fa fa-mobile"></i> {{ page.header.inspirational_women.mobile }} </li>
+                  {% endif %}
                   {% if page.header.inspirational_women.harcourtsone %}
                   <li><i class="fa fa-user"></i> <a href="{{ page.header.inspirational_women.harcourtsone }}"> HarcourtsOne profile</a> </li>
                   {% endif %}
@@ -119,11 +121,6 @@
 
               {% if page.header.inspirational_women.profile %}
               <h3>About {{ page.header.inspirational_women.firstname }}</h3>
-              <div class="profile">{{ page.header.inspirational_women.profile }}</div>
-              {% endif %}
-
-              {% if page.header.inspirational_women.profile %}
-              <h3>{{ page.header.inspirational_women.firstname }} Speaks About</h3>
               <div class="profile">{{ page.header.inspirational_women.profile }}</div>
               {% endif %}
 

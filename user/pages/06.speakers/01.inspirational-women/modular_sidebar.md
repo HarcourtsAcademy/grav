@@ -9,7 +9,7 @@ banner_image: theme://images/banners/about_us.jpg
 
 taxonomy:
   category: speakers
-  tag: [speakers, harcourts inspirational women, inspirational women]
+  tag: [harcourts inspirational women]
 
 side_bar_menu: true
 

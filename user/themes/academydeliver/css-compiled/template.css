@@ -1657,6 +1657,19 @@ img.inline-left {
     .awards img {
       max-width: 50%; } }
 
+.inspirational-women-list .inspirational-women-item {
+  padding: 1rem;
+  text-align: center; }
+  .inspirational-women-list .inspirational-women-item .profile-image {
+    float: none;
+    margin: 0; }
+    .inspirational-women-list .inspirational-women-item .profile-image img {
+      display: block;
+      max-width: 100%;
+      margin: auto; }
+  .inspirational-women-list .inspirational-women-item .profile-name {
+    font-weight: bold; }
+
 .inspirational-women-item .profile-image {
   float: left;
   margin-right: 1rem;
@@ -1688,6 +1701,8 @@ img.inline-left {
       padding-top: 0.3rem; }
     .inspirational-women-item .contact-icons li a {
       margin-top: 0.3rem; }
+.inspirational-women-item h3 {
+  clear: both; }
 
 .contact h4, .contact .modular .bottom table th, .modular .bottom table .contact th, .contact label, .contact .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .contact .name, .contact .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .contact .button, .callout .pricing-container .pricing-item .foot .contact button, .contact .callout .pricing-container .pricing-item .foot button {
   text-align: left; }
