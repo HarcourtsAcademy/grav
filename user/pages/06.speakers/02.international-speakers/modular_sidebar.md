@@ -1,16 +1,16 @@
 ---
-title: Harcourts International Speakers Network
-menu: Harcourts International Speakers Network
+title: Speakers Network
+menu: Speakers Network
 slug: international-speakers
 onpage_menu: false
 published: true
 
-body_classes: "modular header-image fullwidth about-us"
-banner_image: theme://images/banners/about_us.jpg
+body_classes: "modular header-image fullwidth speakers"
+banner_image: theme://images/banners/speakers.jpg
 
 taxonomy:
-  category: about_us
-  tag: [about us, harcourts speakers network]
+  category: speakers
+  tag: [speakers network]
 
 side_bar_menu: true
 
