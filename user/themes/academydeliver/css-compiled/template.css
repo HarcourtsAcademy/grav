@@ -1663,7 +1663,8 @@ img.inline-left {
 
 .inspirational-women-list .inspirational-women-item {
   padding: 1rem;
-  text-align: center; }
+  text-align: center;
+  line-height: 1rem; }
   .inspirational-women-list .inspirational-women-item .profile-image {
     float: none;
     margin: 0;
@@ -1673,7 +1674,8 @@ img.inline-left {
       max-width: 100%;
       margin: auto; }
   .inspirational-women-list .inspirational-women-item .profile-name {
-    font-weight: bold; }
+    font-weight: bold;
+    padding-bottom: 0.7rem; }
 
 .inspirational-women-item .profile-image {
   float: left;

@@ -4,8 +4,8 @@ menu: Harcourts Inspirational Women
 slug: inspirational-women
 published: true
 
-body_classes: "modular header-image fullwidth about-us"
-banner_image: theme://images/banners/about_us.jpg
+body_classes: "modular header-image fullwidth speakers"
+banner_image: theme://images/banners/speakers.jpg
 
 taxonomy:
   category: speakers
