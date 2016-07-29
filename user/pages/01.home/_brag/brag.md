@@ -10,7 +10,7 @@ video:
       youtube_id: mPsUYlzqXPI
 
 awards:
-    - title: 2016 Training and Education Program Of The Year
+    - title: 2016 Training and Education<br />Program Of The Year
       image: 2016-reb-training-and-education-program-of-the-year.png
       link: http://content.harcourts.com.au/news/harcourts-academy-takes-out-top-award
 
