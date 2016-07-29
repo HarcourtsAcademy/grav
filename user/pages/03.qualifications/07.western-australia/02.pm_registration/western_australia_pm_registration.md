@@ -7,7 +7,7 @@ onpage_menu: false
 published: true
 taxonomy:
   category: qualifications
-  tag: [online_learning,courses,qualification-region,qualification,property management registration,property management,property managers,western australia]
+  tag: [online_learning,courses,qualification,property management registration,property management,property managers,western australia]
   country: australia
   region: western-australia
 
