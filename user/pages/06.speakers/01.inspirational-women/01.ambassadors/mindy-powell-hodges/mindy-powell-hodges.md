@@ -5,7 +5,7 @@ visible: true
 
 taxonomy:
   category: speakers
-  tag: [speakers, harcourts inspirational women, inspirational women, inspirational women ambassador, inspirational women speaker]
+  tag: [inspirational women ambassador]
 
 body_classes: "modular header-image fullwidth speakers"
 banner_image: theme://images/banners/speakers.jpg
