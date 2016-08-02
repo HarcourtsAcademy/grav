@@ -2,6 +2,7 @@
 title: Inspirational Women
 menu: Inspirational Women
 slug: inspirational-women
+template: modular_sidebar
 published: true
 
 body_classes: "modular header-image fullwidth speakers"
@@ -41,7 +42,7 @@ Irene Green
 
 
 ## Harcourts Inspirational Women Speakers.
-- Every speaker will be profiled in the Harcourts Inspirational Women’s register online with their photo, contact details and  brief outline of the key messages from their presentation.
-- Harcourts women looking for a mentor should view our register of Harcourts Inspirational Women
-- Every year one speaker will be chosen from the register to speak at the annual Harcourts Inspirational Women’s event held at [Harcourts Annual Conference](http://www.harcourtsevents.com/). To be chosen from so many is a significant honour.
-- Simply contact your local [Harcourts Inspirational Ambassador](ambassadors) to discuss speaking at one of our events.
+- Every [Inspirational Women Speaker](speakers) is profiled with their photo, contact details and  brief outline of the key messages from their presentation.
+- Harcourts women looking for a mentor should contact their local [Inspirational Women Ambassador](ambassadors)
+- Every year one speaker will be chosen from the register to speak at the annual Inspirational Women’s event held at [Harcourts Annual Conference](http://www.harcourtsevents.com/). To be chosen from so many is a significant honour.
+- To speak at an Inspirational Women event contact your local [Inspirational Women Ambassador](ambassadors).

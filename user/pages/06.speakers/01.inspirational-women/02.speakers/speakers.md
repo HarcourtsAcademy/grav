@@ -5,7 +5,7 @@ slug: speakers
 template: modular_sidebar
 published: true
 
-body_classes: "modular header-image fullwidth speakers"
+body_classes: "modular header-image fullwidth speakers inspirational-women-speakers"
 banner_image: theme://images/banners/speakers.jpg
 
 taxonomy:

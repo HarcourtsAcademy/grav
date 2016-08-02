@@ -5,7 +5,7 @@ slug: ambassadors
 template: modular_sidebar
 published: true
 
-body_classes: "modular header-image fullwidth speakers"
+body_classes: "modular header-image fullwidth speakers inspirational-women-ambassadors"
 banner_image: theme://images/banners/speakers.jpg
 
 taxonomy:

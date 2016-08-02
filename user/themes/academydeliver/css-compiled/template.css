@@ -1664,6 +1664,10 @@ img.inline-left {
   text-transform: none;
   margin-bottom: 0; }
 
+body.inspirational-women-ambassadors .profile-image img {
+  border-color: white;
+  border-radius: 50%; }
+
 .inspirational-women-list .inspirational-women-item {
   padding: 1rem;
   text-align: center;
@@ -1673,8 +1677,6 @@ img.inline-left {
     margin: 0;
     max-width: 100%; }
     .inspirational-women-list .inspirational-women-item .profile-image img {
-      display: block;
-      max-width: 100%;
       margin: auto; }
   .inspirational-women-list .inspirational-women-item .profile-name {
     font-weight: bold;

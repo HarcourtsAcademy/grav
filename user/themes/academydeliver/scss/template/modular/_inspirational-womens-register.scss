@@ -1,3 +1,10 @@
+body.inspirational-women-ambassadors {
+  .profile-image img {
+    border-color: white;
+    border-radius: 50%;
+  }
+}
+
 .inspirational-women-list {
   .inspirational-women-item {
     padding: 1rem;
@@ -9,8 +16,6 @@
       margin: 0;
       max-width: 100%;
       img {
-        display: block;
-        max-width: 100%;
         margin: auto;
       }
     }
