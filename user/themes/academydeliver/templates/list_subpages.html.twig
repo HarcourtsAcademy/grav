@@ -98,6 +98,10 @@
             <p><img src="{{ page_image.url }}"/></p>
           {% endif %}
 
+          {% if grav.uri.params("topic", true) %}
+          <h2>{{ grav.uri.params("topic", true)|titleize }} Posts</h2>
+          {% endif %}
+
           {{ page.content }}
 
           {% include 'partials/subpage_list.html.twig' %}
