@@ -121,12 +121,12 @@
 
               {% if page.header.inspirational_women.profile %}
               <h3>About {{ page.header.inspirational_women.firstname }}</h3>
-              <div class="profile">{{ page.header.inspirational_women.profile }}</div>
+              <div class="profile">{{ page.header.inspirational_women.profile|markdown }}</div>
               {% endif %}
 
               {% if page.header.inspirational_women.message %}
               <h3>Key Messages</h3>
-              <div class="message">{{ page.header.inspirational_women.message }}</div>
+              <div class="message">{{ page.header.inspirational_women.message|markdown }}</div>
               {% endif %}
 
             </section>
