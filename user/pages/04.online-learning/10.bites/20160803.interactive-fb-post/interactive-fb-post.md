@@ -4,7 +4,6 @@ title: Create an engaging Facebook post
 visible: false
 slug: 2016/08/03/interactive-fb-post
 date: 03-08-2016
-published: false
 onpage_menu: false
 
 taxonomy:
@@ -21,8 +20,13 @@ jscomments:
   provider: "facebook"
 
 metadata:
-    description: 'Tina Sander speaks about the fundamentals of getting ahead in real estate sales.'
-    keywords: 'social media, facebook, real estate, content, photography, harcourts'
+    description: 'Do your social media posts capture your audience's attention and make them reach for the 'like' button? Take this interactive activity and check.'
+    keywords: 'social media, facebook, real estate, engaging, harcourts'
+    'og:title': 'Create an engaging Facebook post'
+    'og:description': 'Do your social media posts capture your audience's attention and make them reach for the 'like' button? Take this interactive activity and check.'
+    'og:type': 'article'
+    'og:url': https://www.academyrealestatetraining.com/online-learning/bites/2016/08/03/interactive-fb-post#pk_campaign=Social-2016-08
+    'og:image': https://www.academyrealestatetraining.com/online-learning/bites/2016/08/03/interactive-fb-post/interactive-fb-post.png
 
 ---
 
@@ -30,4 +34,4 @@ Do your social media posts capture your audience's attention and make them reach
 
 ===
 
-<iframe src="interactive-fb-post/_storyline/story_html5.html" width="1020" height="574" scrolling="no"></iframe>
+<iframe src="interactive-fb-post/_storyline/story_html5.html" name="storyline" width="1020" height="574" scrolling="no"></iframe>
