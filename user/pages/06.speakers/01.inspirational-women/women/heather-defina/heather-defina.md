@@ -5,7 +5,7 @@ visible: true
 
 taxonomy:
   category: speakers
-  tag: [inspirational women ambassador]
+  tag: [inspirational women ambassador, inspirational women speaker]
 
 body_classes: "modular header-image fullwidth speakers"
 banner_image: theme://images/banners/speakers.jpg
@@ -29,5 +29,15 @@ inspirational_women:
             My work has become one of the most important parts of my life. My children have been impacted in a very positive way, through my experiences with this company.
 
             Building connections with wonderful people, and especially seeing other women push through their challenges and find success and happiness, has been the most rewarding experience of my career.
+  message:  |
+            The &lsquo;story&rsquo; is about the lessons learned and strategies used to prosper in real estate and survive as a parent.
 
+            With 4 children my sole responsibility and 6 with shared responsibility who visited every school holiday, time management and focusing
+            on priorities was paramount. It&rsquo;s about knowing I couldn’t have it all, and being happy and fulfilled with that.
+
+            Key messages/lessons
+            * Switching Channels
+            * Get Up, Dress Up, Show Up
+            * One Step at a Time
+            * Don&rsquo;t Sweat the Small Stuff
 ---
