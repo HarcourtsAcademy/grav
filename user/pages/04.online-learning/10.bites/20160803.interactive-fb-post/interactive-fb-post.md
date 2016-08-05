@@ -20,17 +20,17 @@ jscomments:
   provider: "facebook"
 
 metadata:
-    description: 'Do your social media posts capture your audience's attention and make them reach for the 'like' button? Take this interactive activity and check.'
+    description: 'Do your social media posts capture your audience&rsquo;s attention and make them reach for the &lsquo;like&rsquo; button? Take this interactive activity and check.'
     keywords: 'social media, facebook, real estate, engaging, harcourts'
     'og:title': 'Create an engaging Facebook post'
-    'og:description': 'Do your social media posts capture your audience's attention and make them reach for the 'like' button? Take this interactive activity and check.'
+    'og:description': 'Do your social media posts capture your audience&rsquo;s attention and make them reach for the &lsquo;like&rsquo; button? Take this interactive activity and check.'
     'og:type': 'article'
     'og:url': https://www.academyrealestatetraining.com/online-learning/bites/2016/08/03/interactive-fb-post#pk_campaign=Social-2016-08
     'og:image': https://www.academyrealestatetraining.com/online-learning/bites/2016/08/03/interactive-fb-post/interactive-fb-post.png
 
 ---
 
-Do your social media posts capture your audience's attention and make them reach for the 'like' button? Take this interactive activity and check.
+Do your social media posts capture your audience&rsquo;s attention and make them reach for the &lsquo;like&rsquo; button? Take this interactive activity and check.
 
 ===
 
