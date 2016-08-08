@@ -20,7 +20,7 @@ content:
   items:
     '@taxonomy':
       category: online_learning_bites
-      tag: interviews@academy
+      format: interview
   order:
     by: date
     dir: desc
