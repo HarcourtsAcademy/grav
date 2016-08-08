@@ -2,7 +2,7 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6nhNYEGxJ4l":
+      case "62xCMy0UinM":
         Script1();
         break;
   }
@@ -10,5 +10,6 @@ function ExecuteScript(strId)
 
 function Script1()
 {
-  window.open('http://www.academyrealestatetraining.com/online-learning/bites','_top')
+  window.open("http://www.academyrealestatetraining.com/online-learning/bites", "_top");
 }
+
