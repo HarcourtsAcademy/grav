@@ -11,6 +11,8 @@ taxonomy:
 body_classes: "modular header-image fullwidth qualifications"
 banner_image: theme://images/banners/qualifications.jpg
 
+side_bar_menu: true
+
 ---
 
 This unit of competency specifies the outcomes required to interact and build relationships with clients as part of agency operations. It includes developing rapport with clients, handling initial client enquiries, establishing and maintaining a client database and dealing with client complaints and problems.

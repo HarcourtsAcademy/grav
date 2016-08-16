@@ -11,6 +11,8 @@ taxonomy:
 body_classes: "modular header-image fullwidth qualifications"
 banner_image: theme://images/banners/qualifications.jpg
 
+side_bar_menu: true
+
 ---
 
 This unit of competency specifies the outcomes required to source and interpret legislation affecting real estate operations. It includes identifying and applying statutory interpretation techniques, identifying and tracking changes to relevant real estate legislation and industry codes of conduct and maintaining appropriate records.
