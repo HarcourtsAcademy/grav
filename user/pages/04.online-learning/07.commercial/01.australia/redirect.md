@@ -8,7 +8,7 @@ taxonomy:
   country: australia
 
 redirects2:
-  url: http://one.harcourts.com.au/Library/Folder.aspx?id=1016
+  url: https://library.harcourts.net/category/372/nai-harcourts-webinar-series
 
 ---
 

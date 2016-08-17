@@ -15,7 +15,7 @@ sidebar_links:
   - heading: Visit the Library
     links:
       - label: Australia
-        url: http://one.harcourts.com.au/library
+        url: https://library.harcourts.net/
       - label: Canada
         url: http://one.harcourtsrealestate.ca/library
       - label: Indonesia
@@ -23,13 +23,13 @@ sidebar_links:
       - label: New Zealand
         url: http://one.harcourts.co.nz/library
       - label: South Africa
-        url: http://one.harcourts.co.za/library
+        url: https://library.harcourts.net/
       - label: USA
         url: http://one.harcourtsusa.com/library
   - heading: Visit the Media Library
     links:
       - label: Australia
-        url: http://one.harcourts.com.au/Library/Folder.aspx?id=231
+        url: https://library.harcourts.net/category/8/media-library
       - label: Canada
         url: http://one.harcourtsrealestate.ca/library/Folder.aspx?id=231
       - label: Indonesia
@@ -37,7 +37,7 @@ sidebar_links:
       - label: New Zealand
         url: http://one.harcourts.co.nz/Library/Folder.aspx?id=231
       - label: South Africa
-        url: http://one.harcourts.co.za/Library/Folder.aspx?id=231
+        url: https://library.harcourts.net/category/8/media-library
       - label: USA
         url: http://one.harcourtsusa.com/Library/Folder.aspx?id=231
 ---

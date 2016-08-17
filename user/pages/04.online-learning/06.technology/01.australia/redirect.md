@@ -8,7 +8,7 @@ taxonomy:
   country: australia
 
 redirects2:
-  url: http://one.harcourts.com.au/Library/Folder.aspx?id=629
+  url: https://library.harcourts.net/category/51/technology-tutorials
 
 ---
 

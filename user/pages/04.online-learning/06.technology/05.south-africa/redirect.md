@@ -8,7 +8,7 @@ taxonomy:
   country: 'south africa'
 
 redirects2:
-  url: http://one.harcourts.co.za/Library/Folder.aspx?id=554
+  url: https://library.harcourts.net/category/51/technology-tutorials
 
 ---
 
