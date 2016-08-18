@@ -89,7 +89,7 @@ documents:
   - name: Pre-Course Pack - Wellington
     url: Pre-Course_Pack-_Wellington.pdf
   - name: Skills Trainee Information Handbook
-    url: Trainee_Handbook_Salesperson_L4_v1_1.0.pdf
+    url: Trainee_Handbook_Salesperson_L4_v2.0.pdf
 
 
 ---
