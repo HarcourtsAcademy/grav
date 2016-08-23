@@ -1693,7 +1693,7 @@ body.template-image-collage ul.image-collage {
 body.template-image-collage .sibling-item {
   display: inline;
   float: left;
-  margin-right: 1rem; }
+  margin: 0 1rem 1rem 0; }
   @media only all and (max-width: 47.938em) {
     body.template-image-collage .sibling-item {
       display: block;
