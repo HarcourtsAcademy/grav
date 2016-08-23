@@ -19,7 +19,7 @@ list_subpages: default
 content:
     items: @self.children
     order:
-        by: default
+        by: date
         dir: desc
 
 ---
