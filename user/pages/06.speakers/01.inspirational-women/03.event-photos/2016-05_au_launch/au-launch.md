@@ -5,6 +5,8 @@ template: image-collage
 date: 17-05-2016
 side_bar_menu: true
 
+banner_image: theme://images/banners/speakers.jpg
+
 featherlight:
     active: true
 
