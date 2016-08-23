@@ -22,3 +22,5 @@ show_date: true
 content_heading: 'Other Events'
 
 ---
+
+[Sadhana's profile](/speakers/inspirational-women/women/sadhana-smiles)
