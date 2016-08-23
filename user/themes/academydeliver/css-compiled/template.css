@@ -1664,6 +1664,52 @@ img.inline-left {
   text-transform: none;
   margin-bottom: 0; }
 
+body.template-image-collage h2 {
+  clear: both;
+  padding-top: 2rem; }
+body.template-image-collage h3 {
+  line-height: 1; }
+body.template-image-collage ul.image-collage {
+  list-style: none;
+  clear: both;
+  margin: 0; }
+  body.template-image-collage ul.image-collage li {
+    display: inline; }
+    body.template-image-collage ul.image-collage li a {
+      display: block; }
+      @media only all and (min-width: 48em) {
+        body.template-image-collage ul.image-collage li a {
+          float: left; } }
+      body.template-image-collage ul.image-collage li a img {
+        margin: 0 1rem 1rem 0;
+        max-width: 200px;
+        max-height: 200px; }
+        @media only all and (max-width: 47.938em) {
+          body.template-image-collage ul.image-collage li a img {
+            display: block;
+            margin: 0 auto 1rem; } }
+  body.template-image-collage ul.image-collage .image-info {
+    text-align: center; }
+body.template-image-collage .sibling-item {
+  display: inline;
+  float: left;
+  margin-right: 1rem; }
+  @media only all and (max-width: 47.938em) {
+    body.template-image-collage .sibling-item {
+      display: block;
+      float: none;
+      margin: 0 auto 1rem; } }
+  @media only all and (min-width: 48em) {
+    body.template-image-collage .sibling-item ul.image-collage {
+      max-width: 150px; } }
+  body.template-image-collage .sibling-item .image-surround img {
+    border-radius: 4px;
+    max-width: 150px;
+    max-height: 150px; }
+  body.template-image-collage .sibling-item .image-info a, body.template-image-collage .sibling-item .image-info h3, body.template-image-collage .sibling-item .image-info p {
+    float: none;
+    margin: 0; }
+
 body.inspirational-women-ambassadors .profile-image img {
   border-color: white;
   border-radius: 50%; }

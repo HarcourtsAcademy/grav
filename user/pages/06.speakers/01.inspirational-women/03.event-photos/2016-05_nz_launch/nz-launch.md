@@ -1,0 +1,21 @@
+---
+title: New Zealand Launch
+onpage_menu: false
+template: image-collage
+date: 24-05-2016
+side_bar_menu: true
+
+featherlight:
+    active: true
+    openSpeed: 100
+    closeSpeed: 100
+
+content:
+    items: @self.siblings
+    order:
+        by: default
+        dir: desc
+
+content_heading: 'Other Events'
+
+---
