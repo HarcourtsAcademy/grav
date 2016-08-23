@@ -2,7 +2,7 @@
 title: Inspirational Women Event Photos
 menu: Event Photos
 slug: event-photos
-template: list_subpages
+template: image-collage
 published: true
 
 body_classes: "modular header-image fullwidth speakers"
