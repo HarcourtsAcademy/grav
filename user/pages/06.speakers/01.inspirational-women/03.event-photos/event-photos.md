@@ -14,8 +14,6 @@ taxonomy:
 
 side_bar_menu: true
 
-list_subpages: default
-
 content:
     items: @self.children
     order:

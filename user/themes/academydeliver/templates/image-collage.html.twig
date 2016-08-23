@@ -94,7 +94,7 @@
     <div class="content-wrapper g-grid pure-g-r">
         <div id="content" class="g-block pure-u-2-3">
 
-          <h3>{{ page.date|date("F Y") }}</h3>
+          {% if page.header.show_date == true %}<h3>{{ page.date|date("F Y") }}</h3>{% endif %}
 
           {{ page.content }}
 

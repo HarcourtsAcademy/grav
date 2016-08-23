@@ -18,6 +18,7 @@ content:
         by: default
         dir: desc
 
+show_date: true
 content_heading: 'Other Events'
 
 ---
