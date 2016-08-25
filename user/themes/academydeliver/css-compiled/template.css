@@ -1728,7 +1728,9 @@ body.inspirational-women-ambassadors .profile-image img {
     margin-bottom: 1rem;
     max-width: 100%; }
     .inspirational-women-list .inspirational-women-item .profile-image img {
-      margin: auto; }
+      margin: auto;
+      width: 100px;
+      height: 100px; }
   .inspirational-women-list .inspirational-women-item .profile-name {
     font-weight: bold;
     padding-bottom: 0.7rem; }
