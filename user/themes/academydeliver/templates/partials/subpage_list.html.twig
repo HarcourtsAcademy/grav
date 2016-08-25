@@ -24,7 +24,7 @@
 
         {% if banner %}
         <div class="subpage-image">
-            <a href="{{ page.url }}">{{ banner.cropZoom(100,100).html }}</a>
+            <a href="{{ page.url }}">{{ banner.display('thumbnail').cropZoom(100,100).html }}</a>
         </div>
         {% endif %}
 
