@@ -31,11 +31,16 @@ img.infographic {
 img.inline-left {
   float:left;
   margin: 0.5em 1em 0.5em 0;
-  max-width: 20em;
+  max-width: 16em;
   @include breakpoint(mobile-only) {
     float: none;
     display: block;
     clear: both;
     margin: 1rem auto;
   }
+}
+
+#content > ul > li,
+#content > ol > li {
+  padding-bottom: 0.4rem;
 }

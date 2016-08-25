@@ -19,6 +19,8 @@ The New Zealand Real Estate Scholarship Programme, powered by Harcourts, has bee
 
 ===
 
+![](nz_scholarship.jpg)
+
 >>>>> Thank you to everyone who applied for the 2015/16 scholarship intake. Applications are now closed.
 
 The 2015/16 intake officially opened for applications 31st March 2015 and closed 30th April 2015.

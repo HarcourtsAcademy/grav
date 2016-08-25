@@ -18,6 +18,8 @@ In line with our brand refresh we have reinvented our listing system and the pro
 
 ===
 
+![](listing-system@2x.jpg)
+
 **Target group**: New and experienced Harcourts team members in a sales or management role.
 
 ## What you will learn

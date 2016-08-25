@@ -23,6 +23,8 @@ Everyone joining team Harcourts, no matter what role, is warmly welcomed to this
 
 ===
 
+![](harcourts_and_you.jpg)
+
 ## Key benefits
 
 Connect with Harcourts, our culture and our people.

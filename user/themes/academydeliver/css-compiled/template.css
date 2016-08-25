@@ -1166,13 +1166,17 @@ img.infographic {
 img.inline-left {
   float: left;
   margin: 0.5em 1em 0.5em 0;
-  max-width: 20em; }
+  max-width: 16em; }
   @media only all and (max-width: 47.938em) {
     img.inline-left {
       float: none;
       display: block;
       clear: both;
       margin: 1rem auto; } }
+
+#content > ul > li,
+#content > ol > li {
+  padding-bottom: 0.4rem; }
 
 #sidebar .sidebar-content ul.navigation {
   margin: 0;
@@ -1721,6 +1725,7 @@ body.inspirational-women-ambassadors .profile-image img {
   .inspirational-women-list .inspirational-women-item .profile-image {
     float: none;
     margin: 0;
+    margin-bottom: 1rem;
     max-width: 100%; }
     .inspirational-women-list .inspirational-women-item .profile-image img {
       margin: auto; }
