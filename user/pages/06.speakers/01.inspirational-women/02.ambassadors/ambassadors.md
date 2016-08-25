@@ -19,6 +19,9 @@ inspirational-women:
     '@taxonomy':
       category: [speakers]
       tag: ['inspirational women ambassador']
+  order:
+        by: title
+        dir: asc
 
 ---
 
