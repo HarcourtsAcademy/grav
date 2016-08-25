@@ -37,5 +37,5 @@ Powerful beyond measure.
 - Every year one speaker will be chosen from the register to speak at the annual Inspirational Women’s event held at [Harcourts Annual Conference](http://www.harcourtsevents.com/). To be chosen from so many is a significant honour.
 - To speak at an Inspirational Women event contact your local [Inspirational Women Ambassador](ambassadors).
 
-## Pay it Forward Inspirational Women Mentor Network
-<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download the Inspirational Women [Pay it Forward](Inspirational-Women-Pay-it-Forward.pdf) Mentor Network Guide.
+## Pay it Forward Mentor Network
+<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Download the Inspirational Women [Pay it Forward](mentor-network/Inspirational-Women-Pay-it-Forward.pdf) Mentor Network Guide.
