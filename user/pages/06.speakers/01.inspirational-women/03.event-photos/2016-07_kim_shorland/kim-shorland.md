@@ -2,7 +2,7 @@
 title: Kim Shorland
 onpage_menu: false
 template: image-collage
-date: 01-07-2016
+date: 21-07-2016
 side_bar_menu: true
 
 banner_image: theme://images/banners/speakers.jpg

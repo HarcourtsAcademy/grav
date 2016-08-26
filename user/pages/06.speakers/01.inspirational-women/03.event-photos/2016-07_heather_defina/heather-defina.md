@@ -2,7 +2,7 @@
 title: Heather de Fina
 onpage_menu: false
 template: image-collage
-date: 01-08-2016
+date: 28-07-2016
 side_bar_menu: true
 
 banner_image: theme://images/banners/speakers.jpg

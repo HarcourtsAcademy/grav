@@ -2,7 +2,7 @@
 title: Clare Seamer
 onpage_menu: false
 template: image-collage
-date: 18-08-2016
+date: 17-08-2016
 side_bar_menu: true
 
 banner_image: theme://images/banners/speakers.jpg

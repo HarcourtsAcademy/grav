@@ -2,7 +2,7 @@
 title: Sadhana Smiles
 onpage_menu: false
 template: image-collage
-date: 01-06-2016
+date: 24-06-2016
 side_bar_menu: true
 
 banner_image: theme://images/banners/speakers.jpg
