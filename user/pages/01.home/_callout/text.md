@@ -2,12 +2,12 @@
 title: Portfolio
 menu: Portfolio
 portfolio:
-    - image: gilbert-enoka.jpg
-      title: July interview@academy
-      desc: Gilbert Enoka - The key aspects of what it takes to achieve your personal growth goals.
+    - image: marcus-washington.jpg
+      title: August interview@academy
+      desc: Marcus Washington - His experience running a hugely successful competition on Facebook.
       modalid: 13
-      url: /online-learning/interviews-at-academy/2016/07/gilbert-enoka#pk_campaign=Web-2016-07
-      date: <strong>Released</strong> July 2016
+      url: /online-learning/interviews-at-academy/2016/08/marcus-washington#pk_campaign=Web-2016-08
+      date: <strong>Released</strong> August 2016
       button: Watch
       icon: fa-play
     - image: work2.jpg
