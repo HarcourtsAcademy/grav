@@ -65,6 +65,8 @@ course_costs:
 
 further_information: For Victoria legislation and other information visit [Consumer Affairs](http://www.consumer.vic.gov.au/businesses/licensed-businesses/estate-agents).
 
+disclaimer: true
+
 online_learning:
   name: Agents Rep. Online
   url: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=106

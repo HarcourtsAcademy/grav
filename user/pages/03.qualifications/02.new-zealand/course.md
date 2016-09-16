@@ -65,6 +65,8 @@ course_structure: The National Certificate is a self-paced course that includes 
 
 further_information: For New Zealand legislation and other information visit [REINZ](https://www.reinz.co.nz/)
 
+disclaimer: true
+
 online_learning:
   name: National Certificate Online
   url: http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=56

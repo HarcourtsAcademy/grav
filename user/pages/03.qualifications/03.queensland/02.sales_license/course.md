@@ -68,6 +68,7 @@ online_learning:
   name: Sales Licence Online
   url: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=110
 
+disclaimer: true
 ---
 
 For busy real estate people who want to advance their career without the pressure of huge study commitments. An interactive programme provided by flexible means including online self-paced learning, classroom attendance and study by correspondence. Your programme can be tailor-made to suit your needs and reduce your costs and time spent on study.

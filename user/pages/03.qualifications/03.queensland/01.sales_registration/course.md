@@ -60,6 +60,8 @@ online_learning:
   name: Sales Registration Online
   url: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=5
 
+disclaimer: true
+
 ---
 
 Provides an introduction to the real estate industry incorporating the seven core units required for application for a Queensland real estate salesperson’s certificate of registration. Five additional qualification units for the [Queensland Real Estate Licence](/get-qualified/queensland/queensland-real-estate-licence) can also be achieved.

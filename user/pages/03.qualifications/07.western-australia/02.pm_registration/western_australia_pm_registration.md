@@ -32,7 +32,6 @@ course_content :
       *	Completing property management documentation
       *	Rights obligations of the property manager, property owner and tenant in accordance to legislation
 
-
 core_qualification_units:
   - id: CPPDSM4007
   - id: CPPDSM4010
@@ -42,6 +41,8 @@ core_qualification_units:
   - id: CPPDSM4080
 
 further_information: For Western Australia legislation and other information visit [Department of Commerce](http://www.commerce.wa.gov.au/consumer-protection/property-industry).
+
+disclaimer: true
 
 online_learning:
   name: Property Management Registration Online

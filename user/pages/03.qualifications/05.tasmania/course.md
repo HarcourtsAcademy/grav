@@ -50,6 +50,8 @@ course_structure: |
 
 further_information: For Tasmania legislation and other information visit [Consumer Affairs and Fair Trading](http://www.consumer.tas.gov.au/property).
 
+disclaimer: true
+
 online_learning:
   name: Sales Registration Online
   url: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=120

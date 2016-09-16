@@ -55,6 +55,8 @@ elective_qualification_units:
 
 further_information: For Western Australia legislation and other information visit [Department of Commerce](http://www.commerce.wa.gov.au/consumer-protection/property-industry).
 
+disclaimer: true
+
 online_learning:
   name: Sales Registration Online
   url: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=46

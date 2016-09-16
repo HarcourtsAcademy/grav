@@ -66,6 +66,7 @@ online_learning:
   name: Certificate of Registration Online
   url: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=33
 
+disclaimer: true
 ---
 
 The first step in your career in real estate. Achieve the four units required for application for a real estate certificate of registration.

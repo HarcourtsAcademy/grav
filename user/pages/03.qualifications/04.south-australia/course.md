@@ -60,6 +60,8 @@ course_structure: |
 
 further_information: For South Australia legislation and other information visit [Office of Business and Consumer Affairs](http://www.cbs.sa.gov.au/wcm/).
 
+disclaimer: true
+
 online_learning:
   name: Sales Registration Online
   url: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=127
