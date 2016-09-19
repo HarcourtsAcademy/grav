@@ -58,8 +58,6 @@ sidebar_navigation:
 
 blog:
   route: '/blog'                            # Route to blog
-metadata:
-    description: 'My Deliver Site'             # Site description
 summary:
   size: 300                                 # Maximum length of summary (characters)
 routes:
