@@ -71,6 +71,7 @@ routes:
   /online-learning/western-australia-cpd: '/courses/continuing-education-and-cpd/western-australia-cpd'
   /online-learning/sales/istart: '/courses/sales/istart'
 
+
 redirects:
   /au/auction-programme: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=153
   /au/enrolment-questionnaire: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=153
@@ -105,7 +106,9 @@ redirects:
   /au/istart24/week24: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=116
   /au/istart24/week25survey: http://www.academyrealestatetraining.com/au/moodle/mod/questionnaire/view.php?id=2337
   /au/rpl: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=154
-  /istart$: http://www.academyrealestatetraining.com/moodle/course/view.php?id=8 #needs the end '$' to prevent it matching the start of '/istart24'
+  /istart$: https://www.academyrealestatetraining.com/moodle/course/view.php?id=8 #needs the end '$' to prevent it matching the start of '/istart24'
+  /landing/eone: /#pk_campaign=app-eone
+  /landing/facebook/learning-bites: /online-learning/bites/#pk_campaign=fb-harcourtsacademy
   /nz/ce/2015: http://www.academyrealestatetraining.com/courses/continuing-education-and-cpd/new-zealand-continuing-education
   /nz/ce/2016: http://www.academyrealestatetraining.com/courses/continuing-education-and-cpd/new-zealand-continuing-education
   /nz/national-certificate: http://www.academyrealestatetraining.com/get-qualified/new-zealand
