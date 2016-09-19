@@ -108,6 +108,7 @@ redirects:
   /au/rpl: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=154
   /istart$: https://www.academyrealestatetraining.com/moodle/course/view.php?id=8 #needs the end '$' to prevent it matching the start of '/istart24'
   /landing/eone: /online-learning/bites/#pk_campaign=app-eone
+  /landing/eopen: /online-learning/bites/#pk_campaign=app-eopen
   /landing/facebook/learning-bites: /online-learning/bites/#pk_campaign=fb-harcourtsacademy
   /nz/ce/2015: http://www.academyrealestatetraining.com/courses/continuing-education-and-cpd/new-zealand-continuing-education
   /nz/ce/2016: http://www.academyrealestatetraining.com/courses/continuing-education-and-cpd/new-zealand-continuing-education
