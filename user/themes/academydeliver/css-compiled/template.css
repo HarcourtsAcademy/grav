@@ -820,6 +820,9 @@ dt, dd {
         list-style: none;
         padding: 0;
         margin: 0; }
+        @media only all and (max-width: 47.938em) {
+          #panel .navigation li ul {
+            display: none; } }
         #panel .navigation li ul li {
           border: 0 !important; }
           #panel .navigation li ul li a {
