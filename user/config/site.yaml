@@ -187,8 +187,8 @@ qualification_units:
       id: CPPDSM4008A
       name: Identify legal and ethical requirements of property sales to complete agency work
   CPPDSM4009:
-    id: CPPDSM4009B
-    name: Interpret legislation to complete agency work
+    id: CPPDSM4009
+    name: Interpret legislation to complete work in the property industry
   CPPDSM4010:
     id: CPPDSM4010A
     name: Lease property
@@ -225,6 +225,15 @@ qualification_units:
   CPPDSM4046:
     id: CPPDSM4046A
     name: Manage tenancy disputes
+  CPPDSM4079:
+    id: CPPDSM4079A
+    name: Work in the business broking sector
   CPPDSM4080:
     id: CPPDSM4080A
     name: Work in the real estate industry
+  CPPDSM5012:
+      id: CPPDSM5012A
+      name: Develop a strategic business plan in the real estate industry
+  CPPDSM5032:
+      id: CPPDSM5032A
+      name: Market the agency
