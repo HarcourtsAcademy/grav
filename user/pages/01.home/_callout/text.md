@@ -1,13 +1,14 @@
 ---
 title: Portfolio
 menu: Portfolio
+template: modular/text
 portfolio:
-    - image: marcus-washington.jpg
-      title: August interview@academy
-      desc: Marcus Washington - His experience running a hugely successful competition on Facebook.
+    - image: john-georgiou.jpg
+      title: October interview@academy
+      desc: John Georgiou - The winning combination of combining residential and commercial sales teams.
       modalid: 13
-      url: /online-learning/interviews-at-academy/2016/08/marcus-washington#pk_campaign=Web-2016-08
-      date: <strong>Released</strong> August 2016
+      url: /online-learning/interviews-at-academy/2016/10/07/john-georgiou#pk_campaign=Web-2016-10
+      date: <strong>Released</strong> October 2016
       button: Watch
       icon: fa-play
     - image: work2.jpg
