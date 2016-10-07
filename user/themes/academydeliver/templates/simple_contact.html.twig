@@ -108,7 +108,7 @@
                 <h4>Office</h4>
                 {% set page_image = page.media.images|first %}
                 {% if page_image %}
-                  <div class="map"><a href="http://maps.google.com/?q={{ fulladdress|url_encode }}"><img src="{{ page_image.cropZoom(150,150).url }}"/></a></div>
+                  <div class="map"><a href="http://maps.google.com/?q={{ fulladdress|url_encode }}"><img src="{{ page_image.cropZoom(300,300).url }}" width="150" height="150"/></a></div>
                 {% endif %}
                 <p>
                   {{ page.header.office.location.street }}<br />

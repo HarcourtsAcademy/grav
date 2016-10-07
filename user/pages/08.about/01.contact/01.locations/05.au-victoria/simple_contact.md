@@ -16,10 +16,10 @@ process:
 
 office:
   location:
-    street: 347 Bay Road
-    city: Cheltenham
+    street: 95 Coventry Street
+    city: South Melbourne
     region: Victoria
-    postcode: 3192
+    postcode: 3205
     country: Australia
   phone: +61 1300 856 773
   hours: |
