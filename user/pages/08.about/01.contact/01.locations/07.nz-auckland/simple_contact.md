@@ -16,7 +16,7 @@ process:
 
 office:
   location:
-    street: 32 Manukau Road
+    street: 7/9 Alpers Ave
     city: Newmarket
     region: Auckland
     postcode: 1023
