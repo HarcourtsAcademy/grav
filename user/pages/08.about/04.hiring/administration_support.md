@@ -9,6 +9,11 @@ taxonomy:
   category: about_us
   tag: [hiring, jobs, apply]
 
+routes:
+  aliases:
+    - '/hiring'
+    - '/jobs'
+
 side_bar_menu: true;
 
 body_classes: "modular header-image fullwidth about-us"
