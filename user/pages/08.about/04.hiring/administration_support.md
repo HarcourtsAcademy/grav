@@ -1,5 +1,5 @@
 ---
-title: We're Hiring
+title: Administrative Support
 menu: We're Hiring
 onpage_menu: false
 slug: hiring
@@ -7,7 +7,8 @@ published: true
 template: modular_sidebar
 taxonomy:
   category: about_us
-  tag: [hiring, jobs, apply]
+  tag: [hiring, jobs, apply, academy role]
+  ## 'academy role' tag is required for the role to appear in the brag section of the home page.
 
 routes:
   aliases:
@@ -20,8 +21,6 @@ body_classes: "modular header-image fullwidth about-us"
 banner_image: theme://images/banners/about_us.jpg
 
 ---
-
-## Administrative Support
 
 We are currently seeking an organised and driven person to join our award winning Academy team in the role of Administration Support.
 
