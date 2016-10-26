@@ -4,6 +4,7 @@ menu: Event Photos
 slug: event-photos
 template: image-collage
 published: true
+onpage_menu: false
 
 body_classes: "modular header-image fullwidth speakers"
 banner_image: theme://images/banners/speakers.jpg
