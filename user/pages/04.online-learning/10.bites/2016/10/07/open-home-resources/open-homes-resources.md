@@ -2,7 +2,6 @@
 template: online_learning_bites
 title: Harcourts Open Homes Resources
 visible: false
-slug: 2016/10/07/open-home-resources
 date: 07-10-2016
 onpage_menu: false
 
