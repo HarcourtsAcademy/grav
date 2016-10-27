@@ -16,6 +16,7 @@ assets:
 
 errors:
   display: true
+  verbosity: 2 # Full stack trace
 
 debugger:
   enabled: true
