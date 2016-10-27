@@ -37,7 +37,7 @@
     {% for award in page.header.awards %}
       <h4>
       {% if award.link %}<a href="{{ award.link }}">{% endif %}
-      {{ page.media[award.image].resize(150,150).html() }}
+      {{ page.media[award.image].sizes('45vw').html() }}
       {{ award.title }}
       {% if award.link %}</a>{% endif %}
     </h4>
