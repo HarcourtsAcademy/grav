@@ -58,7 +58,7 @@ course_structure: |
   * CPPDSM5012A Develop a strategic business plan in the real estate industry
   * CPPDSM5032A Market the agency
 
-further_information: For South Australia legislation and other information visit [Office of Business and Consumer Affairs](http://www.cbs.sa.gov.au/wcm/).
+further_information: For South Australia legislation and other information visit [Office of Business and Consumer Affairs](http://www.cbs.sa.gov.au/).
 
 disclaimer: true
 
