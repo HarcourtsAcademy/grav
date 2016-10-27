@@ -1,4 +1,5 @@
 enabled: true # Enable / Disable the plugin
+active: false
 
 provider: "facebook" # (disqus | intensedebate | facebook | muut)
 

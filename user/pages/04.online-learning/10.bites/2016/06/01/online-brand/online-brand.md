@@ -16,7 +16,7 @@ body_classes: "modular header-image fullwidth online-learning"
 banner_image: theme://images/banners/online_learning.jpg
 
 jscomments:
-  provider: "facebook"
+  active: true
 
 metadata:
     description: 'How do you maintain your online brand and reputation? Share your thoughts in the comments and tag them #harconf. Harcourts Conference Takeways for maintaining an exceptional online brand from Bridget Gabites, Mark Armstrong (RateMyAgent), Andrew Drane and Lee Wade (CoreLogic).'

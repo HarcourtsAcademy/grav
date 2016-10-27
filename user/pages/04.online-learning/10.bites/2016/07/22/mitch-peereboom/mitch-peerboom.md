@@ -21,7 +21,7 @@ body_classes: "modular header-image fullwidth online-learning"
 banner_image: theme://images/banners/online_learning.jpg
 
 jscomments:
-  provider: "facebook"
+  active: true
 
 metadata:
     description: 'Mitch Peereboom gives us a little advice about how he handles the delicate conversation regarding price, on properties being sold at auction.'

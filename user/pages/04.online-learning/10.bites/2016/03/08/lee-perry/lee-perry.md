@@ -18,7 +18,7 @@ body_classes: "modular header-image fullwidth online-learning"
 banner_image: theme://images/banners/online_learning.jpg
 
 jscomments:
-  provider: "facebook"
+  active: true
 
 metadata:
     description: 'Lee Perry, Director & Sales Executive at Harcourts Mandurah, discusses his pre-listing strategies that helped him become a top 10 Harcourts sales consultant worldwide in 2015.'

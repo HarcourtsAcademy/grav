@@ -21,7 +21,7 @@ body_classes: "modular header-image fullwidth online-learning"
 banner_image: theme://images/banners/online_learning.jpg
 
 jscomments:
-  provider: "facebook"
+  active: true
 
 metadata:
     description: 'Tina Sander speaks about the fundamentals of getting ahead in real estate sales.'

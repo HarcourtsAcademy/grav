@@ -21,7 +21,7 @@ body_classes: "modular header-image fullwidth online-learning"
 banner_image: theme://images/banners/online_learning.jpg
 
 jscomments:
-  provider: "facebook"
+  active: true
 
 metadata:
     description: 'Sally Millard explains how Harcourts Rental Management Solutions grew their rent roll of over 700 properties organically and through acquisition.'

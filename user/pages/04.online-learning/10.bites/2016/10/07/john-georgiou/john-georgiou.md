@@ -21,7 +21,7 @@ body_classes: "modular header-image fullwidth online-learning"
 banner_image: theme://images/banners/online_learning.jpg
 
 jscomments:
-  provider: "facebook"
+  active: true
 
 metadata:
     description: 'What do you get when you combine a residential sales team and a commercial sales team? A winning combination. Director of NAI Harcourts Platinum John Georgiou, lists a few of the benefits since joining forces with Robert Ozzimo and the team from Harcourts Platinum.'

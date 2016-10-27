@@ -21,7 +21,7 @@ body_classes: "modular header-image fullwidth online-learning"
 banner_image: theme://images/banners/online_learning.jpg
 
 jscomments:
-  provider: "facebook"
+  active: true
 
 metadata:
     description: 'All Blacks manager of leadership, Gilbert Enoka, runs us through some of the key aspects of what it takes to achieve your personal growth goals.'

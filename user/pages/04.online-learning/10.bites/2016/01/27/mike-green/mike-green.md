@@ -18,7 +18,7 @@ body_classes: "header-image fullwidth online-learning"
 banner_image: theme://images/banners/online_learning.jpg
 
 jscomments:
-  provider: "facebook"
+  active: true
 
 metadata:
     description: 'Mike Green, Managing Director of Harcourts International, discusses Harcourts approach to customer service.'

@@ -21,7 +21,7 @@ body_classes: "modular header-image fullwidth online-learning"
 banner_image: theme://images/banners/online_learning.jpg
 
 jscomments:
-  provider: "facebook"
+  active: true
 
 metadata:
     description: 'Mitch Peereboom runs us through a few of the more common scenarios and questions he has come across in regards to the auction process and how he handles them as Chief Auctioneer of Harcourts Queensland.'

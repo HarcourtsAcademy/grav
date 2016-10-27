@@ -16,7 +16,7 @@ body_classes: "modular header-image fullwidth online-learning"
 banner_image: theme://images/banners/online_learning.jpg
 
 jscomments:
-  provider: "facebook"
+  active: true
 
 metadata:
     description: 'Do your social media posts capture your audience&rsquo;s attention and make them reach for the &lsquo;like&rsquo; button? Take this interactive activity and check.'

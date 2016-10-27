@@ -16,7 +16,7 @@ body_classes: "modular header-image fullwidth online-learning"
 banner_image: theme://images/banners/online_learning.jpg
 
 jscomments:
-  provider: "facebook"
+  active: true
 
 metadata:
     description: 'Signs up! Flags are out! See what Harcourts Open Homes are all about!'

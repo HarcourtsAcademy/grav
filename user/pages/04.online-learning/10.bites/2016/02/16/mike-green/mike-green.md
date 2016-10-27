@@ -18,7 +18,7 @@ body_classes: "header-image fullwidth online-learning"
 banner_image: theme://images/banners/online_learning.jpg
 
 jscomments:
-  provider: "facebook"
+  active: true
 
 metadata:
     description: 'Mike Green, Managing Director of Harcourts International, discusses the importance of leadership in every real estate business, recruitment strategies and more.'

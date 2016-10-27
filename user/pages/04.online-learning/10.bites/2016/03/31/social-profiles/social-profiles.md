@@ -17,7 +17,7 @@ body_classes: "header-image fullwidth online-learning"
 banner_image: theme://images/banners/online_learning.jpg
 
 jscomments:
-  provider: "facebook"
+  active: true
 
 metadata:
     description: 'Wikipedia lists over 200 well-known social networking websites. Which ones will help you grow your business?'

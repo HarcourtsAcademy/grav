@@ -18,7 +18,7 @@ body_classes: "modular header-image fullwidth online-learning"
 banner_image: theme://images/banners/online_learning.jpg
 
 jscomments:
-  provider: "facebook"
+  active: true
 
 metadata:
     description: 'Lee Perry, Director & Sales Executive at Harcourts Mandurah, discusses the listing management strategies that helped his office become Harcourts #1 Australian office in 2015.'

@@ -17,7 +17,7 @@ body_classes: "header-image fullwidth online-learning"
 banner_image: theme://images/banners/online_learning.jpg
 
 jscomments:
-  provider: "facebook"
+  active: true
 
 metadata:
     description: 'Rob Forde Regional Director of Harcourts Pacific gives an update on the real estate market in the USA.'

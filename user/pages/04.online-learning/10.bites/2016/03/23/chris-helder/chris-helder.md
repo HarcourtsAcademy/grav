@@ -18,7 +18,7 @@ body_classes: "modular header-image fullwidth online-learning"
 banner_image: theme://images/banners/online_learning.jpg
 
 jscomments:
-  provider: "facebook"
+  active: true
 
 metadata:
     description: 'Chris Helder explains Code Success versus Code Failure and what he was doing when at his most successful.'

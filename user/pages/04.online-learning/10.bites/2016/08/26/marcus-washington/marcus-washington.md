@@ -21,7 +21,7 @@ body_classes: "modular header-image fullwidth online-learning"
 banner_image: theme://images/banners/online_learning.jpg
 
 jscomments:
-  provider: "facebook"
+  active: true
 
 metadata:
     description: 'Marcus Washington has been having some serious success in the real estate game using social media. Want to know a few of his secrets? Watch our interview with him to find out more!'
