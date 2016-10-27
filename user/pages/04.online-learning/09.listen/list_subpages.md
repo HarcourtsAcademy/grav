@@ -20,7 +20,7 @@ content:
   items:
     '@taxonomy':
       category: online_learning_bites
-      tag: podcast
+      format: audio
   order:
     by: date
     dir: desc
