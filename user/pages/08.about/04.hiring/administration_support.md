@@ -14,6 +14,7 @@ routes:
   aliases:
     - '/hiring'
     - '/jobs'
+    - '/about-us/hiring/administration-support'
 
 side_bar_menu: true;
 
