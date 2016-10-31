@@ -1,20 +1,14 @@
 ---
 title: Administrative Support
-menu: We're Hiring
+menu: Administrative Support
 onpage_menu: false
-slug: hiring
+slug: administrative-support
 published: true
 template: modular_sidebar
 taxonomy:
   category: about_us
   tag: [hiring, jobs, apply, academy role]
   ## 'academy role' tag is required for the role to appear in the brag section of the home page.
-
-routes:
-  aliases:
-    - '/hiring'
-    - '/jobs'
-    - '/about-us/hiring/administration-support'
 
 side_bar_menu: true;
 
