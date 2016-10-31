@@ -1,8 +1,8 @@
 ---
-title: Administrative Support
-menu: Administrative Support
+title: Administration Support
+menu: Administration Support
 onpage_menu: false
-slug: administrative-support
+slug: administration-support
 published: true
 template: modular_sidebar
 taxonomy:
