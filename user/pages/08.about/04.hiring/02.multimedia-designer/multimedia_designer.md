@@ -25,7 +25,7 @@ Join our Academy corporate team in our [Head Office](/about-us/contact-us/locati
 
 Your ability to organise and communicate is outstanding. You have used Adobe Creative Cloud and Microsoft Office to create content that wows. You have experience producing professional audio and video material from the recording to exporting. You have the know-how to setup and operate cameras, sound and lighting equipment. You're able to create content that reflects its own style while working within existing design and brand standards. You welcome feedback and input from your team and are able to give reasons behind your design decisions. You have a sharp attention to detail and deliver results on time.
 
-[Apply Now](https://academyrealestatetraining.typeform.com/to/ZpvsYu){.button} [<i class='fa fa-file-pdf-o'></i> Download Job Description](Academy%20Multimedia%20Designer%20-%20Job%20Description.pdf){.text-button}
+[Apply Now](https://www.seek.com.au/Job/32153398){.button} [<i class='fa fa-file-pdf-o'></i> Download Job Description](Academy%20Multimedia%20Designer%20-%20Job%20Description.pdf){.text-button}
 
 ### Position Details
 Position Title
@@ -105,4 +105,4 @@ Key Purpose
   - Attend the 3-day Harcourts Conference and associated Academy meeting each year
 
 
-[Apply Now](https://academyrealestatetraining.typeform.com/to/ZpvsYu){.button} [<i class='fa fa-file-pdf-o'></i> Download Job Description](Academy%20Multimedia%20Designer%20-%20Job%20Description.pdf){.text-button}
+[Apply Now](https://www.seek.com.au/Job/32153398){.button} [<i class='fa fa-file-pdf-o'></i> Download Job Description](Academy%20Multimedia%20Designer%20-%20Job%20Description.pdf){.text-button}
