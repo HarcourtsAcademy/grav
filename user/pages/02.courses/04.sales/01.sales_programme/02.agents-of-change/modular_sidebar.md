@@ -7,6 +7,10 @@ taxonomy:
   category: courses
   tag: [agents of change, courses,sales,sales programme,sales registration,sales consultants]
 
+routes:
+  aliases:
+    - '/agents-of-change'
+
 body_classes: "modular header-image fullwidth courses"
 banner_image: theme://images/banners/courses/agents-of-change.jpg
 
