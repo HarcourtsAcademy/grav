@@ -3,7 +3,7 @@ title: Multimedia Designer
 menu: Multimedia Designer
 onpage_menu: false
 slug: multimedia-designer
-published: true
+published: false
 template: modular_sidebar
 taxonomy:
   category: about_us

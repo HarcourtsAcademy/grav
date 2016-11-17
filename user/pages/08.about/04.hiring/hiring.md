@@ -4,6 +4,7 @@ menu: We're Hiring
 slug: hiring
 onpage_menu: false
 published: true
+template: modular_sidebar
 taxonomy:
   category: about_us
   tag: [hiring, jobs, apply]
@@ -27,4 +28,4 @@ content:
 
 ---
 
-The Academy is looking for two people to join us in our Head Office in Eagle Farm Brisbane.
+The Academy is looking for an Administrative Support team member to join us in our Head Office in Eagle Farm Brisbane.
