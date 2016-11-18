@@ -70,6 +70,7 @@ routes:
   /online-learning/new-zealand-ce: '/courses/continuing-education-and-cpd/new-zealand-continuing-education'
   /online-learning/western-australia-cpd: '/courses/continuing-education-and-cpd/western-australia-cpd'
   /online-learning/sales/istart: '/courses/sales/istart'
+  /learning-paths: '/'
 
 
 redirects:
