@@ -171,8 +171,8 @@ qualification_units:
     id: BSBSMB406
     name: Manage small business finances
   CPPDSM3019:
-    id: CPPDSM3019B
-    name: Communicate with clients as part of agency operations
+    id: CPPDSM3019
+    name: Communicate with clients in the property industry
   CPPDSM4003:
     id: CPPDSM4003A
     name: Appraise property
