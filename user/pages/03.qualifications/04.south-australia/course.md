@@ -46,17 +46,13 @@ core_qualification_units:
   - id: CPPDSM4018
   - id: CPPDSM4019
   - id: CPPDSM4022
+  - id: CPPDSM4079
   - id: CPPDSM4080
+  - id: CPPDSM5012
+  - id: CPPDSM5032
 
 course_structure: |
   A blended learning programme that begins online with a number of interactive tasks that you can do from your own computer. This is followed by a full day in the Academy classroom that includes application of knowledge gained and one-on-one guidance to help you achieve success.
-
-  <h3>Remaining Units</h3>
-
-  Following successful completion of the Academy Sales Programme, or obtaining sufficient recognition of prior learning through the Academy, the remaining units are completed through another RTO in class or online.
-  * CPPDSM4079A Work in the business broking sector
-  * CPPDSM5012A Develop a strategic business plan in the real estate industry
-  * CPPDSM5032A Market the agency
 
 further_information: For South Australia legislation and other information visit [Office of Business and Consumer Affairs](http://www.cbs.sa.gov.au/).
 
