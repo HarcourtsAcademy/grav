@@ -165,7 +165,7 @@
 
                   {% if banner %}
                   <div class="profile-image">
-                      <a href="{{ page.url }}">{{ banner.display('thumbnail').resize(200,200).html }}</a>
+                      <a href="{{ page.url }}">{{ banner.display('thumbnail').zoomresize(200,200).html }}</a>
                   </div>
                   {% endif %}
 
