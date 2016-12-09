@@ -1,5 +1,5 @@
 ---
-title: Linda Hulme & Irene Green
+title: Linda Hulme
 onpage_menu: false
 template: image-collage
 date: 27-10-2016
