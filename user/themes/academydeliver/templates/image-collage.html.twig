@@ -98,6 +98,7 @@
 
           {{ page.content }}
 
+          {% if page.media.image %}
           <ul class="image-collage">
             {% for image in page.media.images %}
             <li>
@@ -115,6 +116,7 @@
             </li>
             {% endfor %}
           </ul>
+          {% endif %}
 
           {% if page.collection %}
             {% if page.header.content_heading %}<h2>{{ page.header.content_heading }}</h2>{% endif %}
@@ -139,11 +141,8 @@
                     {% endif %}
                 </li>
               </ul>
-              {% endif %}
-
-
-
             </section>
+            {% endif %}
 
           {% endfor %}
 
