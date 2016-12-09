@@ -33,7 +33,6 @@ course_content :
 
 core_qualification_units:
   - id: CPPDSM4003
-  - id: CPPDSM4004
   - id: CPPDSM4005
   - id: CPPDSM4007
   - id: CPPDSM4008
