@@ -4,7 +4,7 @@ menu: false
 
 members:
     - name: Customer Support
-      image: support-male.png
+      image: support-female.png
       title: Global Helpdesk
       office: queensland
       contact: /about-us/contact-us/customer-support
@@ -13,21 +13,26 @@ members:
       title: Head of Academy
       office: queensland
       email: irene.green@harcourts.net
-    - name: Mitch Green
-      image: mitch-green.jpg
-      title: 	Human Resources Manager
+    - name: Tara Blair
+      image: tara-blair.jpg
+      title: Administrative Support
       office: queensland
-      email: mitch.green@harcourts.net
+      email: tara.blair@harcourts.net
     - name: Tim Butler
       image: tim-butler.jpg
       title: Online Learning Manager
       office: queensland
       email: tim.butler@harcourts.net
-    - name: Kate Heathwood
-      image: kate-heathwood.jpg
-      title: EA to Head of Academy
+    - name: Mitch Green
+      image: mitch-green.jpg
+      title: Human Resources Manager
       office: queensland
-      email: kate.heathwood@harcourts.net
+      email: mitch.green@harcourts.net
+    - name: Alan Hossack
+      image: alan-hossack.jpg
+      title: Multimedia Designer
+      office: queensland
+      email: alan.hossack@harcourts.net
     - name: Alinta Ward
       image: alinta-ward.jpg
       title: Academy Training Resource Writer
@@ -38,11 +43,6 @@ members:
       title: Academy Operations Manager Australasia
       office: queensland
       email: debbie.warshawsky@harcourts.net
-    - name: Jacqui Wright
-      image: jacqui-wright.jpg
-      title: Academy Marketing Manager
-      office: christchurch
-      email: jacqui.wright@harcourts.net
 
 taxonomy:
   category: about_us
