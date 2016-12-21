@@ -21,7 +21,7 @@ Download the latest Academy training calendars for Australia, New Zealand and th
 
 ## Australia Training Calendars {#australia}
 * [New South Wales 2017 Calendar](_calendars/2017/NSW-Training-Calendar-2017.pdf)
-<!--* [Queensland 2017 Calendar](_calendars/2017/QLD-Training-Calendar-2017.pdf)-->
+* [Queensland 2017 Calendar](_calendars/2017/QLD-Training-Calendar-2017.pdf)
 * [South Australia 2017 Calendar](_calendars/2017/SA-Training-Calendar-2017.pdf)
 * [Tasmania 2017 Calendar](_calendars/2017/TAS-Training-Calendar-2017.pdf)
 * [Victoria 2017 Calendar](_calendars/2017/Vic-Training-Calendar-2017.pdf)
