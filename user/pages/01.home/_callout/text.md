@@ -3,12 +3,12 @@ title: Portfolio
 menu: Portfolio
 template: modular/text
 portfolio:
-    - image: john-georgiou.jpg
-      title: October interview@academy
-      desc: John Georgiou - The winning combination of combining residential and commercial sales teams.
+    - image: anders-sorman-nilsson.jpg
+      title: January interview@academy
+      desc: Anders Sorman-Nilsson - What does the future of your business look like? What are the moments of friction in your current customer journeys? What can you do to alleviate them? How can you amplify the positive feelings that your customers experience?.
       modalid: 13
-      url: /online-learning/interviews-at-academy/2016/10/07/john-georgiou#pk_campaign=Web-2016-10
-      date: <strong>Released</strong> October 2016
+      url: /online-learning/interviews-at-academy/2017/01/anders-sorman-nilsson#pk_campaign=Web-2017-01
+      date: <strong>Released</strong> January 2017
       button: Watch
       icon: fa-play
     - image: work2.jpg
