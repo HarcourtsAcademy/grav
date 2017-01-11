@@ -8,11 +8,11 @@ members:
       title: Academy Administrator
       office: auckland
       email: academy.nz@harcourts.net
-    - name: Robyn Martin
-      image: robyn-martin.jpg
+    - name: Minnie Baweja
+      image: minnie-baweja.jpg
       title: Academy Trainer
       office: auckland
-      email: robyn.martin@harcourts.net
+      email: minnie.baweja@harcourts.net
     - name: Richard Reith
       image: richard-reith.jpg
       title: Academy Trainer
