@@ -40,7 +40,7 @@ Attached to this programme is [iStart](/courses/sales/istart) - a 12 workshop pr
 ## Getting Started the Harcourts Way Structure
 Getting Started the Harcourts Way is the first component of the Academy [Sales Programme](/courses/sales/sales-programme).
 
-The full Sales Programme for new to the industry consultants incorporates approximately 3 – 4 days completing online tasks prior to attending 4 days classroom training. Students then commence the [iStart](/courses/sales/istart) programme consisting of 12 in-the-field workshops and during this time students return to the classroom to complete [Agent of Change](/courses/sales/sales-programme/agents-of-change).
+The full Sales Programme for new to the industry consultants incorporates approximately 3 – 4 days completing online tasks prior to attending 4 days classroom training. Students then commence the [iStart](/courses/sales/istart) programme consisting of 12 in-the-field workshops and during this time students return to the classroom to complete [Graduate Day](/courses/sales/sales-programme/graduate-day).
 
 Participants may return at no charge within 12 months to attend the course again.
 
