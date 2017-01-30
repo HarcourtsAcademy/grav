@@ -7,6 +7,10 @@ taxonomy:
   category: courses
   tag: [courses,sales,sales programme,sales registration,sales consultants,administrators,buyer assistants,personal assistants]
 
+routes:
+  aliases:
+    - '/getting-started-the-harcourts-way'
+
 body_classes: "modular header-image fullwidth courses"
 banner_image: theme://images/banners/courses.jpg
 

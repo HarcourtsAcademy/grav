@@ -34,7 +34,7 @@ Provides both new and experienced sales consultants with proven prospecting, lis
 The full course incorporates optional online learning tasks, in-class training, one-on-one coaching in the field with the student's manager and ongoing reinforcement through learning in the field.
 
 ## Sales Programme Structure
-New to the industry consultants attend 6 training days in the full programme in addition to completing iStart24. Experienced consultants attend only the final 2 days. Participants may return at no charge within 12 months to complete the course again.
+New to the industry consultants attend 6 training days in the full programme in addition to completing iStart. Experienced consultants attend only the final 2 days. Participants may return at no charge within 12 months to complete the course again.
 
 ### [Getting Started the Harcourts Way](/courses/sales/sales-programme/getting-started-the-harcourts-way) (4 days in the classroom)
 
@@ -44,10 +44,10 @@ To kick-start their career new to the industry consultants first attend Getting 
 
 A self paced 12 workshop programme for those new to real estate sales. iStart Online will help you attain lifetime success in the real estate business.
 
-### [Agents of Change](/courses/sales/sales-programme/agents-of-change) (2 days in the classroom)
-This programme caters for experienced consultants to help them take their businesses to the next level of success. New to the industry consultants also attend.
+### [Graduate Day](/courses/sales/sales-programme/graduate-day) (1 day in the classroom)
+This follow up session will explore how you have applied your newly acquired skills and knowledge and is an opportunity to celebrate your successes and discuss real world challenges based on your individual experience.
 
-They will be embraced by the Harcourts culture and made aware of the extensive support and in-the-field resources available to them. Bring your offline and online personal marketing resources inline; examine your listing ability and consistency of service; and learn how to manage your time more effectively and earn more.
+Upon completion, you will have the focus, determination and self-confidence that will enable you to drive your business forward.
 
 ## Industry Qualifications
 Completion of the Sales Programme is a requirement for many [industry qualifications](/qualifications). In some cases the cost of the Sales Programme is not included in the cost of the industry qualification.

@@ -52,7 +52,7 @@ Salary paid personal assistant to a sales consultant – lead generation, servic
 
 Complete Academy training programmes
 - Sales – [Getting Started the Harcourts way](/courses/sales/sales-programme/getting-started-the-harcourts-way)
-- Sales – [Agents of Change](/courses/sales/sales-programme/agents-of-change)
+- Sales – [Graduate Day](/courses/sales/sales-programme/graduate-day)
 - Auction / advanced sales workshops
 - Certificate IV in Property Services (Australia) National Certificate (New Zealand)
 
