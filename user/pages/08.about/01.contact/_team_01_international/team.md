@@ -13,11 +13,6 @@ members:
       title: Head of Academy
       office: queensland
       email: irene.green@harcourts.net
-    - name: Tara Blair
-      image: tara-blair.jpg
-      title: Administrative Support
-      office: queensland
-      email: tara.blair@harcourts.net
     - name: Tim Butler
       image: tim-butler.jpg
       title: Online Learning Manager
