@@ -170,7 +170,12 @@
                   {% endif %}
 
                   <div class="profile-name"><a href="{{ page.url }}">{{ page.title }}</a></div>
-                  <div class="profile-region">{{ page.header.inspirational_women.region }}</div>
+                  {% if page.header.inspirational_women.region %}
+                    <div class="profile-region">{{ page.header.inspirational_women.region }}</div>
+                  {% else %}
+                      <div class="profile-region">{{ page.header.inspirational_women.country }}</div>
+                  {% endif %}
+
 
               </div>
 

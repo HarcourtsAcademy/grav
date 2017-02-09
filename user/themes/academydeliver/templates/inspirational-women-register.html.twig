@@ -96,7 +96,11 @@
 
           <section class="inspirational-women-item">
 
-              <h3>{{ page.header.inspirational_women.region }} - {{ page.header.inspirational_women.country }} </h3>
+              {% if page.header.inspirational_women.region %}
+                <h3>{{ page.header.inspirational_women.region }} - {{ page.header.inspirational_women.country }}</h3>
+              {% else %}
+                <h3>{{ page.header.inspirational_women.country }}</h3>
+              {% endif %}
 
               {% set banner = page.media.images|first %}
 

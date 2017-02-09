@@ -5,7 +5,7 @@ visible: true
 
 taxonomy:
   category: speakers
-  tag: [inspirational women ambassador]
+  tag: []
 
 body_classes: "modular header-image fullwidth speakers"
 banner_image: theme://images/banners/speakers.jpg
