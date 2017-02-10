@@ -87,7 +87,7 @@ documents:
   - name: Pre-Course Pack - Auckland, Central & Northland
     url: Pre-Course_Pack-_Auckland_Central__Northland.pdf
   - name: Pre-Course Pack - South Island
-    url: Pre-Course_Pack-_Christchurch.pdf
+    url: Pre-Course_Pack-_South_Island.pdf
   - name: Pre-Course Pack - Wellington
     url: Pre-Course_Pack-_Wellington.pdf
   - name: Skills Trainee Information Handbook
