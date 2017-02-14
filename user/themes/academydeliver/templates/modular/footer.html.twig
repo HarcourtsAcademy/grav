@@ -11,6 +11,9 @@
             {% if site.footer.description %}
                 <p>{{ site.footer.description }}</p>
             {% endif %}
+            {% if site.footer.rto_provider %}
+                <p>National Training Provider Number <a href="http://training.gov.au/Organisation/Details/{{ site.footer.rto_provider }}">{{ site.footer.rto_provider }}</a></p>
+            {% endif %}
         </div>
         <div class="footer-module large"><h4>{{ site.footer.contact_title }}</h4>
             <p>
