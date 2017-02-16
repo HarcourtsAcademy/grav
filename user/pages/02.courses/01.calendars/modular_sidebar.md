@@ -12,7 +12,7 @@ body_classes: "modular header-image fullwidth courses"
 banner_image: theme://images/banners/courses.jpg
 
 side_bar_menu: true
-visible: false
+visible: true
 ---
 
 Download the latest Academy training calendars for Australia, New Zealand and the USA:

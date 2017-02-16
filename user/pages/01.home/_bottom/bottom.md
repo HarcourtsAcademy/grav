@@ -2,8 +2,8 @@
 title: Training new you
 menu: Other Pages
 buttons:
-    - text: Lift your performance
-      icon: fa-map-marker
+    - text: Training Calendars
+      icon: fa-calendar
       url: /courses/calendars-and-upcoming-courses
       primary: true
 ---

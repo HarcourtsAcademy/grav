@@ -96,6 +96,10 @@
 
           {{ page.content }}
 
+          {% for button in page.header.buttons %}
+            <a class="button{% if button.primary %} primary{% endif %}" href="  {% if "base_url:" in button.url %}{{ base_url_absolute }}/{{ button.url|replace({"base_url:": ""}) }}{% else %}{{ button.url }}{% endif %}">{% if button.icon %}<i class="fa {{ button.icon }}"></i> {% endif %}{{ button.text }}</a>
+          {% endfor %}
+
           {% if page.header.course_information %}
             <h2>Additional Information</h2>
             <dl class="dl-horizontal">

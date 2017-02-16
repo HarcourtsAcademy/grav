@@ -21,6 +21,12 @@ content:
         custom:
             - _featured_courses
 
+buttons:
+  - text: Training Calendars
+    icon: fa-calendar
+    url: /courses/calendars-and-upcoming-courses
+    primary: true
+
 ---
 
 The Academy offers a wide selection of training programmes in areas from real estate administration to real estate management. Browse this section for more information on specific programmes.
