@@ -1,5 +1,5 @@
 ---
-title: 2016 New Zealand REAA Continuing Education (CE)
+title: 2017 New Zealand REAA Continuing Education (CE)
 menu: New Zealand Continuing Education
 slug: new-zealand-continuing-education
 onpage_menu: false
@@ -16,7 +16,7 @@ side_bar_menu: true;
 
 ---
 
-# IMPORTANT LICENCE WARNING
+<!-- # IMPORTANT LICENCE WARNING
 
 >>>> All licence holders with incomplete 2016 Continuing Education records with the REAA will be contacted on or around January 24th, 2017.
 
@@ -25,7 +25,10 @@ side_bar_menu: true;
 - If you have not completed your 10 Verifiable training hours, [start now](#get-started).
 - If you have not completed your 10 Non-Verifiable training hours, this can be done by logging into the [REINZ website](http://myce.reinz.co.nz/).
 
----
+--- -->
+
+>>>>>**Coming Soon**<br/>
+>>>>>2017 Online Verifiable Continuing Education launching March 2017.
 
 The REAA requires every person who holds a current real estate certificate or license to attend ongoing learning every year to remain current in knowledge and skill that ultimately provides consumer protection and a consistently high standard of service for the buying, selling and leasing public.
 
@@ -43,21 +46,31 @@ We **report** your results to the REAA on your behalf
 
 Register via Harcourts One to complete all 10 hours of Verifiable CE online
 
-Module 1
-: Includes required Topics 1-4a <br/>
-  [Register for Module 1](http://one.harcourts.co.nz/Academy/RegistrationWizard.aspx?id2=4297){.button-secondary} [Start Module 1](http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=163&noprocess){.button}
+Module 1 (Topics 1-3)
+: *Launching March 2017*
+  <!-- [Register for Module 1](http://one.harcourts.co.nz/Academy/RegistrationWizard.aspx?id2=4297){.button-secondary} [Start Module 1](http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=163&noprocess){.button} -->
 
-Module 2:
-: Includes required Topics 5a-7 <br/>
-  [Register for Module 2](http://one.harcourts.co.nz/Academy/RegistrationWizard.aspx?id2=4298){.button-secondary} [Start Module 2](http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=164&noprocess){.button}
+Module 2 (Topics 4-6):
+: *Launching March 2017*
+  <!-- [Register for Module 2](http://one.harcourts.co.nz/Academy/RegistrationWizard.aspx?id2=4298){.button-secondary} [Start Module 2](http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=164&noprocess){.button} -->
 
 ## Who
 The REAA requires every person who holds a current real estate certificate or license to attend ongoing learning every year to remain current in knowledge and skill that ultimately provides consumer protection and a consistently high standard of service for the buying, selling and leasing public.
 
 ## What
+
+The Real Estate Agents Authority (REAA) recognises that continuing education is necessary to:
+- raise and maintain industry standards
+- promote consumer confidence in the real estate industry
+
+The REAA has therefore designed a continuing education programme to improve licensees’ knowledge of the law, rules and regulations that govern the industry, to understand and uphold the concepts of ethics and professional competence in a real estate context, and to improve their skills and judgement.
+
 **20 hours** of continuing education is required each year.
 * 10 hours **Verifiable** education covering industry content and assessment specified by the REAA.
 * 10 hours **Non-Verifiable** education covering general real estate knowledge and skills used in the field.
+
+Note that 20 hours of continuing education the Authority requires all licensees to complete is
+a **minimum**, not a maximum.
 
 ## How
 Harcourts can provide all 20 hours
@@ -88,83 +101,79 @@ Harcourts can provide all 20 hours
 </div>
 </div>
 
-## Verifiable content for 2016
-The 10 hours of verifiable continuing education for 2016 have been designed to follow a transactional approach considering professional competence and ethics at each stage of the process.
-
-The 2016 programme is split into the following topics:
+## Verifiable content for 2017
+The 10 hours of verifiable continuing education for 2017 is split into the following topics:
 
 <dl class="dl-horizontal">
   <dt>Topic 1</dt>
-  <dd>Understanding key concepts (1 hour)</dd>
+  <dd>Disclosure remains an important issue (1 hour)</dd>
   <dt>Topic 2</dt>
-  <dd>Pre-listing (1 hour 30 minutes)</dd>
+  <dd>Essential documentation (Part A) (2½ hours)</dd>
   <dt>Topic 3</dt>
-  <dd>Agency agreements (1 hour 30 minutes)</dd>
-  <dt>Topic 4a</dt>
-  <dd>Marketing (1 hour)</dd>
-  <dt>Topic 4b</dt>
-  <dd>Marketing (1 hour)</dd>
+  <dd>Essential documentation (Part B) (1½ hours)</dd>
+  <dt>Topic 4</dt>
+  <dd>Essential documentation (Part C) (1 hour)</dd>
   <dt>Topic 5</dt>
-  <dd>Sale and purchase agreements and lease agreements (from offer to settlement) (2 hours)</dd>
+  <dd>Physical property inspection (Part A) (2½ hours)</dd>
   <dt>Topic 6</dt>
-  <dd>Tender and auction (1 hour)</dd>
-  <dt>Topic 7</dt>
-  <dd>Risk management (1 hour)</dd>
+  <dd>Physical property inspection (Part B) (1½ hours)</dd>
 </dl>
 
 The topics must be completed in the order they are presented as later topics build on knowledge covered in earlier topics.
 
 All topics are compulsory and there are no specialist strands.
 
-In the 2016 programme we are building on the legal and industry requirements covered in the 2015 programme and will be considering licensee requirements and obligations in terms of professional competence and ethics.
+## The Topic for 2017
 
-## The Topic for 2016
-The topic for 2016 is ‘Professional Competence and Ethics’.
+The topic for 2017 is **Knowing and communicating what you are selling.**
 
 The key learning objectives for this programme are to understand the following:
-
-- The meaning of professional competence in a real estate industry context.
-- The definition of real estate agency work and when it begins and ends.
-- The meaning of best practice, moral ethics and prudential ethics in a real estate industry context.
-- Individual and corporate responsibilities in terms of professional competence and ethics and the consequences of incompetent and / or unethical behaviour for real estate agencies and licensees.
-- The meaning of professional competence and ethics in relation to fiduciary duty / duty of care.
-- Prospecting protocols when prospecting on behalf of an agency for listings.
-- The meaning and implications of unsolicited commercial electronic messages.
-- The importance of the Fair Trading Act 1986, and its amendments in relation to unsubstantiated representations, unfair clauses, uninvited direct sales and auction processes.
-- Licensee responsibilities when providing an appraisal and estimating commission.
-- The responsibilities of a professionally competent and ethical licensee when entering into an agency agreement and facilitating sale and purchase / lease agreements.
-- The responsibilities of a professionally competent and ethical agency and licensee in relation to marketing activities.
-- Professional competence and ethics when dealing with conjunctional sales.
-- Professional competence and ethics in relation to disclosure / confidentiality obligations.
-- The responsibilities of a professionally competent and ethical licensee when dealing with ‘as is / where is’ provisions in the sale of real estate or businesses.
-- Best practice and the responsibilities of a professionally competent and ethical agency / licensee when methamphetamine or other contamination is present / suspected to be present at a property / space / business.
-- Professional competence and ethics when communicating with clients and customers and in dealings with other stakeholders.
-- The responsibilities of a professionally competent and ethical licensee in relation to security of land and avoiding risk of damage.
-- The responsibilities of a professionally competent and ethical licensee in relation to health and safety in the workplace.
-- Professional competence and ethics when a licensee / related person is taking an interest in a property and when a licensee / related person stands to gain other benefits from the transaction.
-- Professional competence and ethics in relation to avoiding conflicts of interest and preserving the ‘arm’s length relationship’.
-- Professional competence and ethics when dealing with multiple offers and back up offers.
-- Licensee responsibilities when holding a deposit as stakeholders and addressing money laundering.
-- Professional competence and ethics when meeting Unit Titles Act 2010 requirements.
-- Professional competence and ethics when dealing with the implications of LVR ratios and property taxation provisions – the Taxation (Bright-line Test for Residential Land) Act 2015 and the Taxation (Land Information and Offshore Persons Information) Bill.
-- Professional competence and ethics when dealing with overseas buyers of ‘sensitive assets’.
-- Key considerations and creating trust in processes when offering property / land through tender and auction.
-- Professional competence and ethics when dealing with mortgagee sales.
-- What licensees should do to demonstrate professional competence and ethics, to manage risk and to protect the client, customer, self and real estate agency throughout all stages of the real estate transactional process.
-- And review all other licensee responsibilities under the Code of Conduct and the Real Estate Agents Act as previously covered in the 2015 Continuing Education Programme.
-
+- Protection against complaints to the REAA through adequate disclosure.
+- The importance of obtaining consent of client vendor / lessor to disclose.
+- What disclosure means and important rules and legislation relating to disclosure obligations to client and customer.
+- Where information that licensees need to disclose comes from.
+- The licensee’s role in terms of disclosure.
+- Recognising ‘red flags’.
+- When to disclose.
+- Disclosure of sensitive issues.
+- ‘As is / where is’ provisions do not negate disclosure obligations.
+- Disclosure and the Overseas Investment Act 2005.
+- The importance of appropriate communication and a demonstrated, documented process.
+- What a Certificate of Title is, where it is found and what it means.
+- Legal tenure.
+- Interests, encumbrances and restrictions.
+- What a Land Information Memorandum (LIM) report is, where it is found and what it means.
+- Property files.
+- Compliance with the Resource Management Act 1991 and the Building Act 2004 (district, regional and unitary plans, Building Act and Building Code, zoning).
+- Resource consents.
+- Building consents, code compliance certificates, certificates of acceptance, building permits and safe and sanitary reports.
+- When compliance cannot be verified.
+- Notice to fix section 95A letter.
+- Disclosure in transactions involving property development.
+- Dealing with different authorities.
+- Information / reports from other sources, conflicting reports and how to deal with them.
+- Issues with passing on information that has not been verified.
+- Issues with disclaimers.
+- Conducting a physical property inspection - inspection of land, inspection of buildings and other structures.
+- Issues involving claims made in relation to damage of the property.
+- Issues beyond the boundary.
+- Interaction on site with a client vendor/lessor.
+- Sample questions to vendor checklists.
+- Issues involving approvals given and any signed variations.
+- Issues involving stigmatised neighbouring properties.
+- Dealing with third parties and information learned from them.
 
 ## How to Get Started
 **[Online workshops](#get-started)**: Complete your Verifiable Continuing Education online
 
-**[Harcourts Conference](http://harcourtsevents.com/new-zealand/conference/)**: Harcourts 2016 Conference held in May
+**[Harcourts Conference](http://harcourtsevents.com/new-zealand/conference/)**: Harcourts 2017 Conference held in May
 
-## 2015 Refresher
+## 2016 Refresher
 If you are reviving a suspended licence after a period of 12 months or more, you will need to complete a refresher course (to get up to speed with what you have missed) plus the continuing education for the calendar year in which you revive your licence.
 
 You must complete the continuing education by 31 December of the year in which you revive your licence, and you must complete the refresher training before you renew your licence for the second time.
 
-The Academy is not offering 2015 Verifiable Continuing Education Referesher training this year.
+The Academy is not offering 2016 Verifiable Continuing Education Referesher training this year.
 
 ## The Support Behind You
 - Contact your local Academy trainer for information, assistance and advice ([Northern and Central](/about-us/contact-us/locations/auckland), [Wellington](/about-us/contact-us/locations/wellington), [South Island](/about-us/contact-us/locations/christchurch)
@@ -172,7 +181,7 @@ The Academy is not offering 2015 Verifiable Continuing Education Referesher trai
 - Go to [Harcourts One](http://one.harcourts.co.nz) > Search Directory > (your name) > Training Attended to access your classroom training attendance - records (Please note that your verifiable online CE records are updated nightly)
 - All verifiable training records will be sent to the REAA by Harcourts on your behalf
 
-## Harcourts REINZ Classroom CE Training Calendar
+<!-- ## Harcourts REINZ Classroom CE Training Calendar
 Date | Location | Venue
 -|-|-
 February 18-19 | Auckland - North Shore | Netball North Harbour
@@ -196,6 +205,4 @@ August 1-2 | Kerikeri | Kerikeri RSA
 August 8-9 | Napier | East Pier Hotel
 Sept 5-6 | Tauranga | Club Mount Maunganui
 Sept 12-13 | Christchurch | St Albans Shirley Club
-Sept 19-20 | Auckland | Alexander Park
-
-<p></p>
+Sept 19-20 | Auckland | Alexander Park -->
