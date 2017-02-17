@@ -5,7 +5,12 @@ slides:
   - image: image1.jpg
     heading: "Academy Online"
     subheading: "Learning, where you are."
-    button_text: "Find your next level"
-    button_url: /online-learning
+    buttons:
+    - text: "Register for training"
+      icon: fa-calendar
+      url: /courses/calendars-and-upcoming-courses
+    - text: "Find your next level"
+      icon: fa-signal
+      url: /online-learning
 
 ---

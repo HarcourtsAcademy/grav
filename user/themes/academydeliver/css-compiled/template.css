@@ -1256,6 +1256,8 @@ img.inline-left {
 .slideme .showcase {
   padding-bottom: 10rem;
   text-align: center; }
+  .slideme .showcase .button, .slideme .showcase .archive-list button, .archive-list .slideme .showcase button, .slideme .showcase .contact button, .contact .slideme .showcase button {
+    margin: 0.5rem; }
 
 .showcase {
   position: relative;
