@@ -54,13 +54,13 @@ core_qualification_units:
 
 course_costs:
   - name: Sales Programme
-    amount: $690
+    amount: $340
   - name: 15 RTO units with Harcourts Academy @ $50 each
     amount: $750
   - name: Licence Workshop
     amount: $600
   - name: Total Cost
-    amount: $2,040
+    amount: $1,690
 
 further_information: For Queensland legislation and other information visit [Office of Fair Trading](http://www.qld.gov.au/law/fair-trading/).
 
