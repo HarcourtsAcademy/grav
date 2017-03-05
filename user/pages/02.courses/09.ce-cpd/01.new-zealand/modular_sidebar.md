@@ -27,9 +27,6 @@ side_bar_menu: true;
 
 --- -->
 
->>>>>**Coming Soon**<br/>
->>>>>2017 Online Verifiable Continuing Education launching March 2017.
-
 The REAA requires every person who holds a current real estate certificate or license to attend ongoing learning every year to remain current in knowledge and skill that ultimately provides consumer protection and a consistently high standard of service for the buying, selling and leasing public.
 
 ===
@@ -47,12 +44,10 @@ We **report** your results to the REAA on your behalf
 Register via Harcourts One to complete all 10 hours of Verifiable CE online
 
 Module 1 (Topics 1-3)
-: *Launching March 2017*
-  <!-- [Register for Module 1](http://one.harcourts.co.nz/Academy/RegistrationWizard.aspx?id2=4297){.button-secondary} [Start Module 1](http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=163&noprocess){.button} -->
+: [Register for Module 1](http://one.harcourts.co.nz/Academy/RegistrationWizard.aspx?id2=4839){.button-secondary} [Start Module 1](http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=167&noprocess){.button}
 
 Module 2 (Topics 4-6):
-: *Launching March 2017*
-  <!-- [Register for Module 2](http://one.harcourts.co.nz/Academy/RegistrationWizard.aspx?id2=4298){.button-secondary} [Start Module 2](http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=164&noprocess){.button} -->
+: [Register for Module 2](http://one.harcourts.co.nz/Academy/RegistrationWizard.aspx?id2=4840){.button-secondary} [Start Module 2](http://www.academyrealestatetraining.com/nz/moodle/course/view.php?id=168&noprocess){.button}
 
 ## Who
 The REAA requires every person who holds a current real estate certificate or license to attend ongoing learning every year to remain current in knowledge and skill that ultimately provides consumer protection and a consistently high standard of service for the buying, selling and leasing public.
