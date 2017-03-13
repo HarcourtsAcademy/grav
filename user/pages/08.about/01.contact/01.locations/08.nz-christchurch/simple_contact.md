@@ -23,10 +23,10 @@ office:
     country: New Zealand
   phone: +64 3 348 8784
   hours: |
-    **Monday - Friday**			9 am - 5 pm  
-    **Saturday - Sunday**			Closed  
+    **Monday - Friday**			9 am - 5 pm
+    **Saturday - Sunday**			Closed
     **Holidays**					Closed
 
 simple_contact:
-  recipient: academy.nz@harcourts.net
+  recipient: yvonne.duff@harcourts.net
 ---
