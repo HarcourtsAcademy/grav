@@ -16,7 +16,7 @@ process:
 
 office:
   location:
-    street: 200 East Terrace
+    street: Level 2, 285 Wakefield Street
     city: Adelaide
     region: South Australia
     postcode: 5000
