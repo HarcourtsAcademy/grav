@@ -23,10 +23,10 @@ office:
     country: New Zealand
   phone: +64 4 472 6209
   hours: |
-    **Monday - Friday**			9 am - 5 pm  
-    **Saturday - Sunday**			Closed  
+    **Monday - Friday**			9 am - 5 pm
+    **Saturday - Sunday**			Closed
     **Holidays**					Closed
 
 simple_contact:
-  recipient: academy.nz@harcourts.net
+  recipient: tamsin.mason@harcourts.net
 ---
