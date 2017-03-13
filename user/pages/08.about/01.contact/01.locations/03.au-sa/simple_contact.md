@@ -28,5 +28,5 @@ office:
     **Holidays**					Closed
 
 simple_contact:
-  recipient: sa@harcourts.net
+  recipient: academysa@harcourts.net
 ---
