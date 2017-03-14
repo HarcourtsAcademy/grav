@@ -4,6 +4,7 @@ menu: Calendars and Upcoming Courses
 slug: calendars-and-upcoming-courses
 onpage_menu: false
 published: true
+template: modular_sidebar
 taxonomy:
   category: courses
   tag: [courses,calendars]
@@ -25,7 +26,7 @@ Download the latest Academy training calendars for Australia, New Zealand and th
 * [South Australia 2017 Calendar](_calendars/2017/SA-Training-Calendar-2017.pdf)
 * [Tasmania 2017 Calendar](_calendars/2017/TAS-Training-Calendar-2017.pdf)
 * [Victoria 2017 Calendar](_calendars/2017/Vic-Training-Calendar-2017.pdf)
-<!--* [Western Australia 2017 Calendar](_calendars/2017/WA-Training-Calendar-2017.pdf)-->
+* [Western Australia 2017 Calendar](_calendars/2017/WA-Training-Calendar-2017.pdf)
 
 ## New Zealand Training Calendars {#new-zealand}
 * Check [New Zealand Upcoming Training](http://one.harcourts.co.nz/academy/UpcomingCourses.aspx)
