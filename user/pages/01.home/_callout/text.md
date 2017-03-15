@@ -3,20 +3,20 @@ title: Portfolio
 menu: Portfolio
 template: modular/text
 portfolio:
-    - image: anders-sorman-nilsson.jpg
-      title: January interview@academy
-      desc: Anders Sorman-Nilsson - What does the future of your business look like? What are the moments of friction in your current customer journeys? What can you do to alleviate them? How can you amplify the positive feelings that your customers experience?.
+    - image: bridget-gabites.jpg
+      title: March interview@academy
+      desc: Bridget Gabites on how having fun, being relatable, and being ‛real’ across her various social media platforms has helped her create stronger connections with her clients.
       modalid: 13
-      url: /online-learning/interviews-at-academy/2017/01/anders-sorman-nilsson#pk_campaign=Web-2017-01
+      url: /online-learning/interviews-at-academy/2017/03/bridget-gabites#pk_campaign=Web-2017-03
       date: <strong>Released</strong> January 2017
       button: Watch
       icon: fa-play
     - image: work2.jpg
       title: New Zealand Verifiable CE
-      desc: Complete your 10 hours of Verifiable Continuing Education online for $69 (inc. GST).
+      desc: Complete your 2017 10 hours of Verifiable Continuing Education online for $69 (inc. GST).
       modalid: 14
       url: /courses/continuing-education-and-cpd/new-zealand-continuing-education
-      date: <strong>Released</strong> February 2015
+      date: <strong>Released</strong> March 2017
     - image: work3.jpg
       title: iStart Online
       desc: The new iStart Online replaces the old iStart24 24-week online programme. We have refined and updated the new iStart making it faster and easier to complete.
