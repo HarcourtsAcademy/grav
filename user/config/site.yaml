@@ -116,10 +116,10 @@ redirects:
   /download/eone/us: https://harcourts-ecloud.back4app.io/applications/eOne/releases/US/
   /download/eone/za: https://harcourts-ecloud.back4app.io/applications/eOne/releases/ZA
   /download/eone/ca: https://harcourts-ecloud.back4app.io/applications/eOne/releases/CA
-  /download/eopen/au: https://harcourts-ecloud.back4app.io/applications/eOpen/releases/AU
-  /download/eopen/nz: https://harcourts-ecloud.back4app.io/applications/eOpen/releases/NZ
-  /download/eopen/us: https://harcourts-ecloud.back4app.io/applications/eOpen/releases/US
-  /download/eopen/za: https://harcourts-ecloud.back4app.io/applications/eOpen/releases/ZA
+  /download/eopen/au: https://harcourts-ecloud.back4app.io/applications/eOpen/releases/universal
+  /download/eopen/nz: https://harcourts-ecloud.back4app.io/applications/eOpen/releases/universal
+  /download/eopen/us: https://harcourts-ecloud.back4app.io/applications/eOpen/releases/universal
+  /download/eopen/za: https://harcourts-ecloud.back4app.io/applications/eOpen/releases/universal
   /download/ecampaign/au: https://harcourts-ecloud.back4app.io/applications/eCampaign/releases/AU
   /download/ecampaign/nz: https://harcourts-ecloud.back4app.io/applications/eCampaign/releases/NZ
   /download/ecampaign/us: https://harcourts-ecloud.back4app.io/applications/eCampaign/releases/US
