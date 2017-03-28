@@ -38,7 +38,7 @@ metadata:
 
 ---
 
-Sally Millard explains how [Harcourts Rental Management Solutions](http://www.rentalmanagementsolutions.com.au/) grew their rent roll of over 700 properties organically and through acquisition.
+Sally Millard explains how [Harcourts Rental Management Solutions](http://solutions.harcourts.com.au/Profile/Harcourts-Rental-Management-Solutions) grew their rent roll of over 700 properties organically and through acquisition.
 
 ===
 
