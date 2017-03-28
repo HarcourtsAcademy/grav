@@ -5,7 +5,7 @@ menu: false
 buttons:
 - text: View our speaker list
   icon: fa-users
-  url: international-speakers/Harcourts-International-Speaker-Network-2016-03-14.pdf
+  url: international-speakers/Harcourts-International-Speaker-Network.pdf
   primary: true
 
 ---
