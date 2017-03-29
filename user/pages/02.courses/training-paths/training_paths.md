@@ -24,6 +24,7 @@ content:
         custom:
             - _video
             - _overview
+            - _paths
 
 <!--buttons:
   - text: Training Calendars

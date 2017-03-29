@@ -51,7 +51,9 @@
 // Bootstrap
 @import "template/bootstrap";
 
-// Pushy Panel
+// Bootstrap 3 Panel
+@import "template/mixins/vendor-prefixes";
+@import "template/mixins/panels";
 @import "template/panel";
 
 // Modal window
