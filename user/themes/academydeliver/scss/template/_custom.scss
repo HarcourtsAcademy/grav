@@ -44,3 +44,15 @@ img.inline-left {
 #content > ol > li {
   padding-bottom: 0.4rem;
 }
+
+// Academy Training Pathways
+div.training_paths_course {
+  display: inline-block;
+  float: left;
+  width: 45%;
+  margin: 0 1rem;
+  margin-bottom: 2rem;
+  @include breakpoint(mobile-only) {
+    width: 100%;
+  }
+}
