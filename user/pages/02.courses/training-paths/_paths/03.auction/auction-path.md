@@ -1,16 +1,16 @@
 ---
-title: Leadership Pathway
+title: Auction Pathway
 template: default
 
 taxonomy:
   category: training_pathway
   tag: [training_pathway]
-  topic: [leadership]
+  topic: [auction]
   audience: [sales consultants]
   experience_level: [experienced]
 
 ---
 
-### Leadership pathway
+### Auction pathway
 
-Get industry qualified by completing our award-winning leadsership training.
+Get industry qualified by completing our award-winning auction training.
