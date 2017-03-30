@@ -53,6 +53,7 @@
         {% do assets.addJs('theme://js/jquery.slideme2.js') %}
         {% if header.bootstrap.enabled %}
             {% do assets.addJs('theme://js/bootstrap/collapse.js') %}
+            {% do assets.addJs('theme://js/bootstrap/transition.js') %}
         {% endif %}
     {% endblock %}
     {{ assets.js() }}
