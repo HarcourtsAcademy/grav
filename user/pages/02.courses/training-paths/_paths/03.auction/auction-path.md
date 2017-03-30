@@ -11,6 +11,13 @@ taxonomy:
 
 ---
 
-### Auction pathway
+### Harcourts Auctions: Your point of difference.
 
-Get industry qualified by completing our award-winning auction training.
+Looking to standout in your marketplace? Our Auction Pathway provides just that!
+
+This training pathway provides real estate professionals with the necessary training needed to list, market and sell property using the Harcourts Auction process.
+
+===
+
+### Is this the right training path for you?
+[Login to check](/moodle/){.button}

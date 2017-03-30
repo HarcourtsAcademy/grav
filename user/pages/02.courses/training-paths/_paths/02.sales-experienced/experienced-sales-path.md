@@ -12,6 +12,13 @@ taxonomy:
 
 ---
 
-### Experienced Sales
+### Are you an experienced sales consultant?
 
-Get industry qualified by completing our award-winning sales training.
+This pathway is an essential starting point for every experienced sales consultant. Receive a comprehensive induction to sales, the Harcourts way highlighting our core Harcourts systems and tools then gain access to our experienced agent workshops. 
+
+Take advantage of the extensive support on offer. This is a great opportunity to upskill and give yourself the competitive edge in your marketplace. 
+
+===
+
+### Is this the right training path for you?
+[Login to check](/moodle/){.button}
