@@ -9,6 +9,14 @@ taxonomy:
   audience: [sales consultants]
   experience_level: [new]
 
+content:
+  items:
+    '@taxonomy':
+      category': courses
+      training_pathways: [sales-new]
+  order:
+    by: basename
+    dir: asc
 
 ---
 

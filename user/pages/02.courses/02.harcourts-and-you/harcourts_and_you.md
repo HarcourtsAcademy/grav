@@ -3,9 +3,11 @@ title: Harcourts and You
 menu: Harcourts and You
 slug: harcourts-and-you
 published: true
+template: modular_sidebar
 taxonomy:
   category: courses
   tag: [courses,featured,induction]
+  training_paths: [sales-new]
 
 routes:
   aliases:
