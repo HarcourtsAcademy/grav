@@ -7,6 +7,7 @@ template: modular_sidebar
 taxonomy:
   category: courses
   tag: [courses,sales,sales programme,sales registration,sales consultants]
+  training_paths: [sales-new]
 
 routes:
   aliases:

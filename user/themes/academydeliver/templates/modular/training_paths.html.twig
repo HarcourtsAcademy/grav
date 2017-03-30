@@ -15,7 +15,7 @@
       <div class="panel-body">
         {{ pathway.content }}
 
-        {% for course in taxonomy.findTaxonomy( { 'category': 'courses', 'training_paths': pathway.slug } ).order('date', 'desc')  %}
+        {% for course in taxonomy.findTaxonomy( { 'category': 'courses', 'training_paths': pathway.slug } ).order('folder', 'asc')  %}
         <div>Course title: {{ course.title }}</div>
         {% endfor %}
       </div>

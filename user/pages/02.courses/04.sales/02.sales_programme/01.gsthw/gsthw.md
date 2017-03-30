@@ -3,9 +3,11 @@ title: Getting Started the Harcourts Way
 slug: getting-started-the-harcourts-way
 onpage_menu: false
 published: true
+template: modular_sidebar
 taxonomy:
   category: courses
   tag: [courses,sales,sales programme,sales registration,sales consultants,administrators,buyer assistants,personal assistants]
+  training_paths: [sales-new]
 
 routes:
   aliases:

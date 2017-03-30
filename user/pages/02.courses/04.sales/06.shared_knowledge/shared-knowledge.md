@@ -4,9 +4,12 @@ menu: Shared Knowledge Sales
 slug: shared-knowledge-sales
 onpage_menu: false
 published: true
+template: modular_sidebar
+
 taxonomy:
   category: courses
   tag: [courses,sales,panel,sales consultants,business owners, managers]
+  training_paths: [sales-experienced]
 
 body_classes: "modular header-image fullwidth courses"
 banner_image: theme://images/banners/courses.jpg

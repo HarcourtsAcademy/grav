@@ -3,9 +3,12 @@ title: Sales Workshops
 slug: sales-workshops
 onpage_menu: false
 published: true
+template: modular_sidebar
+
 taxonomy:
   category: courses
   tag: [courses,sales,workshops,sales consultants,business owners,managers]
+  training_paths: [sales-new, sales-experienced]
 
 body_classes: "modular header-image fullwidth courses"
 banner_image: theme://images/banners/courses.jpg

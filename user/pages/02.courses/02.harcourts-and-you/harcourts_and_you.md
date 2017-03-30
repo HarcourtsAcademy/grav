@@ -7,7 +7,7 @@ template: modular_sidebar
 taxonomy:
   category: courses
   tag: [courses,featured,induction]
-  training_paths: [sales-new]
+  training_paths: [sales-new, sales-experienced, auction, leadership]
 
 routes:
   aliases:
