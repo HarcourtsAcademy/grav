@@ -19,5 +19,15 @@ The many workshops within this programme will help you to manage people for high
 
 ===
 
+There is no one-size fits all approach to leadership. Being a great leader is not so much about management or directing; it is more about learning the art of:
+
+-	serving the people who work for you and giving them the tools they need to succeed
+-	listening to, inspiring & empowering your team
+-	using strategic influence rather than using positional power to lead
+-	guiding others into a direction or decision that leaves them still feeling empowered and accomplished
+-	sharing your vision and creating a culture where people feel valued
+
+Our leadership training includes applied topics such as leadership, coaching and training, marketing, systems, financial planning, technology, and business strategy. The many workshops within this programme will help you to manage people for high performance and achieve extraordinary success in your business.
+
 ### Is this the right training path for you?
 [Login to check](/moodle/){.button}

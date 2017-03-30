@@ -4,6 +4,7 @@ menu: Harcourts and You
 slug: harcourts-and-you
 published: true
 template: modular_sidebar
+
 taxonomy:
   category: courses
   tag: [courses,featured,induction]
@@ -24,22 +25,25 @@ course_information:
     value: 1/2 day
 ---
 
-The Harcourts and You has been designed to provide an in-depth introduction to Harcourts – Who we are, Where we are in the world, What we have to offer, Why we do what we do, and How we operate as an organisation.
-
-Everyone joining team Harcourts, no matter what role, is warmly welcomed to this interactive and enlightening session.
+Welcome to Harcourts! This session has been designed to provide an in-depth introduction to Harcourts and what it means to be better in blue! 
+This is an excellent opportunity to take a behind the scenes tour of each department and how they support you – training, marketing, communications, technology, e-business, finance, specialist divisions, events and recognition.
 
 ===
 
-![](harcourts_and_you.jpg)
+- Connect with Harcourts, our culture and our people
+- Understand our purpose, key philosophies and the values we live by
+- Discover just how strong our brand is on the world stage
+- Learn about the vast number of advantages Harcourts offers you
+- Feel the difference that is Harcourts
 
-## Key benefits
+## Who should complete this training?
+Everyone joining team Harcourts, no matter what role, is warmly welcomed to this interactive and enlightening session.
 
-- Connect with Harcourts, our culture and our people.
-- Discover just how strong the brand that you are now a part of is on the world stage.
-- Understand our purpose, key philosophies and the values we live by.
-- Meet the Harcourts team, from international management through to your local support network.
-- Learn about our company structure and the many products and services we have available to the public.
-- Know about the vast number of advantages Harcourts offers you.
-- Take a look behind the public face at the departments and the products and services supporting you – training, marketing, communications, technology, e-business, finance, specialist divisions, events and recognition.
-- Hear about our charity Foundation and the impact we are having on our communities.
-- Feel the difference that is Harcourts.
+## Training Requirements
+Half day, in-class training
+
+## Course Fee
+Complimentary
+
+## Availability
+Harcourts & You is presented in all the main Academy training centres by the Academy’s team of specialist trainers.

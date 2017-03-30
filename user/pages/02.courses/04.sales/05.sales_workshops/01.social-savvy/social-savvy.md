@@ -1,12 +1,17 @@
 ---
-title: "Post. Pin. Tweet. #SocialSavvy Workshop"
-menu: Post. Pin. Tweet.
-slug: post-pin-tweet
+title: Social Savvy Workshop
+slug: social-savvy
 onpage_menu: false
 published: true
+template: modular_sidebar
+
 taxonomy:
   category: courses
   tag: [courses,sales,workshops,sales consultants,business owners,managers,post pin tweet]
+
+routes:
+  aliases:
+    - '/courses/sales/sales-workshops/post-pin-tweet'
 
 body_classes: "modular header-image fullwidth courses"
 banner_image: theme://images/banners/courses.jpg
@@ -19,7 +24,7 @@ Are you looking for a more cost effective way to get in front of prospects? Sear
 
 ===
 
-![](post-pin-tweet@2x.jpg)
+![](social-savvy@2x.jpg)
 
 **Target group**: Consultants wishing to gain a better understanding of how to create and manage their online social presence. Suitable for beginner to intermediate levels of online marketing experience.
 

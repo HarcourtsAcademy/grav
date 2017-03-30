@@ -22,26 +22,19 @@ youtube:
         rel: false
         showinfo: false
 
+course_information:
+  - key: Duration
+    value: Self-paced
+
 ---
 
-iStart Online is a self paced programme for those new to real estate sales. It covers the foundations of real estate sales and is designed to help students attain lifetime success in the real estate business. Real life examples that have worked for some of our most successful sales consultants are provided throughout the course. Let their experience guide you along your journey.
+An online, self-paced 12 workshop programme for those new to real estate sales. iStart will help you create lifetime success in the real estate business. The programme requires self-commitment and a willingness to complete all practical activities.
 
 ===
 
-[Open NEW iStart Online](/istart#pk_campaign=web-ARET.com&pk_kwd=OpenNewIStartOnline) {.button}
-[Where is iStart24?](/courses/sales/istart/istart24) {.button-text}
-
-## The NEW iStart Online
-
-The [new iStart Online](/istart#pk_campaign=web-ARET.com&pk_kwd=NewIStartOnline) replaces the old [iStart24 24-week online programme](/courses/sales/istart/istart24). We have refined and updated the new iStart making it faster and easier to complete.
-
-The new iStart is available in Australia, Canada, Dubai, New Zealand, South Africa and the USA. To get started, buy unlimited access using your credit card or attend an Academy 4-day Getting Started the Harcourts Way and receive access to new iStart included in the course cost.
+[Start iStart Online](/istart#pk_campaign=web-ARET.com&pk_kwd=OpenNewIStartOnline) {.button}
 
 [plugin:youtube](https://www.youtube.com/watch?v=5hkyVoXiXhw)
-
-Target Group: New to the industry buyers assistants, sales consultants and their personal assistants
-
-**Duration**: self paced
 
 ## What You Will Learn
 iStart Online consists of 12 workshops
@@ -63,3 +56,9 @@ iStart Online consists of 12 workshops
   <strong>Workshop 12</strong> Service to Sellers<br/>
   </div>
 </div>
+
+## Who should complete this training?
+This programme is designed for new to real estate salespersons as well as those who operate as a personal or buyer’s assistant.
+
+## Course Fee
+$60.00 / ZAR R250  (Complimentary if you have registered for [Getting Started the Harcourts Way](/getting-started-the-harcourts-way) 4-day Sales Programme)

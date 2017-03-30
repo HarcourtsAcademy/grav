@@ -4,6 +4,8 @@ menu: Auction & Auctioneering
 slug: auction
 onpage_menu: false
 published: true
+template: modular_sidebar
+
 taxonomy:
   category: courses
   tag: [courses,sales,auction,sales consultants,business owners,auctioneer,managers]

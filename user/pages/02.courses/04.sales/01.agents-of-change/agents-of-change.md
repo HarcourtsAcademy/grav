@@ -19,30 +19,31 @@ side_bar_menu: true;
 
 ---
 
-Agents of change is an essential starting point for every experienced sales consultant, new to the Harcourts brand.
-
-This session is an induction to sales, the Harcourts way highlighting our core Harcourts systems, tools & resources. Take advantage of the extensive support and in-the-field resources on offer to take your businesses to the next level of success.
+Are you an experienced sales person, new to our brand? Needing help understanding what we have and where to find it all? Curious to find out how Harcourts supports our people? If so, then this ‘Harcourts on a plate’ showcase, is a must to attend!
 
 ===
 
-## Target Group
-Experienced consultants, new to the Harcourts brand
+## During this session, you will preview:
+-	HarcourtsOne - database, property listings, email marketing & task management 
+-	Harcourts listing system
+-	Our Promise and the client login
+-	e-Business apps and Harcourts websites 
+-	Time management and business planning tools
+-	Harcourts resource and media library – letters, forms, checklists, scripts, interviews, tutorials & more
+-	Further workshops and training to attend
 
-## Course Duration
-Half Day
+## Who should complete this training?
+This programme is designed for experienced real estate salespersons or those who operate as a personal or buyer’s assistant, who are new to the Harcourts brand.
 
-## Course Cost & Materials
-$200 (ex. GST) and includes Harcourts Agent Start-up Kit
+## Training Requirements
+Half day, in-class training
 
-## Course Overviews
+## Course Fee
+$200.00
 
-- HarcourtsOne - database, property listings, email marketing & task management
-- Harcourts listing system
-- Our Promise and the client login
-- e-Business apps and Harcourts websites
-- Time management and business planning tools
-- Harcourts resource and media library - letters, forms, checklists, scripts, interviews, tutorials & more
-- Further workshops and training to attend
+## Included in Course Fee
+-	Harcourts Agent Start-up Kit
+-	Harcourts Apps – 12-month trial subscription to Harcourts eOne, eCampaign & eOpen Apps
 
 ## Availability
-Agents of Change is presented in all the main [Academy training centres](/about-us/contact-us/locations) by the Academy's team of specialist trainers.
+Agents of Change is presented in all the main Academy training centres by the Academy's team of specialist trainers.

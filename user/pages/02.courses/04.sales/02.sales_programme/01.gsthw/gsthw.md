@@ -20,31 +20,34 @@ side_bar_menu: true;
 
 ---
 
-This programme is designed for people who wish to become registered real estate salespersons, have moved country or interstate, or operate as personal assistants. A blended learning programme incorporating online learning, in-class training and in-the-field projects, this programme provides the required qualifications for industry certification.
-
-Attached to this programme is [iStart](/courses/sales/istart) - a 12 workshop programme of clear instruction and on-the-job business activities.
+A blended learning programme incorporating online learning, in-class training and in-the-field projects, this programme provides the required qualifications for industry certification. Throughout the programme we’ve provided real life examples that have worked for some of our most successful sales consultants. Let their experience guide you along your journey.
 
 ===
 
-**Target Groups**: New to the industry sales consultants and their personal assistants
+## What you will learn
+-	To develop real estate success attitudes and strategies
+-	To mind your own business - planning and goal setting
+-	To generate leads for future business through consultative techniques
+-	To make superstar presentations and sales
+-	To build repeat and referral business through client management systems
+-	To develop skills for managing yourself and achieving life balance
+-	To maximise the benefits of Harcourts technology, communication and marketing tools for self-promotion, service and efficiency
+- Gain your Salesperson Registration qualification for industry certification (Australia only)
 
-**Duration**: 4 days
+## Who should complete this training?
+This programme is designed for people who wish to become registered real estate salespersons, have moved country or interstate, or operate as a personal or buyer’s assistant.
 
-## What You Will Learn
-- To develop real estate success attitudes and strategies
-- To mind your own business - planning and goal setting
-- To generate leads for future business through consultative techniques
-- To make superstar presentations and sales
-- To build repeat and referral business through client management systems
-- To develop skills for managing yourself and achieving life balance
-- To maximise the benefits of Harcourts technology, communication and marketing tools for self promotion, service and efficiency
+## Training Requirements
+3–4 days completing pre-course reading and set tasks online, 4 days in-class training, study during the student’s own time, one-on-one coaching in the field with the student’s manager, in the field guidance and project work prior to graduation. After a minimum of 45 days in the field, students return to the classroom to complete Graduate Day.
 
-## Getting Started the Harcourts Way Structure
-Getting Started the Harcourts Way is the first component of the Academy [Sales Programme](/courses/sales/sales-programme).
+## Course Fee
+TBD: INCLUDE per state fee table
 
-The full Sales Programme for new to the industry consultants incorporates approximately 3 – 4 days completing online tasks prior to attending 4 days classroom training. Students then commence the [iStart](/courses/sales/istart) programme consisting of 12 in-the-field workshops and during this time students return to the classroom to complete [Graduate Day](/courses/sales/sales-programme/graduate-day).
-
-Participants may return at no charge within 12 months to attend the course again.
+## Included in Course Fee
+-	Getting Started the Harcourts Way Student Pack
+-	[iStart Online](/courses/sales/istart) –  coaching and accountability programme providing clear instruction and activities for new to the industry sales professionals.
+-	Harcourts Apps – 12-month subscription to Harcourts eOne, eCampaign & eOpen Apps
+-	Graduate Day attendance
 
 ## Availability
-Getting Started the Harcourts Way is presented in all the main Academy training centres by the Academy's team of specialist trainers.
+Getting Started the Harcourts Way is presented in all the main Academy training centres by the Academy’s team of specialist trainers.

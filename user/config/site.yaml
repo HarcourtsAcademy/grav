@@ -62,8 +62,8 @@ summary:
   size: 300                                 # Maximum length of summary (characters)
 routes:
   /ce-cpd: '/courses/continuing-education-and-cpd'
-  /courses/auctioneering: '/courses/sales/auction'
-  /courses/leadership/auction: '/courses/sales/auction'
+  /courses/sales/auction: '/courses/auction'
+  /courses/leadership/auction: '/courses/auction'
   /info: '/'
   ^/istart24$: '/courses/sales/istart/istart24' # Needs the caret and '$' to prevent recursive redirections
   /online-learning/istart-online: '/courses/sales/istart'
