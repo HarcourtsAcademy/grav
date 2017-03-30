@@ -16,6 +16,9 @@ featherlight:
   active: true
   gallery: false
 
+bootstrap:
+  enabled: true
+
 content:
     items: @self.modular
     order:

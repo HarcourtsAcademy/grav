@@ -25,6 +25,9 @@
     {% block stylesheets %}
         {% do assets.addCss('theme://css-compiled/nucleus.css',102) %}
         {% do assets.addCss('theme://css-compiled/template.css',101) %}
+        {% if header.bootstrap.enabled %}
+            {% do assets.addCss('theme://css-compiled/bootstrap.css',103) %}
+        {% endif %}
         {% do assets.addCss('theme://css/custom.css',100) %}
         {% do assets.addCss('theme://css/font-awesome.min.css',100) %}
         {% do assets.addCss('theme://css/plugins/youtube.css') %}
@@ -48,7 +51,9 @@
         {% do assets.addJs('theme://js/deliver.js') %}
         {% do assets.addJs('theme://js/slidebars.min.js') %}
         {% do assets.addJs('theme://js/jquery.slideme2.js') %}
-        {% do assets.addJs('theme://js/bootstrap-collapse.js') %}
+        {% if header.bootstrap.enabled %}
+            {% do assets.addJs('theme://js/bootstrap/collapse.js') %}
+        {% endif %}
     {% endblock %}
     {{ assets.js() }}
 
