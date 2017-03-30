@@ -1181,14 +1181,27 @@ img.inline-left {
 #content > ol > li {
   padding-bottom: 0.4rem; }
 
-div.training_paths_course {
+.text-and-lightbox-wrapper {
+  padding-top: 2rem; }
+
+.training-path-summary .training-path-description {
+  padding-right: 2rem; }
+.training-path-summary .training-path-list ol {
+  list-style-position: inside;
+  padding-left: 0; }
+  .training-path-summary .training-path-list ol li {
+    background-color: lightgray;
+    margin: 0.2rem 0;
+    padding: 0.2rem; }
+
+.training-paths-course {
   display: inline-block;
   float: left;
   width: 45%;
-  margin: 0 1rem;
+  margin-right: 2rem;
   margin-bottom: 2rem; }
   @media only all and (max-width: 47.938em) {
-    div.training_paths_course {
+    .training-paths-course {
       width: 100%; } }
 
 #sidebar .sidebar-content ul.navigation {

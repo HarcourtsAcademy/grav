@@ -45,12 +45,34 @@ img.inline-left {
   padding-bottom: 0.4rem;
 }
 
+.text-and-lightbox-wrapper {
+  padding-top: 2rem;
+}
+
 // Academy Training Pathways
-div.training_paths_course {
+.training-path-summary {
+
+  .training-path-description {
+    padding-right: 2rem;
+  }
+  .training-path-list {
+    
+    ol {
+      list-style-position: inside;
+      padding-left: 0;
+      li {
+        background-color: lightgray;
+        margin: 0.2rem 0;
+        padding: 0.2rem;
+      }
+    }
+  }
+}
+.training-paths-course {
   display: inline-block;
   float: left;
   width: 45%;
-  margin: 0 1rem;
+  margin-right: 2rem;
   margin-bottom: 2rem;
   @include breakpoint(mobile-only) {
     width: 100%;
