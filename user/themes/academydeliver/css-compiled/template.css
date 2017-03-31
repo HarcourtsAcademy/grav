@@ -1181,8 +1181,20 @@ img.inline-left {
 #content > ol > li {
   padding-bottom: 0.4rem; }
 
+.lead {
+  margin-bottom: 20px;
+  font-size: 1.15rem;
+  font-weight: 300;
+  line-height: 1.4;
+  color: #00adef; }
+  @media only all and (max-width: 47.938em) {
+    .lead {
+      font-size: 1.5rem; } }
+
 .text-and-lightbox-wrapper {
   padding-top: 2rem; }
+  .text-and-lightbox-wrapper .overview-text {
+    padding-right: 2rem; }
 
 .toc ul {
   margin-top: 0;

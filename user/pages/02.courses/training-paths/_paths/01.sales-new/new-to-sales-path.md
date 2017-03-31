@@ -28,5 +28,4 @@ Register for this pathway to become industry accredited through our sales regist
 
 ===
 
-### Is this the right training path for you?
-[Login to check](/moodle/){.button}
+[Is this the right training path for you? Login to check](/moodle/){.button}

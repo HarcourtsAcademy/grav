@@ -45,8 +45,25 @@ img.inline-left {
   padding-bottom: 0.4rem;
 }
 
+// From Bootstrap / type
+.lead {
+  margin-bottom: 20px;
+  font-size: 1.15rem;
+  font-weight: 300;
+  line-height: 1.4;
+  color: $core-accent;
+
+  @include breakpoint(mobile-only) {
+    font-size: 1.5rem;
+  }
+}
+// END From Bootstrap / type
+
 .text-and-lightbox-wrapper {
   padding-top: 2rem;
+  .overview-text {
+    padding-right: 2rem;
+  }
 }
 
 // Table of contents
