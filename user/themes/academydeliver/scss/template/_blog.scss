@@ -159,7 +159,7 @@ div#breadcrumbs {
 #sidebar {
     padding: 0 1rem;
     margin: 0 0 2rem 2rem;
-    background-color: #F6F6F6;
+    background-color: $secondary-bg;
 
     @include breakpoint(mobile-only) {
         margin: 0 0 1rem 0;
