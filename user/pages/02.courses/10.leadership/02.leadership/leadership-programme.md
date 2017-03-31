@@ -3,6 +3,8 @@ title: Leadership Programme
 slug: leadership-programme
 onpage_menu: false
 published: true
+template: course
+
 taxonomy:
   category: courses
   tag: [leadership,business owners,managers,future leaders, partners in excellence, the critical ingredient, effective marketing, establishing an auction culture, training and coaching your people, recruitment the life blood of your business, essentials of finance, building a business plan, communication profit from connections, know your people to manage their performance, the art of leadership, marketing for impact and influence, master mentor, building a secure business, advanced money matters, managing change]

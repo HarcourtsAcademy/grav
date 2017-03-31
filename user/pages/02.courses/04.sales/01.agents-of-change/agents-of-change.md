@@ -7,6 +7,7 @@ template: modular_sidebar
 taxonomy:
   category: courses
   tag: [courses,sales,sales consultants]
+  training_paths: [sales-experienced]
 
 routes:
   aliases:
