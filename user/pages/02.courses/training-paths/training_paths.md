@@ -19,6 +19,9 @@ featherlight:
 bootstrap:
   enabled: true
 
+salvattore:
+  enabled: true
+
 content:
     items: @self.modular
     order:

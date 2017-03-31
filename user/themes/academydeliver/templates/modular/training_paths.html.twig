@@ -29,13 +29,17 @@
           </div>
         </div>
 
+        <div class="salvattore-grid" data-columns>
+        {% set counter = 1 %}
         {% for course in taxonomy.findTaxonomy( { 'category': 'courses', 'training_paths': pathway.slug } ).order('folder', 'asc')  %}
-        <div class="training-paths-course" id="{{ pathway.slug }}-{{ course.slug }}">
-          <h5><a href="{{ course.link }}">{{ course.title }}</a></h5>
-          <p>{{ course.summary }}</p>
-          <a href="{{ course.link }}" class="button button-small"><i class="fa fa-book" aria-hidden="true"></i> Read more</a>
-        </div>
+          <div class="training-paths-course" id="{{ pathway.slug }}-{{ course.slug }}">
+            <h4><a href="{{ course.link }}">{{ counter}}. {{ course.title }}</a></h4>
+            <p>{{ course.summary }}</p>
+            <a href="{{ course.link }}" class="button button-small"><i class="fa fa-book" aria-hidden="true"></i> Read more</a>
+          </div>
+          {% set counter = counter + 1 %}
         {% endfor %}
+        </div>
       </div>
     </div>
   </div>

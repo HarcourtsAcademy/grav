@@ -45,19 +45,6 @@
     {% endblock %}
     {{ assets.css() }}
 
-    {% block javascripts %}
-        {% do assets.add('jquery', 101) %}
-        {% do assets.addJs('theme://js/modernizr.custom.71422.js',100) %}
-        {% do assets.addJs('theme://js/deliver.js') %}
-        {% do assets.addJs('theme://js/slidebars.min.js') %}
-        {% do assets.addJs('theme://js/jquery.slideme2.js') %}
-        {% if header.bootstrap.enabled %}
-            {% do assets.addJs('theme://js/bootstrap/collapse.js') %}
-            {% do assets.addJs('theme://js/bootstrap/transition.js') %}
-        {% endif %}
-    {% endblock %}
-    {{ assets.js() }}
-
 {% endblock head%}
 </head>
 {% set body_classes = page.header.body_classes ? page.header.body_classes : 'modular header-image fullwidth' %}
@@ -128,16 +115,33 @@
         </div>
     </div>
     {% block bottom %}
-    <script>
-    $(function () {
-        $(document).ready(function() {
-          $.slidebars({
-            hideControlClasses: true,
-            scrollLock: true
-          });
+
+        {% block javascripts %}
+            {% do assets.add('jquery', 101) %}
+            {% do assets.addJs('theme://js/modernizr.custom.71422.js',100) %}
+            {% do assets.addJs('theme://js/deliver.js') %}
+            {% do assets.addJs('theme://js/slidebars.min.js') %}
+            {% do assets.addJs('theme://js/jquery.slideme2.js') %}
+            {% if header.bootstrap.enabled %}
+                {% do assets.addJs('theme://js/bootstrap/collapse.js') %}
+                {% do assets.addJs('theme://js/bootstrap/transition.js') %}
+            {% endif %}
+            {% if header.salvattore.enabled %}
+                {% do assets.addJs('theme://js/salvattore.js') %}
+            {% endif %}
+        {% endblock %}
+        {{ assets.js() }}
+
+        <script>
+        $(function () {
+            $(document).ready(function() {
+            $.slidebars({
+                hideControlClasses: true,
+                scrollLock: true
+            });
+            });
         });
-    });
-    </script>
+        </script>
     {% endblock %}
     {% block analytics  %}
     {% if config.system.analytics.enabled == true %}
