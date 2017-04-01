@@ -18,6 +18,13 @@ content:
     by: basename
     dir: asc
 
+buttons:
+    - text: Is the New to Sales Training Path right for you? Login to check
+      icon: fa-road
+      url: /moodle/
+      primary: true
+      small: true
+
 ---
 
 ### Serious about starting a career in real estate sales?
@@ -27,5 +34,3 @@ Get industry qualified by completing our award-winning sales training.
 Register for this pathway to become industry accredited through our sales registration training. Once completed you will gain access to your continued learning modules online when you want, where you want and then return for your graduate day to recharge & reconnect to your business goals.
 
 ===
-
-[Is this the right training path for you? Login to check](/moodle/){.button}

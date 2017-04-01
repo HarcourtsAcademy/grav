@@ -1,6 +1,7 @@
 
 <div class="training_path_content">
 {{ content }}
+
 </div>
 
 <div class="panel-group" id="training_paths_accordion" role="tablist" aria-multiselectable="true">
@@ -29,6 +30,12 @@
           </div>
         </div>
 
+        <div class="training-path-actions">
+          {% for button in pathway.header.buttons %}
+          <a class="button{% if button.primary %} primary{% endif %}{% if button.small %} button-small{% endif %}" href="  {% if "base_url:" in button.url %}{{ base_url_absolute }}/{{ button.url|replace({"base_url:": ""}) }}{% else %}{{ button.url }}{% endif %}">{% if button.icon %}<i class="fa {{ button.icon }}"></i> {% endif %}{{ button.text }}</a>
+          {% endfor %}
+        </div>
+
         <div class="salvattore-grid" data-columns>
         {% set counter = 1 %}
         {% for course in taxonomy.findTaxonomy( { 'category': 'courses', 'training_paths': pathway.slug } ).order('folder', 'asc')  %}
@@ -39,6 +46,12 @@
           </div>
           {% set counter = counter + 1 %}
         {% endfor %}
+        </div>
+
+        <div class="training-path-actions clearfix">
+          {% for button in pathway.header.buttons %}
+          <a class="button{% if button.primary %} primary{% endif %}{% if button.small %} button-small{% endif %}" href="  {% if "base_url:" in button.url %}{{ base_url_absolute }}/{{ button.url|replace({"base_url:": ""}) }}{% else %}{{ button.url }}{% endif %}">{% if button.icon %}<i class="fa {{ button.icon }}"></i> {% endif %}{{ button.text }}</a>
+          {% endfor %}
         </div>
       </div>
     </div>

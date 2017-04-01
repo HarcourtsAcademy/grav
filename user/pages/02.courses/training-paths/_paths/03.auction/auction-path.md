@@ -9,6 +9,13 @@ taxonomy:
   audience: [sales consultants]
   experience_level: [experienced]
 
+buttons:
+  - text: Is the Auction Training Path right for you? Login to check
+    icon: fa-road
+    url: /moodle/
+    primary: true
+    small: true
+
 ---
 
 ### Harcourts Auctions: Your point of difference.
@@ -18,6 +25,3 @@ Looking to standout in your marketplace? Our Auction Pathway provides just that!
 This training pathway provides real estate professionals with the necessary training needed to list, market and sell property using the Harcourts Auction process.
 
 ===
-
-### Is this the right training path for you?
-[Login to check](/moodle/){.button}

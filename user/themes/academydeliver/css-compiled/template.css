@@ -1228,6 +1228,13 @@ img.inline-left {
       text-decoration: none;
       color: #fff; }
 
+.training-path-actions {
+  text-align: center; }
+  .training-path-actions:after {
+    content: "";
+    display: table;
+    clear: both; }
+
 .training-path-summary .training-path-description {
   padding-right: 2rem; }
 .training-path-summary .training-path-list ol {
@@ -1276,6 +1283,10 @@ img.inline-left {
 .training-path-summary .training-path-list ol ol li:last-child {
   margin-bottom: 0; }
 
+.salvattore-grid:after {
+  content: "";
+  display: table;
+  clear: both; }
 .salvattore-grid .training-paths-course {
   margin-right: 2rem;
   margin-bottom: 2rem; }

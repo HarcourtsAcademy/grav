@@ -9,6 +9,13 @@ taxonomy:
   audience: [sales consultants]
   experience_level: [experienced]
 
+buttons:
+  - text: Is the Leadership Training Path right for you? Login to check
+    icon: fa-road
+    url: /moodle/
+    primary: true
+    small: true
+
 ---
 
 ### The art of leadership: Become a leader, not a boss.
@@ -28,6 +35,3 @@ There is no one-size fits all approach to leadership. Being a great leader is no
 -	sharing your vision and creating a culture where people feel valued
 
 Our leadership training includes applied topics such as leadership, coaching and training, marketing, systems, financial planning, technology, and business strategy. The many workshops within this programme will help you to manage people for high performance and achieve extraordinary success in your business.
-
-### Is this the right training path for you?
-[Login to check](/moodle/){.button}

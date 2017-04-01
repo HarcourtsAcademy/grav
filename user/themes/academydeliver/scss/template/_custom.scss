@@ -115,6 +115,10 @@ img.inline-left {
   }
 }
 
+.training-path-actions {
+  @include clearfix;
+  text-align: center;
+}
 
 .training-path-summary {
 
@@ -165,9 +169,13 @@ img.inline-left {
 
   }
 }
-.salvattore-grid .training-paths-course {
-  margin-right:   2rem;
-  margin-bottom:  2rem;
+.salvattore-grid {
+  @include clearfix;
+
+  .training-paths-course {
+    margin-right:   2rem;
+    margin-bottom:  2rem;
+  }
 }
 
 @include breakpoint(mobile-only) {

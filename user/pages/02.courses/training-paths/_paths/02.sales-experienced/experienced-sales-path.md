@@ -9,6 +9,12 @@ taxonomy:
   audience: [sales consultants]
   experience_level: [experienced]
 
+buttons:
+  - text: Is the Experienced Sales Training Path right for you? Login to check
+    icon: fa-road
+    url: /moodle/
+    primary: true
+    small: true
 
 ---
 
@@ -19,6 +25,3 @@ This pathway is an essential starting point for every experienced sales consulta
 Take advantage of the extensive support on offer. This is a great opportunity to upskill and give yourself the competitive edge in your marketplace. 
 
 ===
-
-### Is this the right training path for you?
-[Login to check](/moodle/){.button}
