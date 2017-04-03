@@ -93,7 +93,7 @@ img.inline-left {
         display: block;
         height: #{$accordion-height}px;
         /* symbol for opened panels */
-        background-image: url("data:image/svg+xml,%3Csvg width='#{$accordion-height}' height='#{$accordion-height}' viewBox='0 0 #{$accordion-height} #{$accordion-height}' xmlns='http://www.w3.org/2000/svg'%3E %3Crect fill='%23000' width='#{$accordion-height}' height='#{$accordion-height}' x='0' y='0'%3E%3C/rect%3E %3Crect fill='%23FFF' width='#{$accordion-icon-height}' height='#{$accordion-icon-width}' x='#{$accordion-icon-x}' y='#{$accordion-icon-y}'%3E%3C/rect%3E %3C/svg%3E");
+        background-image: #{inline-svg("<svg width='#{$accordion-height}' height='#{$accordion-height}' viewBox='0 0 #{$accordion-height} #{$accordion-height}' xmlns='http://www.w3.org/2000/svg'> <rect fill='#000' width='#{$accordion-height}' height='#{$accordion-height}' x='0' y='0'></rect> <rect fill='#FFF' width='#{$accordion-icon-height}' height='#{$accordion-icon-width}' x='#{$accordion-icon-x}' y='#{$accordion-icon-y}'></rect> </svg>")};
         background-repeat: no-repeat;
         background-position: 0% 50%;
         h4 {
@@ -105,7 +105,7 @@ img.inline-left {
       }
       .accordion-toggle.collapsed {
           /* symbol for collapsed panels */
-          background-image: url("data:image/svg+xml,%3Csvg width='#{$accordion-height}' height='#{$accordion-height}' viewBox='0 0 #{$accordion-height} #{$accordion-height}' xmlns='http://www.w3.org/2000/svg'%3E %3Crect fill='%23000' width='#{$accordion-height}' height='#{$accordion-height}' x='0' y='0'%3E%3C/rect%3E %3Crect fill='%23FFF' width='#{$accordion-icon-height}' height='#{$accordion-icon-width}' x='#{$accordion-icon-x}' y='#{$accordion-icon-y}'%3E%3C/rect%3E %3Crect fill='%23FFF' width='#{$accordion-icon-width}' height='#{$accordion-icon-height}' x='#{$accordion-icon-y}' y='#{$accordion-icon-x}'%3E%3C/rect%3E %3C/svg%3E");
+          background-image: #{inline-svg("<svg width='#{$accordion-height}' height='#{$accordion-height}' viewBox='0 0 #{$accordion-height} #{$accordion-height}' xmlns='http://www.w3.org/2000/svg'> <rect fill='#000' width='#{$accordion-height}' height='#{$accordion-height}' x='0' y='0'></rect> <rect fill='#FFF' width='#{$accordion-icon-height}' height='#{$accordion-icon-width}' x='#{$accordion-icon-x}' y='#{$accordion-icon-y}'></rect> <rect fill='#FFF' width='#{$accordion-icon-width}' height='#{$accordion-icon-height}' x='#{$accordion-icon-y}' y='#{$accordion-icon-x}'></rect> </svg>")};
       }
       a.accordion-toggle {
           text-decoration: none;
