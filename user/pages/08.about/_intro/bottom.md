@@ -3,6 +3,10 @@ title: Contact Us
 menu: false
 
 buttons:
+- text: Contact Us
+  icon: fa-phone
+  url: about-us/contact-us/
+  primary: true
 - text: Find the Academy
   icon: fa-map-marker
   url: about-us/contact-us/locations
