@@ -8,8 +8,8 @@ featherlight:
     image: training-pathways.jpg
 ---
 
-<p class="lead">The Academy have developed training pathways for Harcourts team members. We currently have training pathways designed specifically for Sales, Auction, and Leadership with more on the way!</p>
+<p class="lead">Harcourts has long held the reputation for providing quality education for the continuous growth of our people and we are with you every step of the way.</p>
 
-Set the foundation for your future growth, follow your pathway at your own pace and commit to your future success today.
+We currently have training pathways designed specifically for Sales, Auction, and Leadership plus more on the way! Set the foundation for your future growth, follow your pathway at your own pace and commit to your future success today.
 
 Not a member of Harcourts? [Register your interest](#TODO) in joining our team.
