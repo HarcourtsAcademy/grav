@@ -9,8 +9,8 @@ slides:
     - text: "Register for training"
       icon: fa-calendar
       url: /courses/calendars-and-upcoming-courses
-    - text: "Find your next level"
-      icon: fa-signal
-      url: /online-learning
+    - text: "Find your path"
+      icon: fa-road
+      url: /courses/training-pathways
 
 ---
