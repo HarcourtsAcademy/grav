@@ -17,7 +17,13 @@ side_bar_menu: true;
 
 ---
 
-TODO: Add summary text for Are you an Auction Agent workshop.
+Interested to know more about the Auction process? This workshop is intended as an introduction and overview to the Harcourts Auctions Platform and will cover:
+- The Auction method of sale
+- The three stages to Auction
+- The benefits of Auction
+- Common Seller concerns about Auction and Scripts
+- How to get started
+- Support available
 
 ===
 

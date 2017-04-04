@@ -17,21 +17,18 @@ side_bar_menu: true;
 
 ---
 
-TODO: Add summary text for Auction Essentials
+Looking to learn from the very best Auctioneers? Obtain the blueprint for success by attending this comprehensive two-day programme where you will learn about:
+ 
+-	How to establish a strong working relationship and communicate effectively with sellers
+-	Scripts to assist you with handling common seller concerns about auction
+-	How to work with buyers for auction and explain the benefits of the auction process to them
+-	Effective scripts for discussing price with buyers of no-price property
+-	How to effectively manage the process and obtain a better understanding of of the auction listing file and what it should contain
+-	Understand the roles and responsibilities of the listing agent and the Harcourts Auctions team and the support available to you
 
 ===
 
-## What you will learn:
--	The auction method of marketing property and why no-price marketing can be so successful
--	Scripts to assist you with handling common seller concerns about auction
--	The importance of the auction listing file and what it should contain
--	How to identify components for bidders packages and review high profile auction marketing plans
--	How to work with buyers for auction and explain the benefits of the auction process to them
--	Effective scripts for discussing price with buyers of no-price property
--	How to establish a strong working relationship and communicate effectively with sellers
-
-
-Who should complete this training?
+## Who should complete this training?
 This session is designed for real estate salespersons or those who operate as a personal or buyer’s assistant, who are looking to implement the Auction method of sale within their business.
 
 ## Training Requirements
