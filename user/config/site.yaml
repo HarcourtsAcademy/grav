@@ -107,6 +107,16 @@ redirects:
   /au/istart24/week24: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=150&section=116
   /au/istart24/week25survey: http://www.academyrealestatetraining.com/au/moodle/mod/questionnaire/view.php?id=2337
   /au/rpl: http://www.academyrealestatetraining.com/au/moodle/course/view.php?id=154
+  ## Latest Training Calendars
+  /courses/calendars/au/new-south-wales:    /courses/calendars-and-upcoming-courses/_calendars/2017/NSW-Training-Calendar-2017.pdf
+  /courses/calendars/au/queensland:         /courses/calendars-and-upcoming-courses/_calendars/2017/QLD-Training-Calendar-2017.pdf
+  /courses/calendars/au/south-australia:    /courses/calendars-and-upcoming-courses/_calendars/2017/SA-Training-Calendar-2017.pdf
+  /courses/calendars/au/tasmania:           /courses/calendars-and-upcoming-courses/_calendars/2017/TAS-Training-Calendar-2017.pdf
+  /courses/calendars/au/victoria:           /courses/calendars-and-upcoming-courses/_calendars/2017/Vic-Training-Calendar-2017.pdf
+  /courses/calendars/au/western-australia:  /courses/calendars-and-upcoming-courses/_calendars/2017/WA-Training-Calendar-2017.pdf
+  /courses/calendars/nz/central:            /courses/calendars-and-upcoming-courses/_calendars/2017/NZ-Central-Training-Calendar-2017.pdf
+  /courses/calendars/nz/northern:           /courses/calendars-and-upcoming-courses/_calendars/2017/NZ-Northern-Training-Calendar-2017.pdf
+  /courses/calendars/us/pacific:            /courses/calendars-and-upcoming-courses/_calendars/2017/USA-Training-Calendar-2017.pdf
   /istart$: https://www.academyrealestatetraining.com/moodle/course/view.php?id=8 #needs the end '$' to prevent it matching the start of '/istart24'
   /landing/eone: /online-learning/bites/#pk_campaign=app-eone
   /landing/eopen: /online-learning/bites/#pk_campaign=app-eopen
