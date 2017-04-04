@@ -3,6 +3,8 @@
      {{ page.content }}
     </div>
     <div class="overview-lightbox g-block size-1-3 pure-u-1-3">
-    {{ page.media[page.header.featherlight.image].lightbox(1000,1000).cropResize(600,600).derivatives(400,600,200).sizes('(max-width:26em) 100vw, 50vw').html('Sample Image') }}
+    {% set lightbox = page.header.featherlight %}
+    {{ page.media[lightbox.image].lightbox(lightbox.width,lightbox.height).crop(0,0,700,600).derivatives(600,lightbox.width,200).sizes('(max-width:26em) 100vw, 50vw').html('lightbox',lightbox.alt,'lightbox') }}
+    {{ page.media[lightbox.image].html('Lightbox',lightbox.alt,'no-lightbox') }}
     </div>
 </div>

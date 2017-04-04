@@ -64,6 +64,16 @@ img.inline-left {
   .overview-text {
     padding-right: 2rem;
   }
+  .overview-lightbox img.lightbox {
+    @include breakpoint(mobile-only) {
+        display: none;
+    }
+  }
+  .overview-lightbox img.no-lightbox {
+    @include breakpoint(no-mobile) {
+      display: none;
+    }
+  }
 }
 
 // Table of contents

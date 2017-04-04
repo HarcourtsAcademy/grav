@@ -1208,6 +1208,12 @@ img.inline-left {
   padding-top: 2rem; }
   .text-and-lightbox-wrapper .overview-text {
     padding-right: 2rem; }
+  @media only all and (max-width: 47.938em) {
+    .text-and-lightbox-wrapper .overview-lightbox img.lightbox {
+      display: none; } }
+  @media only all and (min-width: 48em) {
+    .text-and-lightbox-wrapper .overview-lightbox img.no-lightbox {
+      display: none; } }
 
 .toc ul {
   margin-top: 0;

@@ -5,7 +5,10 @@ template: modular/text_and_lightbox
 featherlight:
     active: true
     gallery: false
-    image: training-pathways.jpg
+    image: training-pathways.png
+    width: 2048
+    height: 2898
+    alt: Training Pathways
 ---
 
 <p class="lead">Harcourts has long held the reputation for providing quality education for the continuous growth of our people and we are with you every step of the way.</p>
