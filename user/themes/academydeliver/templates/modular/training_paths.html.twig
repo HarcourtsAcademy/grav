@@ -19,6 +19,11 @@
         <div class="training-path-summary g-grid pure-g-r">
           <div class="training-path-description g-block pure-u-1-2">
             {{ pathway.content }}
+            <div class="training-path-actions">
+              {% for button in pathway.header.buttons %}
+              <a class="button{% if button.primary %} primary{% endif %}{% if button.small %} button-small{% endif %}" href="  {% if "base_url:" in button.url %}{{ base_url_absolute }}/{{ button.url|replace({"base_url:": ""}) }}{% else %}{{ button.url }}{% endif %}">{% if button.icon %}<i class="fa {{ button.icon }}"></i> {% endif %}{{ button.text }}</a>
+              {% endfor %}
+            </div>
           </div>
           <div class="training-path-list g-block size-1-2 pure-u-1-2">
             <h3>Training Path Courses</h3>
@@ -30,28 +35,16 @@
           </div>
         </div>
 
-        <div class="training-path-actions">
-          {% for button in pathway.header.buttons %}
-          <a class="button{% if button.primary %} primary{% endif %}{% if button.small %} button-small{% endif %}" href="  {% if "base_url:" in button.url %}{{ base_url_absolute }}/{{ button.url|replace({"base_url:": ""}) }}{% else %}{{ button.url }}{% endif %}">{% if button.icon %}<i class="fa {{ button.icon }}"></i> {% endif %}{{ button.text }}</a>
-          {% endfor %}
-        </div>
-
         <div class="salvattore-grid" data-columns>
         {% set counter = 1 %}
         {% for course in taxonomy.findTaxonomy( { 'category': 'courses', 'training_paths': pathway.slug } ).order('folder', 'asc')  %}
           <div class="training-paths-course" id="{{ pathway.slug }}-{{ course.slug }}">
             <h4><a href="{{ course.link }}">{{ counter}}. {{ course.title }}</a></h4>
             <p>{{ course.summary }}</p>
-            <a href="{{ course.link }}" class="button button-small"><i class="fa fa-book" aria-hidden="true"></i> Read more</a>
+            <a href="{{ course.link }}" class="button button-secondary button-small"><i class="fa fa-book" aria-hidden="true"></i> Read more</a>
           </div>
           {% set counter = counter + 1 %}
         {% endfor %}
-        </div>
-
-        <div class="training-path-actions clearfix">
-          {% for button in pathway.header.buttons %}
-          <a class="button{% if button.primary %} primary{% endif %}{% if button.small %} button-small{% endif %}" href="  {% if "base_url:" in button.url %}{{ base_url_absolute }}/{{ button.url|replace({"base_url:": ""}) }}{% else %}{{ button.url }}{% endif %}">{% if button.icon %}<i class="fa {{ button.icon }}"></i> {% endif %}{{ button.text }}</a>
-          {% endfor %}
         </div>
       </div>
     </div>

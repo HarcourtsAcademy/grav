@@ -23,7 +23,7 @@ buttons:
       icon: fa-road
       url: /moodle/
       primary: true
-      small: true
+      small: false
 
 ---
 
