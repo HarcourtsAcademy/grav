@@ -15,6 +15,12 @@ routes:
     - '/harcourts-and-you'
     - '/courses/harcourts-and-you-day'
 
+mautic:
+  formid: 1
+  prefill:
+    - fieldid: mauticform_input_registrationrequest_course_name
+      fieldvalue: Harcourts and You
+
 body_classes: "modular header-image fullwidth courses"
 banner_image: theme://images/banners/courses.jpg
 
@@ -47,3 +53,5 @@ Complimentary
 
 ## Availability
 Harcourts & You is presented in all the main Academy training centres by the Academy’s team of specialist trainers.
+
+<a href="#portfolioModal" class="portfolio-link button button-primary" data-toggle="modal">Register Your Interest</a>
