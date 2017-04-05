@@ -4,6 +4,8 @@ menu: Courses
 onpage_menu: false
 slug: courses
 published: true
+template: modular_sidebar
+
 taxonomy:
   category: courses
   tag: [courses]
@@ -26,6 +28,9 @@ buttons:
     icon: fa-calendar
     url: /courses/calendars-and-upcoming-courses
     primary: true
+  - text: "Find your training pathway"
+    icon: fa-road
+    url: /courses/training-pathways
 
 ---
 
