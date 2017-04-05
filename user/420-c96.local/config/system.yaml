@@ -28,5 +28,8 @@ images:
   default_image_quality: 90
   cache_all: false
 
-analytics:
+piwik:
+  enabled: false
+
+google_analytics:
   enabled: false
