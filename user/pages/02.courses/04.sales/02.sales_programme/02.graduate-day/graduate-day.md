@@ -11,7 +11,7 @@ taxonomy:
 
 routes:
   aliases:
-    - '/graduate-day'
+    - '/sales-graduate-day'
 
 body_classes: "modular header-image fullwidth courses"
 banner_image: theme://images/banners/courses.jpg
