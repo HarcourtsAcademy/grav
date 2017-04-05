@@ -32,12 +32,6 @@ content:
             - _overview
             - _paths
 
-<!--buttons:
-  - text: Training Calendars
-    icon: fa-calendar
-    url: /courses/calendars-and-upcoming-courses
-    primary: true-->
-
 ---
 
 The Academy have developed training pathways for Harcourts team members. We currently have training pathways designed specifically for Sales, Auction, and Leadership with more on the way!
