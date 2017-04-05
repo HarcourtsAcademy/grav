@@ -9,10 +9,11 @@ taxonomy:
   audience: [sales consultants]
   experience_level: [experienced]
 
+## TODO: Fix Moodle login URL before launch
 buttons:
   - text: Is the Leadership Training Path right for you? Login to check
     icon: fa-road
-    url: /moodle/
+    url: https://www.academyrealestatetraining.tk/au/moodle/
     primary: true
     small: true
 
