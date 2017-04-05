@@ -74,6 +74,30 @@ img.inline-left {
       display: none;
     }
   }
+  .lightbox-link {
+      height: 300px;
+      width: 300px;
+      position: absolute;
+      z-index: 1;
+  }
+  .lightbox-link-hover {
+      @extend .default-animation;
+      height: 300px;
+      width: 300px;
+      position: absolute;
+      z-index: 2;
+      opacity: 0;
+      background-color: $core-accent;
+      .fa-plus-square {
+          font-size: 5rem;
+          color: #ffffff;
+          margin-top: 40%;
+          margin-left: 40%;
+      }
+      &:hover {
+          opacity: 0.8;
+      }
+  }
 }
 
 // Table of contents
@@ -95,10 +119,13 @@ img.inline-left {
     box-shadow: none;
     border-radius: 0;
     .panel-heading {
-      background-color: $core-accent;
       border: none;
       border-radius: 0;
+      background-color: $core-accent;
       padding: 0;
+      &:hover {
+        background-color: $core-accent-dark;
+      }
       .accordion-toggle {
         display: block;
         height: #{$accordion-height}px;
@@ -127,7 +154,6 @@ img.inline-left {
 
 .training-path-actions {
   @include clearfix;
-  text-align: center;
 }
 
 .training-path-summary {

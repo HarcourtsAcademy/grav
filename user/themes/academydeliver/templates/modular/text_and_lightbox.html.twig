@@ -4,7 +4,12 @@
     </div>
     <div class="overview-lightbox g-block size-1-3 pure-u-1-3">
     {% set lightbox = page.header.featherlight %}
-    {{ page.media[lightbox.image].lightbox(lightbox.width,lightbox.height).crop(0,0,700,600).derivatives(600,lightbox.width,200).sizes('(max-width:26em) 100vw, 50vw').html('lightbox',lightbox.alt,'lightbox') }}
+    <a rel="lightbox" data-width="{{ lightbox.width }}" data-height="{{ lightbox.height }}" href="{{ page.media[lightbox.image].cropResize(1024,1449).url }}">
+        <div class="lightbox-link">
+            {{ page.media[lightbox.image].display('thumbnail').html('lightbox',lightbox.alt,'lightbox') }}
+        </div>
+        <div class="lightbox-link-hover"><i class="fa fa-plus-square"></i></div>
+    </a>
     {{ page.media[lightbox.image].html('Lightbox',lightbox.alt,'no-lightbox') }}
     </div>
 </div>

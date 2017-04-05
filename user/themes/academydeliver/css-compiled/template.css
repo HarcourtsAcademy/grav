@@ -120,7 +120,7 @@ b, strong, label, th {
   font-stretch: normal;
   src: url("../fonts/EOT/SourceSansPro-BoldIt.eot");
   src: url("../fonts/EOT/SourceSansPro-BoldIt.eot?#iefix") format("embedded-opentype"), url("../fonts/WOFF2/TTF/SourceSansPro-BoldIt.ttf.woff2") format("woff2"), url("../fonts/WOFF/OTF/SourceSansPro-BoldIt.otf.woff") format("woff"), url("../fonts/TTF/SourceSansPro-BoldIt.ttf") format("truetype"); }
-.default-animation, #body, #header #navbar ul.social-icons li, #header #navbar ul.social-icons li a, #header #navbar ul.login li, #header #navbar ul.login li a, .modal, .archive-list button, .slideme_container .arrow, .slideme_container .pagination .numbers li, .inspirational-women-item .contact-icons li a, .contact input, .contact textarea, .contact button, .callout .pricing-container .pricing-item, .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .foot, .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .archive-list button, .archive-list .callout .pricing-container .pricing-item .foot button, .callout .pricing-container .pricing-item .foot .contact button, .contact .callout .pricing-container .pricing-item .foot button, .team .members .contact-icons li a, .offices .locations .contact-icons li a, .logo h3, .logo ul.social-icons li, .logo ul.social-icons li a, .logo ul.login li, .notebook .screen .screen-content-hover {
+.default-animation, #body, #header #navbar ul.social-icons li, #header #navbar ul.social-icons li a, #header #navbar ul.login li, #header #navbar ul.login li a, .modal, .archive-list button, .text-and-lightbox-wrapper .lightbox-link-hover, .slideme_container .arrow, .slideme_container .pagination .numbers li, .inspirational-women-item .contact-icons li a, .contact input, .contact textarea, .contact button, .callout .pricing-container .pricing-item, .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .foot, .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .archive-list button, .archive-list .callout .pricing-container .pricing-item .foot button, .callout .pricing-container .pricing-item .foot .contact button, .contact .callout .pricing-container .pricing-item .foot button, .team .members .contact-icons li a, .offices .locations .contact-icons li a, .logo h3, .logo ul.social-icons li, .logo ul.social-icons li a, .logo ul.login li, .notebook .screen .screen-content-hover {
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   transition: all 0.5s ease; }
@@ -1214,6 +1214,25 @@ img.inline-left {
   @media only all and (min-width: 48em) {
     .text-and-lightbox-wrapper .overview-lightbox img.no-lightbox {
       display: none; } }
+  .text-and-lightbox-wrapper .lightbox-link {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    z-index: 1; }
+  .text-and-lightbox-wrapper .lightbox-link-hover {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+    background-color: #00adef; }
+    .text-and-lightbox-wrapper .lightbox-link-hover .fa-plus-square {
+      font-size: 5rem;
+      color: #ffffff;
+      margin-top: 40%;
+      margin-left: 40%; }
+    .text-and-lightbox-wrapper .lightbox-link-hover:hover {
+      opacity: 0.8; }
 
 .toc ul {
   margin-top: 0;
@@ -1224,10 +1243,12 @@ img.inline-left {
   box-shadow: none;
   border-radius: 0; }
   #training_paths_accordion .panel .panel-heading {
-    background-color: #00adef;
     border: none;
     border-radius: 0;
+    background-color: #00adef;
     padding: 0; }
+    #training_paths_accordion .panel .panel-heading:hover {
+      background-color: #001f49; }
     #training_paths_accordion .panel .panel-heading .accordion-toggle {
       display: block;
       height: 36px;
@@ -1247,12 +1268,10 @@ img.inline-left {
       text-decoration: none;
       color: #fff; }
 
-.training-path-actions {
-  text-align: center; }
-  .training-path-actions:after {
-    content: "";
-    display: table;
-    clear: both; }
+.training-path-actions:after {
+  content: "";
+  display: table;
+  clear: both; }
 
 .training-path-summary .training-path-description {
   padding-right: 2rem; }
