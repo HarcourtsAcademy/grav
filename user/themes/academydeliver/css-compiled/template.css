@@ -1291,7 +1291,7 @@ img.inline-left {
   /* Add some spacing around the content */
   list-style: none;
   /* Disable the normal item numbering */
-  border-top: 2px solid #000;
+  border-top: 2px solid #a7a7a7;
   background: #f6f6f6; }
 .training-path-summary .training-path-list ol > li:before {
   content: counter(li);
@@ -1310,9 +1310,9 @@ img.inline-left {
     generated content but not positioning it (Camino 2 is one example) */
   margin-right: 8px;
   padding: 4px;
-  border-top: 2px solid #000;
+  border-top: 2px solid #a7a7a7;
   color: #fff;
-  background: #000;
+  background: #a7a7a7;
   font-weight: bold;
   text-align: center; }
 .training-path-summary .training-path-list li ol,

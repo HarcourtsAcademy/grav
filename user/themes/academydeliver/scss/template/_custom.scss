@@ -173,7 +173,7 @@ img.inline-left {
       margin:     0 0 6px 2em;  /* Give each list item a left margin to make room for the numbers */
       padding:    4px 8px;      /* Add some spacing around the content */
       list-style: none;         /* Disable the normal item numbering */
-      border-top: 2px solid $black;
+      border-top: 2px solid $secondary-link;
       background: $secondary-bg;
     }
     ol > li:before {
@@ -193,9 +193,9 @@ img.inline-left {
         generated content but not positioning it (Camino 2 is one example) */
       margin-right:       8px;
       padding:            4px;
-      border-top:         2px solid $black;
+      border-top:         2px solid $secondary-link;
       color:              $white;
-      background:         $black;
+      background:         $secondary-link;
       font-weight:        bold;
       text-align:         center;
     }
