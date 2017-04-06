@@ -3,7 +3,7 @@ title: Sales Workshops
 slug: sales-workshops
 onpage_menu: false
 published: true
-template: modular_sidebar
+template: course
 
 taxonomy:
   category: courses

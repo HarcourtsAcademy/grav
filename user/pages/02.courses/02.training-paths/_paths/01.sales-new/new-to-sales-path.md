@@ -4,7 +4,7 @@ template: default
 
 taxonomy:
   category: training_pathway
-  tag: [training_pathway]
+  tag: [training_pathway,sales-new]
   topic: [sales, new to real estate]
   audience: [sales consultants]
   experience_level: [new]

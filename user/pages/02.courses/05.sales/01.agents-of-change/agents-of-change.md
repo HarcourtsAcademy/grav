@@ -3,7 +3,8 @@ title: Agents of Change
 slug: agents-of-change
 onpage_menu: false
 published: true
-template: modular_sidebar
+template: course
+
 taxonomy:
   category: courses
   tag: [courses,sales,sales consultants]
@@ -42,7 +43,7 @@ Half day, in-class training
 ## Course Fee
 $200.00
 
-## Included in Course Fee
+### Included in Course Fee
 -	Harcourts Agent Start-up Kit
 -	Harcourts Apps – 12-month trial subscription to Harcourts eOne, eCampaign & eOpen Apps
 

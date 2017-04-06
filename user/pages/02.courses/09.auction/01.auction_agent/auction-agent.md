@@ -3,7 +3,7 @@ title: Are You an Auction Agent?
 slug: auction-agent
 onpage_menu: false
 published: true
-template: modular_sidebar
+template: course
 
 taxonomy:
   category: courses

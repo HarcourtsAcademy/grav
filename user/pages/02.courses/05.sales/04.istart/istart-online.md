@@ -3,7 +3,7 @@ title: iStart Online
 slug: istart
 onpage_menu: false
 published: true
-template: modular_sidebar
+template: course
 
 taxonomy:
   category: courses

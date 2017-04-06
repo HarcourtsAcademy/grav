@@ -3,7 +3,7 @@ title: Auction Workshop Series
 slug: auction-workshops
 onpage_menu: false
 published: true
-template: modular_sidebar
+template: course
 
 taxonomy:
   category: courses

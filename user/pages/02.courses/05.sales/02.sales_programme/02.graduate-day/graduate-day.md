@@ -3,7 +3,8 @@ title: Graduate Day
 slug: graduate-day
 onpage_menu: false
 published: true
-template: modular_sidebar
+template: course
+
 taxonomy:
   category: courses
   tag: [courses,sales,sales programme,sales registration,sales consultants]

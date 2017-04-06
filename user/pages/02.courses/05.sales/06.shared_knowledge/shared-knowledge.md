@@ -4,7 +4,7 @@ menu: Shared Knowledge Sales
 slug: shared-knowledge-sales
 onpage_menu: false
 published: true
-template: modular_sidebar
+template: course
 
 taxonomy:
   category: courses

@@ -4,7 +4,7 @@ template: default
 
 taxonomy:
   category: training_pathway
-  tag: [training_pathway]
+  tag: [training_pathway,auction]
   topic: [auction]
   audience: [sales consultants]
   experience_level: [experienced]

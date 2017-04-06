@@ -3,7 +3,7 @@ title: Auction Essentials
 slug: auction-essentials
 onpage_menu: false
 published: true
-template: modular_sidebar
+template: course
 
 taxonomy:
   category: courses
