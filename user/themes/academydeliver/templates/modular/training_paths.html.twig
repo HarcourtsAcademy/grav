@@ -26,10 +26,9 @@
             </div>
           </div>
           <div class="training-path-list g-block size-1-2 pure-u-1-2">
-            <h3>Training Path Courses</h3>
             <ol>
               {% for course in taxonomy.findTaxonomy( { 'category': 'courses', 'training_paths': pathway.slug } ).order('folder', 'asc')  %}
-                <li><a href="#{{ pathway.slug }}-{{ course.slug }}">{{ course.title }}</a></li>
+                <li>{{ course.title }}</li>
               {% endfor %}
             </ol>
           </div>
