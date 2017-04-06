@@ -60,6 +60,45 @@
         {% endif %}
     {% endblock %}
     {{ assets.js() }}
+    
+    {% block analytics  %}
+    {% if config.system.piwik.enabled == true %}
+    <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      {% if page.header.http_response_code == 404 %}
+        _paq.push(['setDocumentTitle',  '404/URL = '
+          + encodeURIComponent(document.location.pathname + document.location.search)
+          + '/From = ' + encodeURIComponent(document.referrer)]);
+      {% endif %}
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="{{ config.system.piwik.url }}";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', {{ config.system.piwik.siteid }}]);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <noscript><p><img src="{{ config.system.piwik.url }}piwik.php?idsite={{ config.system.piwik.siteid }}" style="border:0;" alt="" /></p></noscript>
+    <!-- End Piwik Code -->
+    {% endif %}
+    {% if config.system.google_analytics.enabled == true %}
+    <!-- Start Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', '{{ config.system.google_analytics.siteid }}', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    <!-- End Google Analytics -->
+    {% endif %}
+    {% endblock %}
 
 {% endblock head%}
 </head>
@@ -144,44 +183,6 @@
             });
         });
         </script>
-    {% endblock %}
-    {% block analytics  %}
-    {% if config.system.piwik.enabled == true %}
-    <!-- Piwik -->
-    <script type="text/javascript">
-      var _paq = _paq || [];
-      {% if page.header.http_response_code == 404 %}
-        _paq.push(['setDocumentTitle',  '404/URL = '
-          + encodeURIComponent(document.location.pathname + document.location.search)
-          + '/From = ' + encodeURIComponent(document.referrer)]);
-      {% endif %}
-      _paq.push(['trackPageView']);
-      _paq.push(['enableLinkTracking']);
-      (function() {
-        var u="{{ config.system.piwik.url }}";
-        _paq.push(['setTrackerUrl', u+'piwik.php']);
-        _paq.push(['setSiteId', {{ config.system.piwik.siteid }}]);
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-      })();
-    </script>
-    <noscript><p><img src="{{ config.system.piwik.url }}piwik.php?idsite={{ config.system.piwik.siteid }}" style="border:0;" alt="" /></p></noscript>
-    <!-- End Piwik Code -->
-    {% endif %}
-    {% if config.system.google_analytics.enabled == true %}
-    <!-- Start Google Analytics -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', '{{ config.system.google_analytics.siteid }}', 'auto');
-      ga('send', 'pageview');
-
-    </script>
-    <!-- End Google Analytics -->
-    {% endif %}
     {% endblock %}
 </body>
 </html>
