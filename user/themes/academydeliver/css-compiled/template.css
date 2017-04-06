@@ -1207,7 +1207,8 @@ img.inline-left {
 .text-and-lightbox-wrapper {
   padding-top: 2rem; }
   .text-and-lightbox-wrapper .overview-text {
-    padding-right: 2rem; }
+    padding-right: 2rem;
+    min-height: 260px; }
   @media only all and (max-width: 47.938em) {
     .text-and-lightbox-wrapper .overview-lightbox a {
       display: none; } }

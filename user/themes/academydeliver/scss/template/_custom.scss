@@ -63,6 +63,7 @@ img.inline-left {
   padding-top: 2rem;
   .overview-text {
     padding-right: 2rem;
+    min-height: 260px;
   }
   .overview-lightbox a {
     @include breakpoint(mobile-only) {
