@@ -20,7 +20,7 @@ content:
 
 ## TODO: Fix Moodle login URL before launch
 buttons:
-    - text: Is the New to Sales Training Path right for you? Login to check
+    - text: Check if this is the pathway for you!
       icon: fa-road
       url: https://www.academyrealestatetraining.tk/au/moodle/
       primary: true
