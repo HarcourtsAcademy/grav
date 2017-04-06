@@ -44,9 +44,9 @@ We are in the decade of ultimate speed. We want it now, we don’t have time to 
 This workshop series has been designed for experienced real estate salespersons or those who operate as a personal or buyer’s assistant wishing to increase their sales skills or refresh their knowledge in a particular area of sales.
 
 ## Training Requirements
--	Completion of Getting THW Sales Programme 
+-	Completion of [Getting Started the Harcourts Way](/getting-started-the-harcourts-way)
 -	Undertaken a minimum of 45 days in the field
--	Completion of Graduate Day 
+-	Completion of [Graduate Day](/sales-graduate-day)
 
 ## Course Fee
 All sales workshops are complimentary
