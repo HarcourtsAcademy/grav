@@ -4,6 +4,8 @@ menu: New Zealand Continuing Education
 slug: new-zealand-continuing-education
 onpage_menu: false
 published: true
+template: modular_sidebar
+
 taxonomy:
   category: courses
   tag: [online_learning,courses,continuing education,ce,continuing professional development,cpd]
@@ -99,20 +101,24 @@ Harcourts can provide all 20 hours
 ## Verifiable content for 2017
 The 10 hours of verifiable continuing education for 2017 is split into the following topics:
 
-<dl class="dl-horizontal">
-  <dt>Topic 1</dt>
-  <dd>Disclosure remains an important issue (1 hour)</dd>
-  <dt>Topic 2</dt>
-  <dd>Essential documentation (Part A) (2½ hours)</dd>
-  <dt>Topic 3</dt>
-  <dd>Essential documentation (Part B) (1½ hours)</dd>
-  <dt>Topic 4</dt>
-  <dd>Essential documentation (Part C) (1 hour)</dd>
-  <dt>Topic 5</dt>
-  <dd>Physical property inspection (Part A) (2½ hours)</dd>
-  <dt>Topic 6</dt>
-  <dd>Physical property inspection (Part B) (1½ hours)</dd>
-</dl>
+Topic 1
+:Disclosure remains an important issue (1 hour)
+
+Topic 2
+:Essential documentation (Part A) (2½ hours)
+
+Topic 3
+:Essential documentation (Part B) (1½ hours)
+
+Topic 4
+:Essential documentation (Part C) (1 hour)
+
+Topic 5
+:Physical property inspection (Part A) (2½ hours)
+
+Topic 6
+:Physical property inspection (Part B) (1½ hours)
+
 
 The topics must be completed in the order they are presented as later topics build on knowledge covered in earlier topics.
 
