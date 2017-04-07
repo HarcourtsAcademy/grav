@@ -32,6 +32,7 @@ h2 {
 }
 
 h3 {
+  line-height: 1.2;
   @include breakpoint(tablet-range) {
     font-size: $h3-font-size - .40;
   }
@@ -76,6 +77,12 @@ h1 {
 
 h3 {
   letter-spacing: -1px;
+}
+
+p {
+  @include breakpoint(mobile-only) {
+    text-align: justify;
+  }
 }
 
 // Blockquote

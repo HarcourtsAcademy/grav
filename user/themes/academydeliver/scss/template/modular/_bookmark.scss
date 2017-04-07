@@ -3,7 +3,6 @@
     .bookmark {
         text-align: center;
         @include clearfix;
-        padding-bottom: 4rem;
         @include breakpoint(no-mobile) {
             display: none;
         }
@@ -17,6 +16,7 @@
 
         p {
             margin: 1rem 0;
+            text-align: center;
 
             @include breakpoint(mobile-only) {
                 font-size: $core-font-size;

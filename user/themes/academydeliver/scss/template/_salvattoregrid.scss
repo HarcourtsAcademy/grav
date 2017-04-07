@@ -4,11 +4,6 @@
  */
 .salvattore-grid {
   @include clearfix;
-
-  .training-paths-course {
-    margin-right:   2rem;
-    margin-bottom:  2rem;
-  }
 }
 
 @include breakpoint(mobile-only) {
@@ -35,5 +30,5 @@
 /* Again, you’re free to use and define the classes: */
 .column { float: left; }
 .size-1of1 { width: 100%; }
-.size-1of2 { width: 50%; }
-.size-1of3 { width: 33.333%; }
+.size-1of2 { width: 50%; div { margin-right:   2rem;} }
+.size-1of3 { width: 33.333%; div { margin-right:   2rem; } }

@@ -64,6 +64,10 @@ img.inline-left {
   .overview-text {
     padding-right: 2rem;
     min-height: 260px;
+
+    @include breakpoint(mobile-only) {
+      padding: inherit;
+    }
   }
   .overview-lightbox a {
     @include breakpoint(mobile-only) {

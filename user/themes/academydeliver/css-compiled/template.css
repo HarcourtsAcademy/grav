@@ -432,6 +432,7 @@ b, strong, label, th {
     @media only all and (max-width: 30em) {
       .footer .footer-module {
         margin-top: 1rem;
+        padding-right: inherit;
         width: 100%; } }
     .footer .footer-module span:after {
       content: "";
@@ -550,12 +551,14 @@ h2 {
     h2 {
       font-size: -1.1rem; } }
 
-@media only all and (min-width: 48em) and (max-width: 59.938em) {
-  h3 {
-    font-size: -0.9rem; } }
-@media only all and (max-width: 47.938em) {
-  h3 {
-    font-size: -1rem; } }
+h3 {
+  line-height: 1.2; }
+  @media only all and (min-width: 48em) and (max-width: 59.938em) {
+    h3 {
+      font-size: -0.9rem; } }
+  @media only all and (max-width: 47.938em) {
+    h3 {
+      font-size: -1rem; } }
 
 h4, .archive-list label, .modular .bottom table th, .contact label, .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .archive-list button, .archive-list .callout .pricing-container .pricing-item .foot button, .callout .pricing-container .pricing-item .foot .contact button, .contact .callout .pricing-container .pricing-item .foot button {
   font-size: 1.2rem;
@@ -587,6 +590,10 @@ h1 {
 
 h3 {
   letter-spacing: -1px; }
+
+@media only all and (max-width: 47.938em) {
+  p {
+    text-align: justify; } }
 
 blockquote {
   border-left: 10px solid #F0F2F4; }
@@ -879,7 +886,7 @@ dt, dd {
     .modal h1 {
       margin-bottom: 0.5rem; }
     .modal p, .modal ul {
-      margin: 1rem 0; }
+      margin: 1rem; }
     .modal ul {
       margin-top: 0; } }
   .modal.in {
@@ -1209,6 +1216,9 @@ img.inline-left {
   .text-and-lightbox-wrapper .overview-text {
     padding-right: 2rem;
     min-height: 260px; }
+    @media only all and (max-width: 47.938em) {
+      .text-and-lightbox-wrapper .overview-text {
+        padding: inherit; } }
   @media only all and (max-width: 47.938em) {
     .text-and-lightbox-wrapper .overview-lightbox a {
       display: none; } }
@@ -1498,8 +1508,7 @@ img.inline-left {
         padding: 0; }
 
 .modular .bookmark {
-  text-align: center;
-  padding-bottom: 4rem; }
+  text-align: center; }
   .modular .bookmark:after {
     content: "";
     display: table;
@@ -1513,7 +1522,8 @@ img.inline-left {
     line-height: 100%;
     color: #656161; }
   .modular .bookmark p {
-    margin: 1rem 0; }
+    margin: 1rem 0;
+    text-align: center; }
     @media only all and (max-width: 47.938em) {
       .modular .bookmark p {
         font-size: 1rem; } }
@@ -1664,7 +1674,8 @@ img.inline-left {
   position: relative;
   z-index: 10; }
   .tablet h4, .tablet .archive-list label, .archive-list .tablet label, .tablet .modular .bottom table th, .modular .bottom table .tablet th, .tablet .contact label, .contact .tablet label, .tablet .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .tablet .name, .tablet .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .tablet .button, .tablet .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list .tablet button, .tablet .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot .tablet button, .tablet .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact .tablet button, .tablet .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot .tablet button {
-    text-transform: none; }
+    text-transform: none;
+    text-align: center; }
   @media only all and (min-width: 60em) and (max-width: 74.938em) {
     .tablet {
       width: 100%;
@@ -2336,7 +2347,6 @@ body.inspirational-women-ambassadors .profile-image img {
         width: 2.1rem;
         height: 2.1rem;
         background: #fff;
-        border-radius: 100%;
         text-align: center;
         margin-right: 0.8rem; }
         .logo ul.social-icons li a {
@@ -2366,7 +2376,8 @@ body.inspirational-women-ambassadors .profile-image img {
   position: relative;
   z-index: 10; }
   .notebook h4, .notebook .archive-list label, .archive-list .notebook label, .notebook .modular .bottom table th, .modular .bottom table .notebook th, .notebook .contact label, .contact .notebook label, .notebook .callout .pricing-container .pricing-item .name, .callout .pricing-container .pricing-item .notebook .name, .notebook .callout .pricing-container .pricing-item .foot .button, .callout .pricing-container .pricing-item .foot .notebook .button, .notebook .callout .pricing-container .pricing-item .foot .archive-list button, .callout .pricing-container .pricing-item .foot .archive-list .notebook button, .notebook .archive-list .callout .pricing-container .pricing-item .foot button, .archive-list .callout .pricing-container .pricing-item .foot .notebook button, .notebook .callout .pricing-container .pricing-item .foot .contact button, .callout .pricing-container .pricing-item .foot .contact .notebook button, .notebook .contact .callout .pricing-container .pricing-item .foot button, .contact .callout .pricing-container .pricing-item .foot .notebook button {
-    text-transform: none; }
+    text-transform: none;
+    text-align: center; }
   @media only all and (min-width: 60em) and (max-width: 74.938em) {
     .notebook {
       width: 100%;
@@ -2518,6 +2529,12 @@ body.inspirational-women-ambassadors .profile-image img {
 
 .training-path-summary .training-path-description {
   padding-right: 2rem; }
+  @media only all and (max-width: 47.938em) {
+    .training-path-summary .training-path-description {
+      padding: inherit; } }
+  @media only all and (max-width: 47.938em) {
+    .training-path-summary .training-path-description .training-path-actions .button, .training-path-summary .training-path-description .training-path-actions .archive-list button, .archive-list .training-path-summary .training-path-description .training-path-actions button, .training-path-summary .training-path-description .training-path-actions .contact button, .contact .training-path-summary .training-path-description .training-path-actions button {
+      width: 100%; } }
 .training-path-summary .training-path-list ol {
   counter-reset: li;
   /* Initiate a counter */
@@ -2564,6 +2581,9 @@ body.inspirational-women-ambassadors .profile-image img {
 .training-path-summary .training-path-list ol ol li:last-child {
   margin-bottom: 0; }
 
+.salvattore-grid .training-paths-course {
+  margin-bottom: 2rem; }
+
 /**
  * http://salvattore.com/ 
  * A jQuery Masonry alternative with CSS-driven configuration.
@@ -2572,9 +2592,6 @@ body.inspirational-women-ambassadors .profile-image img {
   content: "";
   display: table;
   clear: both; }
-.salvattore-grid .training-paths-course {
-  margin-right: 2rem;
-  margin-bottom: 2rem; }
 
 @media only all and (max-width: 47.938em) {
   .salvattore-grid[data-columns]:before {
@@ -2597,8 +2614,12 @@ body.inspirational-women-ambassadors .profile-image img {
 
 .size-1of2 {
   width: 50%; }
+  .size-1of2 div {
+    margin-right: 2rem; }
 
 .size-1of3 {
   width: 33.333%; }
+  .size-1of3 div {
+    margin-right: 2rem; }
 
 /*# sourceMappingURL=template.css.map */
