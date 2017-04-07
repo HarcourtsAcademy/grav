@@ -710,6 +710,18 @@ form input {
 ::-ms-clear {
   display: none; }
 
+.mauticform_wrapper form .mauticform-button-wrapper button.mauticform-button {
+  background: #00adef;
+  color: #fff;
+  border: 1px solid #00adef;
+  border-radius: 0;
+  padding: 7px 20px;
+  font-weight: normal;
+  font-size: 1rem; }
+  .mauticform_wrapper form .mauticform-button-wrapper button.mauticform-button:hover {
+    background: #fff;
+    color: #00adef; }
+
 table {
   border: 1px solid #d8d8d8; }
 
@@ -866,7 +878,10 @@ dt, dd {
   font-size: 3rem; }
   @media only all and (max-width: 47.938em) {
     .portfolio-modal .close-modal {
-      display: none; } }
+      font-size: 2em;
+      width: 1.4em;
+      height: 1.4em;
+      line-height: 1.4em; } }
 
 .modal {
   display: none;
@@ -884,8 +899,8 @@ dt, dd {
   text-align: center; }
   @media only all and (max-width: 47.938em) {
     .modal h1 {
-      margin-bottom: 0.5rem; }
-    .modal p, .modal ul {
+      margin: 0.5rem 0; }
+    .modal form, .modal p, .modal ul {
       margin: 1rem; }
     .modal ul {
       margin-top: 0; } }
