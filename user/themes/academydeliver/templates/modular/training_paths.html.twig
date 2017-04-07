@@ -21,7 +21,7 @@
             {{ pathway.content }}
             <div class="training-path-actions">
               {% for button in pathway.header.buttons %}
-              <a class="button{% if button.primary %} primary{% endif %}{% if button.small %} button-small{% endif %}" href="  {% if "base_url:" in button.url %}{{ base_url_absolute }}/{{ button.url|replace({"base_url:": ""}) }}{% else %}{{ button.url }}{% endif %}">{% if button.icon %}<i class="fa {{ button.icon }}"></i> {% endif %}{{ button.text }}</a>
+              <a class="button{% if button.style %} {{ button.style }}{% endif %}" href="  {% if "base_url:" in button.url %}{{ base_url_absolute }}/{{ button.url|replace({"base_url:": ""}) }}{% else %}{{ button.url }}{% endif %}">{% if button.icon %}<i class="fa {{ button.icon }}"></i> {% endif %}{{ button.text }}</a>
               {% endfor %}
             </div>
           </div>

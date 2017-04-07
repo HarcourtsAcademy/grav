@@ -11,11 +11,14 @@ taxonomy:
 
 ## TODO: Fix Moodle login URL before launch
 buttons:
-  - text: Check if this is the pathway for you!
-    icon: fa-road
+  - text: Is the pathway for you?
+    icon: fa-question-circle
     url: https://www.academyrealestatetraining.tk/au/moodle/
-    primary: true
-    small: false
+    style: button-secondary
+  - text: Register for this pathway
+    icon: fa-arrow-right
+    url: https://www.academyrealestatetraining.tk/au/moodle/
+    style: button-primary
 
 ---
 

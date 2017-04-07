@@ -57,9 +57,15 @@
       padding: inherit;
     }
 
-    .training-path-actions .button {
-      @include breakpoint(mobile-only) {
-        width: 100%;
+    .training-path-actions {
+      text-align: center;
+
+      .button {
+        min-width: 16rem;
+
+        @include breakpoint(mobile-only) {
+          width: 100%;
+        }
       }
     }
   }

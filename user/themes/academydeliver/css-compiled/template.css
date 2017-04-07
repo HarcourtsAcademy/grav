@@ -2547,9 +2547,13 @@ body.inspirational-women-ambassadors .profile-image img {
   @media only all and (max-width: 47.938em) {
     .training-path-summary .training-path-description {
       padding: inherit; } }
-  @media only all and (max-width: 47.938em) {
+  .training-path-summary .training-path-description .training-path-actions {
+    text-align: center; }
     .training-path-summary .training-path-description .training-path-actions .button, .training-path-summary .training-path-description .training-path-actions .archive-list button, .archive-list .training-path-summary .training-path-description .training-path-actions button, .training-path-summary .training-path-description .training-path-actions .contact button, .contact .training-path-summary .training-path-description .training-path-actions button {
-      width: 100%; } }
+      min-width: 16rem; }
+      @media only all and (max-width: 47.938em) {
+        .training-path-summary .training-path-description .training-path-actions .button, .training-path-summary .training-path-description .training-path-actions .archive-list button, .archive-list .training-path-summary .training-path-description .training-path-actions button, .training-path-summary .training-path-description .training-path-actions .contact button, .contact .training-path-summary .training-path-description .training-path-actions button {
+          width: 100%; } }
 .training-path-summary .training-path-list ol {
   counter-reset: li;
   /* Initiate a counter */
