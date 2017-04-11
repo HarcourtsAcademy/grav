@@ -2514,10 +2514,10 @@ body.inspirational-women-ambassadors .profile-image img {
   #training_paths_accordion .panel .panel-heading {
     border: none;
     border-radius: 0;
-    background-color: #00adef;
+    background-color: #001f49;
     padding: 0; }
     #training_paths_accordion .panel .panel-heading:hover {
-      background-color: #001f49; }
+      background-color: #00adef; }
     #training_paths_accordion .panel .panel-heading .accordion-toggle {
       display: block;
       height: 36px;

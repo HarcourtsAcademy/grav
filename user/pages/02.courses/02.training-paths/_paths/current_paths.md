@@ -11,4 +11,4 @@ content:
 
 ---
 
-## Current Pathways on Offer
+## Available Pathways

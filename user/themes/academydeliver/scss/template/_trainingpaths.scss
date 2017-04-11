@@ -13,10 +13,10 @@
     .panel-heading {
       border: none;
       border-radius: 0;
-      background-color: $core-accent;
+      background-color: $core-accent-dark;
       padding: 0;
       &:hover {
-        background-color: $core-accent-dark;
+        background-color: $core-accent;
       }
       .accordion-toggle {
         display: block;

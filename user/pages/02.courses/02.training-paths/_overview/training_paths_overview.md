@@ -19,4 +19,6 @@ mautic:
 
 We currently have training pathways designed specifically for Sales, Auction, and Leadership with more on the way! Set the foundation for your future growth, follow your pathway at your own pace and commit to your future success today.
 
-Not a member of Harcourts? <a href="#portfolioModalRegisterInterest" class="portfolio-link" data-toggle="modal">Register your interest</a> in joining our team.
+[<i class="fa fa-arrow-right"></i> Register for a Training Pathway](#){.button .button-primary}
+
+Not a member of Harcourts? <a href="#portfolioModalRegisterInterest" class="portfolio-link" data-toggle="modal">Contact us</a> about joining our team.
