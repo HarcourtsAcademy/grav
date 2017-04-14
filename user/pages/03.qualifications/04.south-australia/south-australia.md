@@ -52,7 +52,7 @@ core_qualification_units:
   - id: CPPDSM5032
 
 course_structure: |
-  A blended learning programme that begins online with a number of interactive tasks that you can do from your own computer. This is followed by a full day in the Academy classroom that includes application of knowledge gained and one-on-one guidance to help you achieve success.
+  A blended learning programme that begins online with a number of interactive tasks that you can do from your own computer. This is followed by 8 days in the Academy Training Centre that includes application of knowledge gained and one-on-one guidance to help you achieve success.
 
 further_information: For South Australia legislation and other information visit [Office of Business and Consumer Affairs](http://www.cbs.sa.gov.au/).
 
