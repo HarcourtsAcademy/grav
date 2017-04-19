@@ -33,7 +33,7 @@ Download the latest Academy training calendars for Australia, New Zealand and th
 * [Central Region 2017 Calendar](_calendars/2017/NZ-Central-Training-Calendar-2017.pdf)
 <!--* [South Island Region 2017 Calendar](_calendars/2017/NZ-South-Island-Training-Calendar-2017.pdf)-->
 * [Northern Region 2017 Calendar](_calendars/2017/NZ-Northern-Training-Calendar-2017.pdf)
-<!--* [Wellington Region 2017 Calendar](_calendars/2017/NZ-Wellington-Training-Calendar-2017.pdf)-->
+* [Wellington Region 2017 Calendar](_calendars/2017/NZ-Wellington-Training-Calendar-2017.pdf)
 
 ## USA Training Calendar {#usa}
 * [USA 2017 Calendar](_calendars/2017/USA-Training-Calendar-2017.pdf)
