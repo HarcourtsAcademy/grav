@@ -33,11 +33,11 @@ members:
       title: Academy Trainer
       office: western-australia
       email: donna.whitehead@harcourts.net
-    - name: Vanessa Maher
-      image: vanessa-maher.jpg
+    - name: Justin Balsillie
+      placeholder_image: placeholder-male.png
       title: Academy Trainer
       office: victoria
-      email: vanessa.maher@harcourts.com.au
+      email: justin.balsillie@harcourts.net
 ---
 
 ## Meet our Australian team

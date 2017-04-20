@@ -7,10 +7,19 @@
           {% set fulladdress = member.address.street ~ " " ~ member.address.city ~ " " ~ member.address.region  ~ " " ~ member.address.postcode  ~ " " ~ member.address.country %}
           {% set firstname = member.name|split(" ")|first %}
           {% set image_link = member.email ? "mailto:" ~ member.email|safe_email : member.contact %}
+          
+          {% if member.image %}
+            {% set profileimage =  page.media[member.image].cropResize(226,300).quality(80).url %}
+          {% endif %}
+          {% if member.placeholder_image %}
+            {% set profileimage =  page.find('/images').media[member.placeholder_image].cropResize(226,300).quality(80).url %}
+          {% endif %}
+          
+
           <div class="member g-grid pure-g-r">
               <div class="profile-picture g-block size-1-2 pure-u-1-2">
                 <a href="{{ image_link }}">
-                <img src="{{page.media[member.image].cropResize(226,300).quality(80).url}}" width="113" height="150" alt="{{ member.name }}">
+                <img src="{{ profileimage }}" width="113" height="150" alt="{{ member.name }}">
                 </a>
               </div>
               <div class="g-block pure-u-1-2">
