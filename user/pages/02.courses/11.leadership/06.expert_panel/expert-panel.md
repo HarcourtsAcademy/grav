@@ -8,6 +8,7 @@ template: course
 taxonomy:
   category: courses
   tag: [leadership,business owners,managers,future leaders]
+  training_paths: [leadership]
 
 body_classes: "modular header-image fullwidth courses"
 banner_image: theme://images/banners/courses.jpg
