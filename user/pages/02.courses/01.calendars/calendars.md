@@ -29,9 +29,9 @@ Download the latest Academy training calendars for Australia, New Zealand and th
 * [Western Australia 2017 Calendar](_calendars/2017/WA-Training-Calendar-2017.pdf)
 
 ## New Zealand Training Calendars {#new-zealand}
-* Check [New Zealand Upcoming Training](http://one.harcourts.co.nz/academy/UpcomingCourses.aspx)
+<!--* Check [New Zealand Upcoming Training](http://one.harcourts.co.nz/academy/UpcomingCourses.aspx)-->
 * [Central Region 2017 Calendar](_calendars/2017/NZ-Central-Training-Calendar-2017.pdf)
-<!--* [South Island Region 2017 Calendar](_calendars/2017/NZ-South-Island-Training-Calendar-2017.pdf)-->
+* [South Island Region 2017 Calendar](_calendars/2017/NZ-South-Island-Training-Calendar-2017.pdf)
 * [Northern Region 2017 Calendar](_calendars/2017/NZ-Northern-Training-Calendar-2017.pdf)
 * [Wellington Region 2017 Calendar](_calendars/2017/NZ-Wellington-Training-Calendar-2017.pdf)
 
