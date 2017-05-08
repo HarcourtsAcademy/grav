@@ -117,6 +117,8 @@ redirects:
   /courses/calendars/au/western-australia:  /courses/calendars-and-upcoming-courses/_calendars/2017/WA-Training-Calendar-2017.pdf
   /courses/calendars/nz/central:            /courses/calendars-and-upcoming-courses/_calendars/2017/NZ-Central-Training-Calendar-2017.pdf
   /courses/calendars/nz/northern:           /courses/calendars-and-upcoming-courses/_calendars/2017/NZ-Northern-Training-Calendar-2017.pdf
+  /courses/calendars/nz/south-island:       /courses/calendars-and-upcoming-courses/_calendars/2017/NZ-South-Island-Training-Calendar-2017.pdf
+  /courses/calendars/nz/wellington  :       /courses/calendars-and-upcoming-courses/_calendars/2017/NZ-Wellington-Training-Calendar-2017.pdf
   /courses/calendars/us/pacific:            /courses/calendars-and-upcoming-courses/_calendars/2017/USA-Training-Calendar-2017.pdf
   /istart$: https://www.academyrealestatetraining.com/moodle/course/view.php?id=8 #needs the end '$' to prevent it matching the start of '/istart24'
   /landing/eone: /online-learning/bites/#pk_campaign=app-eone
