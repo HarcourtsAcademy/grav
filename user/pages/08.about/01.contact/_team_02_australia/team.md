@@ -27,12 +27,12 @@ members:
       image: megan-hampton.jpg
       title: Academy Trainer
       office: tasmania
-      email: ray.brincat@harcourts.net
-    - name: Donna Whitehead
-      image: donna-whitehead.jpg
-      title: Academy Trainer
-      office: western-australia
-      email: donna.whitehead@harcourts.net
+      email: 	megan.hampton@harcourts.com.au
+#    - name: Donna Whitehead
+#      image: donna-whitehead.jpg
+#      title: Academy Trainer
+#      office: western-australia
+#      email: donna.whitehead@harcourts.net
     - name: Justin Balsillie
       placeholder_image: placeholder-male.png
       title: Academy Trainer
