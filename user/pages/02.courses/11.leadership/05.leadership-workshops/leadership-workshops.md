@@ -41,7 +41,7 @@ A variety of workshops provide specialist knowledge in all areas of real Leaders
 - [Advanced Money Matters](#money-matters)
 - [Online, Offline = Inline](#online-offline-inline)
 - [Marketing for Market Share](#marketing-marketshare)
-- [Establishin an Auction Culture](#auction-culture)
+- [Establishing an Auction Culture](#auction-culture)
   </div>
 </div>
 
