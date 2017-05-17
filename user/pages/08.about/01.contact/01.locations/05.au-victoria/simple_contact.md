@@ -16,10 +16,10 @@ process:
 
 office:
   location:
-    street: 95 Coventry Street
-    city: South Melbourne
+    street: Level 3, 95 Coventry Street
+    city: Southbank
     region: Victoria
-    postcode: 3205
+    postcode: 3006
     country: Australia
   phone: +61 1300 856 773
   hours: |
@@ -28,5 +28,5 @@ office:
     **Holidays**					Closed
 
 simple_contact:
-  recipient: academy.victoria@harcourts.com.au
+  recipient: victoria@harcourts.net
 ---
